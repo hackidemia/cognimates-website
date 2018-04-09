@@ -1,223 +1,28 @@
-chibitronics:
-  name: Chibitronics
-  link: /activities/chibitronics
-  short_intro: >
-    A series of activities using electronic stickers, which let you create, craft and code technology through arts and crafts.
+rock:
+  name: Rock Paper Scissors  
+  link: /projects/rps 
+  short_intro: > 
+    Play Rock Paper Scissors with your computer based on a visual model you trained.
   description: >
-    Chibitronics circuit stickers are easy-to-use, peel-and-stick electronic modules for building circuits on paper. They are a friendly introduction to electronics, allowing young people to learn circuits and programming while they create beautiful interactive works of art!
-  cover_photo: /images/circuit_stickers.jpg
-  video: >
-    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  resources:
-    - description: Purchase Circuit Stickers and activity kits
-      url: "https://chibitronics.myshopify.com/collections"
-    - description: View tutorials and learn to use Circuit stickers
-      url: "https://chibitronics.com/how-to/"
-    - description: Get Circuit Sticker activity lesson plans and templates designed for educators
-      url: "https://chibitronics.com/educators/"
-    - description: Download or purchase the Circuit Sticker Sketchbook for an introduction to paper circuits
-      url: https://get.chibitronics.com/sketchbook-en.pdf
-    - description: Download or purchase Love to Code Volume 1 book for an introduction to programming with paper circuits
-      url: https://get.chibitronics.com/ltc-vol1.pdf
-  details:
-    age_range: 8 and older
+    Play Rock Paper Scissors with your computer based on a visual model you trained.
+  cover_photo: /images/vision.jpg
+  # video: >
+  #   <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  # resources:
+  #   - description: Purchase Circuit Stickers and activity kits
+  #     url: "https://chibitronics.myshopify.com/collections"
+  #  
+    age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
     facilitator_skills: Arts and crafts, basic familiarity with circuitry concepts
     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+    cost: free
+    supplies: none
   photos:
-    - /images/circuit_stickers_sailboat.jpg
-    - /images/circuit_stickers_origami.jpg
-    - /images/circuit_stickers_map.jpg
-    - /images/circuit_stickers_workshop.jpg
+    # - /images/.jpg
+    # - /images/circuit_stickers_origami.jpg
+    # - /images/circuit_stickers_map.jpg
+    # - /images/circuit_stickers_workshop.jpg
 
-
-databasic:
-  name: DataBasic.io
-  link: /activities/databasic
-  short_intro: >
-    A set of tools and hands-on workshops developed to help people learn data literacy concepts in safe, engaging, familiar ways.
-  description: >
-    DataBasic.io is a set of tools and hands-on workshops developed to help people learn data literacy concepts in safe, engaging, familiar ways.
-  cover_photo: /images/databasic.jpg
-  video: >
-    <iframe src="https://player.vimeo.com/video/150218661?color=36d5f5&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  resources:
-    - description: Explore the web tools
-      url: "https://databasic.io/en/"
-    - description: View the workshop activities
-      url: "https://datatherapy.org/activities/"
-  details:
-    age_range: High school through adult
-    group_size: Anywhere from 10 to 80 people, around 30 is ideal
-    facilitators: 1-2 facilitators
-    facilitator_skills: Data literacy, creativity, arts and crafts
-    activity_type: Hands-on skill building workshop
-    session_length: Series of one-off or mix-and-match workshop activities
-    cost: Only the cost of arts and craft supplies
-    supplies: Arts and craft supplies, cardboard, glue, etc.
-    additional_needs: Many of the sessions require you to provide a data set you are familiar with
-  photos:
-    - /images/databasic_2.jpg
-    - /images/databasic_3.jpg
-    - /images/databasic_4.jpg
-
-
-duct_tape_network:
-  name: Duct Tape Network
-  link: /activities/duct-tape-network
-  short_intro: >
-    A series of fun, hands-on maker clubs that encourage children 7-10 to use cardboard, tape, wood, fabric, LED lights, motors, and more to bring their stories and inventions to life.
-  description: >
-    The Duct Tape Network (DTN) is a series of fun, hands-on maker clubs that encourage children 7-10 to use cardboard, tape, wood, fabric, LED lights, motors, and more to bring their stories and inventions to life.
-  cover_photo: /images/dtn.jpg
-  resources:
-    - description: Request a facilitator guidebook
-      url: "https://docs.google.com/forms/d/e/1FAIpQLSdQe5REm5Qt5wJfzL7Ov4gbkuCjgErK4mrvbk8aCwg4acDWUA/viewform?c=0&w=1"
-  details:
-    age_range: 7-10
-    group_size: 8-12 kids
-    facilitators: 2 facilitators per 10-12 kids
-    facilitator_skills: Creativity, arts and crafts, play
-    parents_involved: "No"
-    activity_type: Hands-on maker workshop
-    session_length: Series of seven 1-hour workshops
-    cost: Less than $10 per participant
-    supplies: Arts and craft supplies, cardboard, glue, etc.
-  photos:
-    - /images/dtn_2.jpg
-    - /images/dtn_3.jpg
-    - /images/dtn_4.jpg
-
-
-family_creative_learning:
-  name: Family Creative Learning
-  link: /activities/family-creative-learning
-  nickname: FCL
-  short_intro: >
-    A workshop series that engages children and their parents to learn together — as designers and inventors — through the use of creative technologies.
-  description: >
-    Family Creative Learning (FCL) is a workshop series that engages children and their parents to learn together — as designers and inventors — through the use of creative technologies. We designed the workshops to strengthen the social support and expertise of families with limited access to resources and experiences around computing.
-  cover_photo: /images/fcl.jpg
-  video: >
-    <iframe src="https://player.vimeo.com/video/71853195" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  resources:
-    - description: Download the facilitator guidebook
-      url: "http://familycreativelearning.org/guide/"
-  details:
-    age_range: Families with children age 7-12
-    group_size:  >
-      Any number of family groups can participate, limited only by the number of facilitators and equipment
-    facilitators: 1 facilitator per 3-4 families, plus an extra facilitator to help with coordination
-    facilitator_skills: Scratch, Makey Makey, creativity, arts and crafts, play
-    parents_involved: "Yes"
-    activity_type: Hands-on technology skills workshop
-    session_length: Series of five 2-hour workshops
-    cost: $8-12 per participant for food, plus cost of Makey Makeys ($20-$50 each) and craft supplies
-    supplies: 1 Makey Makey per family, paper, arts and craft materials, eating supplies (plates, napkins, cups, etc.)
-    space_and_equipment: 1 computer station (with internet access) per family, plus a central community table for sharing
-  photos:
-    - /images/fcl_2.jpg
-    - /images/fcl_3.jpg
-
-
-learning_beautiful:
-  name: Learning Beautiful
-  link: /activities/learning-beautiful
-  short_intro: >
-    Learning Beautiful creates timeless toys to teach computer science to young children, without the use of computers.
-  description: >
-    Learning Beautiful creates timeless toys to teach computer science to young children, without the use of computers. Inspired by the Montessori Method, Learning Beautiful engages children when they’re young with tactile play. Learning Beautiful’s curriculum includes a broad base of computational concepts, such as binary numbers, image representation, programming, Boolean logic, and data structures.</p>
-
-    <p>Learning Beautiful will release their first introductory set of materials, created especially for libraries. This set includes the first 3 modules, complete with all materials and activities, a guidebook for librarians, and a playbook for children and parents to use alongside the educational toys. All materials are made from lasting all-natural materials, and manufactured in the United States.</p>
-
-    <p>Learn more at <a href="https://www.learningbeautiful.com/">learningbeautiful.com</a> or email <a href="mailto:info@learningbeautiful.com">info@learningbeautiful.com</a>. If you are a library interested in participating, please send an email to <a href="mailto:kim@learningbeautiful.com">kim@learningbeautiful.com</a>.
-  cover_photo: /images/learning_beautiful.jpg
-  resources:
-    - description: Participate in the Learning Beautiful Library Initiative
-      url: "https://www.learningbeautiful.com/library-initiative"
-    - description: Read more about the making of Learning Beautiful's materials
-      url: "https://qz.com/1069716/an-mit-media-lab-startup-is-creating-beautiful-wooden-toys-to-teach-children-the-basics-of-coding/"
-    - description: Get inspired! See how the Chicago Public Library is using Learning Beautiful's materials
-      url: "http://www.chicagotribune.com/bluesky/originals/ct-bsi-library-coding-toys-20170803-story.html"
-    - description: Subscribe to Learning Beautiful
-      url: "https://www.learningbeautiful.com/"
-  details:
-    age_range: 3-9, with special emphasis on 3-6
-    group_size: Variable, all modules can be used individually or with small groups of 3-4 children, limited only by the number of sets
-    facilitators: 0 or more; can be used with children with their parents, on their own, or with group facilitation
-    facilitator_skills: None! Brief familiarity with the materials and concepts is helpful, and all lessons and accompanying information are included
-    activity_type: Best for free play time, in which a child can direct the activity and time spent. Children can play with their parents, their peers, librarians, or on their own. Lessons available address a wide range of activity types.
-    session_length: Varies, best if child-directed; can be less than 30 min or up to 45 min
-    cost: Our introductory set contains 3 modules for activities, including all required materials, lessons, and an accompanying guidebook for parents and children. These educational toys are made from all natural and lasting materials and locally produced. Extra pieces are available for purchase. Total cost of the introductory set is approximately $550 (final costs based on manufacturing will be determined soon.)
-    supplies: All included in the set; additional worksheets can be printed with the provided digital files
-  photos:
-    - /images/learning_beautiful_1.jpg
-    - /images/learning_beautiful_2.jpg
-    - /images/learning_beautiful_3.jpg
-    - /images/learning_beautiful_4.jpg
-
-
-scratch:
-  name: Scratch
-  link: /activities/scratch
-  short_intro: >
-    Tutorials, activities, and starter projects to help people learn Scratch, a visual programming language for making interactive stories, games, and animations.
-  description: >
-    With Scratch, you can program your own interactive stories, games, and animations — and share your creations with others in the online community. Scratch helps young people learn to think creatively, reason systematically, and work collaboratively — essential skills for life in the 21st century.
-  cover_photo: /images/scratch.jpg
-  video: >
-    <iframe src="https://player.vimeo.com/video/65583694" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  resources:
-    - description: Download or purchase Scratch activity cards, tutorials, and educator guides
-      url: "https://scratch.mit.edu/tips"
-    - description: View and download Scratch resources for educators
-      url: "https://scratch.mit.edu/educators"
-  details:
-    age_range: 8 and older
-    group_size: 1 or more (1 or 2 per computer)
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with Scratch
-    parents_involved: "No"
-    activity_type: Self-directed activities
-    cost: Free! Scratch activity cards can be downloaded and printed or purchased
-    space_and_equipment: Computer with internet access
-  photos:
-    - /images/scratch_in_use.jpg
-    - /images/scratch_example_01.png
-    - /images/scratch_example_02.png
-    - /images/scratch_example_03.png
-
-spin:
-  name: Spin
-  link: /activities/spin
-  short_intro: >
-    Spin is a build-it-yourself photography turntable system that lets you capture how your DIY projects come together over time.
-  description: >
-    Spin is a photography turntable system that lets you capture how your DIY projects come together over time. With Spin, you can create GIFs and videos of your projects that you can download and share on Twitter, Instagram, or any other social network.
-
-    The Spin system consists of a mechanical turntable and an Arduino shield. Building a Spin turntable is a great makerspace activity!
-  cover_photo: /images/spin.jpg
-  video: >
-    <iframe src="https://player.vimeo.com/video/127438804?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  resources:
-    - description: View the Spin turntable assembly instructions
-      url: "http://spin.media.mit.edu/build"
-  details:
-    age_range: Teens and adults
-    group_size: Variable, best for a small group
-    facilitators: 2+
-    facilitator_skills: Laser cutting, 3D printing, soldering, basic tool use, Arduino programming
-    activity_type: Small group workshop
-    session_length: Several hours or a few shorter sessions focused on individual fabrication stages
-    cost: $150 for raw materials
-    supplies: Specialized parts list is included in build instructions
-    space_and_equipment: Laser cutter, 3D printer, soldering iron, basic hardware tools, fabrication workspace
-  photos:
-    - /images/spin_example_01.gif
-    - /images/spin_example_02.gif
-    - /images/spin_example_03.gif
-    - /images/spin_example_04.gif
