@@ -1,12 +1,10 @@
 # Setup
-title: Public Library Innovation Exchange
-email: libraries@learn.media.mit.edu
+title: Cognimates
+email: cognimates@gmail.com
 description: >-
-  The Public Library Innovation Exchange supports joint projects between
-  public librarians and MIT Media Lab researchers. Together, we hope to design
-  new tools and programs for public libraries around the world.
-baseurl: "/libraries"
-url: "http://learn.media.mit.edu"
+ cognimates 
+baseurl: "/cognimates"
+url: "http://cognimates.me"
 
 # Build settings
 markdown: kramdown
