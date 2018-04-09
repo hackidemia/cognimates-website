@@ -3,7 +3,7 @@ title: Cognimates
 email: cognimates@gmail.com
 description: >-
  cognimates 
-baseurl: "/cognimates"
+baseurl: "/"
 url: "http://cognimates.me"
 
 # Build settings
