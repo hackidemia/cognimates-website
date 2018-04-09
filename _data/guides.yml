@@ -1,0 +1,28 @@
+makemehappy:
+  name: Make Me Happy 
+  link: /guides/makemehappy
+  short_intro: > 
+    Learn how to make a monster react to your messages 
+  description: >
+    Learn how to make a monster react to your messages 
+  cover_photo: /images/sentiment.jpg
+  # video: >
+  #   <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  # resources:
+  #   - description: Purchase Circuit Stickers and activity kits
+  #     url: "https://chibitronics.myshopify.com/collections"
+  #  
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Arts and crafts, basic familiarity with circuitry concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+  photos:
+    # - /images/.jpg
+    # - /images/circuit_stickers_origami.jpg
+    # - /images/circuit_stickers_map.jpg
+    # - /images/circuit_stickers_workshop.jpg
+

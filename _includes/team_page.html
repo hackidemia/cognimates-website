@@ -1,0 +1,46 @@
+{% assign exchange = site.data.team[page.data_name] %}
+
+<div class="main">
+  <h2>{{ exchange.name }}</h2>
+
+  {% for p in exchange.paragraphs %}
+    <p>{{ p }}</p>
+  {% endfor %}
+
+  <p>Interested in joing the {{ exchange.name }}? Questions about how to get involved? <a class="typeform-share link" href="https://mllearning.typeform.com/to/jtzle6" data-mode="drawer_right" target="_blank">Get in touch!</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script></p>
+</div>
+
+<div class="details">
+  {% if exchange.team_photo %}
+      <img src={{ exchange.team_photo | relative_url }} alt="The {{ exchange.name }} team members" />
+  {% endif %}
+
+  {% if exchange.team_members %}
+    <h3>Team members:</h3>
+      <ul>
+        {% for t in exchange.team_members %}
+          <li>{{ t.name }}, <em>{{ t.institution }}</em></li>
+        {% endfor %}
+      </ul>
+  {% endif %}
+
+  {% if exchange.blog_posts %}
+    <h3>Read about the exchange experience:</h3>
+    <ul class="blog-posts">
+      {% for item in exchange.blog_posts %}
+        <li><a href={{ item.url }}>{{ item.description }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
+
+{% if exchange.photos %}
+  <div class="community">
+    <h3>Exchange in Action</h3>
+    <div class="image-container">
+      {% for image in exchange.photos %}
+        <img src={{ image | relative_url }} alt="{{ exchange.name }} in action" />
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

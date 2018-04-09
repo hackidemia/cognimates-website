@@ -1,0 +1,28 @@
+---
+layout: tiles
+title: Projects
+permalink: /projects/
+redirect_from: /
+---
+<div class="activities-headline">
+  <h2>Cognimates projects.</h2>
+  <p>Try out some of our activities below and <a class="typeform-share link" href="https://mllearning.typeform.com/to/jtzle6" data-mode="drawer_right" target="_blank">let us know</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script> what you think!</p>
+</div>
+
+<ul class="tiles">
+
+{% for activity in site.data.activities %}
+  <li>
+      <div class="tile">
+        <a href={{ activity[1].link | relative_url }}>
+          <img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
+          <div class="overlay">
+              {{ activity[1].short_intro }}<br /><br />
+          </div>
+          <span class="tile-name">{{ activity[1].name }}</span>
+        </a>
+      </div>
+  </li>
+{% endfor %}
+
+</ul>

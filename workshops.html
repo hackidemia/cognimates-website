@@ -1,0 +1,35 @@
+---
+layout: default
+title: Workshops
+permalink: /workshops/
+---
+
+{% assign workshops = site.data.workshops %}
+
+{% if workshops %}
+  <div class="callout">
+    <h2>Upcoming Workshops</h2>
+
+    {% for u in workshops %}
+      <h3>{{ u[1].title }}</h3>
+      <p><em>{{ u[1].date }}</em><br />
+      {% if u[1].url %}
+        <a href="{{ u[1].url }}" target="_blank">Join us!</a>
+      {% else %}
+        Stay tuned for more info!
+      {% endif %}
+      </p>
+    {% endfor %}
+
+  </div>
+{% endif %}
+
+<div class="main">
+  <h3>Cognimates is all about helping families lead a meaningful life with AI so let's team up!</h3>
+
+  <p>Want to participate in our future families workshop?<br />
+      Have an idea for a project you’d like to work on?<br />
+      Implemented one of our projects and want to share your experience or give feedback?</p>
+  <!-- change form  -->
+  <p><a class="typeform-share link" href="https://mllearning.typeform.com/to/jtzle6" data-mode="drawer_right" target="_blank">Let us know!</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script></p>
+</div>

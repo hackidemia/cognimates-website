@@ -1,0 +1,19 @@
+cognimate:
+  name: Cognimates Team 
+  short_name: Cognimates Team 
+  link: /team
+  # cover_photo: /images/databasic_exchange.png
+  # paragraphs:
+  #   - >
+  #   - >
+  team_members:
+    - name: Stefania Druga 
+      institution: Personal Robots Group, MIT Media Lab
+    - name: Sarah T. Vu
+      institution: MIT 
+    - name: Tammy Qiu
+      institution: BU 
+    - name: Eesh Likhith
+      institution: MIT  
+      
+
