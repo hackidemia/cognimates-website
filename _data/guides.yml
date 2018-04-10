@@ -26,3 +26,44 @@ sentiment:
     # - /images/circuit_stickers_map.jpg
     # - /images/circuit_stickers_workshop.jpg
 
+rock:
+  name: Rock, Paper, Scissors
+  link: /guides/rock
+  short_intro: >
+    Learn how to play rock, paper, scissors with your computer
+  description: >
+    Train your computer to recognize photos of your and play rock, paper, scissors
+  cover_photo: /images/Hands.png
+  video: >
+    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  resources:
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+color:
+  name: Color Tracking
+  link: /guides/color
+  short_intro: >
+    Learn how to train your computer to track colors.
+  description: >
+    Train your computer to track colors through your webcam.
+  cover_photo: /images/Color_extension.png
+  video: >
+    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  resources:
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+
