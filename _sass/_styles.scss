@@ -7,8 +7,9 @@ $small-font: 0.8em;
 $light-weight: 300;
 $medium-weight: 400;
 $heavy-weight: 600;
-$main-color: #e62565;
-$light-main-color: #fce5ed;
+$main-color: #328EDE;
+$light-main-color: #ACC5DE;
+$light-transparent-main-color: rgba(172, 197, 222, 0.8);
 $accent-color: #3acefc;
 $gray: #979797;
 
@@ -47,7 +48,11 @@ body {
   li{
     padding-bottom: 10px;
   }
+}
 
+.main {
+  background-color: $light-transparent-main-color;
+  padding: 15px;
 }
 
 // Header-specific styling for all layouts
