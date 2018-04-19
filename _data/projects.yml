@@ -24,7 +24,7 @@ save-mini-figs:
   short_intro: >
     Save the falling people using a color finder and your webcam!
   description: >
-    Create a game using a color finder to keep falling people from hitting the water.
+    Create a game using a color finder to keep falling people from hitting the water. Inspiration for the project comes from ericr's Scratch 2.0 Project.
   cover_photo: /images/Hands.png
   video: >
     <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -40,7 +40,7 @@ save-mini-figs:
 
 drawing-with-color-finder:
   name: Drawing With Color Finder
-  link: /guides/color
+  link: /guides/colorDrawing
   short_intro: >
     Make a sprite draw using the color finder!
   description: >
