@@ -55,7 +55,7 @@ colorDrawing:
     Use the color finder to let the sprite know to start drawing when it sees a certain color in the webcam. Set a color to find, and when it shows up in the webcam video, the sprite will draw!
   cover_photo: /images/Color_extension.png
   video: >
-    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://giphy.com/embed/1X7lox7oscVoWHt8D8" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1X7lox7oscVoWHt8D8"></a></p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1qAFhvMRZtgJa3nsPjsrMiIE72Fhxax7P
     age_range: 7 and older
