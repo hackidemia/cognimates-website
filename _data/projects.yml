@@ -18,9 +18,9 @@ rock:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-save-mini-figs:
+saveFallingPeople:
   name: Save the Falling People
-  link: /guides/color
+  link: /guides/saveFallingPeople
   short_intro: >
     Save the falling people using a color finder and your webcam!
   description: >
