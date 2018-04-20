@@ -35,7 +35,7 @@ rock:
     Train your computer to recognize photos of your and play rock, paper, scissors
   cover_photo: /images/ext-images/Hands.png
   video: >
-    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
   resources:
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
@@ -53,7 +53,7 @@ saveFallingPeople:
     Save the falling people using a color finder and your webcam!
   description: >
     Create a game using a color finder to keep falling people from hitting the water. Inspiration for the project comes from ericr's Scratch 2.0 Project.
-  cover_photo: /images/ext-images/Hands.png
+  cover_photo: /images/ext-images/falling.png
   video: >
     <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
@@ -86,26 +86,6 @@ drawing-with-color-finder:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-recognizePuppy:
-  name: Is it a puppy?
-  link: /guides/vision
-  short_intro: >
-    Can the computer recognize a puppy? 
-  description: >
-    Create a game where the computer gets points if it correctly recognizes a drawing as a puppy! If the computer is wrong, you get a point instead! When the computer misidentifies a puppy drawing, use the Scratch blocks to retrain the model and make it better!
-  cover_photo: /images/ext-images/pup.png
-  video: >
-    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  resources:
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with computer programming and AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
-
 colorPong:
   name: Color Controlled Pong
   link: /guides/color
@@ -133,7 +113,7 @@ recognizePuppy:
     Play a game and test this puppy recognizer!
   description: >
     Play a game against this puppy recognizer! When the recognizer correctly identifies a webcam photo of a drawing or your surroundings as a puppy or not a puppy, the computer gets a point. If it is wrong, you get a point. This game is smart, though, because you can train it with the pictures you take! 
-  cover_photo: /images/ext-images/Color_extension.png
+  cover_photo: /images/ext-images/pup.png
   video: >
     <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
   resources:
@@ -154,7 +134,7 @@ myFavoriteThings:
     Teach Alexa your favorite things!
   description: >
     Learn how to teach Alexa about your favorite things, then ask her about them! 
-  cover_photo: /images/ext-images/Color_extension.png
+  cover_photo: /images/ext-images/faves.png
   video: >
     <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
   resources:
@@ -175,7 +155,7 @@ clarifaiDino:
     Play with this dino and see if he can recognize images!
   description: >
     Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
-  cover_photo: /images/ext-images/Color_extension.png
+  cover_photo: /images/ext-images/clarifaiDino.png
   video: >
     <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
   resources:
