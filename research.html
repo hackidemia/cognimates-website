@@ -1,0 +1,20 @@
+---
+layout: default
+title: Research
+data_name: research
+permalink: /research
+---
+<div class="main">
+	<h3>Research</h3>
+
+	<ul>
+		{% for ref in site.data.research %}
+		    <li>
+		    		<a href={{ ref[1].link }}>{{ ref[1].name }}</a>: {{ ref[1].reference }}
+		    		{% if ref[1].image %}
+		    			<img src={{ ref[1].image | relative_url }} class='wide-photo'/>
+		    		{% endif %}
+		    </li>
+		{% endfor %}
+	</ul>
+</div>

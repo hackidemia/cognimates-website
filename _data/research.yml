@@ -1,0 +1,19 @@
+google_eat:
+  name: Hey Google is it Ok if I eat you?    
+  reference: > 
+    Stefania Druga, Randi Williams, Cynthia Breazeal, and Mitchel Resnick. 2017. "Hey Google is it OK if I eat you?": Initial Explorations in Child-Agent Interaction. In Proceedings of the 2017 Conference on Interaction Design and Children (IDC '17). ACM, New York, NY, USA, 595-600.
+  image: 
+  link: https://doi.org/10.1145/3078072.3084330
+
+smart_toys:
+  name: How smart are the smart toys ?
+  reference: >
+    Stefania Druga, Randi Williams, Cynthia Breazeal. ““How smart are the smart toys ?"- Children’s and parents’ attributions of intelligence to computational objects.” IDC. 2018 
+  image: /images/research-images/how smart .png
+
+doll:
+  name: >
+    My Doll Says It's OK: Voice-Enabled Toy Influences Children's Moral Decisions
+  reference: >
+    Randi Williams, Christian Vazquez, Stefania Druga, Pattie Maes, Cynthia Breazeal. “My Doll Says It's OK: Voice-Enabled Toy Influences Children's Moral Decisions.” Under review IDC. 2018
+  image: /images/research-images/moral.png
