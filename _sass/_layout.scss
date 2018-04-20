@@ -274,7 +274,7 @@
   .grid-wrapper {
     width: 80%;
     margin-top: 20px;
-    grid-template-columns: 3fr 2fr;
+    //grid-template-columns: 3fr 2fr;
     grid-template-rows: auto auto 1fr auto;
     grid-auto-rows: max-content;
     grid-auto-flow: row;
