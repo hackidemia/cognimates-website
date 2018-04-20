@@ -1,0 +1,36 @@
+{% assign activity = site.data.extensions[page.data_name] %}
+
+{% if activity.nickname %}
+  {% assign short_name = activity.nickname %}
+{% else %}
+  {% assign short_name = activity.name %}
+{% endif %}
+
+<div class="main">
+  <h2>{{ activity.name }}</h2>
+  <p>{{ activity.description }}</p>
+  <p>Have feedback to share? Questions about the extensions? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
+</div>
+
+  <ul class="activity-details">
+    {% for item in activity.details %}
+      <li><span class="info-label">{{ item[0] | replace:'_',' ' | capitalize }}: </span> {{ item[1] }}</li>
+    {% endfor %}
+  </ul>
+  <ul class="resource-links">
+    {% for resource in activity.resources %}
+      <li><a href={{ resource.url }}>{{ resource.description }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% if activity.photos %}
+  <div class="community">
+    <h3>{{ short_name }} in Action</h3>
+    <div class="image-container">
+      {% for image in activity.photos %}
+        <img src={{ image | relative_url }} alt="{{ short_name }} in action" />
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
