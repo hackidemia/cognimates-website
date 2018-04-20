@@ -1,0 +1,27 @@
+---
+layout: tiles
+title: Extensions
+permalink: /extensions/
+---
+<div class="activities-headline">
+  <h2>Cognimates Extensions</h2>
+  <p>Learn about our Scratch 3.0 Extensions <a href="mailto:cognimates@gmail.com">let us know</a> what you think!</p>
+</div>
+
+<ul class="tiles">
+
+{% for activity in site.data.extensions %}
+  <li>
+      <div class="tile">
+        <a href={{ activity[1].link | relative_url }}>
+          <img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
+          <div class="overlay">
+              {{ activity[1].short_intro }}<br /><br />
+          </div>
+          <span class="tile-name">{{ activity[1].name }}</span>
+        </a>
+      </div>
+  </li>
+{% endfor %}
+
+</ul>
