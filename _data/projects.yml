@@ -113,7 +113,7 @@ colorPong:
     Can you play pong using the color finder?
   description: >
     Create a game where you control the paddle in pong with the color finder! 
-  cover_photo: /images/ext-images/Hands.png
+  cover_photo: /images/ext-images/Color_extension.png
   video: >
     <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
