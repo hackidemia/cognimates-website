@@ -61,8 +61,8 @@ body {
 .site-nav {
   a {
     text-decoration: none;
-    color: black;
-    font-weight: $medium-weight;
+    color: $main-color;
+    font-weight: $heavy-weight;
   }
 
   a.active {
@@ -120,7 +120,6 @@ body {
 }
 
 .activities-headline {
-  background-color: $light-main-color;
   text-align: center;
 }
 
@@ -129,7 +128,8 @@ body {
   position: relative;
   bottom: 10px;
   img {
-    height: 2em;
+    height: 1.5em;
+    bottom: 0;
     padding: 0 10px 0 0;
   }
 }
@@ -139,7 +139,8 @@ body {
   position: fixed;
   bottom: 10px;
   img {
-    height: 2em;
+    height: 1.5em;
+    bottom: 0;
     padding: 0 10px 0 0;
   }
 }
