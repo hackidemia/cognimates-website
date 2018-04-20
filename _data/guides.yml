@@ -9,22 +9,14 @@ sentiment:
   video: >
     <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
-    # - description: Purchase Circuit Stickers and activity kits
-    #   url: "https://chibitronics.myshopify.com/collections"
+    guide: https://drive.google.com/uc?export=download&id=1uLtYpfGYLmRBtozMazmQSPw_p3AKTOMf
     download_link: https://drive.google.com/uc?export=download&id=1OJj48UjbJn_kDcoZ57nu-ycu3FI-JAQo
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
-  photos:
-    # - /images/.jpg
-    # - /images/circuit_stickers_origami.jpg
-    # - /images/circuit_stickers_map.jpg
-    # - /images/circuit_stickers_workshop.jpg
+  #  - step: > 
+  #      Step 1:
+  #    photo: /images/ext-images/Hands.png
+  #  - step: >
+  #      Step 2:
+  #   photo: /images/ext-images/Hands.png
 
 rock:
   name: Rock, Paper, Scissors
@@ -37,6 +29,7 @@ rock:
   video: >
     <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
   resources:
+    guide: https://drive.google.com/uc?export=download&id=1xWSQGAurOXQErBNhmoUncLHoUXSNSFhr
     download_link: https://drive.google.com/uc?export=download&id=13H7GMT8gdm0ptx7XPuywuSrjjsa_KqZM
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
