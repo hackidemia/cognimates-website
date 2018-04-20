@@ -2,7 +2,7 @@ team:
   name: Cognimates Team 
   short_name: Cognimates Team 
   link: /team
-  team_photo: ../images/normal.png
+  team_photo: /images/normal.png
   # paragraphs:
   #   - >
   #   - >
