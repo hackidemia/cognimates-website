@@ -1,4 +1,4 @@
-$font-stack: Helvetica, Arial, sans-serif;
+$font: Roboto, sans-serif;
 $extra-large-font: 28px;
 $large-font: 20px;
 $medium-font: 18px;
@@ -15,7 +15,7 @@ $gray: #979797;
 
 // Universal default styling
 body {
-  font: 100% $font-stack;
+  font: 100% $font;
   font-size: $medium-font;
   font-weight: $medium-weight;
   background-color: #ffffff;
@@ -24,11 +24,13 @@ body {
   h2 {
     font-size: $extra-large-font;
     font-weight: $heavy-weight;
+    color: $main-color;
   }
 
   h3 {
     font-size: $large-font;
     font-weight: $heavy-weight;
+    color: $main-color;
   }
 
   p {
@@ -50,10 +52,6 @@ body {
   }
 }
 
-.main {
-  background-color: $light-transparent-main-color;
-  padding: 15px;
-}
 
 // Header-specific styling for all layouts
 .site-header {
@@ -128,12 +126,24 @@ body {
 
 .external-logo {
   text-align: left;
-
+  position: relative;
+  bottom: 10px;
   img {
     height: 2em;
     padding: 0 10px 0 0;
   }
 }
+
+.external-logo-about {
+  text-align: left;
+  position: fixed;
+  bottom: 10px;
+  img {
+    height: 2em;
+    padding: 0 10px 0 0;
+  }
+}
+
 
 .tiles {
   list-style: none;

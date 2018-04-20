@@ -1,8 +1,8 @@
-cognimate:
+team:
   name: Cognimates Team 
   short_name: Cognimates Team 
   link: /team
-  # cover_photo: /images/team_picture.png
+  team_photo: ../images/normal.png
   # paragraphs:
   #   - >
   #   - >
