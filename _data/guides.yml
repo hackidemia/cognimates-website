@@ -35,8 +35,9 @@ rock:
     Train your computer to recognize photos of your and play rock, paper, scissors
   cover_photo: /images/ext-images/Hands.png
   video: >
-    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
   resources:
+    download_link: https://drive.google.com/uc?export=download&id=13H7GMT8gdm0ptx7XPuywuSrjjsa_KqZM
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
@@ -74,7 +75,7 @@ saveFallingPeople:
     Save the falling people using a color finder and your webcam!
   description: >
     Create a game using a color finder to keep falling people from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
-  cover_photo: /images/ext-images/Color_extension.png
+  cover_photo: /images/ext-images/falling.png
   video: >
     <iframe src="https://giphy.com/embed/6bbX027ZWFQUiPFEvR" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6bbX027ZWFQUiPFEvR"></a></p>
   resources:
@@ -118,7 +119,7 @@ myFavoriteThings:
     Learn how to teach Alexa about your favorite things, then ask her about them! 
   cover_photo: /images/ext-images/Color_extension.png
   video: >
-    <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
+    <iframe src="https://giphy.com/embed/4Z9dGaXJFQ3kh9jDoU" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1qk16mVRsDRVSf8q_pHekfrNUa22Oc93E
     age_range: 7 and older
@@ -137,9 +138,9 @@ clarifaiDino:
     Play with this dino and see if he can recognize images!
   description: >
     Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
-  cover_photo: /images/ext-images/Color_extension.png
+  cover_photo: /images/ext-images/pup.png
   video: >
-    <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
+    <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=11pPW6sT2nAInNfVpj32CMWO7kWZUkEz_S
     age_range: 7 and older
