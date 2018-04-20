@@ -88,5 +88,91 @@ saveFallingPeople:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
+recognizePuppy:
+  name: Is it a puppy?
+  link: /guides/recognizePuppy
+  short_intro: >
+    Play a game and test this puppy recognizer!
+  description: >
+    Play a game against this puppy recognizer! When the recognizer correctly identifies a webcam photo of a drawing or your surroundings as a puppy or not a puppy, the computer gets a point. If it is wrong, you get a point. This game is smart, though, because you can train it with the pictures you take! 
+  cover_photo: /images/Color_extension.png
+  video: >
+    <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=16PqHmLq2SKph5eTxzGmsb5PZ2Juscwu2
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+myFavoriteThings:
+  name: My Favorite Things
+  link: /guides/myFavoriteThings
+  short_intro: >
+    Teach Alexa your favorite things!
+  description: >
+    Learn how to teach Alexa about your favorite things, then ask her about them! 
+  cover_photo: /images/Color_extension.png
+  video: >
+    <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1qk16mVRsDRVSf8q_pHekfrNUa22Oc93E
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+clarifaiDino:
+  name: The Clarifai Dinosaur
+  link: /guides/clarifaiDino
+  short_intro: >
+    Play with this dino and see if he can recognize images!
+  description: >
+    Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
+  cover_photo: /images/Color_extension.png
+  video: >
+    <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=11pPW6sT2nAInNfVpj32CMWO7kWZUkEz_S
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+colorPong:
+  name: Color Pong
+  link: /guides/colorPong
+  short_intro: >
+    Play pong using the color finder!
+  description: >
+    Try playing pong with the color finder! Move the paddleboard in pong by showing a color in the webcam or by removing it from sight! 
+  cover_photo: /images/Color_extension.png
+  video: >
+    <iframe src="https://giphy.com/embed/5kFURKHSwRN7U5RvGh" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5kFURKHSwRN7U5RvGh"></a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1DSIhryb4JrTbIO0_nkq8TGwmkMwADWky
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+
+
 
 
