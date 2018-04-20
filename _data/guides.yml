@@ -172,6 +172,26 @@ colorPong:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
+jellyfishSwim:
+  name: Jellyfish Swim
+  link: /guides/jellyfishSwim
+  short_intro: >
+    Keep the jellyfish in the frame through your words!
+  description: >
+    Try to control the motion of the jellyfish by saying good and bad things to it. Good things cause it to float up and bad things cause it to sink down. Try to keep him inside his frame!
+  cover_photo: /images/ext-images/jellyfish.png
+  video: >
+    <iframe src="https://giphy.com/embed/2aQ0dVUk1Geisr5XUT" width="480" height="221" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=14RZWCKQRkIjGhV1i3kIH5ker4llQ1G50
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
 
 
