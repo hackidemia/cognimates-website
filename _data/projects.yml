@@ -230,3 +230,24 @@ jellyfishSwim:
     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+goodBoy:
+  name: Good Boy
+  link: /guides/goodBoy
+  short_intro: >
+    Tell your pug that he's a good boy (or a bad boy).
+  description: >
+    Tell your pug that he's a good boy (or a bad boy).
+  cover_photo: /images/ext-images/dog.png
+  video: >
+    <iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1jZlPX5QiCCXjwK7ymQdQyzGll8bCD0_o
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
