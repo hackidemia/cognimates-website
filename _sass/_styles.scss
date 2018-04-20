@@ -70,11 +70,13 @@ body {
   }
 
   a.active {
-    background-color: lighten($main-color,42%);
+    color: white;
+    background-color: $main-color;
   }
 
   a:hover {
     color: $main-color;
+    background-color: lighten($main-color,42%);
   }
 }
 
