@@ -93,7 +93,7 @@ recognizePuppy:
     Can the computer recognize a puppy? 
   description: >
     Create a game where the computer gets points if it correctly recognizes a drawing as a puppy! If the computer is wrong, you get a point instead! When the computer misidentifies a puppy drawing, use the Scratch blocks to retrain the model and make it better!
-  cover_photo: /images/ext-images/pupper.png
+  cover_photo: /images/ext-images/pup.png
   video: >
     <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
