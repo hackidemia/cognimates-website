@@ -128,12 +128,24 @@ body {
 
 .external-logo {
   text-align: left;
-
+  position: relative;
+  bottom: 10px;
   img {
     height: 2em;
     padding: 0 10px 0 0;
   }
 }
+
+.external-logo-about {
+  text-align: left;
+  position: fixed;
+  bottom: 10px;
+  img {
+    height: 2em;
+    padding: 0 10px 0 0;
+  }
+}
+
 
 .tiles {
   list-style: none;
