@@ -95,7 +95,7 @@ recognizePuppy:
     Play a game and test this puppy recognizer!
   description: >
     Play a game against this puppy recognizer! When the recognizer correctly identifies a webcam photo of a drawing or your surroundings as a puppy or not a puppy, the computer gets a point. If it is wrong, you get a point. This game is smart, though, because you can train it with the pictures you take! 
-  cover_photo: /images/ext-images/Color_extension.png
+  cover_photo: /images/ext-images/pupper.png
   video: >
     <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
   resources:
