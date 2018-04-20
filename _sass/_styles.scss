@@ -61,8 +61,8 @@ body {
 .site-nav {
   a {
     text-decoration: none;
-    color: black;
-    font-weight: $medium-weight;
+    color: $main-color;
+    font-weight: $heavy-weight;
   }
 
   a.active {
