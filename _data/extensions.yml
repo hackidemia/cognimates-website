@@ -1,0 +1,156 @@
+wedo:
+  name: Wedo
+  link: /extensions/wedo
+  short_intro: > 
+    The Lego Wedo 2.0 Extension
+  description: >
+    Connect to Lego Wedo Blocks!
+  cover_photo: /images/ext-images/wedo.png
+
+pen:
+  name: Pen
+  link: /extensions/pen
+  short_intro: > 
+    Draw with your sprites!
+  description: >
+    Use these blocks to turn your sprites into 'pens'.
+  cover_photo: /images/ext-images/pen.png
+
+music:
+  name: Music
+  link: /extensions/music
+  short_intro: > 
+    Play music with Scratch!
+  description: >
+    Use blocks to create music! You can control the tempo and use different instruments.
+  cover_photo: /images/ext-images/music.png
+
+cognimate:
+  name: Cognimate
+  link: /extensions/cognimate
+  short_intro: > 
+    Go on coding missions and learn how to make projects!
+  description: >
+    This extension will guide users through different tutorials (missions) to teach them
+    specific programming concepts, learn how to use the different extensions, and build various projects.
+  cover_photo: /images/ext-images/cognimate.png
+
+jibo:
+  name: Jibo
+  link: /extensions/jibo
+  short_intro: > 
+    Program Jibo the robot!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/jibo.png
+
+ergo:
+  name: Ergo
+  link: /extensions/ergo
+  short_intro: > 
+    Program the Ergo Jr. robot!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/ergo.png
+
+cozmo:
+  name: Cozmo
+  link: /extensions/cozmo
+  short_intro: > 
+    Program a Cozmo robot!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/cozmo.png
+
+clarifai:
+  name: Clarifai
+  link: /extensions/clarifai
+  short_intro: > 
+    Take photos and have a computer predict what the image is!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/clarifai.png
+
+feelings:
+  name: Feelings
+  link: /extensions/feelings
+  short_intro: > 
+    Have a computer guess if a phrase is positive or negative!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/feelings.png
+
+color:
+  name: Color
+  link: /extensions/color
+  short_intro: > 
+    Track colors with your webcam and this extension!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/Color_extension.png
+
+alexa:
+  name: Alexa
+  link: /extensions/alexa
+  short_intro: > 
+    Try programming Alexa!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/alexa.png
+
+smartLights:
+  name: Smart Lights
+  link: /extensions/smartLights
+  short_intro: > 
+    Play around with smart lights!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/smartLights.png
+
+vision:
+  name: Vision
+  link: /extensions/vision
+  short_intro: > 
+    Use and train models that recognize images!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/vision.png
+
+text:
+  name: Text
+  link: /extensions/text
+  short_intro: > 
+    Use models to find the categories of different phrases!
+  description: >
+    descrip
+  cover_photo: /images/ext-images/text.png
+
+speech:
+  name: Speech
+  link: /extensions/speech
+  short_intro: > 
+    Talk to your computer and have it talk back to you! 
+  description: >
+    descrip
+  cover_photo: /images/ext-images/speech.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

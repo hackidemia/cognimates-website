@@ -6,30 +6,26 @@
   {% assign short_name = activity.name %}
 {% endif %}
 
-<!-- {% assign unhangout = site.data.unhangouts[page.data_name] %} -->
-
-<!-- {% if unhangout %}
-  <div class="callout no-heading">
-    <div class="tile">
-      <p class="no-space"><strong>Want to learn more about {{ short_name }}?</strong><br />
-      {% if unhangout.url %}
-        <a href="{{ unhangout.url }}">Join our upcoming unhangout!</a><br />
-        <em>{{ unhangout.date }}</em>
-      {% else %}
-        Join our unhangout: {{ unhangout.date }}!<br />
-        <em>Stay tuned for more info!</em>
-      {% endif %}
-      </p>
-    </div>
-  </div>
-{% endif %} -->
-
 <div class="main">
   <h2>{{ activity.name }}</h2>
   <p>{{ activity.description }}</p>
   <p> <a href ={{ activity.resources.download_link }}>download project</a></p>
   <p>Load your project <a href ="https://mitmedialab.github.io/cognimates-gui/">here</a></p>
   <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
+  <h3>Here is a tutorial to get you started:</h3>
+  {% if activity.resources.guide %}
+    <p> <a href ={{ activity.resources.guide }}>Download the learning guide</a></p>
+  {% endif %}
+ <!-- <ul>
+    {% for s in activity.guide %}
+      <li>
+        {{ s.step }}
+        {% if s.photo %}
+          <img src= {{ s.photo | relative_url}} class='wide-photo'/>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>!-->
 </div>
 
 <div class="details">
@@ -50,15 +46,8 @@
       <li><a href={{ resource.url }}>{{ resource.description }}</a></li>
     {% endfor %}
   </ul>
+
+
 </div>
 
-{% if activity.photos %}
-  <div class="community">
-    <h3>{{ short_name }} in Action</h3>
-    <div class="image-container">
-      {% for image in activity.photos %}
-        <img src={{ image | relative_url }} alt="{{ short_name }} in action" />
-      {% endfor %}
-    </div>
-  </div>
-{% endif %}
+

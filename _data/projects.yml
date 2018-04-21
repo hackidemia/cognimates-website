@@ -1,13 +1,13 @@
 sentiment:
   name: Make Me Happy 
-  link: /guides/sentiment
+  link: /projects/sentiment
   short_intro: > 
     Learn how to make a robot react to your messages 
   description: >
     Learn how to make a robot react to your messages 
   cover_photo: /images/ext-images/make-me-happy.png
   video: >
-    <iframe src="https://media.giphy.com/media/1d5Qy8YXNeqp3CHPLv/giphy.gif" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     # - description: Purchase Circuit Stickers and activity kits
     #   url: "https://chibitronics.myshopify.com/collections"
@@ -28,7 +28,7 @@ sentiment:
 
 rock:
   name: Rock, Paper, Scissors
-  link: /guides/rock
+  link: /projects/rock
   short_intro: >
     Learn how to play rock, paper, scissors with your computer
   description: >
@@ -37,6 +37,28 @@ rock:
   video: >
     <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
   resources:
+    download_link: https://drive.google.com/uc?export=download&id=13H7GMT8gdm0ptx7XPuywuSrjjsa_KqZM
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+colorDrawing:
+  name: Drawing with Color Finder
+  link: /projects/colorDrawing
+  short_intro: >
+    Learn how to train your computer to track colors.
+  description: >
+    Use the color finder to let the sprite know to start drawing when it sees a certain color in the webcam. Set a color to find, and when it shows up in the webcam video, the sprite will draw! Build upon this starter project to create something even more exciting. Sprite creds to <a href = "https://www.behance.net/orange_zutto">Alexandra Zutto</a>.
+  cover_photo: /images/ext-images/colordrawing.png
+  video: >
+    <iframe src="https://giphy.com/embed/1X7lox7oscVoWHt8D8" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1X7lox7oscVoWHt8D8"></a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1qAFhvMRZtgJa3nsPjsrMiIE72Fhxax7P
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
@@ -48,59 +70,20 @@ rock:
 
 saveFallingPeople:
   name: Save the Falling People
-  link: /guides/saveFallingPeople
+  link: /projects/saveFallingPeople
   short_intro: >
     Save the falling people using a color finder and your webcam!
   description: >
-    Create a game using a color finder to keep falling people from hitting the water. Inspiration for the project comes from ericr's Scratch 2.0 Project.
+    Create a game using a color finder to keep falling people from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
   cover_photo: /images/ext-images/falling.png
   video: >
-    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://giphy.com/embed/6bbX027ZWFQUiPFEvR" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6bbX027ZWFQUiPFEvR"></a></p>
   resources:
+    download_link: https://drive.google.com/uc?export=download&id=1Xr7ZvuVqrpD6q6grpjQBAFQfEQ7Ylcs5
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
-    facilitator_skills: Basic familiarity with computer programming
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
-
-drawing-with-color-finder:
-  name: Drawing With Color Finder
-  link: /guides/colorDrawing
-  short_intro: >
-    Make a sprite draw using the color finder!
-  description: >
-    Use the color finder to let the sprite know to start drawing when it sees a certain color in the webcam. Set a color to find, and when it shows up in the webcam video, the sprite will draw!
-  cover_photo: /images/ext-images/colordrawing.png
-  video: >
-    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  resources:
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with computer programming
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
-
-colorPong:
-  name: Color Controlled Pong
-  link: /guides/color
-  short_intro: >
-    Can you play pong using the color finder?
-  description: >
-    Create a game where you control the paddle in pong with the color finder! 
-  cover_photo: /images/ext-images/Color_extension.png
-  video: >
-    <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  resources:
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with computer programming and AI concepts
+    facilitator_skills: Basic familiarity with AI concepts
     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
@@ -108,7 +91,7 @@ colorPong:
 
 recognizePuppy:
   name: Is it a puppy?
-  link: /guides/recognizePuppy
+  link: /projects/recognizePuppy
   short_intro: >
     Play a game and test this puppy recognizer!
   description: >
@@ -129,14 +112,14 @@ recognizePuppy:
 
 myFavoriteThings:
   name: My Favorite Things
-  link: /guides/myFavoriteThings
+  link: /projects/myFavoriteThings
   short_intro: >
     Teach Alexa your favorite things!
   description: >
     Learn how to teach Alexa about your favorite things, then ask her about them! 
   cover_photo: /images/ext-images/faves.png
   video: >
-    <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
+    <iframe src="https://giphy.com/embed/4Z9dGaXJFQ3kh9jDoU" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1qk16mVRsDRVSf8q_pHekfrNUa22Oc93E
     age_range: 7 and older
@@ -150,16 +133,16 @@ myFavoriteThings:
 
 clarifaiDino:
   name: The Clarifai Dinosaur
-  link: /guides/clarifaiDino
+  link: /projects/clarifaiDino
   short_intro: >
     Play with this dino and see if he can recognize images!
   description: >
     Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
   cover_photo: /images/ext-images/clarifaiDino.png
   video: >
-    <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
+    <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=11pPW6sT2nAInNfVpj32CMWO7kWZUkEz_S
+    download_link: https://drive.google.com/uc?export=download&id=1pPW6sT2nAInNfVpj32CMWO7kWZUkEz_S
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
@@ -171,12 +154,12 @@ clarifaiDino:
 
 colorPong:
   name: Color Pong
-  link: /guides/colorPong
+  link: /projects/colorPong
   short_intro: >
     Play pong using the color finder!
   description: >
     Try playing pong with the color finder! Move the paddleboard in pong by showing a color in the webcam or by removing it from sight! 
-  cover_photo: /images/ext-images/Color_extension.png
+  cover_photo: /images/ext-images/color_extension.png
   video: >
     <iframe src="https://giphy.com/embed/5kFURKHSwRN7U5RvGh" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5kFURKHSwRN7U5RvGh"></a></p>
   resources:
@@ -192,7 +175,7 @@ colorPong:
 
 jellyfishSwim:
   name: Jellyfish Swim
-  link: /guides/jellyfishSwim
+  link: /projects/jellyfishSwim
   short_intro: >
     Keep the jellyfish in the frame through your words!
   description: >
@@ -213,7 +196,7 @@ jellyfishSwim:
 
 goodBoy:
   name: Good Boy
-  link: /guides/goodBoy
+  link: /projects/goodBoy
   short_intro: >
     Tell your pug that he's a good boy (or a bad boy).
   description: >
@@ -231,3 +214,5 @@ goodBoy:
     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+

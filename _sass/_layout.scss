@@ -26,18 +26,18 @@
 
   .site-logo {
     padding: 10px 0;
-    height: 45px;
+    height: 120px;
     width: auto;
   }
 
   .site-nav {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center; // vertical alignment
     align-items: center; // horizontal alignment
-
+    box-sizing: content-box;
     a {
-      margin: 0 10px 10px 10px;
+      margin: 1% 1% 1% 1%;
       padding: 9px 7px 8px 7px;
       display: inline-block;
       text-align: center;
@@ -193,7 +193,7 @@
 ////////// Small-medium layout //////////
 /////////////////////////////////////////
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 
   // Header updates for small-med screens
   .site-header {
@@ -243,9 +243,11 @@
 ////////// Large-medium layout //////////
 /////////////////////////////////////////
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
 
   // Header updates for med-large screens
+
+
   .site-header {
     position: relative;
 
@@ -274,7 +276,7 @@
   .grid-wrapper {
     width: 80%;
     margin-top: 20px;
-    grid-template-columns: 3fr 2fr;
+    //grid-template-columns: 3fr 2fr;
     grid-template-rows: auto auto 1fr auto;
     grid-auto-rows: max-content;
     grid-auto-flow: row;
@@ -309,6 +311,11 @@
     padding-left: 15px;
   }
 
+  .wide-photo{
+    max-width: 100%;
+    height: auto;
+  }
+
   .activities-headline {
     padding: 20px 30px;
 
@@ -336,11 +343,13 @@
 ////////// Large layout //////////
 //////////////////////////////////
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   // Header updates for large screens
   .header-content {
     max-width: 950px;
     margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .grid-wrapper {

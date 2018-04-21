@@ -8,18 +8,20 @@
   {% endfor %}
 
   <p>Interested in joing the {{ exchange.name }}? Questions about how to get involved? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
-</div>
 
-<div class="details">
+
+
   {% if exchange.team_photo %}
-      <img src={{ exchange.team_photo | relative_url }} alt="The {{ exchange.name }} team members" />
+      <img src={{ exchange.team_photo | relative_url }} alt="The {{ exchange.name }} team members" class='wide-photo'/>
   {% endif %}
 
   {% if exchange.team_members %}
     <h3>Team members:</h3>
       <ul>
         {% for t in exchange.team_members %}
-          <li>{{ t.name }}, <em>{{ t.institution }}</em></li>
+          <li><font color = #328EDE>{{ t.name }}</font> 
+            <em>{{ t.institution }}</em><br>
+            <p>{{ t.bio }}</p></li>
         {% endfor %}
       </ul>
   {% endif %}
