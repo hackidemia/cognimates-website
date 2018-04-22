@@ -158,7 +158,7 @@ colorPong:
   short_intro: >
     Play pong using the color finder!
   description: >
-  Try playing pong with the color finder! Move the paddleboard in pong by showing a color in the webcam or by removing it from sight! 
+    Try playing pong with the color finder! Move the paddleboard in pong by showing a color in the webcam or by removing it from sight! 
   cover_photo: /images/ext-images/color_extension.png
   video: >
     <iframe src="https://giphy.com/embed/5kFURKHSwRN7U5RvGh" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5kFURKHSwRN7U5RvGh"></a></p>
