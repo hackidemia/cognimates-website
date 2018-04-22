@@ -50,7 +50,7 @@ feelings:
   short_intro: > 
     Have a computer guess if a phrase is positive or negative!
   description: >
-    The Feelings extension is using this [public pre-trained library!](https://github.com/thisandagain/sentiment) to analyse is a text is positive or negative.  
+    The Feelings extension is using this <a href=https://github.com/thisandagain/sentiment>public pre-trained library</a> to analyse is a text is positive or negative.  
   cover_photo: /images/ext-images/feelings.png
 
 color:
@@ -59,7 +59,7 @@ color:
   short_intro: > 
     Detect colors with your webcam.
   description: >
-    The color extension is using this [public pre-trained library!](https://trackingjs.com/) to detect when specific colors are seen.  
+    The color extension is using this <a href=https://trackingjs.com/>public pre-trained library</a> to detect when specific colors are seen.  
   cover_photo: /images/ext-images/Color_extension.png
 
 alexa:
@@ -68,12 +68,12 @@ alexa:
   short_intro: > 
     Try programming Alexa!
   description: >
-    Currently the Alexa Scratch skill is integrated with the Alexa Scratch extension we built for Scratch 3.0 which can be run from any mobile device or computer. Currently the Alexa Extension allows users to 
+    Currently the Alexa Scratch skill is integrated with the Alexa Scratch extension we built for Scratch 3.0 which can be run from any mobile device or computer. Currently the Alexa Extension allows users to  
     * teach it answers to questions
     * share with it their preferences (favorite color, movie etc)
     * leave messages
     * execute specific blocks on scratch
-    * communicate with other extensions like Jibo, Wemo plu, Spotify etc
+    * communicate with other extensions like Jibo, Wemo plug, Spotify, etc
   cover_photo: /images/ext-images/alexa.png
 
 smartLights:
@@ -82,7 +82,7 @@ smartLights:
   short_intro: > 
     Play around with smart lights!
   description: >
-    This extension allows you to program Hue Lights using this [public library!](https://github.com/ArndBrugman/huepi)
+    This extension allows you to program Hue Lights using this <a href=https://github.com/ArndBrugman/huepi>public pre-trained library</a>.
   cover_photo: /images/ext-images/smartLights.png
 
 vision:
