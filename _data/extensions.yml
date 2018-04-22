@@ -82,7 +82,7 @@ smartLights:
   short_intro: > 
     Play around with smart lights!
   description: >
-    This extension allows you to program Hue Lights using this [public library!](https://github.com/ArndBrugman/huepi)
+    This extension allows you to program Hue Lights using this <a href=https://github.com/ArndBrugman/huepi>public pre-trained library</a>.
   cover_photo: /images/ext-images/smartLights.png
 
 vision:
