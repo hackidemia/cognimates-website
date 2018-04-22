@@ -50,7 +50,7 @@ feelings:
   short_intro: > 
     Have a computer guess if a phrase is positive or negative!
   description: >
-    The Feelings extension is using this [public pre-trained library!](https://github.com/thisandagain/sentiment) to analyse is a text is positive or negative.  
+    The Feelings extension is using this <a href=https://github.com/thisandagain/sentiment>public pre-trained library</a> to analyse is a text is positive or negative.  
   cover_photo: /images/ext-images/feelings.png
 
 color:
@@ -59,7 +59,7 @@ color:
   short_intro: > 
     Detect colors with your webcam.
   description: >
-    The color extension is using this [public pre-trained library!](https://trackingjs.com/) to detect when specific colors are seen.  
+    The color extension is using this <a href=https://trackingjs.com/>public pre-trained library</a> to detect when specific colors are seen.  
   cover_photo: /images/ext-images/Color_extension.png
 
 alexa:
