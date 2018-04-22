@@ -2,9 +2,9 @@ sentiment:
   name: Make Me Happy 
   link: /projects/sentiment
   short_intro: > 
-    Learn how to make a robot react to your messages 
+    Learn how to make a robot react to your messages! 
   description: >
-    Learn how to make a robot react to your messages 
+    Learn how to make a robot react to your messages! 
   cover_photo: /images/ext-images/make-me-happy.png
   video: >
     <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -30,9 +30,9 @@ rock:
   name: Rock, Paper, Scissors
   link: /projects/rock
   short_intro: >
-    Learn how to play rock, paper, scissors with your computer
+    Learn how to play rock, paper, scissors with your computer!
   description: >
-    Train your computer to recognize photos of your and play rock, paper, scissors
+    Train your computer to recognize photos of your and play rock, paper, scissors!
   cover_photo: /images/ext-images/Hands.png
   video: >
     <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
@@ -51,7 +51,7 @@ colorDrawing:
   name: Drawing with Color Finder
   link: /projects/colorDrawing
   short_intro: >
-    Learn how to train your computer to track colors.
+    Learn how to train your computer to track colors!
   description: >
     Use the color finder to let the sprite know to start drawing when it sees a certain color in the webcam. Set a color to find, and when it shows up in the webcam video, the sprite will draw! Build upon this starter project to create something even more exciting. Sprite creds to <a href = "https://www.behance.net/orange_zutto">Alexandra Zutto</a>.
   cover_photo: /images/ext-images/colordrawing.png
@@ -152,26 +152,26 @@ clarifaiDino:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-# colorPong:
-#   name: Color Pong
-#   link: /projects/colorPong
-#   short_intro: >
-#     Play pong using the color finder!
-#   description: >
-#     Try playing pong with the color finder! Move the paddleboard in pong by showing a color in the webcam or by removing it from sight! 
-#   cover_photo: /images/ext-images/color_extension.png
-#   video: >
-#     <iframe src="https://giphy.com/embed/5kFURKHSwRN7U5RvGh" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5kFURKHSwRN7U5RvGh"></a></p>
-#   resources:
-#     download_link: https://drive.google.com/uc?export=download&id=1DSIhryb4JrTbIO0_nkq8TGwmkMwADWky
-#     age_range: 7 and older
-#     group_size: Variable, limited only by amount of supplies and number of facilitators
-#     facilitators: 0 or more
-#     facilitator_skills: Basic familiarity with AI concepts
-#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    # supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+colorPong:
+  name: Color Pong
+  link: /projects/colorPong
+  short_intro: >
+    Play pong using the color finder!
+  description: >
+  Try playing pong with the color finder! Move the paddleboard in pong by showing a color in the webcam or by removing it from sight! 
+  cover_photo: /images/ext-images/color_extension.png
+  video: >
+    <iframe src="https://giphy.com/embed/5kFURKHSwRN7U5RvGh" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5kFURKHSwRN7U5RvGh"></a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1DSIhryb4JrTbIO0_nkq8TGwmkMwADWky
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
 jellyfishSwim:
   name: Jellyfish Swim
