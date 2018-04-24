@@ -215,4 +215,24 @@ goodBoy:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
+musicText:
+  name: Pico and His Drums
+  link: /projects/musicText
+  short_intro: >
+    Get Pico to play his drums by telling him good things!
+  description: >
+    Use the text extension to figure out if the messages you send Pico are good or bad! If they're good, he'll play his drums. If not, he'll frown at you.  
+  cover_photo: /images/ext-images/musicText.png
+  video: >
+    <iframe src="https://giphy.com/embed/BpDg2ZXuB9Mo3XyqSr" width="480" height="404" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/BpDg2ZXuB9Mo3XyqSr"></a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1KeEXNaVBMbvM12Y--K4sOa8AUz2KSEdj
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
