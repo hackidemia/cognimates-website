@@ -32,12 +32,12 @@ rock:
   short_intro: >
     Learn how to play rock, paper, scissors with your computer!
   description: >
-    Train your computer to recognize photos of your and play rock, paper, scissors!
+    Train your computer to recognize photos of your and play rock, paper, scissors! <a href = 'https://drive.google.com/uc?export=download&id=1eV3KsXE-HhZ-Z3VeVmGeuBBjfpCQElB5'>Here</a> is a game without training so you can compare! Below, you can download the game with training. 
   cover_photo: /images/ext-images/Hands.png
   video: >
     <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=13H7GMT8gdm0ptx7XPuywuSrjjsa_KqZM
+    download_link: https://drive.google.com/uc?export=download&id=1zj0PDVINr2cBVFnx1klqgxcfjDplbS61
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
