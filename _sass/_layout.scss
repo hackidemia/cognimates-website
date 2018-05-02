@@ -54,9 +54,9 @@
   max-width: 100%;
   font-size: $small-font;
   img {
-    height: 1.5em;
+    height: 1.8em;
     bottom: 0;
-    padding: 0 10px 0 0;
+    padding: 0 0 0 0;
   }
 }
 
@@ -226,15 +226,17 @@ body {
       }
     }
 
-    .external-logo-about {
+  .external-logo-about {
     text-align: left;
     position: fixed;
     bottom: 10px;
     padding-top: 10px;
+    max-width: 100%;
+    font-size: $small-font;
     img {
-      height: 1.5em;
+      height: 1.8em;
       bottom: 0;
-      padding: 0 10px 0 0;
+      padding: 0 0 0 0;
     }
   }
 }
