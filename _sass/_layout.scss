@@ -31,8 +31,8 @@
   }
 
   .site-nav {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center; // vertical alignment
     align-items: center; // horizontal alignment
     max-width: 5%;
@@ -46,10 +46,24 @@
   }
 }
 
+.external-logo-about {
+  text-align: left;
+  position: relative;
+  bottom: 10px;
+  padding-top: 10px;
+  max-width: 100%;
+  font-size: $small-font;
+  img {
+    height: 1.5em;
+    bottom: 0;
+    padding: 0 10px 0 0;
+  }
+}
+
 //Main body
 
 body {
-  padding-top: 60px;
+  padding-top: 200px;
   padding-bottom: 0;
 }
 
@@ -201,6 +215,20 @@ body {
       width: auto;
       padding: 0 5px;
       margin-bottom: 3px;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+    .external-logo-about {
+    text-align: left;
+    position: fixed;
+    bottom: 10px;
+    padding-top: 10px;
+    img {
+      height: 1.5em;
+      bottom: 0;
+      padding: 0 10px 0 0;
     }
   }
 }
