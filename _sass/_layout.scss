@@ -32,19 +32,45 @@
 
   .site-nav {
     display: inline-flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center; // vertical alignment
     align-items: center; // horizontal alignment
-    box-sizing: content-box;
+    max-width: 80%;
     a {
       margin: 1% 1% 1% 1%;
-      padding: 9px 7px 8px 7px;
+      padding: 9px 5px 8px 5px;
       display: inline-block;
       text-align: center;
-      font-size: $med-sm-font;
+      font-size: $small-font;
     }
   }
 }
+
+.external-logo-about {
+  text-align: left;
+  position: relative;
+  bottom: 10px;
+  padding-top: 10px;
+  max-width: 100%;
+  font-size: $small-font;
+  img {
+    height: 1.8em;
+    bottom: 0;
+    padding: 0 0 0 0;
+  }
+}
+
+//Main body
+
+body {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.wide-photo{
+    max-width: 100%;
+    height: auto;
+  }
 
 // Page wrapper layout
 .grid-wrapper {
@@ -66,6 +92,8 @@
     text-align: center;
   }
 }
+
+
 
 .activities-headline {
   padding: 10px 20px;
@@ -160,6 +188,10 @@
   }
 }
 
+.main {
+    font-size: $small-font;
+}
+
 // Footer layout
 .site-footer {
   width: 80%;
@@ -187,24 +219,61 @@
   }
 }
 
+@media (min-width: 600px) {
+    .site-header {
+      .site-nav {
+        flex-wrap: nowrap;
+      }
+    }
 
+  .external-logo-about {
+    text-align: left;
+    position: fixed;
+    bottom: 10px;
+    padding-top: 10px;
+    max-width: 100%;
+    font-size: $small-font;
+    img {
+      height: 1.8em;
+      bottom: 0;
+      padding: 0 0 0 0;
+    }
+  }
+}
 
 /////////////////////////////////////////
 ////////// Small-medium layout //////////
 /////////////////////////////////////////
 
-@media (min-width: 800px) {
-
+@media (min-width: 1200px) {
+  
+  body{
+    padding-top: 10px;
+  }
   // Header updates for small-med screens
   .site-header {
     .header-content {
+      margin: 0 auto;
+      max-width: 60%;
+      flex-direction: row;
+      justify-content: space-between;
       .site-nav {
         a {
           margin: 0 15px 10px 15px;
           font-size: $medium-font;
         }
       }
+
+      .site-logo {
+        padding: 20px 0 20px 22px;
+      }
     }
+  }
+
+  .main {
+    p {
+      font-size: $medium-font;
+    } 
   }
 
   // Page wrapper updates for small-med screens
@@ -216,6 +285,8 @@
     margin-top: 155px;
     max-width: 630px;
   }
+
+
 
   // Content component updates for small-med screens
   .tiles {
@@ -243,24 +314,17 @@
 ////////// Large-medium layout //////////
 /////////////////////////////////////////
 
-@media (min-width: 900px) {
+@media (min-width: 1400px) {
 
   // Header updates for med-large screens
 
 
   .site-header {
     position: relative;
-
     .header-content {
-      flex-direction: row;
-      justify-content: space-between;
-
-      .site-logo {
-        padding: 20px 0 20px 22px;
-      }
-
+      
       .site-nav {
-        width: auto;
+        max-width: 100%;
         margin: 0;
         flex-direction: row;
         justify-content: flex-end; // horizontal alignment
@@ -272,9 +336,10 @@
     }
   }
 
+
   // Page wrapper updates for med-large screens
   .grid-wrapper {
-    width: 80%;
+    max-width: 908px;
     margin-top: 20px;
     //grid-template-columns: 3fr 2fr;
     grid-template-rows: auto auto 1fr auto;
@@ -311,9 +376,13 @@
     padding-left: 15px;
   }
 
-  .wide-photo{
-    max-width: 100%;
-    height: auto;
+  .main, .community {
+    padding-right: 10px;
+    padding-left: 0;
+  }
+
+  .callout, .details {
+    padding-left: 10px;
   }
 
   .activities-headline {
@@ -343,18 +412,8 @@
 ////////// Large layout //////////
 //////////////////////////////////
 
-@media (min-width: 1000px) {
-  // Header updates for large screens
-  .header-content {
-    max-width: 950px;
-    margin: 0 auto;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+@media (min-width: 1600px) {
 
-  .grid-wrapper {
-    max-width: 908px;
-  }
 
   .tile-wrapper {
     max-width: 908px;
@@ -367,13 +426,7 @@
     grid-template-columns: repeat(3,minmax(150px, 450px));
   }
 
-  .main, .community {
-    padding-right: 20px;
-  }
 
-  .callout, .details {
-    padding-left: 20px;
-  }
 
   .activities-headline {
     h2 {

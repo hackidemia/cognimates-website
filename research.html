@@ -10,7 +10,7 @@ permalink: /research
 	<ul>
 		{% for ref in site.data.research %}
 		    <li>
-		    		<a href={{ ref[1].link }}>{{ ref[1].name }}</a>: {{ ref[1].reference }}
+		    		<a href={{ ref[1].link }} target="_blank">{{ ref[1].name }}</a>: {{ ref[1].reference }}
 		    		{% if ref[1].image %}
 		    			<img src={{ ref[1].image | relative_url }} class='wide-photo'/>
 		    		{% endif %}

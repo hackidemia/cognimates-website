@@ -1,9 +1,9 @@
 $font: Roboto, sans-serif;
-$extra-large-font: 28px;
-$large-font: 20px;
-$medium-font: 18px;
-$med-sm-font: 14px;
-$small-font: 0.8em;
+$extra-large-font: 23px;
+$large-font: 17px;
+$medium-font: 15px;
+$med-sm-font: 12px;
+$small-font: 0.6em;
 $light-weight: 300;
 $medium-weight: 400;
 $heavy-weight: 600;
@@ -132,17 +132,6 @@ body {
 .external-logo {
   text-align: left;
   position: relative;
-  bottom: 10px;
-  img {
-    height: 1.5em;
-    bottom: 0;
-    padding: 0 10px 0 0;
-  }
-}
-
-.external-logo-about {
-  text-align: left;
-  position: fixed;
   bottom: 10px;
   img {
     height: 1.5em;
