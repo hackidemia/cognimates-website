@@ -1,10 +1,12 @@
 {% assign activity = site.data.projects[page.data_name] %}
 
+
 {% if activity.nickname %}
   {% assign short_name = activity.nickname %}
 {% else %}
   {% assign short_name = activity.name %}
 {% endif %}
+
 
 <!-- {% assign unhangout = site.data.unhangouts[page.data_name] %} -->
 
@@ -31,6 +33,7 @@
   <p>Download the project, launch Cognimates using the link above, and load the project! Use the image below as a guide for loading projects after launching Cognimates. You should be able to find the project in your downloads folder.</p>
   <a href="https://imgur.com/CrlThZv"><img src="https://i.imgur.com/CrlThZv.png" title="source: imgur.com" width='350'/></a>
     <p></p>
+
   <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
 </div>
 
@@ -39,9 +42,9 @@
     <div class="video-container">
       {{ activity.video }}
     </div>
+    <h3>{{ short_name }} at a Glance</h3>
   {% endif %}
-
-  <h3>{{ short_name }} at a Glance</h3>
+  
   <ul class="activity-details">
     {% for item in activity.details %}
       <li><span class="info-label">{{ item[0] | replace:'_',' ' | capitalize }}: </span> {{ item[1] }}</li>

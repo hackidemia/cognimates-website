@@ -14,20 +14,25 @@
     <a href="https://imgur.com/CrlThZv"><img src="https://i.imgur.com/CrlThZv.png" title="source: imgur.com" width='350'/></a>
   <p></p>
   <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
+  {% if activity.resources %}
   <h3>Here is a tutorial to get you started:</h3>
-  {% if activity.resources.guide %}
-    <p> <a href ={{ activity.resources.guide }}>Download the learning guide</a></p>
+  {% if activity.resources.guide_link %}
+    <p><a href={{ activity.resources.guide_link }}> Download the learning guide for this project</a></p>
   {% endif %}
- <!-- <ul>
-    {% for s in activity.guide %}
-      <li>
-        {{ s.step }}
-        {% if s.photo %}
-          <img src= {{ s.photo | relative_url}} class='wide-photo'/>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>!-->
+    <ul>
+      {% if activity.resources.guide %}
+      {% for s in activity.resources.guide %}
+        <li>
+          <p>{{ s.step }}</p>
+          {% if s.photo %}
+            <img src= {{ s.photo | relative_url}} class='wide-photo'/>
+          {% endif %}
+        </li>
+      {% endfor %}
+      {% endif %}
+    </ul>
+  {% endif %}
+  
 </div>
 
 <div class="details">
@@ -35,9 +40,10 @@
     <div class="video-container">
       {{ activity.video }}
     </div>
+    <h3>{{ short_name }} at a Glance</h3>
   {% endif %}
 
-  <h3>{{ short_name }} at a Glance</h3>
+  
   <ul class="activity-details">
     {% for item in activity.details %}
       <li><span class="info-label">{{ item[0] | replace:'_',' ' | capitalize }}: </span> {{ item[1] }}</li>

@@ -6,8 +6,8 @@ sentiment:
   description: >
     Learn how to make a robot react to your messages! 
   cover_photo: /images/ext-images/make-me-happy.png
-  video: >
-    <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  #video: >
+  # <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     # - description: Purchase Circuit Stickers and activity kits
     #   url: "https://chibitronics.myshopify.com/collections"
