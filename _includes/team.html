@@ -7,12 +7,13 @@
     <p>{{ p }}</p>
   {% endfor %}
 
-  <p>Interested in joing the {{ exchange.name }}? Questions about how to get involved? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
+  <p>Cognimates is a project from <a href="https://www.media.mit.edu/groups/personal-robots/overview/">Personal Robots Group</a> at MIT Media Lab, directed by <a href="https://www.media.mit.edu/people/cynthiab/overview/">Cynthia Breazeal</a>, Associate Professor of Media Arts and Sciences.
+    If you are interested in joing our {{ exchange.name }} or have questions about how to get involved <a href="mailto:cognimates@gmail.com"> get in touch with us here.</a></p>
 
 
 
   {% if exchange.team_photo %}
-      <img src={{ exchange.team_photo | relative_url }} alt="The {{ exchange.name }} team members" class='wide-photo'/>
+      <img src={{ exchange.team_photo | relative_url }} alt="The {{ exchange.name }} team members" class='header-photo'/>
   {% endif %}
   <p><i>Left to right: Tammy, Stefania, Eesh, Sarah</i></p>
   {% if exchange.team_members %}
@@ -34,6 +35,7 @@
       {% endfor %}
     </ul>
   {% endif %}
+  <p>This project has been supported by the Lego Foundation through the Lego Papert Fellowship awarded to Stefania Druga and by the NTT Data contribution to the Personal Robots AI Education SIG.</p>
 </div>
 
 {% if exchange.photos %}

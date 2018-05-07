@@ -72,7 +72,19 @@ body {
     height: auto;
   }
 
-// Page wrapper layout
+.header-photo{
+    max-width: 60%;
+    height: auto;
+    // margin: 0 auto;
+    display: flex;
+    // align-items: center; 
+  }
+
+  // .center-image{
+  //   margin: 0 auto;
+  //   display: block;
+  // }
+  // Page wrapper layout
 .grid-wrapper {
   width: 75%;
   margin: 130px auto 0 auto;
