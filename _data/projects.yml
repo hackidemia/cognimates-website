@@ -54,7 +54,7 @@ twitter:
    Learn how to find the mood of tweets!
  description: >
    Learn how to find the mood of your favorite Twitter user with the Twitter, Feelings, and Music extensions.
- cover_photo: /images/ext-images/twitter-cover.png
+ cover_photo: /images/ext-images/twitter-ext.png
  resources:
   download_link: https://drive.google.com/uc?export=download&id=1orWD6nTgykORvnYatj1lIONLmMB0_W_5 
   guide:
