@@ -4,14 +4,14 @@ sentiment:
   short_intro: > 
     Learn how to make a robot react to your messages! 
   description: >
-    Learn how to make a robot react to your messages! 
+    Learn how to make a robot react to your messages! <a href=https://drive.google.com/uc?export=download&id=1xkxYzCAJhmGYgS5lZKbZj9YFHvkCBvmk>Here</a> is a basic version without the sentiment extension. See how this compares with the version below!
   cover_photo: /images/ext-images/make-me-happy.png
   #video: >
   # <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     # - description: Purchase Circuit Stickers and activity kits
     #   url: "https://chibitronics.myshopify.com/collections"
-    download_link: https://drive.google.com/uc?export=download&id=1OJj48UjbJn_kDcoZ57nu-ycu3FI-JAQo
+    download_link: https://drive.google.com/uc?export=download&id=1N55Xuhiu_uOVnxG9G--VWfJd_Q-gJETV
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
@@ -32,12 +32,12 @@ rock:
   short_intro: >
     Learn how to play rock, paper, scissors with your computer!
   description: >
-    Train your computer to recognize photos of your and play rock, paper, scissors! <a href = 'https://drive.google.com/uc?export=download&id=1eV3KsXE-HhZ-Z3VeVmGeuBBjfpCQElB5'>Here</a> is a game without training so you can compare! Below, you can download the game with training. 
+    Train your computer to recognize photos of your and play rock, paper, scissors! <a href = 'https://drive.google.com/uc?export=download&id=1jnd-n6iNSbJw4PYwsgUOFFC5P98vB9wO'>Here</a> is a game without training so you can compare! Below, you can download the game with training. 
   cover_photo: /images/ext-images/Hands.png
   video: >
     <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=1zj0PDVINr2cBVFnx1klqgxcfjDplbS61
+    download_link: https://drive.google.com/uc?export=download&id=1MOst0ycLzQwqs4SccxhplxSX3P86BupF
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
@@ -46,6 +46,41 @@ rock:
     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+
+twitter:
+ name: Check up on Twitter
+ link: /guides/twitter
+ short_intro: >
+   Learn how to find the mood of tweets!
+ description: >
+   Learn how to find the mood of your favorite Twitter user with the Twitter, Feelings, and Music extensions.
+ cover_photo: /images/ext-images/twitter-cover.png
+ resources:
+  download_link: https://drive.google.com/uc?export=download&id=1orWD6nTgykORvnYatj1lIONLmMB0_W_5 
+  guide:
+    - step: >
+        Step 1: We will start with just a stationary thinking emoji.<br>
+                <a href="https://imgur.com/RwZRBPq"><img src="https://i.imgur.com/RwZRBPq.png" title="source - imgur.com" /></a>
+    - step: >
+        Step 2: To make this more interesting, we can use a block from Twitter to get the last tweet from someone. Then use a block from the Feelings extension to check on the mood of the Tweet. <br>
+                <a href="https://imgur.com/LbBxNms"><img src="https://i.imgur.com/LbBxNms.png" title="source - imgur.com" /></a>
+    - step: >
+        Step 3: Now that we can get the mood of the tweet, we can change the costume of the emoji to make it happy or sad, make the emoji move up or down for the mood. We can also move the emoji to show the mood.<br>
+                <a href="https://imgur.com/Gndc2Rn"><img src="https://i.imgur.com/Gndc2Rn.png" title="source - imgur.com" /></a>
+    - step: >
+        Step 4: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
+                <a href="https://imgur.com/8OhO6zs"><img src="https://i.imgur.com/8OhO6zs.png" title="source - imgur.com" /></a>
+
+ghosts_speech:
+  name: Save Me from the Ghosts!
+  link: /projects/ghosts_speech
+  short_intro: >
+    Save Dot from the scary ghosts with math! 
+  description: >
+    The scary ghosts are after Dot and want to scare him away. The only way to not have him leave is to do some math problems. Do some basic addition, multiplication, subtraction, and division to keep him happy!  
+  cover_photo: /images/ext-images/ghosts_speech.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1xYt9BmgAPjRsdhZ1l-JSjqSREElDfMe7
 
 colorDrawing:
   name: Drawing with Color Finder
@@ -58,7 +93,7 @@ colorDrawing:
   video: >
     <iframe src="https://giphy.com/embed/1X7lox7oscVoWHt8D8" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1X7lox7oscVoWHt8D8"></a></p>
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=1qAFhvMRZtgJa3nsPjsrMiIE72Fhxax7P
+    download_link: https://drive.google.com/uc?export=download&id=1CGNHap6M71u1k99lUlecWyNDIaWLFTOq
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
@@ -68,171 +103,171 @@ colorDrawing:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-saveFallingPeople:
-  name: Save the Falling People
-  link: /projects/saveFallingPeople
-  short_intro: >
-    Save the falling people using a color finder and your webcam!
-  description: >
-    Create a game using a color finder to keep falling people from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
-  cover_photo: /images/ext-images/falling.png
-  video: >
-    <iframe src="https://giphy.com/embed/6bbX027ZWFQUiPFEvR" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6bbX027ZWFQUiPFEvR"></a></p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1Xr7ZvuVqrpD6q6grpjQBAFQfEQ7Ylcs5
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+# saveFallingPeople:
+#   name: Save the Falling People
+#   link: /projects/saveFallingPeople
+#   short_intro: >
+#     Save the falling people using a color finder and your webcam!
+#   description: >
+#     Create a game using a color finder to keep falling people from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
+#   cover_photo: /images/ext-images/falling.png
+#   video: >
+#     <iframe src="https://giphy.com/embed/6bbX027ZWFQUiPFEvR" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6bbX027ZWFQUiPFEvR"></a></p>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1Xr7ZvuVqrpD6q6grpjQBAFQfEQ7Ylcs5
+#     age_range: 7 and older
+#     group_size: Variable, limited only by amount of supplies and number of facilitators
+#     facilitators: 0 or more
+#     facilitator_skills: Basic familiarity with AI concepts
+#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-recognizePuppy:
-  name: Is it a puppy?
-  link: /projects/recognizePuppy
-  short_intro: >
-    Play a game and test this puppy recognizer!
-  description: >
-    Play a game against this puppy recognizer! When the recognizer correctly identifies a webcam photo of a drawing or your surroundings as a puppy or not a puppy, the computer gets a point. If it is wrong, you get a point. This game is smart, though, because you can train it with the pictures you take! 
-  cover_photo: /images/ext-images/pup.png
-  video: >
-    <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=16PqHmLq2SKph5eTxzGmsb5PZ2Juscwu2
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+# recognizePuppy:
+#   name: Is it a puppy?
+#   link: /projects/recognizePuppy
+#   short_intro: >
+#     Play a game and test this puppy recognizer!
+#   description: >
+#     Play a game against this puppy recognizer! When the recognizer correctly identifies a webcam photo of a drawing or your surroundings as a puppy or not a puppy, the computer gets a point. If it is wrong, you get a point. This game is smart, though, because you can train it with the pictures you take! 
+#   cover_photo: /images/ext-images/pup.png
+#   video: >
+#     <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=16PqHmLq2SKph5eTxzGmsb5PZ2Juscwu2
+#     age_range: 7 and older
+#     group_size: Variable, limited only by amount of supplies and number of facilitators
+#     facilitators: 0 or more
+#     facilitator_skills: Basic familiarity with AI concepts
+#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-myFavoriteThings:
-  name: My Favorite Things
-  link: /projects/myFavoriteThings
-  short_intro: >
-    Teach Alexa your favorite things!
-  description: >
-    Learn how to teach Alexa about your favorite things, then ask her about them! 
-  cover_photo: /images/ext-images/faves.png
-  video: >
-    <iframe src="https://giphy.com/embed/4Z9dGaXJFQ3kh9jDoU" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1qk16mVRsDRVSf8q_pHekfrNUa22Oc93E
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+# myFavoriteThings:
+#   name: My Favorite Things
+#   link: /projects/myFavoriteThings
+#   short_intro: >
+#     Teach Alexa your favorite things!
+#   description: >
+#     Learn how to teach Alexa about your favorite things, then ask her about them! 
+#   cover_photo: /images/ext-images/faves.png
+#   video: >
+#     <iframe src="https://giphy.com/embed/4Z9dGaXJFQ3kh9jDoU" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1qk16mVRsDRVSf8q_pHekfrNUa22Oc93E
+#     age_range: 7 and older
+#     group_size: Variable, limited only by amount of supplies and number of facilitators
+#     facilitators: 0 or more
+#     facilitator_skills: Basic familiarity with AI concepts
+#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-clarifaiDino:
-  name: The Clarifai Dinosaur
-  link: /projects/clarifaiDino
-  short_intro: >
-    Play with this dino and see if he can recognize images!
-  description: >
-    Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
-  cover_photo: /images/ext-images/clarifaiDino.png
-  video: >
-    <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1pPW6sT2nAInNfVpj32CMWO7kWZUkEz_S
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+# clarifaiDino:
+#   name: The Clarifai Dinosaur
+#   link: /projects/clarifaiDino
+#   short_intro: >
+#     Play with this dino and see if he can recognize images!
+#   description: >
+#     Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
+#   cover_photo: /images/ext-images/clarifaiDino.png
+#   video: >
+#     <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1pPW6sT2nAInNfVpj32CMWO7kWZUkEz_S
+#     age_range: 7 and older
+#     group_size: Variable, limited only by amount of supplies and number of facilitators
+#     facilitators: 0 or more
+#     facilitator_skills: Basic familiarity with AI concepts
+#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-colorPong:
-  name: Color Pong
-  link: /projects/colorPong
-  short_intro: >
-    Play pong using the color finder!
-  description: >
-    Try playing pong with the color finder! Move the paddleboard in pong by showing a color in the webcam or by removing it from sight! 
-  cover_photo: ./images/ext-images/Color_extension.png
-  video: >
-    <iframe src="https://giphy.com/embed/5kFURKHSwRN7U5RvGh" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5kFURKHSwRN7U5RvGh"></a></p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1DSIhryb4JrTbIO0_nkq8TGwmkMwADWky
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+# colorPong:
+#   name: Color Pong
+#   link: /projects/colorPong
+#   short_intro: >
+#     Play pong using the color finder!
+#   description: >
+#     Try playing pong with the color finder! Move the paddleboard in pong by showing a color in the webcam or by removing it from sight! 
+#   cover_photo: ./images/ext-images/Color_extension.png
+#   video: >
+#     <iframe src="https://giphy.com/embed/5kFURKHSwRN7U5RvGh" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5kFURKHSwRN7U5RvGh"></a></p>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1DSIhryb4JrTbIO0_nkq8TGwmkMwADWky
+#     age_range: 7 and older
+#     group_size: Variable, limited only by amount of supplies and number of facilitators
+#     facilitators: 0 or more
+#     facilitator_skills: Basic familiarity with AI concepts
+#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-jellyfishSwim:
-  name: Jellyfish Swim
-  link: /projects/jellyfishSwim
-  short_intro: >
-    Keep the jellyfish in the frame through your words!
-  description: >
-    Try to control the motion of the jellyfish by saying good and bad things to it. Good things cause it to float up and bad things cause it to sink down. Try to keep him inside his frame!
-  cover_photo: /images/ext-images/jellyfish.png
-  video: >
-    <iframe src="https://giphy.com/embed/2aQ0dVUk1Geisr5XUT" width="480" height="221" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=14RZWCKQRkIjGhV1i3kIH5ker4llQ1G50
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+# jellyfishSwim:
+#   name: Jellyfish Swim
+#   link: /projects/jellyfishSwim
+#   short_intro: >
+#     Keep the jellyfish in the frame through your words!
+#   description: >
+#     Try to control the motion of the jellyfish by saying good and bad things to it. Good things cause it to float up and bad things cause it to sink down. Try to keep him inside his frame!
+#   cover_photo: /images/ext-images/jellyfish.png
+#   video: >
+#     <iframe src="https://giphy.com/embed/2aQ0dVUk1Geisr5XUT" width="480" height="221" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=14RZWCKQRkIjGhV1i3kIH5ker4llQ1G50
+#     age_range: 7 and older
+#     group_size: Variable, limited only by amount of supplies and number of facilitators
+#     facilitators: 0 or more
+#     facilitator_skills: Basic familiarity with AI concepts
+#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-goodBoy:
-  name: Good Boy
-  link: /projects/goodBoy
-  short_intro: >
-    Tell your pug that he's a good boy (or a bad boy).
-  description: >
-    Tell your pug that he's a good boy (or a bad boy).
-  cover_photo: /images/ext-images/dog.png
-  video: >
-    <iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1zhmLpQlNOZ3gBMuLQDQDubULTgV9tII9
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+# goodBoy:
+#   name: Good Boy
+#   link: /projects/goodBoy
+#   short_intro: >
+#     Tell your pug that he's a good boy (or a bad boy).
+#   description: >
+#     Tell your pug that he's a good boy (or a bad boy).
+#   cover_photo: /images/ext-images/dog.png
+#   video: >
+#     <iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1zhmLpQlNOZ3gBMuLQDQDubULTgV9tII9
+#     age_range: 7 and older
+#     group_size: Variable, limited only by amount of supplies and number of facilitators
+#     facilitators: 0 or more
+#     facilitator_skills: Basic familiarity with AI concepts
+#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-musicText:
-  name: Pico and His Drums
-  link: /projects/musicText
-  short_intro: >
-    Get Pico to play his drums by telling him good things!
-  description: >
-    Use the text extension to figure out if the messages you send Pico are good or bad! If they're good, he'll play his drums. If not, he'll frown at you.  
-  cover_photo: /images/ext-images/musicText.png
-  video: >
-    <iframe src="https://giphy.com/embed/BpDg2ZXuB9Mo3XyqSr" width="480" height="404" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/BpDg2ZXuB9Mo3XyqSr"></a></p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1KeEXNaVBMbvM12Y--K4sOa8AUz2KSEdj
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+# musicText:
+#   name: Pico and His Drums
+#   link: /projects/musicText
+#   short_intro: >
+#     Get Pico to play his drums by telling him good things!
+#   description: >
+#     Use the text extension to figure out if the messages you send Pico are good or bad! If they're good, he'll play his drums. If not, he'll frown at you.  
+#   cover_photo: /images/ext-images/musicText.png
+#   video: >
+#     <iframe src="https://giphy.com/embed/BpDg2ZXuB9Mo3XyqSr" width="480" height="404" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/BpDg2ZXuB9Mo3XyqSr"></a></p>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1KeEXNaVBMbvM12Y--K4sOa8AUz2KSEdj
+#     age_range: 7 and older
+#     group_size: Variable, limited only by amount of supplies and number of facilitators
+#     facilitators: 0 or more
+#     facilitator_skills: Basic familiarity with AI concepts
+#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 

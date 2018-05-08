@@ -50,3 +50,26 @@ rock:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
+twitter:
+ name: Check up on Twitter
+ link: /projects/twitter
+ short_intro: >
+   Learn how to find the mood of tweets!
+ description: >
+   Learn how to find the mood of your favorite Twitter user with the Twitter, Feelings, and Music extensions.
+ cover_photo: /images/ext-images/twitter-cover.png
+ resources:
+  download_link: https://drive.google.com/uc?export=download&id=1orWD6nTgykORvnYatj1lIONLmMB0_W_5 
+  guide:
+    - step: >
+        Step 1: We will start with just a stationary thinking emoji.<br>
+                <a href="https://imgur.com/RwZRBPq"><img src="https://i.imgur.com/RwZRBPq.png" title="source - imgur.com" /></a>
+    - step: >
+        Step 2: To make this more interesting, we can use a block from Twitter to get the last tweet from someone. Then use a block from the Feelings extension to check on the mood of the Tweet. <br>
+                <a href="https://imgur.com/LbBxNms"><img src="https://i.imgur.com/LbBxNms.png" title="source - imgur.com" /></a>
+    - step: >
+        Step 3: Now that we can get the mood of the tweet, we can change the costume of the emoji to make it happy or sad, make the emoji move up or down for the mood. We can also move the emoji to show the mood.<br>
+                <a href="https://imgur.com/Gndc2Rn"><img src="https://i.imgur.com/Gndc2Rn.png" title="source - imgur.com" /></a>
+    - step: >
+        Step 4: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
+                <a href="https://imgur.com/8OhO6zs"><img src="https://i.imgur.com/8OhO6zs.png" title="source - imgur.com" /></a>
