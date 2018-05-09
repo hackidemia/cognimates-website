@@ -1,5 +1,5 @@
 {% assign activity = site.data.projects[page.data_name] %}
-
+{% assign guides = site.data.guides[page.data_name] %}
 
 {% if activity.nickname %}
   {% assign short_name = activity.nickname %}
@@ -35,6 +35,22 @@
     <p></p>
 
   <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
+
+  {% if guides.resources %}
+  <h3>Here is a tutorial to get you started:</h3>
+    <ul>
+      {% if guides.resources.guide %}
+      {% for s in guides.resources.guide %}
+        <li>
+          <p>{{ s.step }}</p>
+          {% if s.photo %}
+            <img src= {{ s.photo | relative_url}} class='wide-photo'/>
+          {% endif %}
+        </li>
+      {% endfor %}
+      {% endif %}
+    </ul>
+  {% endif %}
 </div>
 
 <div class="details">
