@@ -103,26 +103,26 @@ colorDrawing:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-# saveFallingPeople:
-#   name: Save the Falling People
-#   link: /projects/saveFallingPeople
-#   short_intro: >
-#     Save the falling people using a color finder and your webcam!
-#   description: >
-#     Create a game using a color finder to keep falling people from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
-#   cover_photo: /images/ext-images/falling.png
-#   video: >
-#     <iframe src="https://giphy.com/embed/6bbX027ZWFQUiPFEvR" width="480" height="378" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6bbX027ZWFQUiPFEvR"></a></p>
-#   resources:
-#     download_link: https://drive.google.com/uc?export=download&id=1Xr7ZvuVqrpD6q6grpjQBAFQfEQ7Ylcs5
-#     age_range: 7 and older
-#     group_size: Variable, limited only by amount of supplies and number of facilitators
-#     facilitators: 0 or more
-#     facilitator_skills: Basic familiarity with AI concepts
-#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+saveFalling:
+  name: It's Raining Cats and Dogs!
+  link: /projects/saveFalling
+  short_intro: >
+    Save the falling cats and dogs using the color finder and your webcam!
+  description: >
+    Create a game using a color finder to keep falling cats and dogs from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
+  cover_photo: /images/ext-images/falling.png
+  video: >
+    <iframe src="https://giphy.com/embed/g0gPJx9J1XTmJ6jmqF" width="480" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/g0gPJx9J1XTmJ6jmqF"></a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
 # recognizePuppy:
 #   name: Is it a puppy?
@@ -166,26 +166,26 @@ colorDrawing:
 #     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
 #     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-# clarifaiDino:
-#   name: The Clarifai Dinosaur
-#   link: /projects/clarifaiDino
-#   short_intro: >
-#     Play with this dino and see if he can recognize images!
-#   description: >
-#     Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
-#   cover_photo: /images/ext-images/clarifaiDino.png
-#   video: >
-#     <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-#   resources:
-#     download_link: https://drive.google.com/uc?export=download&id=1pPW6sT2nAInNfVpj32CMWO7kWZUkEz_S
-#     age_range: 7 and older
-#     group_size: Variable, limited only by amount of supplies and number of facilitators
-#     facilitators: 0 or more
-#     facilitator_skills: Basic familiarity with AI concepts
-#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+clarifaiDino:
+  name: The Clarifai Dinosaur
+  link: /projects/clarifaiDino
+  short_intro: >
+    Play with this dino and see if he can recognize images!
+  description: >
+    Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
+  cover_photo: /images/ext-images/clarifaiDino.png
+  video: >
+    <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1yz3JJxnA_c-5bKdWatY9CnbtoAVSLyFy
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
 # colorPong:
 #   name: Color Pong
@@ -229,26 +229,26 @@ colorDrawing:
 #     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
 #     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-# goodBoy:
-#   name: Good Boy
-#   link: /projects/goodBoy
-#   short_intro: >
-#     Tell your pug that he's a good boy (or a bad boy).
-#   description: >
-#     Tell your pug that he's a good boy (or a bad boy).
-#   cover_photo: /images/ext-images/dog.png
-#   video: >
-#     <iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-#   resources:
-#     download_link: https://drive.google.com/uc?export=download&id=1zhmLpQlNOZ3gBMuLQDQDubULTgV9tII9
-#     age_range: 7 and older
-#     group_size: Variable, limited only by amount of supplies and number of facilitators
-#     facilitators: 0 or more
-#     facilitator_skills: Basic familiarity with AI concepts
-#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+goodBoy:
+  name: Good Boy
+  link: /projects/goodBoy
+  short_intro: >
+    Tell your pug that he's a good boy (or a bad boy).
+  description: >
+    Tell your pug that he's a good boy (or a bad boy).
+  cover_photo: /images/ext-images/dog.png
+  video: >
+    <iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1pt2SmgMXteL24uJyKX7J5AQParQEyhQv
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
 # musicText:
 #   name: Pico and His Drums
