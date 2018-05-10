@@ -47,10 +47,11 @@
 }
 
 .external-logo-about {
+  position: fixed;
   text-align: left;
-  position: relative;
   bottom: 10px;
   padding-top: 10px;
+  margin-top: 10px;
   max-width: 100%;
   font-size: $small-font;
   img {
@@ -64,7 +65,7 @@
 
 body {
   padding-top: 100px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .wide-photo{
@@ -79,17 +80,22 @@ body {
     display: flex;
     // align-items: center; 
   }
-
+ 
   // .center-image{
   //   margin: 0 auto;
   //   display: block;
   // }
   // Page wrapper layout
+
 .grid-wrapper {
   width: 75%;
   margin: 130px auto 0 auto;
   display: grid;
   grid-gap: 0;
+}
+
+.main {
+  margin-left: 5%;
 }
 
 .tile-wrapper {
@@ -257,11 +263,12 @@ body {
 ////////// Small-medium layout //////////
 /////////////////////////////////////////
 
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
   
   body{
     padding-top: 10px;
   }
+
   // Header updates for small-med screens
   .site-header {
     .header-content {
@@ -297,8 +304,6 @@ body {
     margin-top: 155px;
     max-width: 630px;
   }
-
-
 
   // Content component updates for small-med screens
   .tiles {
