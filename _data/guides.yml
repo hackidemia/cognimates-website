@@ -11,22 +11,7 @@ sentiment:
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1xkxYzCAJhmGYgS5lZKbZj9YFHvkCBvmk    
     guide_link: https://drive.google.com/uc?export=download&id=1uLtYpfGYLmRBtozMazmQSPw_p3AKTOMf
-    guide:
-      - step: > 
-          Step 1: Load the simple version of Make Me Happy. 
-        photo: /images/guides/make-me-happy/make-me-happy-1.png
-      - step: >
-          Step 2: Run the program by clicking on the green flag. How does the robot respond? What do you need to tell him for him to be happy?
-        photo: /images/guides/make-me-happy/make-me-happy-2.png
-      - step: >
-          Step 3: That's not really fun is it? Let's see if we can make him happy (or sad) depending on the feeling of the message we type him. Start by loading the Feelings extension.
-        photo: images/guides/make-me-happy/make-me-happy-3.png
-      - step: >
-          Step 4: Using one of the blocks from the Feelings extension, we can checking the feeling or mood of our message. Can you guess which one block we should use?
-        photo: images/guides/make-me-happy/make-me-happy-4.png
-      - step: >
-          Step 5: Now insead of directly checking our answer word for word, we can see if our message is happy or not. Replace your answer variable with another block from feelings. Now you're done! Try it out yourself and see what other modifications you can make using some of our other extensions.
-        photo: images/guides/make-me-happy/make-me-happy-5.png
+  
 
 rock:
   name: Rock, Paper, Scissors
@@ -38,6 +23,8 @@ rock:
   cover_photo: /images/ext-images/Hands.png
   video: >
     <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
+  photo: >
+    <a href="https://imgur.com/tI2Qa1p"><img src="https://imgur.com/tI2Qa1p.png" class='wide-photo'></a>
   resources:
     guide_link: https://drive.google.com/uc?export=download&id=1xWSQGAurOXQErBNhmoUncLHoUXSNSFhr
     download_link: https://drive.google.com/uc?export=download&id=13H7GMT8gdm0ptx7XPuywuSrjjsa_KqZM

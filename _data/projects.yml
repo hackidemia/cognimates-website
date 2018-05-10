@@ -20,6 +20,22 @@ sentiment:
     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+    guide:
+      - step: > 
+          Step 1: Load the simple version of Make Me Happy. 
+        photo: /images/projects/make-me-happy/make-me-happy-1.png
+      - step: >
+          Step 2: Run the program by clicking on the green flag. How does the robot respond? What do you need to tell him for him to be happy?
+        photo: /images/projects/make-me-happy/make-me-happy-2.png
+      - step: >
+          Step 3: That's not really fun is it? Let's see if we can make him happy (or sad) depending on the feeling of the message we type him. Start by loading the Feelings extension.
+        photo: images/projects/make-me-happy/make-me-happy-3.png
+      - step: >
+          Step 4: Using one of the blocks from the Feelings extension, we can checking the feeling or mood of our message. Can you guess which one block we should use?
+        photo: images/projects/make-me-happy/make-me-happy-4.png
+      - step: >
+          Step 5: Now insead of directly checking our answer word for word, we can see if our message is happy or not. Replace your answer variable with another block from feelings. Now you're done! Try it out yourself and see what other modifications you can make using some of our other extensions.
+        photo: images/projects/make-me-happy/make-me-happy-5.png
   photos:
     # - /images/.jpg
     # - /images/circuit_stickers_origami.jpg
@@ -233,23 +249,15 @@ goodBoy:
   name: Good Boy
   link: /projects/goodBoy
   short_intro: >
-    Tell your pug that he's a good boy (or a bad boy).
+    Say something nice to your dog, or something mean, or something backhanded.
   description: >
-    Tell your pug that he's a good boy (or a bad boy).
+    Say something to your dog and our text classification extension will recognize it as either good, bad, or even backhanded!
   cover_photo: /images/ext-images/dog.png
-  video: >
-    <iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  #video: >
+    #<iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1pt2SmgMXteL24uJyKX7J5AQParQEyhQv
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
-
+     
 # musicText:
 #   name: Pico and His Drums
 #   link: /projects/musicText
