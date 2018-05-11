@@ -6,6 +6,8 @@ sentiment:
   description: >
     Learn how to make a robot react to your messages 
   cover_photo: /images/guides/happy/make-me-happy-cover.png
+  project_link: /projects/sentiment
+  photo: /images/guides/happy/make-me-happy-guide.png
   #video: >
   #  <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
@@ -19,12 +21,12 @@ rock:
   short_intro: >
     Learn how to play rock, paper, scissors with your computer
   description: >
-    Train your computer to recognize photos of your and play rock, paper, scissors
-  cover_photo: /images/guides/rock/rock-cover.png
+    Train your computer to recognize photos of your hand and play rock, paper, scissors
+  cover_photo: /images/guides/rock/rock_paper_empow.jpg
   video: >
     <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
-  photo: >
-    <a href="https://imgur.com/tI2Qa1p"><img src="https://imgur.com/tI2Qa1p.png" class='wide-photo'></a>
+  photo: /images/guides/rock/rock-cover.png
+  project_link: /projects/rock
   resources:
     guide_link: https://drive.google.com/uc?export=download&id=1xWSQGAurOXQErBNhmoUncLHoUXSNSFhr
     download_link: https://drive.google.com/uc?export=download&id=13H7GMT8gdm0ptx7XPuywuSrjjsa_KqZM
