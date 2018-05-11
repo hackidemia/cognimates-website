@@ -11,14 +11,14 @@
   {% if activity.photo %}
     {{ activity.photo }}
   {% endif %}
+  {% if activity.resources.guide_link %}
+    <h3><a href={{ activity.resources.guide_link }}> Download the learning guide for this project</a></h3>
+  {% endif %}
   <p>{{ activity.description }}</p>
   <p> <a href ={{ activity.resources.download_link }}>Download the project</a> and <a href='https://mitmedialab.github.io/cognimates-gui/' target="_blank">launch Cognimates!</a>
     <p>Download the project, launch Cognimates using the link above, and load the project! Use the image below as a guide for loading projects after launching Cognimates. You should be able to find the project in your downloads folder.</p>
     <a href="https://imgur.com/QQGBzKX"><img src="https://i.imgur.com/QQGBzKXm.png" title="source: imgur.com" /></a>
-  <p></p>
-    {% if activity.resources.guide_link %}
-    <h3><a href={{ activity.resources.guide_link }}> Download the learning guide for this project</a></h3>
-  {% endif %}
+  <p></p> 
   <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
   
   
