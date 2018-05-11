@@ -254,20 +254,23 @@ goodBoy:
   #video: >
     #<iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=1pt2SmgMXteL24uJyKX7J5AQParQEyhQv
+    download_link: https://drive.google.com/uc?export=download&id=1mtieaOZaiykdCKUvUAB_4PrzzXB7EEgW
+    guide: 
+      - step: >
+          Step 1: 
 
-colorBeats:
-  name: Color Beats
-  link: /projects/colorBeats
-  short_intro: >
-    Make your own music and your own light show!
-  description: >
-    Using the music and smart lights extension you can choreograph and compose your own music and lightshow. 
-  cover_photo: /images/ext-images/color-beats-cover.png
+#colorBeats:
+#  name: Color Beats
+#  link: /projects/colorBeats
+#  short_intro: >
+#    Make your own music and your own light show!
+#  description: >
+#    Using the music and smart lights extension you can choreograph and compose your own music and lightshow. 
+#  cover_photo: /images/ext-images/color-beats-cover.png
   #video: >
     #<iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1ynsNdaqtkNSp4eFFFqB9xYthso_p5Hli
+#  resources:
+#    download_link: https://drive.google.com/uc?export=download&id=1ynsNdaqtkNSp4eFFFqB9xYthso_p5Hli
           
 # musicText:
 #   name: Pico and His Drums

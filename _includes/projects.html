@@ -34,10 +34,10 @@
     <br>
   <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
 
-  {% if activity.resources %}
-  <h3>Here is a tutorial to get you started:</h3>
-    <ul>
-      {% if activity.resources.guide %}
+
+  {% if activity.resources.guide %}
+    <h3>Here is a tutorial to get you started:</h3>
+    <ul>     
       {% for s in activity.resources.guide %}
         <li>
           <p>{{ s.step }}</p>
@@ -46,7 +46,6 @@
           {% endif %}
         </li>
       {% endfor %}
-      {% endif %}
     </ul>
   {% endif %}
 </div>
