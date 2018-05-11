@@ -162,26 +162,26 @@ saveFalling:
 #     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
 #     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
-# myFavoriteThings:
-#   name: My Favorite Things
-#   link: /projects/myFavoriteThings
-#   short_intro: >
-#     Teach Alexa your favorite things!
-#   description: >
-#     Learn how to teach Alexa about your favorite things, then ask her about them! 
-#   cover_photo: /images/ext-images/faves.png
-#   video: >
-#     <iframe src="https://giphy.com/embed/4Z9dGaXJFQ3kh9jDoU" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-#   resources:
-#     download_link: https://drive.google.com/uc?export=download&id=1qk16mVRsDRVSf8q_pHekfrNUa22Oc93E
-#     age_range: 7 and older
-#     group_size: Variable, limited only by amount of supplies and number of facilitators
-#     facilitators: 0 or more
-#     facilitator_skills: Basic familiarity with AI concepts
-#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+myFavoriteThings:
+  name: My Favorite Things
+  link: /projects/myFavoriteThings
+  short_intro: >
+    Teach Alexa your favorite things!
+  description: >
+    Learn how to teach Alexa about your favorite things, then ask her about them! 
+  cover_photo: /images/ext-images/alexa_faves.png
+  video: >
+    <iframe width="640" height="564" src="https://player.vimeo.com/video/269287511" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1L-z9er93zIxJVXhsoYAagY8fxdy1fa23
+    age_range: 7 and older
+    group_size: Variable, limited only by amount of supplies and number of facilitators
+    facilitators: 0 or more
+    facilitator_skills: Basic familiarity with AI concepts
+    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
+    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
+    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
+    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
 clarifaiDino:
   name: The Clarifai Dinosaur
