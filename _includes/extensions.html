@@ -1,17 +1,32 @@
 {% assign activity = site.data.extensions[page.data_name] %}
 
-{% if activity.nickname %}
-  {% assign short_name = activity.nickname %}
-{% else %}
-  {% assign short_name = activity.name %}
-{% endif %}
-
 <div class="main">
   <h2>{{ activity.name }}</h2>
   <p>{{ activity.description }}</p>
-  <p>Have feedback to share? Questions about the extensions? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
+
+  {% if activity.resources.guide %}
+    <h3>More about the {{ activity.name }} extension</h3>
+    <ul>     
+      {% for s in activity.resources.guide %}
+        <li>
+          <p>{{ s.step }}</p>
+          {% if s.photo %}
+            <img src= {{ s.photo | relative_url}} class='wide-photo'/>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>
 
+<div class="details">
+  {% if activity.video %}
+    <div class="video-container">
+      {{ activity.video }}
+    </div>
+    <h3>{{ short_name }} at a Glance</h3>
+  {% endif %}
+  
   <ul class="activity-details">
     {% for item in activity.details %}
       <li><span class="info-label">{{ item[0] | replace:'_',' ' | capitalize }}: </span> {{ item[1] }}</li>
@@ -34,3 +49,5 @@
     </div>
   </div>
 {% endif %}
+
+
