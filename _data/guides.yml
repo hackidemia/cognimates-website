@@ -39,6 +39,20 @@ rock:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
+smartLights:
+  name: Smart Lights
+  link: /guides/smartLights
+  short_intro: > 
+    Program your smart lights to react to how you're feeling.
+  description: >
+    Program your smart lights to react to how you're feeling.
+  cover_photo: /images/guides/smarthome/smartLights.jpg
+  photo: /images/guides/smarthome/smart-home-cover.png
+  project_link: /projects/smartLights
+  resources: 
+    guide_link: https://drive.google.com/uc?export=download&id=1igvBU9r99vnqElcjUuNv6TB7ZI8GtOt8
+    download_link: https://drive.google.com/uc?export=download&id=1rWPU_6Xi6rqsiON6nIMSjLuIiS2fSMh0
+
 #twitter:
 # name: Check up on Twitter
 # link: /guides/twitter

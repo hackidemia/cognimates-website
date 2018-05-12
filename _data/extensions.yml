@@ -103,6 +103,10 @@ feelings:
   resources:
     guide:
       - step: >
+<<<<<<< HEAD
+=======
+          This extension is the <a href= https://github.com/thisandagain/sentiment> Sentiment Analysis</a> public pre-trained library. 
+>>>>>>> b9560286b978ac6051955f8493ebedf2438fe0f4
                   <img src = "https://i.imgur.com/rHdmaXW.png"/ class="wide-photo">
                   <img src = "https://i.imgur.com/gXPGWU5.png"/ class="wide-photo">         
                   
