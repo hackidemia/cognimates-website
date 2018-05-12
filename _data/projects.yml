@@ -4,7 +4,7 @@ sentiment:
   short_intro: > 
     Learn how to make a robot react to your messages! 
   description: >
-    Learn how to make a robot react to your messages! <a href=https://drive.google.com/uc?export=download&id=1xkxYzCAJhmGYgS5lZKbZj9YFHvkCBvmk>Here</a> is a basic version without the sentiment extension. See how this compares with the version below!
+    Learn how to make a robot react to your messages! 
   cover_photo: /images/ext-images/make-me-happy.png
   #video: >
   # <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -23,7 +23,6 @@ sentiment:
     guide:
       - step: > 
           Step 1: Load the simple version of Make Me Happy. 
-        photo: /images/projects/make-me-happy/make-me-happy-1.png
       - step: >
           Step 2: Run the program by clicking on the green flag. How does the robot respond? What do you need to tell him for him to be happy?
         photo: /images/projects/make-me-happy/make-me-happy-2.png
@@ -131,9 +130,22 @@ cozmo_simple:
     Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks!
   cover_photo: /images/ext-images/cozmo_ext.png
   video: >
-    <iframe src="https://player.vimeo.com/video/269287520" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269287520">Cozmo_demo</a> from <a href="https://vimeo.com/user84836478">Sarah Vu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe src="https://player.vimeo.com/video/269384971" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269384971">Simple Cozmo Demo</a> from <a href="https://vimeo.com/user84836478">Sarah Vu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1L-z9er93zIxJVXhsoYAagY8fxdy1fa23
+
+cozmo_hue:
+  name: How was your day?
+  link: /projects/cozmo_hue
+  short_intro: >
+    Tell Cozmo about your day and watch him and smart lights react to your response!
+  description: >
+    This uses the cozmo extension, the smart lights extension, and the sentiment extension. By combining these extensions, you can create something that will respond to your day!
+  cover_photo: /images/ext-images/hue-lights.png
+  video: >
+    <iframe src="https://player.vimeo.com/video/269385507" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269385507">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84836478">Sarah Vu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1RJh-346OXv4tezbITpfid5OkyacR36SE
 
 
 colorDrawing:
@@ -214,7 +226,7 @@ myFavoriteThings:
     Learn how to teach Alexa about your favorite things, then ask her about them! 
   cover_photo: /images/ext-images/alexa_faves.png
   video: >
-    <iframe width="640" height="564" src="https://player.vimeo.com/video/269287511" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+    <iframe width="640" height="564" src="https://player.vimeo.com/video/269384026" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1WvVJifDkpQR0QeEjVrye4izosjxZdX1j
     guide:
@@ -283,6 +295,18 @@ colorPong:
                   <img src = "https://imgur.com/lzutp2t.png"/ class="wide-photo"> 
                   <br>How does the program know whether or not there's a certain color in the frame or not?   
 
+twitter_wemo:
+  name: Make a Wemo Plug react to Tweets!
+  link: /projects/twitter_wemo
+  short_intro: >
+    Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions. 
+  description: >
+    Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks!
+  cover_photo: /images/ext-images/wemo_twitter.png
+  video: >
+    <iframe src="https://player.vimeo.com/video/269383303" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269383303">Simple Cognimates Wemo</a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1W-VffmjMc2I5qT2p-UobHD050oILcPcQ
 # jellyfishSwim:
 #   name: Jellyfish Swim
 #   link: /projects/jellyfishSwim
