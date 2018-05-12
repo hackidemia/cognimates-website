@@ -176,11 +176,11 @@ vision:
   description: >
     This extension allows you to train models to recognize and classify different images using IBM Watson. 
   cover_photo: /images/ext-images/vision.png
-  # resources:
-  #   guide:
-  #     - step: >
-  #                 <img src = "https://i.imgur.com/Tyqglmc.png"/ class="wide-photo">
-  #                 <img src = "https://i.imgur.com/kfk1yxR.png"/ class="wide-photo">                
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://i.imgur.com/FlfuMFg.png"/ class="wide-photo">
+                  <img src = "https://i.imgur.com/UYDksI6.jpg"/ class="wide-photo">                
      
 
 text:
@@ -191,11 +191,11 @@ text:
   description: >
     This extension allows you to train models to recognize and classify different phrases using IBM Watson. 
   cover_photo: /images/ext-images/text.png
-  # resources:
-  #   guide:
-  #     - step: >
-  #                 <img src = "https://i.imgur.com/Tyqglmc.png"/ class="wide-photo">
-  #                 <img src = "https://i.imgur.com/kfk1yxR.png"/ class="wide-photo">                
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://i.imgur.com/wwRv6hR.png"/ class="wide-photo">
+                  <img src = "https://i.imgur.com/u32Nct5.jpg"/ class="wide-photo">                
 
 
 speech:
@@ -206,11 +206,50 @@ speech:
   description: >
     This extension allows you to transform what you say to text.
   cover_photo: /images/ext-images/speech.png
-  # resources:
-  #   guide:
-  #     - step: >
-  #                 <img src = "https://i.imgur.com/Tyqglmc.png"/ class="wide-photo">
-  #                 <img src = "https://i.imgur.com/kfk1yxR.png"/ class="wide-photo">                
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://i.imgur.com/djYti1p.png"/ class="wide-photo">
+                  <img src = "https://i.imgur.com/Br772gQ.jpg"/ class="wide-photo">                
+wemo:
+  name: Wemo
+  link: /extensions/wemo
+  short_intro: > 
+    The Wemo Smart Plug Extension
+  description: >
+    This extension allows you to turn a smart plug on and off and control anything else that is connected to it, things like a disco ball or a bubbles machine. 
+  cover_photo: /images/ext-images/wemo_ext.png
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://i.imgur.com/QYWVrHq.png"/ class="wide-photo">
+                  <img src = "https://i.imgur.com/q0clfct.png"/ class="wide-photo">    
+twitter:
+  name: Twitter
+  link: /extensions/twitter
+  short_intro: > 
+    The Twitter 3.0 Extension
+  description: >
+    This extension allows you to get tweets from specific accounts of hashtags and use them in your projects. 
+  cover_photo: /images/ext-images/twitter_ext.jpg
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://i.imgur.com/7OsRWut.png"/ class="wide-photo">
+                  <img src = "https://i.imgur.com/TsdLjbA.png"/ class="wide-photo">  
+microbit:
+  name: Microbit
+  link: /extensions/microbit
+  short_intro: > 
+    The Microbit Extension
+  description: >
+    This is a native Scratch extension that allows you to extension allows you to program the microbit board. 
+  cover_photo: /images/ext-images/Microbit_extension.png
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://i.imgur.com/vyFs2gc.png"/ class="wide-photo">
+                  <img src = "https://i.imgur.com/74ScHIT.jpg"/ class="wide-photo">  
 
 wedo:
   name: Wedo
@@ -218,14 +257,13 @@ wedo:
   short_intro: > 
     The Lego Wedo 2.0 Extension
   description: >
-    Connect to Lego Wedo Blocks!
+    This is a native Scratch extension that allows you to connect to Lego Wedo Bricks!
   cover_photo: /images/ext-images/wedo.png
-  # resources:
-  #   guide:
-  #     - step: >
-  #                 <img src = "https://i.imgur.com/Tyqglmc.png"/ class="wide-photo">
-  #                 <img src = "https://i.imgur.com/kfk1yxR.png"/ class="wide-photo">                
-
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://i.imgur.com/2TEmYty.png"/ class="wide-photo">
+                  <img src = "https://i.imgur.com/A0ksaXP.jpg"/ class="wide-photo">                
 
 pen:
   name: Pen
@@ -233,13 +271,13 @@ pen:
   short_intro: > 
     Draw with your sprites!
   description: >
-    Use these blocks to turn your sprites into 'pens'.
+    This is a native Scratch extension that allows you to turn sprites into 'pens'.
   cover_photo: /images/ext-images/pen.png 
-  # resources:
-  #   guide:
-  #     - step: >
-  #                 <img src = "https://i.imgur.com/Tyqglmc.png"/ class="wide-photo">
-  #                 <img src = "https://i.imgur.com/kfk1yxR.png"/ class="wide-photo">                
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://i.imgur.com/GRAm0pf.png"/ class="wide-photo">
+                  <img src = "https://i.imgur.com/RC119lq.jpg"/ class="wide-photo">                
 
 
 music:
@@ -250,11 +288,11 @@ music:
   description: >
     Use blocks to create music! You can control the tempo and use different instruments.
   cover_photo: /images/ext-images/music.png
-  # resources:
-  #   guide:
-  #     - step: >
-  #                 <img src = "https://i.imgur.com/Tyqglmc.png"/ class="wide-photo">
-  #                 <img src = "https://i.imgur.com/kfk1yxR.png"/ class="wide-photo">                
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://i.imgur.com/7gGQmTs.png"/ class="wide-photo">
+                  <img src = "https://i.imgur.com/Le5OUO2.jpg"/ class="wide-photo">                
 
 
 
