@@ -28,7 +28,7 @@ sentiment:
           Step 2: Run the program by clicking on the green flag. How does the robot respond? What do you need to tell him for him to be happy?
         photo: /images/projects/make-me-happy/make-me-happy-2.png
       - step: >
-          Step 3: That's not really fun is it? Let's see if we can make him happy (or sad) depending on the feeling of the message we type him. Start by loading the Feelings extension.
+          Step 3: That's not really fun is it? Let's see if we can make him happy (or sad) depending on the feeling of the message we type him. Start by loading the <a href="/extensions/feelings">Feelings extension</a>.
         photo: images/projects/make-me-happy/make-me-happy-3.png
       - step: >
           Step 4: Using one of the blocks from the Feelings extension, we can checking the feeling or mood of our message. Can you guess which one block we should use?
@@ -59,7 +59,30 @@ rock:
           Step 1: Download the simple version of Rock Paper Scissors <a href=https://drive.google.com/uc?export=download&id=1jnd-n6iNSbJw4PYwsgUOFFC5P98vB9wO>here</a>
         photo: /images/projects/rock/rock-1.png
       - step: >
-          Step 2: 
+          Step 2: This project uses the <a href="/extensions/vision">Vision extension</a>, which is a model you can train to recognize images. 
+                  <img src = "https://imgur.com/wxe3rOF.png"/ class="wide-photo">    
+      - step: >
+          Step 3: Click the green flag and hold your hand up to the webcam to play rock, paper, scissors with your computer! Your computer will attempt to recognize what move you played and compare it to a move that the computer randomly chose.
+                  <img src= "https://i.imgur.com/wlpxZKH.png"/ class="wide-photo">
+      - step: >
+          Step 4: Sometimes our computer doesn't recognize what our move is. 
+                  <img src= "https://i.imgur.com/8gvcIRA.png"/ class="wide-photo">
+      - step: >
+          Step 5: We can fix this problem by adding the new example that we just took with our webcam and adding it to the classifier and retrain our model! Let's start by adding broadcast blocks at the end of our scoring blocks in the "you" sprite.
+                  <img src= "https://i.imgur.com/F3BZayo.png"/ class="wide-photo">   
+      - step: >
+          Step 6: Next we need a "When I receive training" block in the "computer" sprite so that we can begin training at the end of every round.       
+                  <img src= "https://i.imgur.com/EkKpfDL.png"/ class="wide-photo">
+      - step: >
+          Step 7: Let's use another events block that will trigger everytime we press the "t" key. Let's have the computer ask us what move we actually played.
+                  <img src= "https://i.imgur.com/7dtGVYE.png"/ class="wide-photo">     
+      - step: >
+          Step 8: Using another block from the Vision extension, we can add our webcam photo to the category we just entered in our model.
+                  <img src= "https://i.imgur.com/DFhF55y.png"/ class="wide-photo">   
+      - step: >
+          Step 9: Now we can send our own example back to the model to retrain and hopefully improve it!             
+                  <img src= "https://i.imgur.com/OJygTNO.png"/ class="wide-photo"><p></p>
+                  <img src= "https://i.imgur.com/miZGtpu.png"/ class="wide-photo">
 
 twitter:
  name: Check up on Twitter
@@ -76,7 +99,10 @@ twitter:
         Step 1: We will start with just a stationary thinking emoji.<br>
                 <a href="https://imgur.com/RwZRBPq"><img src="https://i.imgur.com/RwZRBPq.png" title="source - imgur.com" /></a>
     - step: >
-        Step 2: To make this more interesting, we can use a block from Twitter to get the last tweet from someone. Then use a block from the Feelings extension to check on the mood of the Tweet. <br>
+        Step 2: To make this more interesting, we can use the <a href="/extensions/twitter">Twitter</a> to get the last tweet from someone. Then use a block from the <a href="/extensions/feelings">Feelings extension</a> to check on the mood of the Tweet. <br>
+                    <img src="https://imgur.com/UbWZMPk.png"/ class="wide-photo">
+    - step: >
+        Step 3: We can combine both the Twitter and the Feelings extensions so that we get the mood of a tweet.
                 <a href="https://imgur.com/LbBxNms"><img src="https://i.imgur.com/LbBxNms.png" title="source - imgur.com" /></a>
     - step: >
         Step 3: Now that we can get the mood of the tweet, we can change the costume of the emoji to make it happy or sad, make the emoji move up or down for the mood. We can also move the emoji to show the mood.<br>
@@ -85,16 +111,16 @@ twitter:
         Step 4: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
                 <a href="https://imgur.com/8OhO6zs"><img src="https://i.imgur.com/8OhO6zs.png" title="source - imgur.com" /></a>
 
-ghosts_speech:
-  name: Save Me from the Ghosts!
-  link: /projects/ghosts_speech
-  short_intro: >
-    Save Dot from the scary ghosts with math! 
-  description: >
-    The scary ghosts are after Dot and want to scare him away. The only way to not have him leave is to do some math problems. Do some basic addition, multiplication, subtraction, and division to keep him happy!  
-  cover_photo: /images/ext-images/ghosts_speech.png
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1xYt9BmgAPjRsdhZ1l-JSjqSREElDfMe7
+#ghosts_speech:
+# name: Save Me from the Ghosts!
+#  link: /projects/ghosts_speech
+#  short_intro: >
+#    Save Dot from the scary ghosts with math! 
+#  description: >
+#    The scary ghosts are after Dot and want to scare him away. The only way to not have him leave is to do some math problems. Do some basic addition, multiplication, subtraction, and division to keep him happy!  
+#  cover_photo: /images/ext-images/ghosts_speech.png
+#  resources:
+#    download_link: https://drive.google.com/uc?export=download&id=1xYt9BmgAPjRsdhZ1l-JSjqSREElDfMe7
 
 colorDrawing:
   name: Drawing with Color Finder
@@ -108,14 +134,17 @@ colorDrawing:
     <iframe src="https://giphy.com/embed/1X7lox7oscVoWHt8D8" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1X7lox7oscVoWHt8D8"></a></p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1CGNHap6M71u1k99lUlecWyNDIaWLFTOq
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+    guide: 
+      - step: >
+          Step 1: Start by loading the project.
+                  <img src = "https://imgur.com/oD2AXK2.png"/ class="wide-photo">  
+      - step: >
+          Step 2: This project allows you to draw using our <a href="/extensions/color">color tracking extension</a>!
+                  <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
+      - step: >
+          Step 3: When the webcam sees a certain color, the sprite will draw a line. It will stop drawing when the color disappears.
+                  <img src = "https://imgur.com/IonPnhe.png"/ class="wide-photo">   
+          <br>How does the program know whether or not there's a certain color in the frame or not?      
 
 saveFalling:
   name: It's Raining Cats and Dogs!
@@ -134,7 +163,7 @@ saveFalling:
           Step 1: Start by loading the project.
                   <img src = "https://imgur.com/HV7OT8Y.png"/ class="wide-photo">
       - step: >
-          Step 2: This project makes use of the color tracking extension. It can detect colors as they appear in and out of the webcam of your laptop. 
+          Step 2: This project uses the <a href="/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop. 
                   <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
       - step: >
           Step 3: Now pick something colorful! It can either be an object next to you or even the shirt that you're wearing and try to keep the cats and dogs out of the water! 
@@ -173,15 +202,24 @@ myFavoriteThings:
   video: >
     <iframe width="640" height="564" src="https://player.vimeo.com/video/269287511" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=1L-z9er93zIxJVXhsoYAagY8fxdy1fa23
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+    download_link: https://drive.google.com/uc?export=download&id=1WvVJifDkpQR0QeEjVrye4izosjxZdX1j
+    guide:
+      - step: >
+          Step 1: Start by loading the project. 
+                  <img src = "https://imgur.com/XylpLj1.png"/ class="wide-photo">
+      - step: >
+          Step 2: This project uses our <a href="/extensions/alexa">Alexa</a> extension. Tell Alexa to "Open personal chatbot"
+                  <img src = "https://imgur.com/eLvb7KE.png"/ class="wide-photo">          
+      - step: >
+          Step 3: Create an account by setting the username and password for yourself. Then access that account.
+                  <img src = "https://imgur.com/8E9JiW9.png"/ class="wide-photo">
+      - step: >
+          Step 4: Click the green flag and the Alexa on your screen will return to you an access code. Say "Connect" to your physical Alexa, followed by the access code. This will allow you to program your Alexa!
+                  <img src = "https://imgur.com/NVIZzWv.png"/ class="wide-photo">   
+      - step: >
+          Step 5: Let's try to teach her our favorite band!          
+                  <img src = "https://imgur.com/5aRVKRr.png"/ class="wide-photo">   
+                  <br>Ask Alexa what your favorite band is and hear what else she has to say! What else could you teach Alexa?
 
 clarifaiDino:
   name: The Clarifai Dinosaur
@@ -195,14 +233,17 @@ clarifaiDino:
     <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1yz3JJxnA_c-5bKdWatY9CnbtoAVSLyFy
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <img src = "https://imgur.com/yubOzt6.png"/ class="wide-photo">
+      - step: >
+          Step 2: This project uses the <a href= "/extensions/clarifai">Clarifai extension</a>, which can recognize objects from a photo that your webcam takes.
+                  <img src = "https://imgur.com/ucnhnlG.png"/ class="wide-photo">
+      - step: >
+          Step 3: Click the green flag to play with the dinosaur! He will take a photo with the webcam on your laptop and try to recognize the objects that he sees. Then, he will tell you his predictions one by one and he gets a point if he is right. 
+                  <img src = "https://imgur.com/l9ME8HV.png"/ class="wide-photo">       
+                  <br>How did you do against the dinosaur?  
 
 colorPong:
   name: Color Pong
@@ -216,14 +257,17 @@ colorPong:
     <iframe src="https://giphy.com/embed/5kFURKHSwRN7U5RvGh" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5kFURKHSwRN7U5RvGh"></a></p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1dLSSAUngL1CaDJr71X7zEqk_jrD6qs9W
-    age_range: 7 and older
-    group_size: Variable, limited only by amount of supplies and number of facilitators
-    facilitators: 0 or more
-    facilitator_skills: Basic familiarity with AI concepts
-    activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-    session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-    cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-    supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <img src = "https://imgur.com/WMDcnIs.png"/ class="wide-photo">   
+      - step: >
+          Step 2: This project uses the <a href="/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop. 
+                  <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">       
+      - step: >
+          Step 3: You can control the paddleboard in pong by showing the webcam a color, or by removing the color.
+                  <img src = "https://imgur.com/lzutp2t.png"/ class="wide-photo"> 
+                  <br>How does the program know whether or not there's a certain color in the frame or not?   
 
 # jellyfishSwim:
 #   name: Jellyfish Swim
@@ -266,7 +310,7 @@ goodBoy:
           Step 2: Click on the green flag and see what happens when you say, "Good boy!" Or, how about when you say, "Bad boy!" How does the puppy react?
                   <img src = "https://imgur.com/VjSYzPi.png"/ class="wide-photo">
       - step: >
-          Step 3: What if we wanted to say other things besides "Good boy" or "Bad boy"? Using our Text extension, we can use a text classifier to recognize whether your message is good or bad. Start by loading the Text extension.
+          Step 3: What if we wanted to say other things besides "Good boy" or "Bad boy"? Using our Text extension, we can use a text classifier to recognize whether your message is good or bad. Start by loading the <a href="/extensions/text">Text extension</a>.
                   <img src = "https://imgur.com/zZJappa.png"/ class="wide-photo">
       - step: >
           Step 4: Using one of the blocks from the Text extension we can recognize whether or not our speech is good or bad. Can you guess which one that might be?<br>
