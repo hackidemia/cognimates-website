@@ -331,6 +331,36 @@ goodBoy:
           Step 9: All we need to do is add another "When text is" block for backhanded and have him act confused when he receives a backhanded compliment (as one usually is). 
                   <img src = "https://imgur.com/bXnDBMM.png"/ class="wide-photo"> 
 
+smartLights:
+  name: Smart lights
+  link: /projects/smartLights
+  short_intro: >
+    Program your smart lights to react to how you're feeling.
+  description: >
+    Program your smart lights to react to how you're feeling.
+  cover_photo: 
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1rWPU_6Xi6rqsiON6nIMSjLuIiS2fSMh0
+    guide:
+      - step: >
+          Step 1: Start by loading our starter project for Smart lights. You can download it <a href="https://drive.google.com/uc?export=download&id=1WfdCzakpQPz4jnaPt8jY47w6kNkEVVJx"> here</a>.
+                  <img src = "https://imgur.com/krXWpwv"/ class="wide-photo">    
+      - step: >
+          Step 2: Right now, the lights are only reacting to specific phrases. How can we make it react to the mood of our response? Let's load the <a href="/extensions/feelings">Feelings extension</a>. 
+        photo: images/projects/make-me-happy/make-me-happy-3.png 
+      - step: >
+          Step 3: With the Feelings extension we can get the mood or feeling our speech. 
+                  <img src = "https://imgur.com/zCwbCN7.png"/ class="wide-photo"> 
+      - step: >
+          Step 4: In order for our lights to know when to start analyzing our speech, we need to broadcast that we are done listening. So let's use a broadcast block and have the message be received by another block. 
+                  <img src = "https://imgur.com/WyCtYos.png"/ class="wide-photo">
+      - step: >
+          Step 5: Now instead of having the light colors change according to exactly what we're saying, we can have them change depending on if we're feeling positive (good), negative (bad), or neutral (somewhere in between).
+                  <img src = "https://imgur.com/4FFx4GP.png"/ class="wide-photo">  
+                  <br>
+                  Check out all the cool things you could do with smart lights!
+                  <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">        
+
 #colorBeats:
 #  name: Color Beats
 #  link: /projects/colorBeats
