@@ -351,13 +351,13 @@ smartLights:
     Program your smart lights to react to how you're feeling.
   description: >
     Program your smart lights to react to how you're feeling.
-  cover_photo: 
+  cover_photo: /images/ext-images/hue.JPG
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1rWPU_6Xi6rqsiON6nIMSjLuIiS2fSMh0
     guide:
       - step: >
           Step 1: Start by loading our starter project for Smart lights. You can download it <a href="https://drive.google.com/uc?export=download&id=1WfdCzakpQPz4jnaPt8jY47w6kNkEVVJx"> here</a>.
-                  <img src = "https://imgur.com/krXWpwv"/ class="wide-photo">    
+                  <img src = "https://imgur.com/krXWpwv.png"/ class="wide-photo">    
       - step: >
           Step 2: Right now, the lights are only reacting to specific phrases. How can we make it react to the mood of our response? Let's load the <a href="/extensions/feelings">Feelings extension</a>. 
         photo: images/projects/make-me-happy/make-me-happy-3.png 
