@@ -130,7 +130,7 @@ cozmo_simple:
     Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks!
   cover_photo: /images/ext-images/cozmo_ext.png
   video: >
-    <iframe src="https://player.vimeo.com/video/269384971" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269384971">Simple Cozmo Demo</a> from <a href="https://vimeo.com/user84836478">Sarah Vu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe src="https://player.vimeo.com/video/269392318" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392318">Simple Cozmo Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1L-z9er93zIxJVXhsoYAagY8fxdy1fa23
 
@@ -143,7 +143,7 @@ cozmo_hue:
     This uses the cozmo extension, the smart lights extension, and the sentiment extension. By combining these extensions, you can create something that will respond to your day!
   cover_photo: /images/ext-images/hue-lights.png
   video: >
-    <iframe src="https://player.vimeo.com/video/269385507" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269385507">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84836478">Sarah Vu</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe src="https://player.vimeo.com/video/269392411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392411">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1RJh-346OXv4tezbITpfid5OkyacR36SE
 
@@ -226,7 +226,7 @@ myFavoriteThings:
     Learn how to teach Alexa about your favorite things, then ask her about them! 
   cover_photo: /images/ext-images/alexa_faves.png
   video: >
-    <iframe width="640" height="564" src="https://player.vimeo.com/video/269384026" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+    <iframe src="https://player.vimeo.com/video/269392197" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392197">Simple Alexa Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1WvVJifDkpQR0QeEjVrye4izosjxZdX1j
     guide:
@@ -304,7 +304,7 @@ twitter_wemo:
     Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks!
   cover_photo: /images/ext-images/wemo_twitter.png
   video: >
-    <iframe src="https://player.vimeo.com/video/269383303" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269383303">Simple Cognimates Wemo</a></p>
+    <iframe src="https://player.vimeo.com/video/269392274" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392274">Simple Cognimates Wemo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1W-VffmjMc2I5qT2p-UobHD050oILcPcQ
 # jellyfishSwim:
