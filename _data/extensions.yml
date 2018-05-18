@@ -234,7 +234,17 @@ wemo:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/QYWVrHq.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/q0clfct.png"/ class="wide-photo">    
+                  <img src = "https://i.imgur.com/q0clfct.png"/ class="wide-photo">   
+      - step: Just like Smart Lights, to control a wemo switch, you will need to open codelab with Chrome's "incognito mode". Follow these steps to do so&#58;
+                  <ol>
+                    <li> First, open a new icognito window. <br><br>
+                      <a href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
+                    <li> Second, copy and paste this into the browser&#58; codelab.cognimates.me <br><br>
+                    <a href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
+                    If your browser looks like the image above, then you have opened codelab in http successfully! Note that you cannot use your camera or microphone on the http version of the codelab. This is a rule set by Google Chrome for security reasons.</li>
+                  </ol>
+      - step: You will also have to download and run this server file to connect to your Wemo Switch&#58; <a href = "https://gist.github.com/satvu/97c143a62ef4df71be7dbadb032b68cb">wemoSwitch.js</a> You can run this file using the command "node wemoSwitch.js". For instructions for installing Node into your computer, click this link <a href="https://nodejs.org/en/">here</a>.
+      - step: After running the above command, if you see the following text&#58; <i>Server running on localhost&#58;3000</i> followed by <i>Wemo Device Found</i>, then congrats! You have set up wemo correctly and can now use it with Cognnimates.
 twitter:
   name: Twitter
   link: /extensions/twitter
