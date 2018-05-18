@@ -68,13 +68,14 @@ cozmo:
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
-      - step: >
-          This is extension is using <a href= http://cozmosdk.anki.com/docs/> the Anki SDK</a> and a Python back-end connection to robot via a phone that has the Cozmo app installed.
-                  <img src = "https://i.imgur.com/2M6IsMh.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/9OxjJri.png"/ class="wide-photo">         
-
-      # - step: >
-      #     Example projects: This project makes use of the cognimate extension. It will guide you through steps to make a program that will teach the cognimate your name. 
+      - step: This is extension is using <a href= http://cozmosdk.anki.com/docs/> the Anki SDK</a> and a Python back-end connection to robot via a phone that has the Cozmo app installed.
+                    <br><img src = "https://i.imgur.com/2M6IsMh.png"/ class="wide-photo">
+                    <br><img src = "https://i.imgur.com/9OxjJri.png"/ class="wide-photo">
+      - step: After setting up the Anki SDK, you will need to save this file on your computer&#58; <a href = "https://gist.github.com/satvu/ea30a361d433f393d29c423b06993f62">cozmo-ext.py</a>. <b>Make sure that you do not save this file with the name cozmo.py. Please save it as cozmo-ext.py</b>.      
+      - step: Before using the Cozmo extension, connect Cozmo to your computer with your phone in SDK mode. Refer to the Anki setup for more information. Then, run the file above in a shell/terminal using the command "python3 cozmo-ext.py" (or "python3 [filename]").
+      - step: If your shell/terminal looks something like the image below, then congrats! You have connected to Cozmo successfully. <br> <br> <img src="https://i.imgur.com/IJQWyXOm.png" title="source -  imgur.com" /> <br>
+          
+      
 
 
 clarifai:
