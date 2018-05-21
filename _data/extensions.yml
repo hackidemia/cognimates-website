@@ -215,7 +215,7 @@ speech:
   short_intro: > 
     Talk to your computer and have it talk back to you! 
   description: >
-    This extension allows you to transform what you say to text. This extension was inspired by the Scratch team's<a href=https://preview.scratch.mit.edu/>speech extension</a> but the code was modified and adapted especially for Cognimates project's needs. 
+    This extension allows you to transform what you say to text. This extension was inspired by the Scratch team's<a href=https://preview.scratch.mit.edu/> speech extension</a> but the code was modified and adapted especially for Cognimates project's needs. 
   cover_photo: /images/ext-images/speech.png
   resources:
     guide:
