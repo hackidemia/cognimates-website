@@ -216,7 +216,7 @@ speech:
     Talk to your computer and have it talk back to you! 
   description: >
     This extension allows you to transform what you say to text.
-  cover_photo: /images/ext-images/speech.png
+  cover_photo: /images/ext-images/speech-ext-new.jpg
   resources:
     guide:
       - step: >
@@ -264,7 +264,7 @@ microbit:
   short_intro: > 
     The Microbit Extension
   description: >
-    This is a native Scratch extension that allows you to extension allows you to program the microbit board. 
+    This is a  Scratch extension that allows you to extension allows you to program the microbit board. 
   cover_photo: /images/ext-images/Microbit_extension.png
   resources:
     guide:
@@ -272,48 +272,48 @@ microbit:
                   <img src = "https://i.imgur.com/vyFs2gc.png"/ class="wide-photo">
                   <img src = "https://i.imgur.com/74ScHIT.jpg"/ class="wide-photo">  
 
-wedo:
-  name: Wedo
-  link: /extensions/wedo
-  short_intro: > 
-    The Lego Wedo 2.0 Extension
-  description: >
-    This is a native Scratch extension that allows you to connect to Lego Wedo Bricks!
-  cover_photo: /images/ext-images/wedo.png
-  resources:
-    guide:
-      - step: >
-                  <img src = "https://i.imgur.com/2TEmYty.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/A0ksaXP.jpg"/ class="wide-photo">                
+#wedo:
+#  name: Wedo
+#  link: /extensions/wedo
+#  short_intro: > 
+#    The Lego Wedo 2.0 Extension
+#  description: >
+#    This is a native Scratch extension that allows you to connect to Lego Wedo Bricks!
+#  cover_photo: /images/ext-images/wedo.png
+#  resources:
+#    guide:
+#      - step: >
+#                  <img src = "https://i.imgur.com/2TEmYty.png"/ class="wide-photo">
+#                  <img src = "https://i.imgur.com/A0ksaXP.jpg"/ class="wide-photo">                
 
-pen:
-  name: Pen
-  link: /extensions/pen
-  short_intro: > 
-    Draw with your sprites!
-  description: >
-    This is a native Scratch extension that allows you to turn sprites into 'pens'.
-  cover_photo: /images/ext-images/pen.png 
-  resources:
-    guide:
-      - step: >
-                  <img src = "https://i.imgur.com/GRAm0pf.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/RC119lq.jpg"/ class="wide-photo">                
+#pen:
+#  name: Pen
+#  link: /extensions/pen
+#  short_intro: > 
+#    Draw with your sprites!
+#  description: >
+#    This is a native Scratch extension that allows you to turn sprites into 'pens'.
+#  cover_photo: /images/ext-images/pen.png 
+#  resources:
+#    guide:
+#      - step: >
+#                  <img src = "https://i.imgur.com/GRAm0pf.png"/ class="wide-photo">
+#                  <img src = "https://i.imgur.com/RC119lq.jpg"/ class="wide-photo">                
 
 
-music:
-  name: Music
-  link: /extensions/music
-  short_intro: > 
-    Play music with Scratch!
-  description: >
-    Use blocks to create music! You can control the tempo and use different instruments.
-  cover_photo: /images/ext-images/music.png
-  resources:
-    guide:
-      - step: >
-                  <img src = "https://i.imgur.com/7gGQmTs.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/Le5OUO2.jpg"/ class="wide-photo">                
+#music:
+#  name: Music
+#  link: /extensions/music
+#  short_intro: > 
+#    Play music with Scratch!
+#  description: >
+#    Use blocks to create music! You can control the tempo and use different instruments.
+#  cover_photo: /images/ext-images/music.png
+#  resources:
+#    guide:
+#      - step: >
+#                  <img src = "https://i.imgur.com/7gGQmTs.png"/ class="wide-photo">
+#                  <img src = "https://i.imgur.com/Le5OUO2.jpg"/ class="wide-photo">                
 
 
 
