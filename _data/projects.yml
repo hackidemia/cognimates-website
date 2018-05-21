@@ -127,7 +127,7 @@ cozmo_simple:
   short_intro: >
     Check out some of Cozmo's moves!
   description: >
-    Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks!
+    Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks! For more information on connecting to Cozmo through Cognimates, check out the Cozmo extension page for more information.
   cover_photo: /images/ext-images/cozmo_ext.png
   video: >
     <iframe src="https://player.vimeo.com/video/269392318" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392318">Simple Cozmo Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -140,7 +140,7 @@ cozmo_hue:
   short_intro: >
     Tell Cozmo about your day and watch him and smart lights react to your response!
   description: >
-    This uses the cozmo extension, the smart lights extension, and the sentiment extension. By combining these extensions, you can create something that will respond to your day!
+    This uses the cozmo extension, the smart lights extension, and the sentiment extension. By combining these extensions, you can create something that will respond to your day! If you are having trouble connecting to your Hue Lights or Cozmo, check out the extensions pages for instructions on how to connect to these devices.
   cover_photo: /images/ext-images/hue-lights.png
   video: >
     <iframe src="https://player.vimeo.com/video/269392411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392411">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -374,7 +374,7 @@ smartLights:
   short_intro: >
     Program your smart lights to react to how you're feeling.
   description: >
-    Program your smart lights to react to how you're feeling.
+    Program your smart lights to react to how you're feeling. Find instructions for connecting to Smart Lights at the Smart Lights extension page!
   cover_photo: /images/ext-images/hue.JPG
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1rWPU_6Xi6rqsiON6nIMSjLuIiS2fSMh0

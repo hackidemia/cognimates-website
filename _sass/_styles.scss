@@ -67,6 +67,7 @@ body {
     text-decoration: none;
     color: $main-color;
     font-weight: $heavy-weight;
+    white-space: nowrap;
   }
 
   a.active {

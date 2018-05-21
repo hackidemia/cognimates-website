@@ -68,13 +68,14 @@ cozmo:
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
-      - step: >
-          This is extension is using <a href= http://cozmosdk.anki.com/docs/> the Anki SDK</a> and a Python back-end connection to robot via a phone that has the Cozmo app installed.
-                  <img src = "https://i.imgur.com/2M6IsMh.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/9OxjJri.png"/ class="wide-photo">         
-
-      # - step: >
-      #     Example projects: This project makes use of the cognimate extension. It will guide you through steps to make a program that will teach the cognimate your name. 
+      - step: This is extension is using <a href= http://cozmosdk.anki.com/docs/> the Anki SDK</a> and a Python back-end connection to robot via a phone that has the Cozmo app installed.
+                    <br><img src = "https://i.imgur.com/2M6IsMh.png"/ class="wide-photo">
+                    <br><img src = "https://i.imgur.com/9OxjJri.png"/ class="wide-photo">
+      - step: After setting up the Anki SDK, you will need to save this file on your computer&#58; <a href = "https://gist.github.com/satvu/ea30a361d433f393d29c423b06993f62">cozmo-ext.py</a>. <b>Make sure that you do not save this file with the name cozmo.py. Please save it as cozmo-ext.py</b>.      
+      - step: Before using the Cozmo extension, connect Cozmo to your computer with your phone in SDK mode. Refer to the Anki setup for more information. Then, run the file above in a shell/terminal using the command "python3 cozmo-ext.py" (or "python3 [filename]").
+      - step: If your shell/terminal looks something like the image below, then congrats! You have connected to Cozmo successfully. <br> <br> <img src="https://i.imgur.com/IJQWyXOm.png" title="source -  imgur.com" /> <br>
+          
+      
 
 
 clarifai:
@@ -166,7 +167,17 @@ smartLights:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/Tyqglmc.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/kfk1yxR.png"/ class="wide-photo">                
+                  <img src = "https://i.imgur.com/kfk1yxR.png"/ class="wide-photo"> <br> <br>
+                  This extension will only work on Chrome's "incognito mode". Phillips Hue Lights can only be connected through an http URL, and most browsers only use https for security reasions. Follow these instructions to use your Phillips Hue Lights&#58;
+                  <ol>
+                    <li> First, open a new icognito window. <br><br>
+                      <a href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
+                    <li> Second, copy and paste this into the browser&#58; codelab.cognimates.me <br><br>
+                    <a href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
+                    If your browser looks like the image above, then you have opened codelab in http successfully! Note that you cannot use your camera or microphone on the http version of the codelab. This is a rule set by Google Chrome for security reasons.</li>
+                    <br><br><li>If you are using this extension for the first time with your Phillips Hue Lights, you need to connect to your bridge. Make sure you are on the same wifi network as the Phillips Bridge. Then, open the Extensions Library. Before loading the Smart Lights extension, click the center of your Phillips bridge.<br><br>
+                    <img src="https://i.imgur.com/zrtno6ym.jpg" title="source - imgur.com" /><br><br> After clicking the Hue Bridge, click on the Smart Lights Extension. This is the only time you have to run this step. The extension will connect and load automatically from now on.</li>
+                  </ol>             
 
 vision:
   name: Vision
@@ -223,7 +234,17 @@ wemo:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/QYWVrHq.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/q0clfct.png"/ class="wide-photo">    
+                  <img src = "https://i.imgur.com/q0clfct.png"/ class="wide-photo">   
+      - step: Just like Smart Lights, to control a wemo switch, you will need to open codelab with Chrome's "incognito mode". Follow these steps to do so&#58;
+                  <ol>
+                    <li> First, open a new icognito window. <br><br>
+                      <a href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
+                    <li> Second, copy and paste this into the browser&#58; codelab.cognimates.me <br><br>
+                    <a href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
+                    If your browser looks like the image above, then you have opened codelab in http successfully! Note that you cannot use your camera or microphone on the http version of the codelab. This is a rule set by Google Chrome for security reasons.</li>
+                  </ol>
+      - step: You will also have to download and run this server file to connect to your Wemo Switch&#58; <a href = "https://gist.github.com/satvu/97c143a62ef4df71be7dbadb032b68cb">wemoSwitch.js</a> You can run this file using the command "node wemoSwitch.js". For instructions for installing Node into your computer, click this link <a href="https://nodejs.org/en/">here</a>.
+      - step: After running the above command, if you see the following text&#58; <i>Server running on localhost&#58;3000</i> followed by <i>Wemo Device Found</i>, then congrats! You have set up wemo correctly and can now use it with Cognnimates.
 twitter:
   name: Twitter
   link: /extensions/twitter
@@ -251,48 +272,48 @@ microbit:
                   <img src = "https://i.imgur.com/vyFs2gc.png"/ class="wide-photo">
                   <img src = "https://i.imgur.com/74ScHIT.jpg"/ class="wide-photo">  
 
-wedo:
-  name: Wedo
-  link: /extensions/wedo
-  short_intro: > 
-    The Lego Wedo 2.0 Extension
-  description: >
-    This is a native Scratch extension that allows you to connect to Lego Wedo Bricks!
-  cover_photo: /images/ext-images/wedo.png
-  resources:
-    guide:
-      - step: >
-                  <img src = "https://i.imgur.com/2TEmYty.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/A0ksaXP.jpg"/ class="wide-photo">                
+#wedo:
+#  name: Wedo
+#  link: /extensions/wedo
+#  short_intro: > 
+#    The Lego Wedo 2.0 Extension
+#  description: >
+#    This is a native Scratch extension that allows you to connect to Lego Wedo Bricks!
+#  cover_photo: /images/ext-images/wedo.png
+#  resources:
+#    guide:
+#      - step: >
+#                  <img src = "https://i.imgur.com/2TEmYty.png"/ class="wide-photo">
+#                  <img src = "https://i.imgur.com/A0ksaXP.jpg"/ class="wide-photo">                
 
-pen:
-  name: Pen
-  link: /extensions/pen
-  short_intro: > 
-    Draw with your sprites!
-  description: >
-    This is a native Scratch extension that allows you to turn sprites into 'pens'.
-  cover_photo: /images/ext-images/pen.png 
-  resources:
-    guide:
-      - step: >
-                  <img src = "https://i.imgur.com/GRAm0pf.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/RC119lq.jpg"/ class="wide-photo">                
+#pen:
+#  name: Pen
+#  link: /extensions/pen
+#  short_intro: > 
+#    Draw with your sprites!
+#  description: >
+#    This is a native Scratch extension that allows you to turn sprites into 'pens'.
+#  cover_photo: /images/ext-images/pen.png 
+#  resources:
+#    guide:
+#      - step: >
+#                  <img src = "https://i.imgur.com/GRAm0pf.png"/ class="wide-photo">
+#                  <img src = "https://i.imgur.com/RC119lq.jpg"/ class="wide-photo">                
 
 
-music:
-  name: Music
-  link: /extensions/music
-  short_intro: > 
-    Play music with Scratch!
-  description: >
-    Use blocks to create music! You can control the tempo and use different instruments.
-  cover_photo: /images/ext-images/music.png
-  resources:
-    guide:
-      - step: >
-                  <img src = "https://i.imgur.com/7gGQmTs.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/Le5OUO2.jpg"/ class="wide-photo">                
+#music:
+#  name: Music
+#  link: /extensions/music
+#  short_intro: > 
+#    Play music with Scratch!
+#  description: >
+#    Use blocks to create music! You can control the tempo and use different instruments.
+#  cover_photo: /images/ext-images/music.png
+#  resources:
+#    guide:
+#      - step: >
+#                  <img src = "https://i.imgur.com/7gGQmTs.png"/ class="wide-photo">
+#                  <img src = "https://i.imgur.com/Le5OUO2.jpg"/ class="wide-photo">                
 
 
 
