@@ -22,7 +22,7 @@ sentiment:
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
     guide:
       - step: > 
-          Step 1: Load the simple version of Make Me Happy <a href=https://drive.google.com/uc?export=download&id=19YbMoQI9Jf3Gv6JtUFyF_vKzsJAeQGHv>here</a>. If it is loud where you are, the speech extension may not work properly. Try loading <a href=https://drive.google.com/uc?export=download&id=1w6S-M8OuQ2unS6VlH33ZncbJDK2TFUXt>this</a> version instead. 
+          Step 1: Load the simple version of Make Me Happy <a href=https://drive.google.com/uc?export=download&id=1qAOBaduqQ4ebQy6jM9ShDYNLgAMF1fyz>here</a>. If it is loud where you are, the speech extension may not work properly. Try loading <a href=https://drive.google.com/uc?export=download&id=1w6S-M8OuQ2unS6VlH33ZncbJDK2TFUXt>this</a> version instead. 
       - step: >
           Step 2: Run the program by clicking on the green flag. How does the robot respond? What do you need to tell him for him to be happy?
         photo: /images/projects/make-me-happy/make-me-happy-2.png
@@ -363,9 +363,7 @@ goodBoy:
       - step: >
           Step 8: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.
                   <img src = "https://imgur.com/pnQ0mgR.png"/ class="wide-photo">          
-      - step: >
-          Step 9: All we need to do is add another "When text is" block for backhanded and have him act confused when he receives a backhanded compliment (as one usually is). 
-                  <img src = "https://imgur.com/bXnDBMM.png"/ class="wide-photo"> 
+
 smartLights:
   name: Smart lights
   link: /projects/smartLights
