@@ -393,7 +393,30 @@ smartLights:
                   <br>
                   Check out all the cool things you could do with smart lights!
                   <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">        
-
+ghost:
+  name: Bouncing Ghost
+  link: /projects/ghost
+  short_intro: >
+    Make a ghost bounce everytime you blink.
+  description: >
+    Make a ghost bounce everytime you blink using a Muse headset and our Muse extension.
+  cover_photo: /images/ext-images/ghost.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1eHvZJ1ITinJGjHq3QOX8KMhdCJF-KZgg
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <img src = "https://imgur.com/2VPlDu7.png"/ class="wide-photo">
+      - step: >
+          Step 2: Click on the green flag. Your browser will ask if it is ok to show you notifications. Click allow and you should see a notification. Click on the notification to connect to your headset using Bluetooth.
+                  <img src = "https://imgur.com/YUIOvl0.png"/ class="wide-photo">
+      - step: >
+          Step 3: You should see a menu of Bluetooth devices appear. Select your Muse headset and click pair.
+                  <img src = "https://imgur.com/N36MOGk.png"/ class="wide-photo">
+      - step: >
+          Step 4: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts!
+                  <img src = "https://imgur.com/xf3KSOP.png"/ class="wide-photo">
+          
 # colorBeats:
 #  name: Color Beats
 #  link: /projects/colorBeats
