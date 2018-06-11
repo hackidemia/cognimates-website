@@ -416,7 +416,36 @@ ghost:
       - step: >
           Step 4: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts!
                   <img src = "https://imgur.com/xf3KSOP.png"/ class="wide-photo">
-          
+
+gobocolor:
+  name: Change Gobo's Color
+  link: /projects/gobocolor
+  short_intro: >
+    Use color recognition to change Gobo’s fur color.
+  description: >
+    Using the color extension, track colors and change the color of Gobo from yellow to red!
+  cover_photo: /images/ext-images/gobocolor.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1I8y_9AJvit-2G7KopI9LAumrH-ZsAfX6
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <img src = "https://imgur.com/4ON4TVM.png"/ class="wide-photo"><br>
+                  <img src = "https://imgur.com/Dr98zvW.png"/ class="wide-photo">
+      - step: >
+          Step 2: Run the program by clicking on the green flag. Gobo’s going to start off yellow and ask to get his color changed. He’ll be impatient at first - see if you can fix it by putting a red object in front of the camera!
+                  <img src = "https://imgur.com/q82QBy0.png"/ class="wide-photo"><br>
+                  <img src = "https://imgur.com/lUVWmWg.png"/ class="wide-photo">
+      - step: >
+          Step 3: Yay, Gobo’s color changed! If you click on Gobo’s sprite at the bottom right, you can see what other costumes (aka fur colors) are available. Adjust the code so that Gobo’s eyes change with any of the given colors. Now, we can track for more than just red and have even more variety!
+                  <img src = "https://imgur.com/5fduszZ.png"/ class="wide-photo">
+      - step: >
+          Step 4: Try adding your own colors that the camera could track. Remember that once you add a color, it’ll track colors that are within the same color range - for example, light green, medium green, and dark green might all be tracked if you set medium green to be the tracked color. Go for the classic rainbow colors - give Gobo new costumes so that he can be pretty in all different colors!
+                  <img src = "https://imgur.com/OrD7YAG.png"/ class="wide-photo"><br>
+                  <img src = "https://imgur.com/2qa7IFX.png"/ class="wide-photo">
+
+
+
 # colorBeats:
 #  name: Color Beats
 #  link: /projects/colorBeats
