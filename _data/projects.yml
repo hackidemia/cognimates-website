@@ -301,7 +301,7 @@ twitter_wemo:
   short_intro: >
     Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions. 
   description: >
-    Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks!
+    Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions. 
   cover_photo: /images/ext-images/wemo_twitter.png
   video: >
     <iframe src="https://player.vimeo.com/video/269392274" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392274">Simple Cognimates Wemo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
