@@ -416,7 +416,35 @@ ghost:
       - step: >
           Step 4: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts!
                   <img src = "https://imgur.com/xf3KSOP.png"/ class="wide-photo">
-          
+
+violet:
+  name: Change Violet's Tummy
+  link: /projects/violet
+  short_intro: >
+    Use color recognition to change Violet's tummy color.
+  description: >
+    Using the color extension, track colors and change the color of Violet's tummy from pink to red!
+  cover_photo: /images/ext-images/violet.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1Lafhhz0GsfzxtSDJzD3_8rxoKJCitnGT
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <br>
+                  <img src = "https://imgur.com/rgl4NFp.png"/ class="wide-photo"><br>
+                  <img src = "https://imgur.com/lKseyQ3.png"/ class="wide-photo">
+      - step: >
+          Step 2: Click on the green flag. Violet's going to start off with a pink tummy and ask to get her color changed. She’ll be impatient at first - see if you can fix it by putting a red object in front of the camera!
+                  <img src = "https://imgur.com/FeCVftO.png"/ class="wide-photo"><br>
+      - step: >
+          Step 3: Yay, Violet's tummy color changed! If you click on Violet's costumes, you can see what other tummy colors are available. Adjust the code so that Violet's tummy changes with any of the given colors. Now, we can track for more than just red and have even more variety!
+                  <img src = "https://imgur.com/5G5s0HD.png"/ class="wide-photo"><br>
+                  <img src = "https://imgur.com/eZfzdXR.png"/ class="wide-photo">
+      - step: >
+          Step 4: Try adding your own colors that the camera could track. Remember that once you add a color, it’ll track colors that are within the same color range - for example, light green, medium green, and dark green might all be tracked if you set medium green to be the tracked color. Go for the classic rainbow colors - give Violet new costumes so that she can be pretty in all different colors!
+                  <img src = "https://imgur.com/WJp4aAM.png"/ class="wide-photo">
+
+
 # colorBeats:
 #  name: Color Beats
 #  link: /projects/colorBeats
