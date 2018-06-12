@@ -11,7 +11,7 @@ sentiment:
   resources:
     # - description: Purchase Circuit Stickers and activity kits
     #   url: "https://chibitronics.myshopify.com/collections"
-    download_link: https://drive.google.com/uc?export=download&id=1xkxYzCAJhmGYgS5lZKbZj9YFHvkCBvmk
+    download_link: https://drive.google.com/uc?export=download&id=1-wRIwTPBro9m8h_6AMbx3Te60ik3DLPQ
     age_range: 7 and older
     group_size: Variable, limited only by amount of supplies and number of facilitators
     facilitators: 0 or more
@@ -22,7 +22,7 @@ sentiment:
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
     guide:
       - step: > 
-          Step 1: Load the simple version of Make Me Happy. 
+          Step 1: Load the simple version of Make Me Happy <a href=https://drive.google.com/uc?export=download&id=1qAOBaduqQ4ebQy6jM9ShDYNLgAMF1fyz>here</a>. If it is loud where you are, the speech extension may not work properly. Try loading <a href=https://drive.google.com/uc?export=download&id=1w6S-M8OuQ2unS6VlH33ZncbJDK2TFUXt>this</a> version instead. 
       - step: >
           Step 2: Run the program by clicking on the green flag. How does the robot respond? What do you need to tell him for him to be happy?
         photo: /images/projects/make-me-happy/make-me-happy-2.png
@@ -301,12 +301,13 @@ twitter_wemo:
   short_intro: >
     Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions. 
   description: >
-    Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks!
+    Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions. 
   cover_photo: /images/ext-images/wemo_twitter.png
   video: >
     <iframe src="https://player.vimeo.com/video/269392274" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392274">Simple Cognimates Wemo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1W-VffmjMc2I5qT2p-UobHD050oILcPcQ
+
 # jellyfishSwim:
 #   name: Jellyfish Swim
 #   link: /projects/jellyfishSwim
@@ -339,14 +340,14 @@ goodBoy:
   #video: >
     #<iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=1AVZR5eAauSzFeYyECRDfGrkxRGspGLb2
+    download_link: https://drive.google.com/uc?export=download&id=1ulrPDYtH0rImukKtY9DBfPZo6VHaU7os
     guide: 
       - step: >
-          Step 1: Start by loading our starter project for Good Boy. You can download it <a href="https://drive.google.com/uc?export=download&id=1wUdEM6PgQjQdYwWtv1CZX-8AHxg2UrWz"> here</a>.
-                  <img src = "https://imgur.com/VoYw4sy.png"/ class="wide-photo">
+          Step 1: Start by loading our starter project for Good Boy. You can download it <a href="https://drive.google.com/uc?export=download&id=1lO0CAI-ZQFOla4Vgi_5tOosFWZiZnMQ5"> here</a>.
+                  <img src = "https://imgur.com/r6Np1Mg.png"/ class="wide-photo">
       - step: >
           Step 2: Click on the green flag and see what happens when you say, "Good boy!" Or, how about when you say, "Bad boy!" How does the puppy react?
-                  <img src = "https://imgur.com/VjSYzPi.png"/ class="wide-photo">
+                  <img src = "https://imgur.com/DoIKc5T.png"/ class="wide-photo">
       - step: >
           Step 3: What if we wanted to say other things besides "Good boy" or "Bad boy"? Using our Text extension, we can use a text classifier to recognize whether your message is good or bad. Start by loading the <a href="/extensions/text">Text extension</a>.
                   <img src = "https://imgur.com/zZJappa.png"/ class="wide-photo">
@@ -354,20 +355,15 @@ goodBoy:
           Step 4: Using one of the blocks from the Text extension we can recognize whether or not our speech is good or bad. Can you guess which one that might be?<br>
                   <img src = "https://imgur.com/tKk2zdU.png"/ class="wide-photo">
       - step: >
-          Step 5: In order for our puppy to know when to start recognizing our speech, we need a broadcast block that will broadcast the listening message. Then we can use a Receive broadcast block to receive the listening message. We can have our puppy tell us whether he recognizes your message as good or bad, by using a Say block from Looks.
-                  <img src = "https://imgur.com/qkcyY4Q.png"/ class="wide-photo">
+          Step 5: In order for our puppy to know when to start recognizing our speech, we need to first set the id of the classifier (recognizer) that we will use. Then, we can have our puppy tell us whether he recognizes your message as good or bad, by using a Say block from Looks.
+                  <img src = "https://imgur.com/kygZA8U.png"/ class="wide-photo">
       - step: >
           Step 6: Instead of having the puppy reacting to what it hears, we can now have him react to what kind of message he recognizes. For that we can use the "When text is" block for when the message is good, or for when it is bad. 
-                  <img src = "https://imgur.com/YuwvtVp.png"/ class="wide-photo">
+                  <img src = "https://imgur.com/CuCdyQ7.png"/ class="wide-photo">
       - step: >
-          Step 7: Now try saying something to him! It can be anything! 
-                  <img src = "https://imgur.com/8fnZR57.png"/ class="wide-photo">
-      - step: >
-          Step 8: Let's try one more thing. How about having our puppy also react to backhanded compliments? For that you need to load a model that we have already trained to recognize good, bad, and also backhanded sayings.
+          Step 8: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.
                   <img src = "https://imgur.com/pnQ0mgR.png"/ class="wide-photo">          
-      - step: >
-          Step 9: All we need to do is add another "When text is" block for backhanded and have him act confused when he receives a backhanded compliment (as one usually is). 
-                  <img src = "https://imgur.com/bXnDBMM.png"/ class="wide-photo"> 
+
 smartLights:
   name: Smart lights
   link: /projects/smartLights
@@ -397,6 +393,57 @@ smartLights:
                   <br>
                   Check out all the cool things you could do with smart lights!
                   <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">        
+ghost:
+  name: Bouncing Ghost
+  link: /projects/ghost
+  short_intro: >
+    Make a ghost bounce everytime you blink.
+  description: >
+    Make a ghost bounce everytime you blink using a Muse headset and our Muse extension.
+  cover_photo: /images/ext-images/ghost.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1eHvZJ1ITinJGjHq3QOX8KMhdCJF-KZgg
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <img src = "https://imgur.com/2VPlDu7.png"/ class="wide-photo">
+      - step: >
+          Step 2: Click on the green flag. Your browser will ask if it is ok to show you notifications. Click allow and you should see a notification. Click on the notification to connect to your headset using Bluetooth.
+                  <img src = "https://imgur.com/YUIOvl0.png"/ class="wide-photo">
+      - step: >
+          Step 3: You should see a menu of Bluetooth devices appear. Select your Muse headset and click pair.
+                  <img src = "https://imgur.com/N36MOGk.png"/ class="wide-photo">
+      - step: >
+          Step 4: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts!
+                  <img src = "https://imgur.com/xf3KSOP.png"/ class="wide-photo">
+
+violet:
+  name: Change Violet's Tummy
+  link: /projects/violet
+  short_intro: >
+    Use color recognition to change Violet's tummy color.
+  description: >
+    Using the color extension, track colors and change the color of Violet's tummy from pink to red!
+  cover_photo: /images/ext-images/violet.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1Lafhhz0GsfzxtSDJzD3_8rxoKJCitnGT
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <br>
+                  <img src = "https://imgur.com/rgl4NFp.png"/ class="wide-photo"><br>
+                  <img src = "https://imgur.com/lKseyQ3.png"/ class="wide-photo">
+      - step: >
+          Step 2: Click on the green flag. Violet's going to start off with a pink tummy and ask to get her color changed. She’ll be impatient at first - see if you can fix it by putting a red object in front of the camera!
+                  <img src = "https://imgur.com/FeCVftO.png"/ class="wide-photo"><br>
+      - step: >
+          Step 3: Yay, Violet's tummy color changed! If you click on Violet's costumes, you can see what other tummy colors are available. Adjust the code so that Violet's tummy changes with any of the given colors. Now, we can track for more than just red and have even more variety!
+                  <img src = "https://imgur.com/5G5s0HD.png"/ class="wide-photo"><br>
+                  <img src = "https://imgur.com/eZfzdXR.png"/ class="wide-photo">
+      - step: >
+          Step 4: Try adding your own colors that the camera could track. Remember that once you add a color, it’ll track colors that are within the same color range - for example, light green, medium green, and dark green might all be tracked if you set medium green to be the tracked color. Go for the classic rainbow colors - give Violet new costumes so that she can be pretty in all different colors!
+                  <img src = "https://imgur.com/WJp4aAM.png"/ class="wide-photo">
+
 
 # colorBeats:
 #  name: Color Beats

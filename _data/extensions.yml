@@ -271,6 +271,18 @@ microbit:
       - step: >
                   <img src = "https://i.imgur.com/vyFs2gc.png"/ class="wide-photo">
                   <img src = "https://i.imgur.com/74ScHIT.jpg"/ class="wide-photo">  
+muse:
+  name: Muse
+  link: /extensions/muse
+  short_intro: The Muse Extension
+  description: >
+    This extension allows you to connect to Muse, a brain sensing headband that measures your EEG values. 
+  cover_photo: /images/ext-images/Muse.png
+  resources:
+    guide:
+      - step: >
+                  <img src = "https://imgur.com/fAAajAE.png"/ class="wide-photo">
+                  <img src = "https://imgur.com/3v5RMp2.jpg"/ class="wide-photo">
 
 #wedo:
 #  name: Wedo
