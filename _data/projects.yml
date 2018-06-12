@@ -445,6 +445,24 @@ violet:
                   <img src = "https://imgur.com/WJp4aAM.png"/ class="wide-photo">
 
 
+# giga:
+#   name: Giga The Jukebox
+#   link: /projects/giga
+#   short_intro: >
+#     Make Giga play a happy or sad song.
+#   description: >
+#     Make Giga play a happy or sad song by saying either a nice or mean thing to him.
+#   cover_photo: /images/ext-images/giga.png
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1YwqdWc5MsQwkHbksRCfFjrVNyjBL9pP0
+#     guide:
+#     - step: >
+#         Step 1: Start by loading the project.
+#                 <img src = "https://imgur.com/30UKMhc.png"/ class="wide-photo">
+#     - step: >
+#         Step 2: Click the green flag. Giga will ask what's that and you can say something nice or mean to him.
+#                 <img src = "https://imgur.com/S4AcXMV.png"/ class="wide-photp">
+#         Step 3: See how Giga reacts when you say mean or nice things!
 # colorBeats:
 #  name: Color Beats
 #  link: /projects/colorBeats
