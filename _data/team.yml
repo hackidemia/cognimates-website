@@ -21,6 +21,11 @@ team:
       bio: Eesh Chilukalapalli is an undergraduate at SRM University, India. He has been to MIT for a semester under the Special Student program. He has done a UROP at LLK, MIT Media Labs where he started working on the Cognimate project under Stefania Druga. Eesh is very passionate about technology since it continues to make a huge impact on people’s lives. He is a programmer at heart and likes to see his ideas materialize through his hobby projects. In his free time, he loves to ride his motorcycle, play the piano and experiment with photography. Eesh is currently continuing to work on the Cognimate project.
     - name: Lauren Oh
       institution: MIT  
-      bio: Lauren is from San Diego, California, currently studying Computer Science and Mathematics at MIT. She likes to travel and her favorite hobby is painting. Education is something she is passionate about, and she loves seeing how education and technology can weave together to create new things for the world. On campus, Lauren is also part of the HackMIT organizing team.
-      
+      bio: Lauren is from San Diego, California, currently studying Computer Science and Mathematics at MIT. She likes to travel and her favorite hobby is painting. Education is something she is passionate about, and she loves seeing how education and technology can weave together to create new things for the world. On campus, Lauren is also part of the HackMIT organizing team.    
+    - name: Clemente Ocejo
+      institution: MIT
+      bio: Clemente is an undergraduate student at MIT studying Electrical Engineering and Computer Science. He is interested in machine learning applications and how to make it a less intimidating and accessible subject to less experienced programmers.
+    - name: Cole Linnus
+      institution: MIT
+      bio: Cole Linnus is a freshman majoring in Science in Mechanical Engineering with Minor in Computer Science. He has experience working with Raspberry Pi from a UROP in the AeroAstro department and has experience working with interconnected Embedded Systems. He is interested in the benefits AI and autonomous vehicles can have on people’s everyday lives. In his free time, he plays on the MIT Men’s Volleyball team. 
 

@@ -445,6 +445,24 @@ violet:
                   <img src = "https://imgur.com/WJp4aAM.png"/ class="wide-photo">
 
 
+# giga:
+#   name: Giga The Jukebox
+#   link: /projects/giga
+#   short_intro: >
+#     Make Giga play a happy or sad song.
+#   description: >
+#     Make Giga play a happy or sad song by saying either a nice or mean thing to him.
+#   cover_photo: /images/ext-images/giga.png
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1YwqdWc5MsQwkHbksRCfFjrVNyjBL9pP0
+#     guide:
+#     - step: >
+#         Step 1: Start by loading the project.
+#                 <img src = "https://imgur.com/30UKMhc.png"/ class="wide-photo">
+#     - step: >
+#         Step 2: Click the green flag. Giga will ask what's that and you can say something nice or mean to him.
+#                 <img src = "https://imgur.com/S4AcXMV.png"/ class="wide-photp">
+#         Step 3: See how Giga reacts when you say mean or nice things!
 # colorBeats:
 #  name: Color Beats
 #  link: /projects/colorBeats
@@ -458,4 +476,28 @@ violet:
 #  resources:
 #    download_link: https://drive.google.com/uc?export=download&id=1ynsNdaqtkNSp4eFFFqB9xYthso_p5Hli
           
+starHunter:
+  name: Star Hunter
+  link: /projects/starHunter
+  short_intro: >
+    Play with your Microbit to help Kiran collect the stars.
+  description: >
+    Play with your microbit to see how Kiran reacts to you moving around. Now, try to use these actions to help her collect the stars. Find instructions for connecting to your Microbit at the Microbit extension page.
+  cover_photo: /images/ext-images/starHunter.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1LyEZGukLmIp25StsltipAJBbnwkiEGdB
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <img src = "https://i.imgur.com/3LCr04F.png"/ class="wide-photo">
+      - step: >
+          Step 2: This project uses the <ahref="https://mitmedialab.github.io/cognimates-website/extensions/microbit">microbit extension</a>. It can detect shakes, jumps, movement, and button presses.
+                  <img src = "https://i.imgur.com/nuWZhJt.jpg"/ class="wide-photo">
+      - step: >
+          Step 3: Click the green flag and try shaking and tilting the Microbit to see how Kiran reacts.
+                  <img src = "https://i.imgur.com/Pk7abPn.png"/ class="wide-photo">
+      - step: >
+          Step 4: Now, try to collect the stars as quickly as possible.
+                  
+
 
