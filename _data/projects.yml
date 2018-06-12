@@ -430,6 +430,7 @@ violet:
     guide:
       - step: >
           Step 1: Start by loading the project.
+                  <br>
                   <img src = "https://imgur.com/rgl4NFp.png"/ class="wide-photo"><br>
                   <img src = "https://imgur.com/lKseyQ3.png"/ class="wide-photo">
       - step: >
