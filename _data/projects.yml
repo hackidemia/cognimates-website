@@ -393,9 +393,9 @@ smartLights:
                   <br>
                   Check out all the cool things you could do with smart lights!
                   <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">        
-ghost:
+ghost2:
   name: Bouncing Ghost
-  link: /projects/ghost
+  link: /projects/ghost2
   short_intro: >
     Make a ghost bounce everytime you blink.
   description: >
