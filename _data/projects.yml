@@ -420,9 +420,9 @@ giga:
   name: Play With Giga!
   link: /projects/giga
   short_intro: >
-    Make Giga play a happy or sad song.
+    Make Giga say and do different things with what you say.
   description: >
-    Make Giga play a happy or sad song by saying either a nice or mean thing to him.
+    Make Giga play a song if you say an instrument or be excited when you mention a food.
   cover_photo: /images/ext-images/giga.png
   resources:
     download_link: https://drive.google.com/uc?export=download&id=14MvKnCRQ0PYd83ajxYn0QR0tdWCy8ZZs
