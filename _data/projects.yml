@@ -168,9 +168,12 @@ colorDrawing:
           Step 2: This project allows you to draw using our <a href="/extensions/color">color tracking extension</a>!
                   <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
       - step: >
-          Step 3: When the webcam sees a certain color, the sprite will draw a line. It will stop drawing when the color disappears.
-                  <img src = "https://imgur.com/IonPnhe.png"/ class="wide-photo">   
-          <br>How does the program know whether or not there's a certain color in the frame or not?      
+          Step 3: When the webcam sees a certain color, the sprite will draw a line. It will stop drawing when the color disappears. Right now, the code says to start drawing when the computer sees green, and stop once it doesn't. See what happens when you put a green object in front of your camera!
+                  <img src = "https://imgur.com/IonPnhe.png"/ class="wide-photo"> 
+      - step: >
+          Step 4: Edit the code so that the sprite draws when you see other colors like red or blue.
+                  <img src = "https://imgur.com/h3noLsC.png"/ class="wide-photo">  
+          <br>How does the program know whether or not there's a certain color in the frame? Think about how computers might recognize the color, and how it decides that there's enough green to have the sprite start drawing. 
 
 saveFalling:
   name: It's Raining Cats and Dogs!
