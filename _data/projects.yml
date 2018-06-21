@@ -426,7 +426,7 @@ violet:
   short_intro: >
     Use color recognition to change Violet's tummy color.
   description: >
-    Using the color extension, track colors and change the color of Violet's tummy from pink to red!
+    Using the color extension, track colors and change the color of Violet's tummy from pink to red! Sprite creds to <a href = "https://www.freepik.com/">Freepik</a>.
   cover_photo: /images/ext-images/violet.png
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1Lafhhz0GsfzxtSDJzD3_8rxoKJCitnGT
