@@ -364,7 +364,7 @@ goodBoy:
           Step 6: Instead of having the puppy reacting to what it hears, we can now have him react to what kind of message he recognizes. For that we can use the "When text is" block for when the message is good, or for when it is bad. 
                   <img src = "https://imgur.com/CuCdyQ7.png"/ class="wide-photo">
       - step: >
-          Step 8: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.
+          Step 8: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.<br>
                   <img src = "https://imgur.com/pnQ0mgR.png"/ class="wide-photo">          
 
 smartLights:
