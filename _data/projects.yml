@@ -417,7 +417,7 @@ ghost:
           Step 3: You should see a menu of Bluetooth devices appear. Select your Muse headset and click pair.
                   <img src = "https://imgur.com/N36MOGk.png"/ class="wide-photo">
       - step: >
-          Step 4: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts!
+          Step 4: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts! Change the numbers for the ghost's movement depending on how you want it to move.
                   <img src = "https://imgur.com/xf3KSOP.png"/ class="wide-photo">
 
 violet:
