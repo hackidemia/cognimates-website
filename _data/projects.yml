@@ -104,10 +104,10 @@ twitter:
         Step 3: We can combine both the Twitter and the Feelings extensions so that we get the mood of a tweet.
                <img src="https://i.imgur.com/0BPBzX0.png"/ class="wide-photo">
     - step: >
-        Step 3: Now that we can get the mood of the tweet, we can change the costume of the emoji to make it happy or sad, make the emoji move up or down for the mood. We can also move the emoji to show the mood.
+        Step 4: Now that we can get the mood of the tweet, we can change the costume of the emoji to make it happy or sad, make the emoji move up or down for the mood. We can also move the emoji to show the mood.
                 <img src="https://i.imgur.com/Azt5FJS.png"/ class="wide-photo">
     - step: >
-        Step 4: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
+        Step 5: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
                 <img src="https://i.imgur.com/iFSMJFF.png"/ class="wide-photo">
 
 
@@ -142,7 +142,7 @@ cozmo_simple:
          Step 2: Next, you can make Cozmo react when you press the space key on your keyboard.
                  <img src = "https://i.imgur.com/DROgNw7.png"/ class="wide-photo">
      - step: > 
-         Step 2: Now, let’s make Cozmo pick up a block. If you press the “p” key on your keyboard he will find and pick up a block.
+         Step 3: Now, let’s make Cozmo pick up a block. If you press the “p” key on your keyboard he will find and pick up a block.
 
 
 
@@ -167,7 +167,7 @@ cozmo_hue:
           Step 2: Now we make it ask how your day was. Then, it gets the feeling of the answer.
                   <img src = "https://i.imgur.com/dYrjE3J.png"/ class="wide-photo">
       - step: > 
-          Step 2: We can add blocks from the cozmo and smart light extension to make them react to the feeling of the answer.
+          Step 3: We can add blocks from the cozmo and smart light extension to make them react to the feeling of the answer.
                   <img src = "https://i.imgur.com/FTyPSBM.png"/ class="wide-photo">
 
 
@@ -390,7 +390,7 @@ goodBoy:
           Step 6: Instead of having the puppy reacting to what it hears, we can now have him react to what kind of message he recognizes. For that we can use the "When text is" block for when the message is good, or for when it is bad. 
                   <img src = "https://imgur.com/CuCdyQ7.png"/ class="wide-photo">
       - step: >
-          Step 8: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.
+          Step 7: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.
                   <img src = "https://imgur.com/pnQ0mgR.png"/ class="wide-photo">          
 
 smartLights:
