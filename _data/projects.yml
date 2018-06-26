@@ -96,19 +96,19 @@ twitter:
   guide:
     - step: >
         Step 1: We will start with just a stationary thinking emoji.<br>
-                <a href="https://imgur.com/RwZRBPq"><img src="https://i.imgur.com/RwZRBPq.png" title="source - imgur.com" /></a>
+                  <img src = "https://i.imgur.com/HMQzR0M.png"/ class="wide-photo">
     - step: >
         Step 2: To make this more interesting, we can use the <a href="/cognimates-website/extensions/twitter">Twitter</a> to get the last tweet from someone. Then use a block from the <a href="/cognimates-website/extensions/feelings">Feelings extension</a> to check on the mood of the Tweet. <br>
-                    <img src="https://imgur.com/UbWZMPk.png"/ class="wide-photo">
+                  <img src="https://imgur.com/UbWZMPk.png"/ class="wide-photo">
     - step: >
         Step 3: We can combine both the Twitter and the Feelings extensions so that we get the mood of a tweet.
-                <a href="https://imgur.com/LbBxNms"><img src="https://i.imgur.com/LbBxNms.png" title="source - imgur.com" /></a>
+                  <img src="https://i.imgur.com/0BPBzX0.png"/ class="wide-photo">
     - step: >
-        Step 3: Now that we can get the mood of the tweet, we can change the costume of the emoji to make it happy or sad, make the emoji move up or down for the mood. We can also move the emoji to show the mood.<br>
-                <a href="https://imgur.com/Gndc2Rn"><img src="https://i.imgur.com/Gndc2Rn.png" title="source - imgur.com" /></a>
+        Step 4: Now that we can get the mood of the tweet, we can change the costume of the emoji to make it happy or sad, make the emoji move up or down for the mood. We can also move the emoji to show the mood.<br>
+                  <img src="https://i.imgur.com/Azt5FJS.png"/ class="wide-photo">
     - step: >
-        Step 4: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
-                <a href="https://imgur.com/8OhO6zs"><img src="https://i.imgur.com/8OhO6zs.png" title="source - imgur.com" /></a>
+        Step 5: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
+                  <img src="https://i.imgur.com/iFSMJFF.png"/ class="wide-photo">
 
 #ghosts_speech:
 # name: Save Me from the Ghosts!
@@ -133,6 +133,15 @@ cozmo_simple:
     <iframe src="https://player.vimeo.com/video/269392318" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392318">Simple Cozmo Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1L-z9er93zIxJVXhsoYAagY8fxdy1fa23
+    guide:
+    - step: >
+        Step 1: First we need to connect to Cozmo through bluetooth.
+                <img src="https://i.imgur.com/bGxMFAT.png"/ class="wide-photo">
+    - step: >
+        Step 2: Next, you can make Cozmo react when you press the space key on your keyboard.
+                <img src="https://i.imgur.com/DROgNw7.png"/ class="wide-photo">
+    - step: >
+        Step 3: Now, let’s make Cozmo pick up a block. If you press the “p” key on your keyboard he will find and pick up a block.
 
 cozmo_hue:
   name: How was your day?
@@ -146,6 +155,16 @@ cozmo_hue:
     <iframe src="https://player.vimeo.com/video/269392411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392411">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1RJh-346OXv4tezbITpfid5OkyacR36SE
+    guide:
+     - step: >
+         Step 1: First we have to connect to cozmo and set out lights to the color red.
+                 <img src="https://i.imgur.com/6QOnx0A.png"/ class="wide-photo">
+     - step: >
+         Step 2: Now we make it ask how your day was. Then, it gets the feeling of the answer.
+                 <img src="https://i.imgur.com/dYrjE3J.png"/ class="wide-photo">
+     - step: >
+         Step 3: We can add blocks from the cozmo and smart light extension to make them react to the feeling of the answer.
+                 <img src="https://i.imgur.com/FTyPSBM.png"/ class="wide-photo">
 
 
 colorDrawing:
@@ -176,28 +195,34 @@ colorDrawing:
           <br>How does the program know whether or not there's a certain color in the frame? Think about how computers might recognize the color, and how it decides that there's enough green to have the sprite start drawing. 
 
 saveFalling:
-  name: It's Raining Cats and Dogs!
-  link: /projects/saveFalling
-  short_intro: >
-    Save the falling cats and dogs using the color finder and your webcam!
-  description: >
-    Create a game using a color finder to keep falling cats and dogs from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
-  cover_photo: /images/ext-images/falling.png
-  video: >
-    <iframe src="https://giphy.com/embed/g0gPJx9J1XTmJ6jmqF" width="480" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/g0gPJx9J1XTmJ6jmqF"></a></p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
-    guide:
-      - step: >
-          Step 1: Start by loading the project.
-                  <img src = "https://imgur.com/HV7OT8Y.png"/ class="wide-photo">
-      - step: >
-          Step 2: This project uses the <a href="/cognimates-website/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop. 
-                  <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
-      - step: >
-          Step 3: Now pick something colorful! It can either be an object next to you or even the shirt that you're wearing and try to keep the cats and dogs out of the water! 
-                  <img src = "https://imgur.com/JwjiT5a.png"/ class="wide-photo">
-          <br>How does the program know whether or not there's a certain color in the frame or not?            
+ name: It's Raining Cats and Dogs!
+ link: /projects/saveFalling
+ short_intro: >
+   Save the falling cats and dogs using the color finder and your webcam!
+ description: >
+   Create a game using a color finder to keep falling cats and dogs from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
+ cover_photo: /images/ext-images/falling.png
+ video: >
+   <iframe src="https://giphy.com/embed/g0gPJx9J1XTmJ6jmqF" width="480" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/g0gPJx9J1XTmJ6jmqF"></a></p>
+ resources:
+   download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
+   guide:
+     - step: >
+         Step 1: Start by loading the project.
+                 <img src = "https://i.imgur.com/048k2YL.png"/ class="wide-photo">
+     - step: >
+         Step 2: This project uses the <a href="/cognimates-website/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop.
+                 <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
+     - step: >
+         Step 3: First, we set up the blocks so the cat and dog start at the top. They fall down unless the color being tracked is shown to the camera.
+                 <img src = "https://i.imgur.com/dzJBuyH.png"/ class="wide-photo">
+     - step: >
+         Step 4: Next, we have to tell the computer what it means to “bounce up” and “go to the top” with these blocks.
+                 <img src = "https://i.imgur.com/QS5f8k7.png"/ class="wide-photo">
+     - step: >
+         Step 5: Now pick something colorful! It can either be an object next to you or even the shirt that you're wearing and try to keep the cats and dogs out of the water!
+                 <img src = "https://i.imgur.com/tgfKCXU.png"/ class="wide-photo">
+
 
 # recognizePuppy:
 #   name: Is it a puppy?
@@ -364,7 +389,7 @@ goodBoy:
           Step 6: Instead of having the puppy reacting to what it hears, we can now have him react to what kind of message he recognizes. For that we can use the "When text is" block for when the message is good, or for when it is bad. 
                   <img src = "https://imgur.com/CuCdyQ7.png"/ class="wide-photo">
       - step: >
-          Step 8: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.<br>
+          Step 7: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.<br>
                   <img src = "https://imgur.com/pnQ0mgR.png"/ class="wide-photo">          
 
 smartLights:
