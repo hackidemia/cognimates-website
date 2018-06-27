@@ -400,7 +400,7 @@ ghost2:
     Make a ghost bounce everytime you blink.
   description: >
     Make a ghost bounce everytime you blink using a Muse headset and our Muse extension.
-  cover_photo: /images/projects/ghost/ghost.png
+  cover_photo: /images/ext-images/ghost.png
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1eHvZJ1ITinJGjHq3QOX8KMhdCJF-KZgg
     guide:
@@ -424,7 +424,7 @@ violet:
     Use color recognition to change Violet's tummy color.
   description: >
     Using the color extension, track colors and change the color of Violet's tummy from pink to red!
-  cover_photo: /images/projects/violet-tummy/violet.png
+  cover_photo: /images/ext-images/violet.png
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1Lafhhz0GsfzxtSDJzD3_8rxoKJCitnGT
     guide:
@@ -483,7 +483,7 @@ starHunter:
     Play with your Microbit to help Kiran collect the stars.
   description: >
     Play with your microbit to see how Kiran reacts to you moving around. Now, try to use these actions to help her collect the stars. Find instructions for connecting to your Microbit at the Microbit extension page.
-  cover_photo: /images/projects/star-hunter/star-hunter.png
+  cover_photo: /images/ext-images/starHunter.png
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1LyEZGukLmIp25StsltipAJBbnwkiEGdB
     guide:
