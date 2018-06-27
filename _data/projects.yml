@@ -135,13 +135,16 @@ cozmo_simple:
     download_link: https://drive.google.com/uc?export=download&id=1L-z9er93zIxJVXhsoYAagY8fxdy1fa23
     guide:
     - step: >
-        Step 1: First we need to connect to Cozmo through bluetooth.
+        Step 1: This project uses the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>. It lets you connect to and program Cozmo!
+                <img src="https://imgur.com/rKWMtxM.png"/ class="wide-photo">
+    - step: >
+        Step 2: First we need to connect to Cozmo through bluetooth.
                 <img src="https://i.imgur.com/bGxMFAT.png"/ class="wide-photo">
     - step: >
-        Step 2: Next, you can make Cozmo react when you press the space key on your keyboard.
+        Step 3: Next, you can make Cozmo react when you press the space key on your keyboard.
                 <img src="https://i.imgur.com/DROgNw7.png"/ class="wide-photo">
     - step: >
-        Step 3: Now, let’s make Cozmo pick up a block. If you press the “p” key on your keyboard he will find and pick up a block.
+        Step 4: Now, let’s make Cozmo pick up a block. If you press the “p” key on your keyboard he will find and pick up a block.
 
 cozmo_hue:
   name: How was your day?
@@ -157,13 +160,16 @@ cozmo_hue:
     download_link: https://drive.google.com/uc?export=download&id=1RJh-346OXv4tezbITpfid5OkyacR36SE
     guide:
      - step: >
-         Step 1: First we have to connect to cozmo and set out lights to the color red.
+         Step 1: This project uses the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>, which lets you connect to and program Cozmo, and the <a href="/cognimates-website/extensions/smartLights">smart lights extension</a>.
+                 <img src="https://imgur.com/QWDGp5Z.png"/ class="wide-photo">
+     - step: >
+         Step 2: First we have to connect to Cozmo and set out lights to the color red.
                  <img src="https://i.imgur.com/6QOnx0A.png"/ class="wide-photo">
      - step: >
-         Step 2: Now we make it ask how your day was. Then, it gets the feeling of the answer.
+         Step 3: Now we make it ask how your day was. Then, it gets the feeling of the answer.
                  <img src="https://i.imgur.com/dYrjE3J.png"/ class="wide-photo">
      - step: >
-         Step 3: We can add blocks from the cozmo and smart light extension to make them react to the feeling of the answer.
+         Step 4: We can add blocks from the cozmo and smart light extension to make them react to the feeling of the answer.
                  <img src="https://i.imgur.com/FTyPSBM.png"/ class="wide-photo">
 
 
@@ -335,6 +341,18 @@ twitter_wemo:
     <iframe src="https://player.vimeo.com/video/269392274" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392274">Simple Cognimates Wemo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1W-VffmjMc2I5qT2p-UobHD050oILcPcQ
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <img src = "https://imgur.com/St4CgZA.png"/ class="wide-photo"> 
+      - step: >
+          Step 2: This project uses the <a href="/cognimates-website/extensions/wemo">wemo</a>, <a href="/cognimates-website/extensions/twitter">twitter</a>, and <a href="/cognimates-website/extensions/feelings">feelings</a> extension to light a Wemo based on the feelings of a tweet.
+                  <img src = "https://imgur.com/7LY5fPM.png"/ class="wide-photo"> 
+      - step: >
+          Step 3: Control the Wemo's lights based on the feeling of a tweet! Make the Wemo turn on when it's happy and off when it's sad.
+                  <img src = "https://imgur.com/MAQ5fMN.png"/ class="wide-photo">  
+                  <br>How does the program know the feelings of a tweet? What do you think happens when the tweet isn't happy or sad, but neutral?     
+
 
 # jellyfishSwim:
 #   name: Jellyfish Swim
@@ -420,7 +438,8 @@ smartLights:
                   <img src = "https://imgur.com/4FFx4GP.png"/ class="wide-photo">  
                   <br>
                   Check out all the cool things you could do with smart lights!
-                  <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">        
+                  <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">    
+
 ghost2:
   name: Bouncing Ghost
   link: /projects/ghost2
@@ -436,13 +455,16 @@ ghost2:
           Step 1: Start by loading the project.
                   <img src = "https://imgur.com/2VPlDu7.png"/ class="wide-photo">
       - step: >
-          Step 2: Click on the green flag. Your browser will ask if it is ok to show you notifications. Click allow and you should see a notification. Click on the notification to connect to your headset using Bluetooth.
+          Step 2: This project uses the <a href="/cognimates-website/extensions/muse">muse extension</a>.
+                  <img src = "https://imgur.com/3v5RMp2.jpg"/ class="wide-photo">
+      - step: >
+          Step 3: Click on the green flag. Your browser will ask if it is ok to show you notifications. Click allow and you should see a notification. Click on the notification to connect to your headset using Bluetooth.
                   <img src = "https://imgur.com/YUIOvl0.png"/ class="wide-photo">
       - step: >
-          Step 3: You should see a menu of Bluetooth devices appear. Select your Muse headset and click pair.
+          Step 4: You should see a menu of Bluetooth devices appear. Select your Muse headset and click pair.
                   <img src = "https://imgur.com/N36MOGk.png"/ class="wide-photo">
       - step: >
-          Step 4: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts! Change the numbers for the ghost's movement depending on how you want it to move.
+          Step 5: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts! Change the numbers for the ghost's movement depending on how you want it to move.
                   <img src = "https://imgur.com/xf3KSOP.png"/ class="wide-photo">
 
 violet:
@@ -462,14 +484,17 @@ violet:
                   <img src = "https://imgur.com/rgl4NFp.png"/ class="wide-photo"><br>
                   <img src = "https://imgur.com/lKseyQ3.png"/ class="wide-photo">
       - step: >
-          Step 2: Click on the green flag. Violet's going to start off with a pink tummy and ask to get her color changed. She’ll be impatient at first - see if you can fix it by putting a red object in front of the camera!
+          Step 2: This project uses the <a href="/cognimates-website/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop. 
+                  <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo"> 
+      - step: >
+          Step 3: Click on the green flag. Violet's going to start off with a pink tummy and ask to get her color changed. She’ll be impatient at first - see if you can fix it by putting a red object in front of the camera!
                   <img src = "https://imgur.com/FeCVftO.png"/ class="wide-photo"><br>
       - step: >
-          Step 3: Yay, Violet's tummy color changed! If you click on Violet's costumes, you can see what other tummy colors are available. Adjust the code so that Violet's tummy changes with any of the given colors. Now, we can track for more than just red and have even more variety!
+          Step 4: Yay, Violet's tummy color changed! If you click on Violet's costumes, you can see what other tummy colors are available. Adjust the code so that Violet's tummy changes with any of the given colors. Now, we can track for more than just red and have even more variety!
                   <img src = "https://imgur.com/5G5s0HD.png"/ class="wide-photo"><br>
                   <img src = "https://imgur.com/eZfzdXR.png"/ class="wide-photo">
       - step: >
-          Step 4: Try adding your own colors that the camera could track. Remember that once you add a color, it’ll track colors that are within the same color range - for example, light green, medium green, and dark green might all be tracked if you set medium green to be the tracked color. Go for the classic rainbow colors - give Violet new costumes so that she can be pretty in all different colors!
+          Step 5: Try adding your own colors that the camera could track. Remember that once you add a color, it’ll track colors that are within the same color range - for example, light green, medium green, and dark green might all be tracked if you set medium green to be the tracked color. Go for the classic rainbow colors - give Violet new costumes so that she can be pretty in all different colors!
                   <img src = "https://imgur.com/WJp4aAM.png"/ class="wide-photo">
 
 
