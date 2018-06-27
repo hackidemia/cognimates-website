@@ -96,19 +96,19 @@ twitter:
   guide:
     - step: >
         Step 1: We will start with just a stationary thinking emoji.<br>
-                <a href="https://imgur.com/RwZRBPq"><img src="https://i.imgur.com/RwZRBPq.png" title="source - imgur.com" /></a>
+                  <img src = "https://i.imgur.com/HMQzR0M.png"/ class="wide-photo">
     - step: >
         Step 2: To make this more interesting, we can use the <a href="/cognimates-website/extensions/twitter">Twitter</a> to get the last tweet from someone. Then use a block from the <a href="/cognimates-website/extensions/feelings">Feelings extension</a> to check on the mood of the Tweet. <br>
-                    <img src="https://imgur.com/UbWZMPk.png"/ class="wide-photo">
+                  <img src="https://imgur.com/UbWZMPk.png"/ class="wide-photo">
     - step: >
         Step 3: We can combine both the Twitter and the Feelings extensions so that we get the mood of a tweet.
-                <a href="https://imgur.com/LbBxNms"><img src="https://i.imgur.com/LbBxNms.png" title="source - imgur.com" /></a>
+                  <img src="https://i.imgur.com/0BPBzX0.png"/ class="wide-photo">
     - step: >
-        Step 3: Now that we can get the mood of the tweet, we can change the costume of the emoji to make it happy or sad, make the emoji move up or down for the mood. We can also move the emoji to show the mood.<br>
-                <a href="https://imgur.com/Gndc2Rn"><img src="https://i.imgur.com/Gndc2Rn.png" title="source - imgur.com" /></a>
+        Step 4: Now that we can get the mood of the tweet, we can change the costume of the emoji to make it happy or sad, make the emoji move up or down for the mood. We can also move the emoji to show the mood.<br>
+                  <img src="https://i.imgur.com/Azt5FJS.png"/ class="wide-photo">
     - step: >
-        Step 4: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
-                <a href="https://imgur.com/8OhO6zs"><img src="https://i.imgur.com/8OhO6zs.png" title="source - imgur.com" /></a>
+        Step 5: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
+                  <img src="https://i.imgur.com/iFSMJFF.png"/ class="wide-photo">
 
 #ghosts_speech:
 # name: Save Me from the Ghosts!
@@ -133,6 +133,18 @@ cozmo_simple:
     <iframe src="https://player.vimeo.com/video/269392318" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392318">Simple Cozmo Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1L-z9er93zIxJVXhsoYAagY8fxdy1fa23
+    guide:
+    - step: >
+        Step 1: This project uses the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>. It lets you connect to and program Cozmo!
+                <img src="https://imgur.com/rKWMtxM.png"/ class="wide-photo">
+    - step: >
+        Step 2: First we need to connect to Cozmo through bluetooth.
+                <img src="https://i.imgur.com/bGxMFAT.png"/ class="wide-photo">
+    - step: >
+        Step 3: Next, you can make Cozmo react when you press the space key on your keyboard.
+                <img src="https://i.imgur.com/DROgNw7.png"/ class="wide-photo">
+    - step: >
+        Step 4: Now, let’s make Cozmo pick up a block. If you press the “p” key on your keyboard he will find and pick up a block.
 
 cozmo_hue:
   name: How was your day?
@@ -146,6 +158,19 @@ cozmo_hue:
     <iframe src="https://player.vimeo.com/video/269392411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392411">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1RJh-346OXv4tezbITpfid5OkyacR36SE
+    guide:
+     - step: >
+         Step 1: This project uses the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>, which lets you connect to and program Cozmo, and the <a href="/cognimates-website/extensions/smartLights">smart lights extension</a>.
+                 <img src="https://imgur.com/QWDGp5Z.png"/ class="wide-photo">
+     - step: >
+         Step 2: First we have to connect to Cozmo and set out lights to the color red.
+                 <img src="https://i.imgur.com/6QOnx0A.png"/ class="wide-photo">
+     - step: >
+         Step 3: Now we make it ask how your day was. Then, it gets the feeling of the answer.
+                 <img src="https://i.imgur.com/dYrjE3J.png"/ class="wide-photo">
+     - step: >
+         Step 4: We can add blocks from the cozmo and smart light extension to make them react to the feeling of the answer.
+                 <img src="https://i.imgur.com/FTyPSBM.png"/ class="wide-photo">
 
 
 colorDrawing:
@@ -168,33 +193,42 @@ colorDrawing:
           Step 2: This project allows you to draw using our <a href="/cognimates-website/extensions/color">color tracking extension</a>!
                   <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
       - step: >
-          Step 3: When the webcam sees a certain color, the sprite will draw a line. It will stop drawing when the color disappears.
-                  <img src = "https://imgur.com/IonPnhe.png"/ class="wide-photo">   
-          <br>How does the program know whether or not there's a certain color in the frame or not?      
+          Step 3: When the webcam sees a certain color, the sprite will draw a line. It will stop drawing when the color disappears. Right now, the code says to start drawing when the computer sees green, and stop once it doesn't. See what happens when you put a green object in front of your camera!
+                  <img src = "https://imgur.com/IonPnhe.png"/ class="wide-photo"> 
+      - step: >
+          Step 4: Edit the code so that the sprite draws when you see other colors like red or blue.
+                  <img src = "https://imgur.com/h3noLsC.png"/ class="wide-photo">  
+          <br>How does the program know whether or not there's a certain color in the frame? Think about how computers might recognize the color, and how it decides that there's enough green to have the sprite start drawing. 
 
 saveFalling:
-  name: It's Raining Cats and Dogs!
-  link: /projects/saveFalling
-  short_intro: >
-    Save the falling cats and dogs using the color finder and your webcam!
-  description: >
-    Create a game using a color finder to keep falling cats and dogs from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
-  cover_photo: /images/ext-images/falling.png
-  video: >
-    <iframe src="https://giphy.com/embed/g0gPJx9J1XTmJ6jmqF" width="480" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/g0gPJx9J1XTmJ6jmqF"></a></p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
-    guide:
-      - step: >
-          Step 1: Start by loading the project.
-                  <img src = "https://imgur.com/HV7OT8Y.png"/ class="wide-photo">
-      - step: >
-          Step 2: This project uses the <a href="/cognimates-website/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop. 
-                  <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
-      - step: >
-          Step 3: Now pick something colorful! It can either be an object next to you or even the shirt that you're wearing and try to keep the cats and dogs out of the water! 
-                  <img src = "https://imgur.com/JwjiT5a.png"/ class="wide-photo">
-          <br>How does the program know whether or not there's a certain color in the frame or not?            
+ name: It's Raining Cats and Dogs!
+ link: /projects/saveFalling
+ short_intro: >
+   Save the falling cats and dogs using the color finder and your webcam!
+ description: >
+   Create a game using a color finder to keep falling cats and dogs from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
+ cover_photo: /images/ext-images/falling.png
+ video: >
+   <iframe src="https://giphy.com/embed/g0gPJx9J1XTmJ6jmqF" width="480" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/g0gPJx9J1XTmJ6jmqF"></a></p>
+ resources:
+   download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
+   guide:
+     - step: >
+         Step 1: Start by loading the project.
+                 <img src = "https://i.imgur.com/048k2YL.png"/ class="wide-photo">
+     - step: >
+         Step 2: This project uses the <a href="/cognimates-website/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop.
+                 <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
+     - step: >
+         Step 3: First, we set up the blocks so the cat and dog start at the top. They fall down unless the color being tracked is shown to the camera.
+                 <img src = "https://i.imgur.com/dzJBuyH.png"/ class="wide-photo">
+     - step: >
+         Step 4: Next, we have to tell the computer what it means to “bounce up” and “go to the top” with these blocks.
+                 <img src = "https://i.imgur.com/QS5f8k7.png"/ class="wide-photo">
+     - step: >
+         Step 5: Now pick something colorful! It can either be an object next to you or even the shirt that you're wearing and try to keep the cats and dogs out of the water!
+                 <img src = "https://i.imgur.com/tgfKCXU.png"/ class="wide-photo">
+
 
 # recognizePuppy:
 #   name: Is it a puppy?
@@ -307,6 +341,18 @@ twitter_wemo:
     <iframe src="https://player.vimeo.com/video/269392274" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392274">Simple Cognimates Wemo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1W-VffmjMc2I5qT2p-UobHD050oILcPcQ
+    guide:
+      - step: >
+          Step 1: Start by loading the project.
+                  <img src = "https://imgur.com/St4CgZA.png"/ class="wide-photo"> 
+      - step: >
+          Step 2: This project uses the <a href="/cognimates-website/extensions/wemo">wemo</a>, <a href="/cognimates-website/extensions/twitter">twitter</a>, and <a href="/cognimates-website/extensions/feelings">feelings</a> extension to light a Wemo based on the feelings of a tweet.
+                  <img src = "https://imgur.com/7LY5fPM.png"/ class="wide-photo"> 
+      - step: >
+          Step 3: Control the Wemo's lights based on the feeling of a tweet! Make the Wemo turn on when it's happy and off when it's sad.
+                  <img src = "https://imgur.com/MAQ5fMN.png"/ class="wide-photo">  
+                  <br>How does the program know the feelings of a tweet? What do you think happens when the tweet isn't happy or sad, but neutral?     
+
 
 # jellyfishSwim:
 #   name: Jellyfish Swim
@@ -361,7 +407,7 @@ goodBoy:
           Step 6: Instead of having the puppy reacting to what it hears, we can now have him react to what kind of message he recognizes. For that we can use the "When text is" block for when the message is good, or for when it is bad. 
                   <img src = "https://imgur.com/CuCdyQ7.png"/ class="wide-photo">
       - step: >
-          Step 8: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.
+          Step 7: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.<br>
                   <img src = "https://imgur.com/pnQ0mgR.png"/ class="wide-photo">          
 
 smartLights:
@@ -392,7 +438,8 @@ smartLights:
                   <img src = "https://imgur.com/4FFx4GP.png"/ class="wide-photo">  
                   <br>
                   Check out all the cool things you could do with smart lights!
-                  <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">        
+                  <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">    
+
 ghost2:
   name: Bouncing Ghost
   link: /projects/ghost2
@@ -408,13 +455,16 @@ ghost2:
           Step 1: Start by loading the project.
                   <img src = "https://imgur.com/2VPlDu7.png"/ class="wide-photo">
       - step: >
-          Step 2: Click on the green flag. Your browser will ask if it is ok to show you notifications. Click allow and you should see a notification. Click on the notification to connect to your headset using Bluetooth.
+          Step 2: This project uses the <a href="/cognimates-website/extensions/muse">muse extension</a>.
+                  <img src = "https://imgur.com/3v5RMp2.jpg"/ class="wide-photo">
+      - step: >
+          Step 3: Click on the green flag. Your browser will ask if it is ok to show you notifications. Click allow and you should see a notification. Click on the notification to connect to your headset using Bluetooth.
                   <img src = "https://imgur.com/YUIOvl0.png"/ class="wide-photo">
       - step: >
-          Step 3: You should see a menu of Bluetooth devices appear. Select your Muse headset and click pair.
+          Step 4: You should see a menu of Bluetooth devices appear. Select your Muse headset and click pair.
                   <img src = "https://imgur.com/N36MOGk.png"/ class="wide-photo">
       - step: >
-          Step 4: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts!
+          Step 5: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts! Change the numbers for the ghost's movement depending on how you want it to move.
                   <img src = "https://imgur.com/xf3KSOP.png"/ class="wide-photo">
 
 violet:
@@ -424,7 +474,7 @@ violet:
     Use color recognition to change Violet's tummy color.
   description: >
     Using the color extension, track colors and change the color of Violet's tummy from pink to red!
-  cover_photo: /images/ext-images/violet.png
+  cover_photo: /images/ext-images/Violet.png
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1Lafhhz0GsfzxtSDJzD3_8rxoKJCitnGT
     guide:
@@ -434,14 +484,17 @@ violet:
                   <img src = "https://imgur.com/rgl4NFp.png"/ class="wide-photo"><br>
                   <img src = "https://imgur.com/lKseyQ3.png"/ class="wide-photo">
       - step: >
-          Step 2: Click on the green flag. Violet's going to start off with a pink tummy and ask to get her color changed. She’ll be impatient at first - see if you can fix it by putting a red object in front of the camera!
+          Step 2: This project uses the <a href="/cognimates-website/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop. 
+                  <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo"> 
+      - step: >
+          Step 3: Click on the green flag. Violet's going to start off with a pink tummy and ask to get her color changed. She’ll be impatient at first - see if you can fix it by putting a red object in front of the camera!
                   <img src = "https://imgur.com/FeCVftO.png"/ class="wide-photo"><br>
       - step: >
-          Step 3: Yay, Violet's tummy color changed! If you click on Violet's costumes, you can see what other tummy colors are available. Adjust the code so that Violet's tummy changes with any of the given colors. Now, we can track for more than just red and have even more variety!
+          Step 4: Yay, Violet's tummy color changed! If you click on Violet's costumes, you can see what other tummy colors are available. Adjust the code so that Violet's tummy changes with any of the given colors. Now, we can track for more than just red and have even more variety!
                   <img src = "https://imgur.com/5G5s0HD.png"/ class="wide-photo"><br>
                   <img src = "https://imgur.com/eZfzdXR.png"/ class="wide-photo">
       - step: >
-          Step 4: Try adding your own colors that the camera could track. Remember that once you add a color, it’ll track colors that are within the same color range - for example, light green, medium green, and dark green might all be tracked if you set medium green to be the tracked color. Go for the classic rainbow colors - give Violet new costumes so that she can be pretty in all different colors!
+          Step 5: Try adding your own colors that the camera could track. Remember that once you add a color, it’ll track colors that are within the same color range - for example, light green, medium green, and dark green might all be tracked if you set medium green to be the tracked color. Go for the classic rainbow colors - give Violet new costumes so that she can be pretty in all different colors!
                   <img src = "https://imgur.com/WJp4aAM.png"/ class="wide-photo">
 
 
