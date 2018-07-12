@@ -552,5 +552,24 @@ starHunter:
       - step: >
           Step 4: Now, try to collect the stars as quickly as possible.
                   
-
+microscope:
+  name: Dr.Microscope
+  link: /projects/microscope/
+  short_intro: >
+    Play with Dr.Microscope and see what he knows.
+  description: >
+    Look through Dr.Microscope and see if he guesses what you're looking at. If he's wrong, teach him so he knows more in the future!
+  cover_photo: /images/ext-images/microscope.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1Yj5ce7PNHiXZFfE-dFlYWj1mNXERlhzL
+    guide:
+    - step: >
+        Step 1: Start by loading the project and clicking the green flag.
+            <img src = "https://imgur.com/LGFR7va.png"/ class="wide-photo">
+    - step: >
+        Step 2: This project uses the <a href="/cognimates-website/extensions/vision">vision extension</a>. It can detect images based on trained models.
+            <img src = "https://imgur.com/NryZI8J.png"/ class="wide-photo">
+            <img src = "https://imgur.com/p85TxVW.png"/ class="wide-photo">
+    - step: >
+        Step 3: Now see what Dr.Microscop knows and what you can teach him!
 
