@@ -564,12 +564,17 @@ microscope:
     download_link: https://drive.google.com/uc?export=download&id=1Yj5ce7PNHiXZFfE-dFlYWj1mNXERlhzL
     guide:
     - step: >
-        Step 1: Start by loading the project and clicking the green flag.
-            <img src = "https://imgur.com/LGFR7va.png"/ class="wide-photo">
-    - step: >
-        Step 2: This project uses the <a href="/cognimates-website/extensions/vision">vision extension</a>. It can detect images based on trained models.
+        Step 1: This project uses the <a href="/extensions/vision">vision extension</a> and the <a href="/extensions/video">video extension</a>. It can detect images based on trained models.
             <img src = "https://imgur.com/NryZI8J.png"/ class="wide-photo">
-            <img src = "https://imgur.com/p85TxVW.png"/ class="wide-photo">
     - step: >
-        Step 3: Now see what Dr.Microscop knows and what you can teach him!
+        Step 2: Start by loading the project and clicking the green flag.
+            <img src = "https://imgur.com/wkMPEcz.png"/ class="wide-photo">
+    - step: >
+        Step 3: If you've made a webcam microscope, after you click on him you can press space to take a cool picture like the one on the right.
+            <img src = "https://imgur.com/VYmK6qy.png"/ class="wide-photo"><img src = "https://imgur.com/QJjIVU5.png"/ class="wide-photo">
+    - step: >
+        Step 4: If Dr.Microscope was wrong, don't worry! He'll send the picture you took with the rest of the pictures he has of that object.
+            <img src = "https://imgur.com/DGSZLdx.png"/ class="wide-photo">
+    - step: >
+        Step 5: Now see what Dr.Microscop knows and what you can teach him!
 
