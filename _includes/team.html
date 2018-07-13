@@ -26,6 +26,17 @@
         {% endfor %}
       </ul>
   {% endif %}
+  
+  {% if exchange.former_team %}
+    <h3>Former team members:</h3>
+      <ul>
+        {% for t in exchange.former_team %}
+          <li><font color = #328EDE>{{ t.name }}</font> 
+            <em>{{ t.institution }}</em><br>
+            <p>{{ t.bio }}</p></li>
+        {% endfor %}
+      </ul>
+  {% endif %}
 
   {% if exchange.blog_posts %}
     <h3>Read about the exchange experience:</h3>
