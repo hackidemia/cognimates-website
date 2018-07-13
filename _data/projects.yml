@@ -562,12 +562,12 @@ starHunter:
           Step 4: Now, try to collect the stars as quickly as possible.
                   
 microscope:
-  name: Dr.Microscope
+  name: Dr. Microscope
   link: /projects/microscope
   short_intro: >
-    Play with Dr.Microscope and see what he knows.
+    Play with Dr. Microscope and see what he knows.
   description: >
-    Look through Dr.Microscope and see if he guesses what you're looking at. If he's wrong, teach him so he knows more in the future!
+    Look through Dr. Microscope and see if he guesses what you're looking at. If he's wrong, teach him so he knows more in the future!
   cover_photo: /images/ext-images/microscope.png
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1Yj5ce7PNHiXZFfE-dFlYWj1mNXERlhzL
@@ -582,11 +582,46 @@ microscope:
         Step 3: If you've made a webcam microscope, after you click on him you can press space to take a cool picture like the one on the right.
             <img src = "https://imgur.com/VYmK6qy.png"/ class="wide-photo"><img src = "https://imgur.com/QJjIVU5.png"/ class="wide-photo">
     - step: >
-        Step 4: If Dr.Microscope was wrong, don't worry! He'll send the picture you took with the rest of the pictures he has of that object that way he knows what it is next time. Here are a few images trained as Corn Stems in Dr.Microscope's brian.
+        Step 4: If Dr.Microscope was wrong, don't worry! He'll send the picture you took with the rest of the pictures he has of that object that way he knows what it is next time. Here are a few images trained as Corn Stems in Dr. Microscope's brian.
             <img src = "https://imgur.com/DGSZLdx.png"/ class="wide-photo">
             <img src = "https://imgur.com/741wr1x.png"/ class="wide-photo"><img src = "https://imgur.com/KORi5Vw.png"/ class="wide-photo">
     - step: >
-        Step 5: Now see what Dr.Microscope knows and what you can teach him! Here's an example using the live view of a wecbcam microscope.
+        Step 5: Now see what Dr. Microscope knows and what you can teach him! Here's an example using the live view of a wecbcam microscope.
         <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
+
+rpsCozmo:
+  name: Rock, Paper, Scissors with Cozmo
+  link: /projects/rpsCozmo
+  short_intro: >
+    Play Rock, Paper, Scissors with Cozmo!
+  description: >
+    Train your computer to play Rock, Paper, Scissors with you, and have Cozmo cheer you on! Make Cozmo react to the moves you make. For more information on connecting to Cozmo through Cognimates, check out the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a> page for more information.
+  cover_photo: /images/ext-images/cozmorps.png
+  video: >
+    <iframe src="https://giphy.com/embed/fHcfIr6kyGSGZ20rfR" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fHcfIr6kyGSGZ20rfR">via GIPHY</a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1crM3TTXFJDXTz2GbFXXIFtq6Y_pNVPq1
+    guide:
+      - step: >
+          Step 1: Load the simple version of Rock Paper Scissors with Cozmo. This project uses the <a href="/cognimates-website/extensions/vision">Vision extension</a>, which you can use to train a model and recognize images, and the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>, which lets you program Cozmo. It's an adapted version of our <a href="/cognimates-website/projects/rock">Rock, Paper, Scissors project</a>, this time with Cozmo!
+                  <img src = "https://imgur.com/l89gZCG.png"/ class="wide-photo">  
+      - step: >
+          Step 2: Click the green flag to connect to Cozmo and hold your hand up to the webcam to play rock, paper, scissors with your computer! Press the space bar and wait for the 'pop' sound.
+                  <img src= "https://imgur.com/bUnHTVh.png"/ class="wide-photo">
+      - step: >
+          Step 3: Your computer will take a picture, attempt to recognize what move you played, and compare it to a move that the computer randomly chose.
+                  <img src= "https://imgur.com/HPRPCd0.png"/ class="wide-photo">
+      - step: >
+          Step 4: Once your move has been made, your code will make the hand on the right change to rock, paper, or scissor depending on which one the computer think you played. Cozmo will also say the move. </br>
+                  <img src= "https://imgur.com/b8oAyhV.png"/ class="wide-photo">
+      - step: >
+          Step 5: Cozmo's also going to react your result. If you won, it'll do a happy dance. If you lost, it'll look upset. Try adding an expression for Cozmo when the game is tied!
+                  <img src= "https://imgur.com/ESxcEGQ.png"/ class="wide-photo">  
+      - step: >
+          Step 6: If the computer was wrong and didn't recognize the correct hand that you played, you can train the model to become better. Check out steps 5-9 in the <a href="/cognimates-website/projects/rock">original Rock, Paper, Scissors project</a> on how to send your answers to the model!
+      - step: >
+          Step 7: If you want to create and train your own rock, paper, scissors model, head over to our <a href="http://cognimate.me:2635">training page</a> and create a vision training model!
+
+
 
 
