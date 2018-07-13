@@ -563,7 +563,7 @@ starHunter:
                   
 microscope:
   name: Dr.Microscope
-  link: /projects/microscope/
+  link: /projects/microscope
   short_intro: >
     Play with Dr.Microscope and see what he knows.
   description: >
