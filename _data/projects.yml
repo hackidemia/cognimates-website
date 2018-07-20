@@ -562,7 +562,7 @@ starHunter:
           Step 4: Now, try to collect the stars as quickly as possible.
                   
 microscope:
-  name: Dr. Microscope
+  name: Dr.Microscope
   link: /projects/microscope
   short_intro: >
     Play with Dr. Microscope and see what he knows.
