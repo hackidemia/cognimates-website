@@ -11,9 +11,9 @@ sentiment:
   name: Make Me Happy 
   link: /projects/sentiment
   short_intro: > 
-    Learn how to make a robot react to your messages! 
+    Learn how to make Nary react to your messages! 
   description: >
-    Learn how to make a robot react to your messages! 
+    Learn how to make Nary react to your messages! 
   cover_photo: /images/ext-images/make-me-happy.png
   #video: >
   # <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -33,7 +33,7 @@ sentiment:
       - step: > 
           Step 1: Load the simple version of Make Me Happy <a href=https://drive.google.com/uc?export=download&id=1qAOBaduqQ4ebQy6jM9ShDYNLgAMF1fyz>here</a>. If it is loud where you are, the speech extension may not work properly. Try loading <a href=https://drive.google.com/uc?export=download&id=1w6S-M8OuQ2unS6VlH33ZncbJDK2TFUXt>this</a> version instead. 
       - step: >
-          Step 2: Run the program by clicking on the green flag. How does the robot respond? What do you need to tell him for him to be happy?
+          Step 2: Run the program by clicking on the green flag. How does the Nary respond? What do you need to tell him for him to be happy?
         photo: /images/projects/make-me-happy/make-me-happy-2.png
       - step: >
           Step 3: That's not really fun is it? Let's see if we can make him happy (or sad) depending on the feeling of the message we type him. Start by loading the <a href="/cognimates-website/extensions/feelings">Feelings extension</a>.
