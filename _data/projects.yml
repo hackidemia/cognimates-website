@@ -622,6 +622,33 @@ rpsCozmo:
       - step: >
           Step 7: If you want to create and train your own rock, paper, scissors model, head over to our <a href="http://cognimate.me:2635">training page</a> and create a vision training model!
 
+waterkinesis:
+  name: Waterkinesis
+  link: /projects/waterkinesis
+  short_intro: >
+    Control objects in water with your mind!
+  description: >
+    Connect a Lego Wedo and Muse EEG headset to control objects in water with your mind.
+  cover_photo: /images/ext-images/cozmorps.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=17m-0_2dez_SugAyw-D55C3IbzbU9NRqC
+    guide:
+      - step: >
+          Step 1: Load the simple version of Waterkinesis <a href="https://drive.google.com/uc?export=download&id=1f5dMX3AF0_CWKYXIhKZvMQMEx44xGck-">here</a>. This project uses the <a href="/cognimates-website/extensions/muse">Muse extension</a>, which you can use to record your brain EEG values, and the Lego Wedo extension, which lets you program with a Lego Wedo.
+                  <img src = "https://imgur.com/lqEt77A.png"/ class="wide-photo"> 
+      - step: >
+          Step 2: Connect the Lego Wedo using the Scratch Device Manager, and load the Lego Wedo extension on Cognimates.
+                  <img src = "https://imgur.com/13OyNAN.png"/ class="wide-photo">
+      - step: >
+          Step 3: Click the green flag to connect to your Muse headset. Follow the notifications and pair your device with the Muse headset.
+                  <img src= "https://imgur.com/hFEZ4eT.png"/ class="wide-photo">
+      - step: >
+          Step 4: Once your headset is connected, watch the Lego Wedo change light colors based on your EEG values! The current threshold values are set to 100, but the best thresholds for you might be different. Click the “Get value of” blocks to see your EEG values and figure out what your thresholds should be. 
+                  <img src= "https://imgur.com/GVjyqHW.png"/ class="wide-photo">
+      - step: >
+          Step 5: Try adding movement blocks! Make the Wedo move forward and change directions depending on the side of your body that moved. </br>
+                  <img src= "https://imgur.com/gKFIHpi.png"/ class="wide-photo">
+ 
 
 
 
