@@ -629,7 +629,7 @@ waterkinesis:
     Control objects in water with your mind!
   description: >
     Connect a Lego Wedo and Muse EEG headset to control objects in water with your mind.
-  cover_photo: /images/ext-images/cozmorps.png
+  cover_photo: /images/ext-images/waterkinesis.png
   resources:
     download_link: https://drive.google.com/uc?export=download&id=17m-0_2dez_SugAyw-D55C3IbzbU9NRqC
     guide:
@@ -648,6 +648,8 @@ waterkinesis:
       - step: >
           Step 5: Try adding movement blocks! Make the Wedo move forward and change directions depending on the side of your body that moved. </br>
                   <img src= "https://imgur.com/gKFIHpi.png"/ class="wide-photo">
+      - step: >
+          Step 6: You can choose to move the Wedo on land, or try a water-based activity with this code! We recommend you place the Lego Wedo smarthub and motor in a waterproof box, drill a hole to the side of the box, and use a lego stick piece to connect a plastic propeller to the wedo motor. Test out other mechanical designs that you think will also work!
  
 
 
