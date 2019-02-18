@@ -1,3 +1,9 @@
+thesis:
+  name: Growing up with AI. Cognimates from coding to teaching machines. 
+  reference: Stefania Druga. MIT Master Thesis 2018
+  image: /images/research-images/thesis.png
+  link: https://dam-prod.media.mit.edu/x/2018/08/29/Growin_up_with_AI_Stefania_Druga_2018.pdf
+
 google_eat:
   name: Hey Google is it Ok if I eat you?    
   reference: > 
@@ -17,3 +23,4 @@ doll:
   reference: >
     Randi Williams, Christian Vazquez, Stefania Druga, Pattie Maes, Cynthia Breazeal. “My Doll Says It's OK: Voice-Enabled Toy Influences Children's Moral Decisions.” Under review IDC. 2018
   image: /images/research-images/moral.png
+

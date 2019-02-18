@@ -215,8 +215,8 @@ speech:
   short_intro: > 
     Talk to your computer and have it talk back to you! 
   description: >
-    This extension allows you to transform what you say to text.
-  cover_photo: /images/ext-images/speech.png
+    This extension allows you to transform what you say to text. This extension was inspired by the Scratch team's<a href=https://preview.scratch.mit.edu/> speech extension</a> but the code was modified and adapted especially for Cognimates project's needs. 
+  cover_photo: /images/ext-images/speech-ext-new.jpg
   resources:
     guide:
       - step: >
@@ -228,7 +228,7 @@ wemo:
   short_intro: > 
     The Wemo Smart Plug Extension
   description: >
-    This extension allows you to turn a smart plug on and off and control anything else that is connected to it, things like a disco ball or a bubbles machine. 
+    This extension allows you to turn a smart plug on and off and control anything else that is connected to it, things like a disco ball or a bubbles machine. This extension was inspired by Kreg Hanning's Wemo 2.0 Scratch Extension but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs. 
   cover_photo: /images/ext-images/wemo_ext.png
   resources:
     guide:
@@ -251,7 +251,7 @@ twitter:
   short_intro: > 
     The Twitter 3.0 Extension
   description: >
-    This extension allows you to get tweets from specific accounts of hashtags and use them in your projects. 
+    This extension allows you to get tweets from specific accounts of hashtags and use them in your projects. This extension was inspired by Connor Hudson and Kreg Hanning's <a href=https://technoboy10.github.io/twitter/> Twitter 2.0 Scratch Extension </a> but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs. 
   cover_photo: /images/ext-images/twitter_ext.jpg
   resources:
     guide:
@@ -264,56 +264,80 @@ microbit:
   short_intro: > 
     The Microbit Extension
   description: >
-    This is a native Scratch extension that allows you to extension allows you to program the microbit board. 
+    This extension allows you to extension allows you to program the microbit board. This extension was inspired by Kreg Hanning's <a href=https://llk.github.io/microbit-extension/> Microbit 2.0 Scratch Extension </a> but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs. 
   cover_photo: /images/ext-images/Microbit_extension.png
   resources:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/vyFs2gc.png"/ class="wide-photo">
                   <img src = "https://i.imgur.com/74ScHIT.jpg"/ class="wide-photo">  
-
-wedo:
-  name: Wedo
-  link: /extensions/wedo
-  short_intro: > 
-    The Lego Wedo 2.0 Extension
+muse:
+  name: Muse
+  link: /extensions/muse
+  short_intro: The Muse Extension
   description: >
-    This is a native Scratch extension that allows you to connect to Lego Wedo Bricks!
-  cover_photo: /images/ext-images/wedo.png
+    This extension allows you to connect to Muse, a brain sensing headband that measures your EEG values. 
+  cover_photo: /images/ext-images/Muse.png
   resources:
     guide:
       - step: >
-                  <img src = "https://i.imgur.com/2TEmYty.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/A0ksaXP.jpg"/ class="wide-photo">                
-
-pen:
-  name: Pen
-  link: /extensions/pen
-  short_intro: > 
-    Draw with your sprites!
+                  <img src = "https://imgur.com/fAAajAE.png"/ class="wide-photo">
+                  <img src = "https://imgur.com/3v5RMp2.jpg"/ class="wide-photo">
+video:
+  name: Video
+  link: /extensions/video
+  short_intro: Video Control Extension
   description: >
-    This is a native Scratch extension that allows you to turn sprites into 'pens'.
-  cover_photo: /images/ext-images/pen.png 
+    This extension allows you to control the transparency, source, and movement in the video feed.
+  cover_photo: /images/ext-images/video.png
   resources:
     guide:
       - step: >
-                  <img src = "https://i.imgur.com/GRAm0pf.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/RC119lq.jpg"/ class="wide-photo">                
+                  <img src = "https://imgur.com/aMlywXR.png"/ class = "wide-photo">
+                  <img src = "https://imgur.com/UyakVhn.png"/ class = "wide-photo">
+
+#wedo:
+#  name: Wedo
+#  link: /extensions/wedo
+#  short_intro: > 
+#    The Lego Wedo 2.0 Extension
+#  description: >
+#    This is a native Scratch extension that allows you to connect to Lego Wedo Bricks!
+#  cover_photo: /images/ext-images/wedo.png
+#  resources:
+#    guide:
+#      - step: >
+#                  <img src = "https://i.imgur.com/2TEmYty.png"/ class="wide-photo">
+#                  <img src = "https://i.imgur.com/A0ksaXP.jpg"/ class="wide-photo">                
+
+#pen:
+#  name: Pen
+#  link: /extensions/pen
+#  short_intro: > 
+#    Draw with your sprites!
+#  description: >
+#    This is a native Scratch extension that allows you to turn sprites into 'pens'.
+#  cover_photo: /images/ext-images/pen.png 
+#  resources:
+#    guide:
+#      - step: >
+#                  <img src = "https://i.imgur.com/GRAm0pf.png"/ class="wide-photo">
+#                  <img src = "https://i.imgur.com/RC119lq.jpg"/ class="wide-photo">                
 
 
-music:
-  name: Music
-  link: /extensions/music
-  short_intro: > 
-    Play music with Scratch!
-  description: >
-    Use blocks to create music! You can control the tempo and use different instruments.
-  cover_photo: /images/ext-images/music.png
-  resources:
-    guide:
-      - step: >
-                  <img src = "https://i.imgur.com/7gGQmTs.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/Le5OUO2.jpg"/ class="wide-photo">                
+#music:
+#  name: Music
+#  link: /extensions/music
+#  short_intro: > 
+#    Play music with Scratch!
+#  description: >
+#    Use blocks to create music! You can control the tempo and use different instruments.
+#  cover_photo: /images/ext-images/music.png
+#  resources:
+#    guide:
+#      - step: >
+#                  <img src = "https://i.imgur.com/7gGQmTs.png"/ class="wide-photo">
+#                  <img src = "https://i.imgur.com/Le5OUO2.jpg"/ class="wide-photo">                
 
 
 

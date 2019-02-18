@@ -7,7 +7,7 @@
     <p>{{ p }}</p>
   {% endfor %}
 
-  <p>Cognimates is a project from <a href="https://www.media.mit.edu/groups/personal-robots/overview/">Personal Robots Group</a> at MIT Media Lab, directed by <a href="https://www.media.mit.edu/people/cynthiab/overview/">Cynthia Breazeal</a>, Associate Professor of Media Arts and Sciences.
+  <p>Cognimates is a project started at <a href="https://www.media.mit.edu/">MIT Media Lab</a>.
     If you are interested in joing our {{ exchange.name }} or have questions about how to get involved <a href="mailto:cognimates@gmail.com"> get in touch with us here.</a></p>
 
 
@@ -26,19 +26,30 @@
         {% endfor %}
       </ul>
   {% endif %}
+  
+  <!-- {% if exchange.former_team %}
+    <h3>Former team members:</h3>
+      <ul>
+        {% for t in exchange.former_team %}
+          <li><font color = #328EDE>{{ t.name }}</font> 
+            <em>{{ t.institution }}</em><br>
+            <!-- <p>{{ t.bio }}</p></li> -->
+        <!-- {% endfor %}
+      </ul>
+  {% endif %} --> 
 
-  {% if exchange.blog_posts %}
+  <!-- {% if exchange.blog_posts %}
     <h3>Read about the exchange experience:</h3>
     <ul class="blog-posts">
       {% for item in exchange.blog_posts %}
         <li><a href={{ item.url }}>{{ item.description }}</a></li>
       {% endfor %}
     </ul>
-  {% endif %}
-  <p>This project has been supported by the Lego Foundation through the Lego Papert Fellowship awarded to Stefania Druga and by the NTT Data contribution to the Personal Robots AI Education SIG.</p>
+  {% endif %} -->
+  <!-- <p>This project has been supported by the Lego Foundation through the Lego Papert Fellowship awarded to Stefania Druga and by the NTT Data contribution to the Personal Robots AI Education SIG.</p> -->
 </div>
 
-{% if exchange.photos %}
+<!-- {% if exchange.photos %}
   <div class="community">
     <h3>Exchange in Action</h3>
     <div class="image-container">
@@ -47,4 +58,4 @@
       {% endfor %}
     </div>
   </div>
-{% endif %}
+{% endif %} -->

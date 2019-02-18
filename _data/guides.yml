@@ -53,6 +53,22 @@ smartLights:
     guide_link: https://drive.google.com/uc?export=download&id=1igvBU9r99vnqElcjUuNv6TB7ZI8GtOt8
     download_link: https://drive.google.com/uc?export=download&id=1rWPU_6Xi6rqsiON6nIMSjLuIiS2fSMh0
 
+waterkinesis:
+  name: Waterkinesis
+  link: /guides/waterkinesis
+  short_intro: > 
+    Control objects in water with your mind. 
+  description: >
+    Connect a Lego Wedo and Muse EEG headset to control objects in water with your mind. 
+  cover_photo: /images/ext-images/waterkinesis.png
+  project_link: /projects/waterkinesis
+  photo: /images/guides/waterkinesis/waterkinesis.png
+  #video: >
+  #  <iframe src="https://giphy.com/embed/1d5Qy8YXNeqp3CHPLv" width="480" height="163" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1XX49KdQKtD-AA_9RkutaHAEfnvBB3hgo    
+    guide_link: https://drive.google.com/uc?export=download&id=1XX49KdQKtD-AA_9RkutaHAEfnvBB3hgo
+
 #twitter:
 # name: Check up on Twitter
 # link: /guides/twitter
