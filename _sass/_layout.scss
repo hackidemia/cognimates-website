@@ -94,7 +94,7 @@ body {
   // Page wrapper layout
 
 .grid-wrapper {
-  width: 75%;
+  width: 85%;
   margin: 130px auto 0 auto;
   display: grid;
   grid-gap: 0;
@@ -362,7 +362,7 @@ body {
 
   // Page wrapper updates for med-large screens
   .grid-wrapper {
-    max-width: 908px;
+    max-width: 1300px;
     margin-top: 20px;
     //grid-template-columns: 3fr 2fr;
     grid-template-rows: auto auto 1fr auto;
