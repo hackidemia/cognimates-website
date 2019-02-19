@@ -1,0 +1,53 @@
+---
+layout: default
+title: Media
+permalink: /media/
+---
+
+{% assign media = site.data.media %}
+
+<div class="main">
+  <div class="community">
+    <h2>Media coverage of cognimates</h2>
+    {% if media %}
+    <div class="image-container">
+      
+        {% for u in media.press %}
+        <div>
+        <img src="{{ u[1].image }}"/> <br>
+        <h3><a href="{{ u[1].link }}">{{ u[1].title }}</a></h3>
+        <h3>{{ u[1].publisher }}</h3>
+      </div>
+          
+        {% endfor %}
+      
+    </div>
+
+    <h2>From educators:</h2>
+    {% for u in media.educators %}
+      <h3><a href="{{ u[1].link }}">{{ u[1].title }}</a></h3>
+      <h3>{{ u[1].author }}</h3>
+    {% endfor %}
+
+    <h2>From schools that we've worked with:</h2>
+    {% for u in media.schools %}
+      <div>
+        <img src="{{ u[1].image }}"/> <br>
+        <h3><a href="{{ u[1].link }}">{{ u[1].title }}</a></h3>
+        <h3>{{ u[1].school }}</h3>
+      </div>
+    {% endfor %}
+
+    <h2>International news</h2>
+    <div class="image-container">
+      {% for u in media.international %}
+        <div>
+          <img src="{{ u[1].image }}"/> <br>
+          <h3><a href="{{ u[1].link }}">{{ u[1].title }}</a></h3>
+          <h3>{{ u[1].publisher }}</h3>
+        </div>
+      {% endfor %}
+   </div>
+    {% endif %}
+  </div>
+</div>

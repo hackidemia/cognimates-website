@@ -1,0 +1,83 @@
+press:
+  globe:
+    title: How will AI technologies affect child development?
+    link: https://www.theglobeandmail.com/life/article-how-will-ai-technologies-affect-child-development/
+    image: https://www.theglobeandmail.com/resizer/-QVO-Y4hynIXbOtgqqFn3acl0Uk=/620x0/filters:quality(80)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/JQZ5XGKMGVFVBH6EGNTWWGAE4Y.JPG
+    publisher: The Globe and Mail
+
+  cbc:
+    title: Would you let your kids play with AI robots?
+    link: https://www.cbc.ca/radio/thecurrent/the-current-for-november-27-2017-1.4418695/would-you-let-your-kids-play-with-ai-robots-1.4418700
+    image: https://i.cbc.ca/1.4421002.1511796199!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/cozmo-the-robot.jpg
+    publisher: CBC
+
+  atlantic:
+    title: Should Children Form Emotional Bonds With Robots?
+    link: https://www.theatlantic.com/magazine/archive/2017/12/my-sons-first-robot/544137/
+    image: https://cdn.theatlantic.com/assets/media/img/2017/11/DIS_Tech_Lead/lead_720_405.jpg?mod=1533692238
+    publisher: The Atlantic
+
+  tech:
+    title: Growing Up with Alexa
+    link: https://www.technologyreview.com/s/608430/growing-up-with-alexa/
+    image: https://cdn.technologyreview.com/i/images/aristotle-opener-crop.png?sw=1180&cx=0&cy=0&cw=2000&ch=1300
+    publisher: MIT Technology Review
+
+  wired:
+    title: Understanding Generation Alpha
+    link: https://www.wired.co.uk/article/understanding-generation-alpha
+    image: https://wi-images.condecdn.net/image/Q0JY6B6JnLo/crop/810/f/GenerationAlpha_CHPT2_opener.jpg
+    publisher: Wired
+
+  scpr:
+    title: They’re alive! Are smart toys changing how children interact with humans?
+    link: https://www.scpr.org/programs/airtalk/2017/11/17/60286/they-re-alive-are-smart-toys-changing-how-children/
+    image: https://a.scpr.org/i/5ae249d6abf718d7f78ce9f6bacbbf04/178400-full.jpg
+    publisher: KPCC's AirTalk
+
+educators:
+  joho:
+    title: Stefania Druga on how kids can help teach us about AI
+    link: http://www.hyperorg.com/blogger/2017/11/05/liveblog-stefania-druga-on-how-kids-can-help-teach-us-about-ai/
+    author: Joho the Blog
+
+schools:
+  shs:
+    title: SHS Students Improve Their AI Literacy
+    link: https://www.shs.org/page/news-detail?pk=1231824
+    image: https://bbk12e1-cdn.myschoolcdn.com/ftpimages/22/news/large_news1231824_1225191.gif
+    school: Shady Hill School
+
+international:
+  elmostrador:
+    title: >
+      Stefania Druga: la experta en robótica del MIT que enseña a los chilenos de educación
+    link: https://www.elmostrador.cl/cultura/2018/08/08/stefania-druga-la-experta-de-robotica-del-mit-que-ensena-a-los-chilenos-de-educacion/
+    image: https://www.elmostrador.cl/media/2018/08/Clase_informatica_816x428.jpg
+    publisher: elmostrador
+
+  lobs:
+    title: Ce petit robot rigolo veut être l'ami de vos enfants (et c'est un problème)
+    link: https://www.nouvelobs.com/rue89/notre-epoque/20171120.OBS7551/ce-petit-robot-rigolo-veut-etre-l-ami-de-vos-enfants-et-c-est-un-probleme.html
+    image: https://media.nouvelobs.com/referentiel/633x306/16318304.jpg
+    publisher: L'Obs
+
+  giffoni:
+    title: >
+      AI Labs: new technologies and robots win the jurors at the sections Elements
+    link: https://giffonihub.com/en/ai-labs-new-technologies-and-robots-win-the-jurors-at-the-sections-elements/
+    image: https://giffonihub.com/wp-content/uploads/2018/07/21-7-2018-Village-Laboratori-Stefania-Druga-4373.jpg
+    publisher: Giffoni Innovation Hub
+
+  waag:
+    title: Inspiration from Steamconf 2018 Barcelona
+    link: https://waag.org/en/article/inspiration-steamconf-2018-barcelona
+    image: https://waag.org/sites/waag/files/styles/carousel/public/2018-04/steamconf_kettingreactie.jpg?itok=QWalWvsx
+    publisher: Waag
+
+  waag_2:
+    title: AI AI Barbie
+    link: https://waag.org/en/project/ai-ai-barbie
+    image: https://waag.org/sites/waag/files/styles/carousel/public/2018-11/barbie-army-todd-anderson-by-sa-2010.jpg?itok=X7dAPR0S
+    publisher: Waag
+
