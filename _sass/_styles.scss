@@ -1,4 +1,5 @@
 $font: Roboto, sans-serif;
+$extra-extra-large-font: 28px;
 $extra-large-font: 23px;
 $large-font: 16px;
 $medium-font: 12px;
@@ -20,6 +21,12 @@ body {
   font-weight: $medium-weight;
   background-color: #ffffff;
   margin: 0;
+
+  h1 {
+    font-size: $extra-extra-large-font;
+    font-weight: $heavy-weight;
+    color: $main-color;
+  }
 
   h2 {
     font-size: $extra-large-font;
