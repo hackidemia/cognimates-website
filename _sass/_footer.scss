@@ -1,0 +1,60 @@
+.site-footer {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	padding: 15px 0;
+	flex-direction: column;
+	justify-content: center; // horizontal alignment
+	align-items: center; // vertical alignment
+
+	span {
+		padding: 10px;
+		text-align: center;
+		font-size: $med-sm-font;
+
+		img {
+			display: inline-block;
+			align: middle;
+			vertical-align: bottom;
+			height: 2.6em;
+			width: auto;
+			padding: 0 5px;
+			margin-bottom: 3px;
+		}
+	}
+}
+
+.button {
+	background-color: $main-color;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	padding: 15px 27px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: $extra-large-font;
+	font-weight: $medium-weight;
+	margin: 4px 2px;
+	cursor: pointer;
+	box-shadow: 3px 7px $light-main-color;
+}
+
+.space {
+	margin-top: 20px;
+}
+
+.left-col {
+	float: right;
+	flex: 50%;
+	margin-left: 10%;
+}
+
+.row {
+	display: flex;
+}
+
+.buttons {
+	margin-top: 10%;
+}

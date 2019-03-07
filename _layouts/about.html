@@ -2,17 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {% include head.html %}
-  <style>
-    body {
-      background-image: url(https://mitmedialab.github.io/cognimates-website/images/website-banner.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-attachment: fixed;
-      background-position: center bottom;
-    }
-
-  </style>
-
+  
   <body>
     <main class="page-content" aria-label="Content">
 
@@ -21,11 +11,8 @@
       <div class="grid-wrapper">
         {{ content }}
       </div>
-
       
       {% include about-footer.html %}
     </main>
-
   </body>
-
 </html>

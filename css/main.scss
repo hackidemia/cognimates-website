@@ -1,6 +1,11 @@
 ---
 ---
 
-@import '_layout';
-@import '_styles';
-@import '_panel'
+@import 'variables';
+@import 'base';
+
+@import 'header';
+@import 'footer';
+
+@import 'login';
+@import 'layout';
