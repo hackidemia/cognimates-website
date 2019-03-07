@@ -1,4 +1,11 @@
 // document.ready
 document.addEventListener("DOMContentLoaded", function(event) { 
-    console.log  
+
+    const player = new Plyr(
+        '#player', 
+        {
+            title: 'Example Title'
+        }
+    );
+
 });
