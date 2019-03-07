@@ -1,11 +1,9 @@
-<header class="site-header">
-  <div class="header-content">
-  	<a href={{ '/about' | relative_url }}>
+<header class="header">
+  	<a class="header__logo-link" href={{ '/about' | relative_url }}>
         <img 
             src={{ '/images/cognimates-logo--codelab.svg' | relative_url }} 
-            class="site-logo" 
+            class="header__logo-image"
             alt="Cognimates logo" />
         </a>
     {% include nav.html %}
-  </div>
 </header>

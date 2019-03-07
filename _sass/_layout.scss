@@ -151,11 +151,7 @@
 }
 
 @media (min-width: 600px) {
-	.site-header {
-		.site-nav {
-			flex-wrap: nowrap;
-		}
-	}
+
 
 	.external-logo-about {
 		text-align: left;
@@ -178,31 +174,6 @@
 /////////////////////////////////////////
 
 @media (min-width: 980px) {
-	
-	body {
-		padding-top: 10px;
-	}
-
-	// Header updates for small-med screens
-	.site-header {
-		.header-content {
-			margin: 0 auto;
-			max-width: 60%;
-			flex-direction: row;
-			justify-content: space-between;
-			
-			.site-nav {
-				a {
-					margin: 0 15px 10px 15px;
-					font-size: $medium-font;
-				}
-			}
-
-			.site-logo {
-				padding: 20px 0 20px 22px;
-			}
-		}
-	}
 
 	.main {
 		p {
@@ -248,23 +219,7 @@
 
 @media (min-width: 1400px) {
 
-	// Header updates for med-large screens
-	.site-header {
-		position: relative;
 
-		.header-content {
-			.site-nav {
-				max-width: 100%;
-				margin: 0;
-				flex-direction: row;
-				justify-content: flex-end; // horizontal alignment
-
-				a {
-					margin: 0 15px;
-				}
-			}
-		}
-	}
 
 
 	// Page wrapper updates for med-large screens

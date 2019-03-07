@@ -1,55 +1,74 @@
-.site-header {
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	right: 0;
-	left: 0;
-	width: 100%;
-	background-color: white;
+$header--height: 4rem;
 
-	.header-content {
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start; // vertical alignment
-		align-items: center; // horizontal alignment
-	}
+.header {
+	background-color: $main-color;
+	width: 100vw;
+	height: $header--height;
 
-	.site-logo {
-		padding: 10px 0;
-		height: 120px;
-		width: auto;
-	}
-
-	.site-nav {
-		display: inline-flex;
-		flex-flow: row wrap;
-		justify-content: center; // vertical alignment
-		align-items: center; // horizontal alignment
-		max-width: 80%;
-		
-		a {
-			margin: 1%;
-			padding: 9px 5px 8px 5px;
-			display: inline-block;
-			text-align: center;
-			font-size: $small-font;
-			font-weight: $heavy-weight;
-			white-space: nowrap;
-			color: $main-color;
-			text-decoration: none;
-		}
-
-		a.active {
-			color: white;
-			background-color: $main-color;
-		}
-
-		a:hover {
-			color: $main-color;
-			background-color: lighten($main-color,35%);
-		}
-	}
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+.header__logo-link {
+	// stretch the height to fill the nav 
+	align-self: stretch;
+
+	// use flexbox to vertically center the text
+  	display: flex;
+	align-items: center;
+}
+
+.header__logo-image {
+	height: 2.75rem;
+	margin: 0 0.75rem 0 1rem;
+}
+
+.header__logo-image:hover {
+	opacity: 0.9;
+}
+
+.header__nav {
+	display: flex;
+	height: $header--height;
+	margin-left: auto;
+}
+
+.header__nav-item {
+	// stretch the height to fill the nav 
+	align-self: stretch;
+
+	// use flexbox to vertically center the text
+  	display: flex;
+	align-items: center;
+
+	padding: 0 1rem;
+	color: white;
+	white-space: nowrap;
+	text-decoration: none;
+	font-family: $font-family;
+	font-size: 1.1rem;
+	font-weight: 400;
+	transition: 0.1s all ease-in;
+}
+
+.header__nav-item.active {
+	// border bottom, so it falls outside the container
+	font-weight: 400;
+	box-shadow: 0 4px 0 0 $accent-color; 
+}
+
+.header__nav-item.active:hover {
+}
+
+.header__nav-item:hover {
+	// border bottom, so it falls outside the container
+	box-shadow: 0 4px 0 0 $accent-color;
+	text-decoration: none;
+}
+
+
+
 
 .external-logo-about {
 	position: fixed;
