@@ -8,14 +8,15 @@
   {% endfor %}
 
   <p>Cognimates is a project started at <a href="https://www.media.mit.edu/">MIT Media Lab</a>.
-    If you are interested in joing our {{ exchange.name }} or have questions about how to get involved <a href="mailto:cognimates@gmail.com"> get in touch with us here.</a></p>
-
+    If you are interested in joing our {{ exchange.name }} or have questions about how to get involved 
+    <a href="mailto:cognimates@gmail.com">get in touch with us!</a></p>
 
 
   {% if exchange.team_photo %}
       <img src={{ exchange.team_photo | relative_url }} alt="The {{ exchange.name }} team members" class='header-photo'/>
   {% endif %}
   <p><i>Left to right: Tammy, Stefania, Eesh, Sarah</i></p>
+  
   {% if exchange.team_members %}
     <h3>Team members:</h3>
       <ul>
@@ -33,29 +34,9 @@
         {% for t in exchange.former_team %}
           <li><font color = #328EDE>{{ t.name }}</font> 
             <em>{{ t.institution }}</em><br>
-            <!-- <p>{{ t.bio }}</p></li> -->
-        <!-- {% endfor %}
+            <p>{{ t.bio }}</p></li>
+        {% endfor %}
       </ul>
   {% endif %} --> 
 
-  <!-- {% if exchange.blog_posts %}
-    <h3>Read about the exchange experience:</h3>
-    <ul class="blog-posts">
-      {% for item in exchange.blog_posts %}
-        <li><a href={{ item.url }}>{{ item.description }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endif %} -->
-  <!-- <p>This project has been supported by the Lego Foundation through the Lego Papert Fellowship awarded to Stefania Druga and by the NTT Data contribution to the Personal Robots AI Education SIG.</p> -->
 </div>
-
-<!-- {% if exchange.photos %}
-  <div class="community">
-    <h3>Exchange in Action</h3>
-    <div class="image-container">
-      {% for image in exchange.photos %}
-        <img src={{ image | relative_url }} alt="{{ exchange.name }} in action" />
-      {% endfor %}
-    </div>
-  </div>
-{% endif %} -->
