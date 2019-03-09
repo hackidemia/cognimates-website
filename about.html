@@ -5,18 +5,70 @@ permalink: /about/
 redirect_from: /
 ---
 
-<div>
-	<h2>
-		An AI education platform for building games, progamming robots and training 
-		your Machine Learning models.
-	</h2>
-	<!-- <h3>Cognimates is a platform where parents and children (7-12 years old) </h3> -->
-	<a class="button" href='https://codelab.cognimates.me' target="_blank">Run Model</a>
-	<a class="button" href='https://cognimate.me:2635/home' target="_blank">Train Model</a>
-</div>
+<section class="about__banner">
+	<h1 class="section__banner-headline">
+		An AI education platform for building games, progamming robots &amp; training 
+		AI models
+	</h1>
 
-<video 
-	src="/videos/cognimates-1-minute-2018-06-11-2_1--optimized.mp4" 
-	id="player" 
-	controls>
-</video>
+   <div class="panel panel--images ">
+	    <div class="slideshow">
+	        <!-- <div class="slideshow__gradient"></div> -->
+
+	        <img class="slideshow__img a1">
+	        <img class="slideshow__img a2">
+	        <img class="slideshow__img a3">
+	    </div>
+	</div>
+
+</section>
+
+<section class="about__ui">
+	<div class="about__ui-headline-wrapper">
+		<h1 class="about__ui-headline">
+			<span>Train Models.</span>
+			<span>↓</span>
+			<span>Explore &amp; Play.</span>
+
+		<a class="button about__get-started-button" 
+			href='https://cognimate.me:2635/home' 
+			target="_blank">Get Started
+		</a>
+
+	<!-- <a class="button" href='https://cognimate.me:2635/home' target="_blank">Train Model</a> -->
+	<!-- <a class="button" href='https://codelab.cognimates.me' target="_blank">Play with Models</a> -->
+
+		</h1>
+	</div>
+	<div class="about__ui-image"></div>
+</section>
+
+<section class="about__section--workshop-video">
+	<div class="js--about-banner-video" 
+		data-plyr-provider="vimeo" 
+		data-plyr-embed-id="317830089"></div>
+</section>
+
+<section class="about__featured">
+	<h1 class="about__featured-headline">
+		Featured In
+	</h1>
+	<div class="about__featured-logos">
+		{% include logos.html %}
+	</div>
+</section>
+
+<section class="about__footer-banner">
+	<h1 class="about__footer-banner-headline">
+		Bleep. Blop. Bzsszz . . . Tsik Tsik Wooot.
+	</h1>
+	<!-- 
+		Rasterized and extracted the photos from SVG
+		as linked images, to decrease the file size.
+
+		<img> element blocks the display of SVG linked images.
+		We can use <embed> element instead.
+		https://stackoverflow.com/questions/41195669/images-in-svg-image-tags-not-showing-up-in-chrome-but-displays-locally -->
+	<embed src="../images/website-banner-svg/website-banner--v3.svg" class="about__footer-banner-image">
+</section>
+

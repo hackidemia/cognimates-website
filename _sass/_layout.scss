@@ -3,7 +3,26 @@
 	max-width: 600px;
 	text-align: center;
 }
- 
+
+.button {
+	display: inline-block;
+	padding: 1rem 2rem;
+	margin: 4px 2px;
+	border: none;
+	color: white;
+	border-radius: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	font-size: $extra-large-font;
+	font-weight: $medium-weight;
+	box-shadow: 3px 7px $light-main-color;
+	cursor: pointer;
+}
+
+.button:hover {
+	opacity: 0.9;
+}
+
 //////////////////////////////////////////
 ////////// Small/default layout //////////
 //////////////////////////////////////////
@@ -150,24 +169,6 @@
 	margin-left: 5%;
 }
 
-@media (min-width: 600px) {
-
-
-	.external-logo-about {
-		text-align: left;
-		position: fixed;
-		bottom: 10px;
-		padding-top: 10px;
-		max-width: 100%;
-		font-size: $small-font;
-
-		img {
-			height: 2.8em;
-			bottom: 0;
-			padding: 0;
-		}
-	}
-}
 
 /////////////////////////////////////////
 ////////// Small-medium layout //////////
@@ -281,14 +282,6 @@
 		p {
 			font-size: $medium-font;
 		}
-	}
-
-	// Footer updates for med-large screens
-	.site-footer {
-		grid-column: 1 / 5;
-		grid-row: 4 / 5;
-		width: 100%;
-		margin: 50px auto 20px auto;
 	}
 }
 

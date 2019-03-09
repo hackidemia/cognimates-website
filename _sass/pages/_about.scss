@@ -1,0 +1,170 @@
+.about__banner {
+	height: 80vh;
+	position: relative;
+}
+
+.section__banner-headline {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	font-size: 2.5rem;
+	max-width: 75vw;
+	color: white;
+	margin: 5rem;
+	bottom: 0;
+}
+
+.panel {
+	display: flex;
+	flex-flow: row wrap;
+	background-position: 50% 50%;
+	color: white;
+	height: 100%;
+}
+
+.panel--images {
+	background: #24a2ec;
+	position: relative;
+}
+
+.slideshow {
+	position: relative;
+	width: 100%;
+	background-color: #24a2ec;
+}
+
+.slideshow__img--visible {
+	opacity: 0.75 !important; 
+}
+
+.slideshow__img {
+	position: absolute;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 3000ms ease-in;
+	background-size: cover;
+	background-position: 50% 50%;
+
+	background-blend-mode: multiply;
+	background-color: #ff7939a6;
+
+}
+
+.slideshow__img.a1 {
+	background-image: url(../images/workshop-images/workshop-b.png);
+}
+
+.slideshow__img.a2 {
+	background-image: url(../images/workshop-images/workshop-a.png);
+}
+
+.slideshow__img.a3 {
+	background-image: url(../images/workshop-images/workshop-b.png);
+}
+
+.about__ui {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-basis: 50%;
+	background: $main-color;
+	height: 100vh;
+}
+
+.about__ui-headline {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 2.5rem;
+	color: white;
+	white-space: nowrap;
+}
+
+.about__ui-headline-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem;
+	box-sizing: border-box;
+}
+
+.about__ui-image {
+	width: 70%;
+	/* height: 550px; */
+	background-image: url(../images/codelab-ui-in-browser.png);
+	background-size: cover;
+	position: relative;
+	right: 0;
+	top: 1.5rem;
+	background-repeat: no-repeat;
+}
+
+.about__featured-logos {
+	margin-bottom: 7rem;
+}
+
+.about__featured {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 4rem 0 1rem 0;
+}
+
+.about__featured-headline {
+	font-size: 2.5rem;
+	line-height: 0;
+	color: $main-color;
+	margin: 7rem 0 6rem 0;
+}
+
+.featured-logos {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0 5rem 0 5rem;
+}
+
+.featured-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin: 1rem 2rem;
+	list-style: none;
+}
+
+.featured-logo__image {
+	height: 50px;
+	opacity: 0.3;
+	filter: grayscale(100%);
+}
+
+.about__footer-banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	background: #f7f7f7;
+}
+
+.about__footer-banner-headline {
+	font-size: 2.5rem;
+	line-height: 0;
+	color: $accent-color;
+	margin: 11rem auto 7rem auto;
+}
+
+.about__footer-banner-image {
+	height: auto;
+	max-height: 400px;
+}
+
+.about__get-started-button {
+	margin: 2rem 0;
+	background-color: #ff718b;
+	color: white;
+}
+

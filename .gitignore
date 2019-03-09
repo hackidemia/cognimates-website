@@ -3,6 +3,3 @@ _site
 .jekyll-metadata
 .DS_Store
 .ruby-version
-
-# for now, until videos are added to Vimeo
-videos
