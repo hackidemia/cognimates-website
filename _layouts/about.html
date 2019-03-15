@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   {% include head.html %}
-  
   <body>
+    <div class="breakpoint"></div>
+    {% include header.html style='grid' %}
     <main class="page-content" aria-label="Content">
-
-      {% include header.html style='grid' %}
-
         {{ content }}
-      
       {% include footer.html %}
     </main>
   </body>

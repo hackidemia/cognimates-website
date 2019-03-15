@@ -4,19 +4,41 @@
 	text-align: center;
 }
 
-.button {
+.button--primary {
 	display: inline-block;
-	padding: 1rem 2rem;
-	margin: 4px 2px;
 	border: none;
+	background-color: $pink;
 	color: white;
-	border-radius: 0.75rem;
 	text-align: center;
 	text-decoration: none;
+	cursor: pointer;
+}
+
+.button--secondary {
+	display: inline-block;
+	border: none;
+	background-color: $light-transparent-main-color;
+	color: $main-color;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.button--large {
+	padding: 1rem 2rem;
+	border-radius: 0.75rem;
 	font-size: $extra-large-font;
 	font-weight: $medium-weight;
 	box-shadow: 3px 7px $light-main-color;
-	cursor: pointer;
+}
+
+.button--small {
+	padding: 0.5rem 1rem;
+	margin: 0 0.25rem;
+	background-color: white;
+	border-radius: 0.25rem;
+	font-size: $medium-font;
+	font-weight: $light-weight;
 }
 
 .button:hover {
@@ -53,7 +75,7 @@
 
 .grid-wrapper {
 	width: 85%;
-	margin: 130px auto 0 auto;
+	margin: 2rem auto;
 	display: grid;
 	grid-gap: 0;
 }
@@ -61,7 +83,7 @@
 .tile-wrapper {
 	width: 75%;
 	max-width: 300px;
-	margin: 150px auto 0 auto;
+	margin: 2rem auto;
 }
 
 // Content component layouts
@@ -75,11 +97,12 @@
 	padding: 10px 20px;
 
 	h2 {
-		font-size: $medium-font;
+		font-size: $extra-large-font;
+		color: $main-color;
 	}
 
 	p {
-		font-size: $med-sm-font;
+		font-size: $large-font;
 	}
 }
 
@@ -128,6 +151,7 @@
 	display: grid;
 	grid-template-columns: repeat(1, minmax(200px, 450px));
 	grid-gap: 30px;
+    list-style: none;
 
 	li {
 		text-align: left;
@@ -143,26 +167,40 @@
 		img {
 			width: 100%;
 			height: auto;
+			    transition: .5s ease;
 		}
 
 		.overlay {
-			position: absolute;
-			top: 10%;
-			left: 10%;
-			width: 80%;
+		    position: absolute;
+		    top: 10%;
+		    left: 10%;
+		    width: 80%;
+
+			opacity: 0;
+			color: black;
+			font-size: 12px;
+			font-weight: 400;
+			transition: all 0.5s ease;
 		}
 
 		.tile-name {
 			display: inline;
 			position: absolute;
-			bottom: 15px;
+			bottom: 1rem;
 			left: 10px;
 			padding: 5px;
 			text-align: left;
 			margin-right: 10px;
+
+		    background: $main-color;
+		    color: white;
+		    font-size: 0.8rem;
 		}
 	}
 }
+
+.tiles .tile:hover img{opacity:.2;}
+.tiles .tile:hover .overlay{opacity:1;}
 
 .main {
 	font-size: $small-font;
@@ -184,11 +222,11 @@
 
 	// Page wrapper updates for small-med screens
 	.grid-wrapper {
-		margin-top: 135px;
+		margin-top: 2rem;
 	}
 
 	.tile-wrapper {
-		margin-top: 155px;
+		// margin-top: 155px;
 		max-width: 630px;
 	}
 
@@ -226,7 +264,7 @@
 	// Page wrapper updates for med-large screens
 	.grid-wrapper {
 		max-width: 1300px;
-		margin-top: 20px;
+		margin-top: 2rem;
 
 		//grid-template-columns: 3fr 2fr;
 		grid-template-rows: auto auto 1fr auto;
@@ -236,7 +274,7 @@
 
 	.tile-wrapper {
 		width: 80%;
-		margin-top: 30px;
+		// margin-top: 30px;
 	}
 
 	// Content component updates for med-large screens

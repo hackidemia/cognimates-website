@@ -1,17 +1,26 @@
-$header--height: 4rem;
+$header--height: 3.5rem;
 
 .header {
-	position: fixed;
-	// so nav selected lines display above the banner image
-	z-index: 1;
+	position: sticky;
+	top: 0;
+
+	// so nav selected lines display above the banner image, and video section
+	z-index: 10;
+	will-change: transform;
 
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 
 	width: 100%;
-	background-color: #6eb2ec;
-	height: $header--height;
+	background-color: $main-color;
+	min-height: $header--height;
+
+	@include mq('lg') {
+		margin-left: auto;
+		justify-content: flex-start;
+	}    
 }
 
 .header__logo-link {
@@ -26,8 +35,8 @@ $header--height: 4rem;
 }
 
 .header__logo-image {
-	height: 2.5rem;
-	margin: 0 1.75rem 0 1rem;
+	height: 1.6rem;
+	margin: 0 1rem;
 }
 
 .header__logo-image:hover {
@@ -37,6 +46,13 @@ $header--height: 4rem;
 .header__nav {
 	display: flex;
 	height: $header--height;
+	width: 100%;
+    justify-content: center;
+
+	@include mq('lg') {
+    	justify-content: flex-start;
+		width: auto;
+	}
 }
 
 .header__nav-item {
@@ -47,28 +63,74 @@ $header--height: 4rem;
   	display: flex;
 	align-items: center;
 
-	padding: 0 1rem;
+	padding: 0 0.5rem;
 	color: white;
 	white-space: nowrap;
 	text-decoration: none;
 	font-family: $font-family;
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	font-weight: 400;
 	transition: 0.1s all ease-in;
 	user-select: none;
+
+	@include mq('xl') {
+		padding: 0 0.75rem;
+    	font-size: 1rem;
+	} 
 }
 
-.header__nav-item.active {
+.header__nav-item.active,
+.header__sub-nav-item.active {
 	// border bottom, so it falls outside the container
 	font-weight: 400;
 	box-shadow: 0 4px 0 0 white; 
 }
 
-.header__nav-item.active:hover {
-}
-
-.header__nav-item:hover {
+.header__nav-item:hover,
+.header__sub-nav-item:hover {
 	// border bottom, so it falls outside the container
 	box-shadow: 0 4px 0 0 white;
 	text-decoration: none;
 }
+
+.header__sub-nav {
+	display: flex;
+	height: $header--height;
+	width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #47a1ec;
+
+	@include mq('lg') {
+		width: auto;
+		margin-left: auto;
+		border: none;
+		padding-right: 0.5rem;
+	}
+}
+
+.header__sub-nav-item {
+	// stretch the height to fill the nav 
+	align-self: stretch;
+
+	// use flexbox to vertically center the text
+  	display: flex;
+	align-items: center;
+
+	padding: 0 0.5rem;
+	color: white;
+	white-space: nowrap;
+	text-decoration: none;
+	font-family: $font-family;
+	font-size: 0.8rem;
+	font-weight: 300;
+	transition: 0.1s all ease-in;
+	user-select: none;
+
+	@include mq('xl') {
+		padding: 0 0.75rem;
+    	font-size: 0.9rem;
+	}   
+}
+
+
