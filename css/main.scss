@@ -1,5 +1,14 @@
 ---
 ---
 
-@import '_layout';
-@import '_styles';
+@import 'variables';
+@import 'mq';
+@import 'mq-debugger';
+@import 'base';
+
+@import 'header';
+@import 'footer';
+
+@import 'login';
+@import 'layout';
+@import 'pages/about';

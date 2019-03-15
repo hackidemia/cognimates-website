@@ -7,40 +7,40 @@ permalink: /workshops/
 {% assign workshops = site.data.workshops %}
 
 {% if workshops %}
-  <div class="callout">
-    <h2>Upcoming Workshops</h2>
+	<div class="callout">
+		<h2>Upcoming Workshops</h2>
 
-    {% for u in workshops %}
-      <h3>{{ u[1].title }}</h3>
-      <p><em>{{ u[1].date }}</em><br />
-      {% if u[1].url %}
-        <a href="{{ u[1].url }}" target="_blank">Join us!</a>
-      {% else %}
-        Stay tuned for more info!
-      {% endif %}
-      </p>
-    {% endfor %}
-
-  </div>
+		{% for u in workshops %}
+			<h3>{{ u[1].title }}</h3>
+			<p><em>{{ u[1].date }}</em><br />
+			{% if u[1].url %}
+				<a href="{{ u[1].url }}" target="_blank">Join us!</a>
+			{% else %}
+				Stay tuned for more info!
+			{% endif %}
+			</p>
+		{% endfor %}
+	</div>
 {% endif %}
 
 <div class="main">
-  <h3>Cognimates is all about helping families lead a meaningful life with AI so let's team up!</h3>
+	<h3>Cognimates is all about helping families lead a meaningful life with AI so let's team up!</h3>
 
-  <p>Want to participate in our future families workshop?<br />
-      Have an idea for a project you’d like to work on?<br />
-      Implemented one of our projects and want to share your experience or give feedback?</p>
-  <!-- change form  -->
-  <p><a href="mailto:cognimates@gmail.com">Let us know!</a></p>
+	<p>Want to participate in our future families workshop?<br />
+			Have an idea for a project you’d like to work on?<br />
+			Implemented one of our projects and want to share your experience or give feedback?</p>
+	
+	<!-- change form  -->
+	<p><a href="mailto:cognimates@gmail.com">Let us know!</a></p>
 
-  <div class="community">
-    <h3>Some of our past workshops</h3>
-    <div class="image-container">
-      <img src="https://mitmedialab.github.io/cognimates-website/images/workshop-images/somerville.jpeg"/>
-      <img src="https://mitmedialab.github.io/cognimates-website/images/workshop-images/selfie.JPG"/>
-      <img src="https://mitmedialab.github.io/cognimates-website/images/workshop-images/funky_faces.jpg"/>
-      <img src="https://mitmedialab.github.io/cognimates-website/images/workshop-images/second session_cozmo collab.jpg"/>
-      <img src="https://imgur.com/Apglxmq.png"/>
-    </div>
-  </div>
+	<div class="community">
+		<h3>Some of our past workshops</h3>
+		<div class="image-container">
+			<img src="https://mitmedialab.github.io/cognimates-website/images/workshop-images/somerville.jpeg"/>
+			<img src="https://mitmedialab.github.io/cognimates-website/images/workshop-images/selfie.JPG"/>
+			<img src="https://mitmedialab.github.io/cognimates-website/images/workshop-images/funky_faces.jpg"/>
+			<img src="https://mitmedialab.github.io/cognimates-website/images/workshop-images/second session_cozmo collab.jpg"/>
+			<img src="https://imgur.com/Apglxmq.png"/>
+		</div>
+	</div>
 </div>

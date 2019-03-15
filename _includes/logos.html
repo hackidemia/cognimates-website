@@ -1,0 +1,15 @@
+<ul class="featured-logos">
+    {% for logo in site.data.logos %}
+        <li class="featured-logo">
+            <a class="featured-logo__link" 
+                href={{ logo.link | relative_url }}
+                target="_blank">
+
+                <img class="featured-logo__image" 
+                    src="{{ logo.image | relative_url }}" 
+                    alt="Featured in {{ logo.name }}"
+                    style="opacity:{{ logo.opacity }};"/>
+            </a>
+        </li>
+    {% endfor %}
+</ul>

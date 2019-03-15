@@ -1,10 +1,32 @@
-<header class="site-header">
-  <div class="header-content">
-
-  	<a href={{ '/projects' | relative_url }}><img src={{ '/images/cognimates_logo.png' | relative_url }} class="site-logo" alt="Cognimates logo" /></a>
+<header class="header">
 
     {% include nav.html %}
 
-  </div>
+    <nav class="header__sub-nav">
+        <a href={{ '/team' | relative_url }} 
+            class="header__sub-nav-item 
+            {% if current[1] == 'team' %} active {% endif %}">
+            Team
+        </a>
 
+        <a href={{ '/guides' | relative_url }} 
+            class="header__sub-nav-item">
+            Guides
+        </a>
+
+        <a href='http://cognimates.slack.com'
+            class="header__sub-nav-item">
+            Developers
+        </a>
+
+        <a class="button button--small button--secondary " 
+            href='https://cognimate.me:2635/home' 
+            target="_blank">Train
+        </a>
+
+        <a class="button button--small button--secondary " 
+            href='https://codelab.cognimates.me' 
+            target="_blank">Code
+        </a>
+    <nav>
 </header>

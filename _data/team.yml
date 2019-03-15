@@ -19,6 +19,10 @@ team:
     - name: Tammy Qiu
       institution: BU
       bio: Tammy is our design and website magician but she also contributes to our extensions. She is currently an undergraduate student at Boston University studying Computer Science and Graphic Design. She is interested in the possibilities of generative and computational design as well as ways in which we can make artistic creation more accessible and public-friendly.
+    - name: Steven Dale
+      institution:  
+      bio: Steven helps out on design too. He's a freelancer and is interested in all things art + design. 
+  
   former_team:
     - name: Lauren Oh
       institution: MIT  

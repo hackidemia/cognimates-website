@@ -5,24 +5,25 @@ permalink: /exchanges/
 ---
 
 <div class="activities-headline">
-  <h2>Residency exchanges pair up teams of public librarians with Media Lab researchers to develop materials together.</h2>
-  <p>Meet our current residency exchange participants!</p>
+	<h2>
+		Residency exchanges pair up teams of public librarians with Media Lab 
+		researchers to develop materials together.
+	</h2>
+	<p>Meet our current residency exchange participants!</p>
 </div>
 
 <ul class="tiles">
-
-{% for exchange in site.data.exchanges %}
-  <li>
-    <div class="tile">
-      <a href={{ exchange[1].link | relative_url }}>
-        <img src={{ exchange[1].cover_photo | relative_url }} alt="{{ exchange[1].name }}" />
-        <div class="overlay">
-            {{ exchange[1].name }}
-        </div>
-        <span class="tile-name">{{ exchange[1].short_name }}</span>
-      </a>
-    </div>
-  </li>
-{% endfor %}
-
+	{% for exchange in site.data.exchanges %}
+		<li>
+			<div class="tile">
+				<a href={{ exchange[1].link | relative_url }}>
+					<img src={{ exchange[1].cover_photo | relative_url }} alt="{{ exchange[1].name }}" />
+					<div class="overlay">
+						{{ exchange[1].name }}
+					</div>
+					<span class="tile-name">{{ exchange[1].short_name }}</span>
+				</a>
+			</div>
+		</li>
+	{% endfor %}
 </ul>

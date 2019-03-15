@@ -1,0 +1,286 @@
+.about__banner {
+	height: 80vh;
+	position: relative;
+}
+
+.section__banner-headline {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	font-size: 2.5rem;
+	line-height: 1.3;
+	max-width: 75vw;
+	color: white;
+	margin: 5rem;
+	bottom: 0;
+}
+
+.panel {
+	display: flex;
+	flex-flow: row wrap;
+	background-position: 50% 50%;
+	color: white;
+
+	// hacky fix for extra pixel on sides
+	height: 102%;
+    top: -1px;
+    width: 102%;
+    left: -1px;
+}
+
+.panel--images {
+	background: #24a2ec;
+	position: relative;
+}
+
+.slideshow {
+	position: relative;
+	width: 100%;
+	background-color: #24a2ec;
+}
+
+.slideshow__img--visible {
+	opacity: 0.75 !important; 
+}
+
+.slideshow__img {
+	position: absolute;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 3000ms ease-in;
+	background-size: cover;
+	background-position: 50% 50%;
+
+	background-blend-mode: multiply;
+	background-color: #ff7939a6;
+
+}
+
+.slideshow__img.a1 {
+	background-image: url(../images/workshop-images/workshop-5.png);
+}
+
+.slideshow__img.a2 {
+	background-image: url(../images/workshop-images/berlin_group.jpg);
+}
+
+.slideshow__img.a3 {
+	background-image: url(../images/workshop-images/boys_jibo_denmark.jpg);
+}
+
+.slideshow__img.a4 {
+	background-image: url(../images/workshop-images/girls_empow.jpg);
+}
+
+.slideshow__img.a5 {
+	background-image: url(../images/workshop-images/kid_pen.jpg);
+}
+
+.slideshow__img.a6 {
+	background-image: url(../images/workshop-images/anjali_portfolio.jpg);
+}
+
+.about__ui {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-basis: 50%;
+	background: $main-color;
+	height: 100vh;
+}
+
+.about__ui-headline {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-size: 2.5rem;
+	color: white;
+	white-space: nowrap;
+}
+
+.about__ui-headline-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem;
+	box-sizing: border-box;
+}
+
+.about__ui-image {
+	width: calc(100vw - 10rem);
+	/* height: 550px; */
+	background-image: url(../images/codelab-ui-in-browser-v2.png);
+	background-size: cover;
+	position: relative;
+	right: 0;
+	top: 1.5rem;
+	background-repeat: no-repeat;
+}
+
+.about__quotes {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+    padding: 3rem 0 4.5rem 0;
+}
+
+.about__quotes-headline {
+	font-size: 2.5rem;
+	line-height: 0;
+    color: $accent-color;
+	margin: 5rem 0 4rem 0;
+}
+
+.about__quote-wrapper {
+	width: 75%;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.about__quote-person {
+	margin: 0.5rem;
+    font-style: italic;
+    color: #2489da;
+    font-size: 1.2rem;
+}
+
+.about__quote {
+	margin: 0;
+	position: relative;
+	font-size: 1.8rem;
+	color: #bbb;
+
+  //   &:before,
+  //   &:after {
+  //     position: absolute;
+  //     line-height: 1;
+  //   }
+
+  //   &:before {
+  // font-style: italic;
+
+  //     content: "“";
+  //     color: rgba(#aaa, 0.5);
+  //     font-size: 5rem;
+  //     left: -2.25rem;
+  //   	top: -1rem;
+  //   }
+
+  //   &:after {
+  //     content: "”";
+  // font-style: italic;
+  //     line-height: 0;
+  //     color: rgba(#aaa, 0.5);
+  //     font-size: 5rem;
+  //     bottom: -0.5rem;
+  //   	right: -1.5rem;
+  //   }
+}
+
+
+// overriding Plyr video js styles to make the play button nice and large
+.plyr--full-ui.plyr--video .plyr__control--overlaid {
+	@include mq('sm') {
+    	transform: scale(1.5);
+	}  
+
+	@include mq('lg') {
+    	transform: scale(2);
+	}  
+}
+
+.about__featured {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem 0 1rem 0;
+}
+
+.about__featured-headline {
+	font-size: 2.5rem;
+	line-height: 0;
+    color: $accent-color;
+	margin: 5rem 0 4rem 0;
+}
+
+.featured-logos {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0 5rem 0 5rem;
+	margin-bottom: 4rem;
+}
+
+.featured-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin: 1rem 2rem;
+	list-style: none;
+}
+
+.featured-logo__image {
+	height: 50px;
+	opacity: 0.3; //baseline, if not specified in the yml file
+	filter: grayscale(100%);
+	transition: opacity 400ms ease-out;
+}
+
+.featured-logo__image:hover {
+	opacity: 0.7 !important;
+}
+
+.about__footer-banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	background: #f7f7f7;
+}
+
+.about__footer-banner-headline {
+    font-size: 1.75rem;
+    line-height: 0;
+    color: $accent-color;
+    margin: 4rem auto 2.5rem auto;
+
+	@include mq('lg') {
+		font-size: 2.5rem;
+		margin: 7rem auto 3.5rem auto;
+	}   
+}
+
+.about__footer-banner-image {
+	height: auto;
+	max-height: 400px;
+}
+
+.about__get-started-button {
+	margin: 2rem 0;
+}
+
+.about__tweets {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 1.5rem;
+	margin-bottom: 2rem;
+
+	@include mq('lg') {
+		padding: 0 5rem;
+		flex-wrap: nowrap;
+	}  
+}
+
+.about__tweet {
+	width: 100%;
+
+	@include mq('lg') {
+		width: 25vw;
+		padding: 1rem;
+	} 
+}

@@ -1,0 +1,66 @@
+- name: CBC
+  opacity: 0.3 
+  image: /images/logos/high-res-png/cbc-logo.png
+  link: https://www.cbc.ca/radio/thecurrent/the-current-for-november-27-2017-1.4418695/would-you-let-your-kids-play-with-ai-robots-1.4418700
+
+- name: Spiegel
+  opacity: 0.2
+  image: /images/logos/high-res-png/spiegel-online.png
+  link: http://www.spiegel.de/netzwelt/gadgets/kuenstliche-intelligenz-und-kinder-mit-forscherin-stefania-druga-im-interview-a-1251721.html
+
+- name: The Atlantic
+  opacity: 0.3
+  image: /images/logos/high-res-png/the-atlantic-logo.png
+  link: https://www.theatlantic.com/magazine/archive/2017/12/my-sons-first-robot/544137/
+
+- name: Elmo Fondo
+  opacity: 0.2
+  image: /images/logos/high-res-png/elmo-fondo-morado-log.jpg
+  link: https://www.elmostrador.cl/cultura/2018/08/08/stefania-druga-la-experta-de-robotica-del-mit-que-ensena-a-los-chilenos-de-educacion/
+
+- name: Giff On Innovation Hub
+  opacity: 0.3
+  image: /images/logos/high-res-png/giffoniinnovationhub-logo.png
+  link: https://giffonihub.com/en/ai-labs-new-technologies-and-robots-win-the-jurors-at-the-sections-elements/
+
+- name: Global And Mail
+  opacity: 0.3
+  image: /images/logos/high-res-png/globe-and-mail-logo.png
+  link: https://www.theglobeandmail.com/life/article-how-will-ai-technologies-affect-child-development/
+
+- name: SCPR, Member-supported news for Southern California
+  opacity: 0.3
+  image: /images/logos/high-res-png/scpr-logo.png
+  link: https://www.scpr.org/programs/airtalk/2017/11/17/60286/they-re-alive-are-smart-toys-changing-how-children/
+
+- name: MIT Technology Review
+  opacity: 0.25
+  image: /images/logos/high-res-png/mit-technology-review-logo.png
+  link: https://www.technologyreview.com/s/608430/growing-up-with-alexa/
+
+- name: Wired
+  opacity: 0.2
+  image: /images/logos/high-res-png/wired.png
+  link: https://www.wired.co.uk/article/understanding-generation-alpha
+
+- name: Hyper Org
+  opacity: 0.3
+  image: 
+  link: http://www.hyperorg.com/blogger/2017/11/05/liveblog-stefania-druga-on-how-kids-can-help-teach-us-about-ai/
+
+- name: Shady Hill School
+  opacity: 0.5
+  image: /images/logos/high-res-png/logo-shady-hill-december.png
+  link: https://www.shs.org/page/news-detail?pk=1231824
+
+- name: L'obs
+  opacity: 0.6
+  image: /images/logos/high-res-png/lobs-logo.png
+  link: https://www.nouvelobs.com/rue89/notre-epoque/20171120.OBS7551/ce-petit-robot-rigolo-veut-etre-l-ami-de-vos-enfants-et-c-est-un-probleme.html
+
+- name: WAAG Technology & Society
+  opacity: 0.2
+  image: /images/logos/high-res-png/waag-logo.png
+  link: https://waag.org/en/article/inspiration-steamconf-2018-barcelona
+
+
