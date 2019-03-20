@@ -64,7 +64,7 @@ rock:
     download_link: https://drive.google.com/uc?export=downloads&id=1cMjFQy6RzNq2o7BO2AhYP_PgxFYoqiaH
     guide:
       - step: >
-          Step 1: Download the simple version of Rock Paper Scissors <a href=https://drive.google.com/uc?export=download&id=1jnd-n6iNSbJw4PYwsgUOFFC5P98vB9wO>here</a>
+          Step 1: Download Rock Paper Scissors <a href=https://drive.google.com/uc?export=download&id=1jnd-n6iNSbJw4PYwsgUOFFC5P98vB9wO>here</a>
         photo: /images/projects/rock/rock-1.png
       - step: >
           Step 2: This project uses the <a href="/cognimates-website/extensions/vision">Vision extension</a>, which is a model you can train to recognize images. 
