@@ -236,16 +236,38 @@ myFavoriteThings:
                   <img src = "https://imgur.com/5aRVKRr.png"/ class="wide-photo">   
                   <br>Ask Alexa what your favorite band is and hear what else she has to say! What else could you teach Alexa?
 
-# emotionsVision:
-#   name: Recognize Emotions!
-#   link: /projects/emotionsVision
-#   short_intro: >
-#     See if iBall can recognize if you're happy or sad!
-#   description: >
-#     Play around with a iBall who uses a trained classifier to guess whether you're happy or sad from the way you look!
-#   cover_photo: /images/ext-images/alexa_faves.png
-#   resources:
-#     download_link: https://drive.google.com/uc?export=download&id=1WvVJifDkpQR0QeEjVrye4izosjxZdX1j
+emotionsVision:
+  name: Recognize Emotions!
+  link: /projects/emotionsVision
+  short_intro: >
+    See if iBall can recognize if you're happy or sad!
+  description: >
+    Play around with iBall who uses a trained classifier to guess whether you're happy or sad from the way you look!
+  cover_photo: /images/ext-images/emotions.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1WvVJifDkpQR0QeEjVrye4izosjxZdX1j
+
+shakespeareKerouac:
+  name: Recognize a Writer!
+  link: /projects/shakespeareKerouac
+  short_intro: >
+    See if a sentence sounds more like Shakespeare or Kerouac!
+  description: >
+    See if a sentence sounds more like Shakespeare or Kerouac!
+  cover_photo: /images/ext-images/books.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1jQvBiTtu1UNMJdXE0X7KtOf4RQl7bVA7
+
+husky:
+  name: Husky or Malamute?
+  link: /projects/husky
+  short_intro: >
+    Is that doggo a husky or a malamute?
+  description: >
+    Can you create a project that can identify a husky and a malamute? They look very similar, so train your classifier well! Put your Train AI keys into the blocks in codelab to check them out.
+  cover_photo: /images/ext-images/husky.png
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1T5L4Xw7FIWmzeLgUHOh5qAQgJi89wFDb
 
 # clarifaiDino:
 #   name: The Clarifai Dinosaur
