@@ -158,88 +158,31 @@ cozmo_simple:
     - step: >
         Step 4: Now, let’s make Cozmo pick up a block. If you press the “p” key on your keyboard he will find and pick up a block.
 
-cozmo_hue:
-  name: How was your day?
-  link: /projects/cozmo_hue
-  short_intro: >
-    Tell Cozmo about your day and watch him and smart lights react to your response!
-  description: >
-    This uses the cozmo extension, the smart lights extension, and the sentiment extension. By combining these extensions, you can create something that will respond to your day! If you are having trouble connecting to your Hue Lights or Cozmo, check out the extensions pages for instructions on how to connect to these devices.
-  cover_photo: /images/ext-images/hue-lights.png
-  video: >
-    <iframe src="https://player.vimeo.com/video/269392411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392411">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1RJh-346OXv4tezbITpfid5OkyacR36SE
-    guide:
-     - step: >
-         Step 1: This project uses the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>, which lets you connect to and program Cozmo, and the <a href="/cognimates-website/extensions/smartLights">smart lights extension</a>.
-                 <img src="https://imgur.com/QWDGp5Z.png"/ class="wide-photo">
-     - step: >
-         Step 2: First we have to connect to Cozmo and set out lights to the color red.
-                 <img src="https://i.imgur.com/6QOnx0A.png"/ class="wide-photo">
-     - step: >
-         Step 3: Now we make it ask how your day was. Then, it gets the feeling of the answer.
-                 <img src="https://i.imgur.com/dYrjE3J.png"/ class="wide-photo">
-     - step: >
-         Step 4: We can add blocks from the cozmo and smart light extension to make them react to the feeling of the answer.
-                 <img src="https://i.imgur.com/FTyPSBM.png"/ class="wide-photo">
-
-
-colorDrawing:
-  name: Drawing with Color Finder
-  link: /projects/colorDrawing
-  short_intro: >
-    Learn how to train your computer to track colors!
-  description: >
-    Use the color finder to let the sprite know to start drawing when it sees a certain color in the webcam. Set a color to find, and when it shows up in the webcam video, the sprite will draw! Build upon this starter project to create something even more exciting. Sprite creds to <a href = "https://www.behance.net/orange_zutto">Alexandra Zutto</a>.
-  cover_photo: /images/ext-images/colordrawing.png
-  video: >
-    <iframe src="https://giphy.com/embed/1X7lox7oscVoWHt8D8" width="480" height="234" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1X7lox7oscVoWHt8D8"></a></p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1CGNHap6M71u1k99lUlecWyNDIaWLFTOq
-    guide: 
-      - step: >
-          Step 1: Start by loading the project.
-                  <img src = "https://imgur.com/oD2AXK2.png"/ class="wide-photo">  
-      - step: >
-          Step 2: This project allows you to draw using our <a href="/cognimates-website/extensions/color">color tracking extension</a>!
-                  <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
-      - step: >
-          Step 3: When the webcam sees a certain color, the sprite will draw a line. It will stop drawing when the color disappears. Right now, the code says to start drawing when the computer sees green, and stop once it doesn't. See what happens when you put a green object in front of your camera!
-                  <img src = "https://imgur.com/IonPnhe.png"/ class="wide-photo"> 
-      - step: >
-          Step 4: Edit the code so that the sprite draws when you see other colors like red or blue.
-                  <img src = "https://imgur.com/h3noLsC.png"/ class="wide-photo">  
-          <br>How does the program know whether or not there's a certain color in the frame? Think about how computers might recognize the color, and how it decides that there's enough green to have the sprite start drawing. 
-
-saveFalling:
- name: It's Raining Cats and Dogs!
- link: /projects/saveFalling
- short_intro: >
-   Save the falling cats and dogs using the color finder and your webcam!
- description: >
-   Create a game using a color finder to keep falling cats and dogs from hitting the water. Inspiration for the project comes from <a href="https://scratch.mit.edu/users/ericr/">ericr's</a> Scratch 2.0 Project.
- cover_photo: /images/ext-images/falling.png
- video: >
-   <iframe src="https://giphy.com/embed/g0gPJx9J1XTmJ6jmqF" width="480" height="254" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/g0gPJx9J1XTmJ6jmqF"></a></p>
- resources:
-   download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
-   guide:
-     - step: >
-         Step 1: Start by loading the project.
-                 <img src = "https://i.imgur.com/048k2YL.png"/ class="wide-photo">
-     - step: >
-         Step 2: This project uses the <a href="/cognimates-website/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop.
-                 <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">
-     - step: >
-         Step 3: First, we set up the blocks so the cat and dog start at the top. They fall down unless the color being tracked is shown to the camera.
-                 <img src = "https://i.imgur.com/dzJBuyH.png"/ class="wide-photo">
-     - step: >
-         Step 4: Next, we have to tell the computer what it means to “bounce up” and “go to the top” with these blocks.
-                 <img src = "https://i.imgur.com/QS5f8k7.png"/ class="wide-photo">
-     - step: >
-         Step 5: Now pick something colorful! It can either be an object next to you or even the shirt that you're wearing and try to keep the cats and dogs out of the water!
-                 <img src = "https://i.imgur.com/tgfKCXU.png"/ class="wide-photo">
+# cozmo_hue:
+#   name: How was your day?
+#   link: /projects/cozmo_hue
+#   short_intro: >
+#     Tell Cozmo about your day and watch him and smart lights react to your response!
+#   description: >
+#     This uses the cozmo extension, the smart lights extension, and the sentiment extension. By combining these extensions, you can create something that will respond to your day! If you are having trouble connecting to your Hue Lights or Cozmo, check out the extensions pages for instructions on how to connect to these devices.
+#   cover_photo: /images/ext-images/hue-lights.png
+#   video: >
+#     <iframe src="https://player.vimeo.com/video/269392411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392411">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1RJh-346OXv4tezbITpfid5OkyacR36SE
+#     guide:
+#      - step: >
+#          Step 1: This project uses the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>, which lets you connect to and program Cozmo, and the <a href="/cognimates-website/extensions/smartLights">smart lights extension</a>.
+#                  <img src="https://imgur.com/QWDGp5Z.png"/ class="wide-photo">
+#      - step: >
+#          Step 2: First we have to connect to Cozmo and set out lights to the color red.
+#                  <img src="https://i.imgur.com/6QOnx0A.png"/ class="wide-photo">
+#      - step: >
+#          Step 3: Now we make it ask how your day was. Then, it gets the feeling of the answer.
+#                  <img src="https://i.imgur.com/dYrjE3J.png"/ class="wide-photo">
+#      - step: >
+#          Step 4: We can add blocks from the cozmo and smart light extension to make them react to the feeling of the answer.
+#                  <img src="https://i.imgur.com/FTyPSBM.png"/ class="wide-photo">
 
 
 # recognizePuppy:
@@ -293,53 +236,29 @@ myFavoriteThings:
                   <img src = "https://imgur.com/5aRVKRr.png"/ class="wide-photo">   
                   <br>Ask Alexa what your favorite band is and hear what else she has to say! What else could you teach Alexa?
 
-clarifaiDino:
-  name: The Clarifai Dinosaur
-  link: /projects/clarifaiDino
-  short_intro: >
-    Play with this dino and see if he can recognize images!
-  description: >
-    Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
-  cover_photo: /images/ext-images/clarifaiDino.png
-  video: >
-    <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1yz3JJxnA_c-5bKdWatY9CnbtoAVSLyFy
-    guide:
-      - step: >
-          Step 1: Start by loading the project.
-                  <img src = "https://imgur.com/yubOzt6.png"/ class="wide-photo">
-      - step: >
-          Step 2: This project uses the <a href= "/cognimates-website/extensions/clarifai">Clarifai extension</a>, which can recognize objects from a photo that your webcam takes.
-                  <img src = "https://imgur.com/ucnhnlG.png"/ class="wide-photo">
-      - step: >
-          Step 3: Click the green flag to play with the dinosaur! He will take a photo with the webcam on your laptop and try to recognize the objects that he sees. Then, he will tell you his predictions one by one and he gets a point if he is right. 
-                  <img src = "https://imgur.com/l9ME8HV.png"/ class="wide-photo">       
-                  <br>How did you do against the dinosaur?  
-
-colorPong:
-  name: Color Pong
-  link: /projects/colorPong
-  short_intro: >
-    Play pong using the color finder!
-  description: >
-    Try playing pong with the color finder! Move the paddleboard in pong by showing a color in the webcam or by removing it from sight! 
-  cover_photo: ./images/ext-images/Color_extension.png
-  video: >
-    <iframe src="https://giphy.com/embed/5kFURKHSwRN7U5RvGh" width="480" height="331" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/5kFURKHSwRN7U5RvGh"></a></p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1dLSSAUngL1CaDJr71X7zEqk_jrD6qs9W
-    guide:
-      - step: >
-          Step 1: Start by loading the project.
-                  <img src = "https://imgur.com/WMDcnIs.png"/ class="wide-photo">   
-      - step: >
-          Step 2: This project uses the <a href="/cognimates-website/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop. 
-                  <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo">       
-      - step: >
-          Step 3: You can control the paddleboard in pong by showing the webcam a color, or by removing the color.
-                  <img src = "https://imgur.com/lzutp2t.png"/ class="wide-photo"> 
-                  <br>How does the program know whether or not there's a certain color in the frame or not?   
+# clarifaiDino:
+#   name: The Clarifai Dinosaur
+#   link: /projects/clarifaiDino
+#   short_intro: >
+#     Play with this dino and see if he can recognize images!
+#   description: >
+#     Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
+#   cover_photo: /images/ext-images/clarifaiDino.png
+#   video: >
+#     <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1yz3JJxnA_c-5bKdWatY9CnbtoAVSLyFy
+#     guide:
+#       - step: >
+#           Step 1: Start by loading the project.
+#                   <img src = "https://imgur.com/yubOzt6.png"/ class="wide-photo">
+#       - step: >
+#           Step 2: This project uses the <a href= "/cognimates-website/extensions/clarifai">Clarifai extension</a>, which can recognize objects from a photo that your webcam takes.
+#                   <img src = "https://imgur.com/ucnhnlG.png"/ class="wide-photo">
+#       - step: >
+#           Step 3: Click the green flag to play with the dinosaur! He will take a photo with the webcam on your laptop and try to recognize the objects that he sees. Then, he will tell you his predictions one by one and he gets a point if he is right. 
+#                   <img src = "https://imgur.com/l9ME8HV.png"/ class="wide-photo">       
+#                   <br>How did you do against the dinosaur?  
 
 twitter_wemo:
   name: Make a Wemo Plug react to Tweets!
