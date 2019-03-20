@@ -512,7 +512,7 @@ rpsCozmo:
       - step: >
           Step 6: If the computer was wrong and didn't recognize the correct hand that you played, you can train the model to become better. Check out steps 5-9 in the <a href="/cognimates-website/projects/rock">original Rock, Paper, Scissors project</a> on how to send your answers to the model!
       - step: >
-          Step 7: If you want to create and train your own rock, paper, scissors model, head over to our <a href="http://cognimate.me:2635">training page</a> and create a vision training model!
+          Step 7: If you want to create and train your own rock, paper, scissors model, head over to our <a href="https://cognimate.me:2635">training page</a> and create a vision training model!
 
 # waterkinesis:
 #   name: Waterkinesis

@@ -172,7 +172,7 @@ smartLights:
                   <ol>
                     <li> First, open a new icognito window. <br><br>
                       <a href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
-                    <li> Second, copy and paste this into the browser&#58; codelab.cognimates.me <br><br>
+                    <li> Second, copy and paste this into the browser&#58; https://hackidemia.github.io/cognimates-gui/ <br><br>
                     <a href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
                     If your browser looks like the image above, then you have opened codelab in http successfully! Note that you cannot use your camera or microphone on the http version of the codelab. This is a rule set by Google Chrome for security reasons.</li>
                     <br><br><li>If you are using this extension for the first time with your Phillips Hue Lights, you need to connect to your bridge. Make sure you are on the same wifi network as the Phillips Bridge. Then, open the Extensions Library. Before loading the Smart Lights extension, click the center of your Phillips bridge.<br><br>
@@ -239,7 +239,7 @@ wemo:
                   <ol>
                     <li> First, open a new icognito window. <br><br>
                       <a href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
-                    <li> Second, copy and paste this into the browser&#58; codelab.cognimates.me <br><br>
+                    <li> Second, copy and paste this into the browser&#58; https://hackidemia.github.io/cognimates-gui/ <br><br>
                     <a href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
                     If your browser looks like the image above, then you have opened codelab in http successfully! Note that you cannot use your camera or microphone on the http version of the codelab. This is a rule set by Google Chrome for security reasons.</li>
                   </ol>
