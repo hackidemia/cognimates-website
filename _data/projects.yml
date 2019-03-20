@@ -236,6 +236,17 @@ myFavoriteThings:
                   <img src = "https://imgur.com/5aRVKRr.png"/ class="wide-photo">   
                   <br>Ask Alexa what your favorite band is and hear what else she has to say! What else could you teach Alexa?
 
+# emotionsVision:
+#   name: Recognize Emotions!
+#   link: /projects/emotionsVision
+#   short_intro: >
+#     See if iBall can recognize if you're happy or sad!
+#   description: >
+#     Play around with a iBall who uses a trained classifier to guess whether you're happy or sad from the way you look!
+#   cover_photo: /images/ext-images/alexa_faves.png
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1WvVJifDkpQR0QeEjVrye4izosjxZdX1j
+
 # clarifaiDino:
 #   name: The Clarifai Dinosaur
 #   link: /projects/clarifaiDino
