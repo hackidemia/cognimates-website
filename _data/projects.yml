@@ -61,10 +61,11 @@ rock:
   video: >
     <iframe src="https://giphy.com/embed/22OMudP7HrqnCyJ8Ka" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/22OMudP7HrqnCyJ8Ka"></a></p>
   resources:
-    download_link: https://drive.google.com/uc?export=downloads&id=1cMjFQy6RzNq2o7BO2AhYP_PgxFYoqiaH
+    download_link: https://drive.google.com/uc?export=downloads&id=1WBKgxyGY7f58blMBXhZJpLqejfQ9gxk8
     guide:
+
       - step: >
-          Step 1: Download Rock Paper Scissors <a href=https://drive.google.com/uc?export=download&id=1jnd-n6iNSbJw4PYwsgUOFFC5P98vB9wO>here</a>
+          Step 1: Download Rock Paper Scissors <a href=https://drive.google.com/uc?export=download&id=1WBKgxyGY7f58blMBXhZJpLqejfQ9gxk8>here</a>
         photo: /images/projects/rock/rock-1.png
       - step: >
           Step 2: This project uses the <a href="/cognimates-website/extensions/vision">Vision extension</a>, which is a model you can train to recognize images. 
