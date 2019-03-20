@@ -341,92 +341,62 @@ goodBoy:
           Step 7: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.<br>
                   <img src = "https://imgur.com/pnQ0mgR.png"/ class="wide-photo">          
 
-smartLights:
-  name: Smart lights
-  link: /projects/smartLights
-  short_intro: >
-    Program your smart lights to react to how you're feeling.
-  description: >
-    Program your smart lights to react to how you're feeling. Find instructions for connecting to Smart Lights at the Smart Lights extension page!
-  cover_photo: /images/ext-images/hue.JPG
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1rWPU_6Xi6rqsiON6nIMSjLuIiS2fSMh0
-    guide:
-      - step: >
-          Step 1: Start by loading our starter project for Smart lights. You can download it <a href="https://drive.google.com/uc?export=download&id=1WfdCzakpQPz4jnaPt8jY47w6kNkEVVJx"> here</a>.
-                  <img src = "https://imgur.com/krXWpwv.png"/ class="wide-photo">    
-      - step: >
-          Step 2: Right now, the lights are only reacting to specific phrases. How can we make it react to the mood of our response? Let's load the <a href="/cognimates-website/extensions/feelings">Feelings extension</a>. 
-        photo: images/projects/make-me-happy/make-me-happy-3.png 
-      - step: >
-          Step 3: With the Feelings extension we can get the mood or feeling our speech. 
-                  <img src = "https://imgur.com/zCwbCN7.png"/ class="wide-photo"> 
-      - step: >
-          Step 4: In order for our lights to know when to start analyzing our speech, we need to broadcast that we are done listening. So let's use a broadcast block and have the message be received by another block. 
-                  <img src = "https://imgur.com/WyCtYos.png"/ class="wide-photo">
-      - step: >
-          Step 5: Now instead of having the light colors change according to exactly what we're saying, we can have them change depending on if we're feeling positive (good), negative (bad), or neutral (somewhere in between).
-                  <img src = "https://imgur.com/4FFx4GP.png"/ class="wide-photo">  
-                  <br>
-                  Check out all the cool things you could do with smart lights!
-                  <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">    
+# smartLights:
+#   name: Smart lights
+#   link: /projects/smartLights
+#   short_intro: >
+#     Program your smart lights to react to how you're feeling.
+#   description: >
+#     Program your smart lights to react to how you're feeling. Find instructions for connecting to Smart Lights at the Smart Lights extension page!
+#   cover_photo: /images/ext-images/hue.JPG
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1rWPU_6Xi6rqsiON6nIMSjLuIiS2fSMh0
+#     guide:
+#       - step: >
+#           Step 1: Start by loading our starter project for Smart lights. You can download it <a href="https://drive.google.com/uc?export=download&id=1WfdCzakpQPz4jnaPt8jY47w6kNkEVVJx"> here</a>.
+#                   <img src = "https://imgur.com/krXWpwv.png"/ class="wide-photo">    
+#       - step: >
+#           Step 2: Right now, the lights are only reacting to specific phrases. How can we make it react to the mood of our response? Let's load the <a href="/cognimates-website/extensions/feelings">Feelings extension</a>. 
+#         photo: images/projects/make-me-happy/make-me-happy-3.png 
+#       - step: >
+#           Step 3: With the Feelings extension we can get the mood or feeling our speech. 
+#                   <img src = "https://imgur.com/zCwbCN7.png"/ class="wide-photo"> 
+#       - step: >
+#           Step 4: In order for our lights to know when to start analyzing our speech, we need to broadcast that we are done listening. So let's use a broadcast block and have the message be received by another block. 
+#                   <img src = "https://imgur.com/WyCtYos.png"/ class="wide-photo">
+#       - step: >
+#           Step 5: Now instead of having the light colors change according to exactly what we're saying, we can have them change depending on if we're feeling positive (good), negative (bad), or neutral (somewhere in between).
+#                   <img src = "https://imgur.com/4FFx4GP.png"/ class="wide-photo">  
+#                   <br>
+#                   Check out all the cool things you could do with smart lights!
+#                   <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">    
 
-ghost2:
-  name: Bouncing Ghost
-  link: /projects/ghost2
-  short_intro: >
-    Make a ghost bounce everytime you blink.
-  description: >
-    Make a ghost bounce everytime you blink using a Muse headset and our Muse extension.
-  cover_photo: /images/ext-images/ghost.png
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1eHvZJ1ITinJGjHq3QOX8KMhdCJF-KZgg
-    guide:
-      - step: >
-          Step 1: Start by loading the project.
-                  <img src = "https://imgur.com/2VPlDu7.png"/ class="wide-photo">
-      - step: >
-          Step 2: This project uses the <a href="/cognimates-website/extensions/muse">muse extension</a>.
-                  <img src = "https://imgur.com/3v5RMp2.jpg"/ class="wide-photo">
-      - step: >
-          Step 3: Click on the green flag. Your browser will ask if it is ok to show you notifications. Click allow and you should see a notification. Click on the notification to connect to your headset using Bluetooth.
-                  <img src = "https://imgur.com/YUIOvl0.png"/ class="wide-photo">
-      - step: >
-          Step 4: You should see a menu of Bluetooth devices appear. Select your Muse headset and click pair.
-                  <img src = "https://imgur.com/N36MOGk.png"/ class="wide-photo">
-      - step: >
-          Step 5: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts! Change the numbers for the ghost's movement depending on how you want it to move.
-                  <img src = "https://imgur.com/xf3KSOP.png"/ class="wide-photo">
-
-violet:
-  name: Change Violet's Tummy
-  link: /projects/violet
-  short_intro: >
-    Use color recognition to change Violet's tummy color.
-  description: >
-    Using the color extension, track colors and change the color of Violet's tummy from pink to red!
-  cover_photo: /images/ext-images/Violet.png
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1Lafhhz0GsfzxtSDJzD3_8rxoKJCitnGT
-    guide:
-      - step: >
-          Step 1: Start by loading the project.
-                  <br>
-                  <img src = "https://imgur.com/rgl4NFp.png"/ class="wide-photo"><br>
-                  <img src = "https://imgur.com/lKseyQ3.png"/ class="wide-photo">
-      - step: >
-          Step 2: This project uses the <a href="/cognimates-website/extensions/color">color tracking extension</a>. It can detect colors as they appear in and out of the webcam of your laptop. 
-                  <img src = "https://imgur.com/lT0eCC4.png"/ class="wide-photo"> 
-      - step: >
-          Step 3: Click on the green flag. Violet's going to start off with a pink tummy and ask to get her color changed. She’ll be impatient at first - see if you can fix it by putting a red object in front of the camera!
-                  <img src = "https://imgur.com/FeCVftO.png"/ class="wide-photo"><br>
-      - step: >
-          Step 4: Yay, Violet's tummy color changed! If you click on Violet's costumes, you can see what other tummy colors are available. Adjust the code so that Violet's tummy changes with any of the given colors. Now, we can track for more than just red and have even more variety!
-                  <img src = "https://imgur.com/5G5s0HD.png"/ class="wide-photo"><br>
-                  <img src = "https://imgur.com/eZfzdXR.png"/ class="wide-photo">
-      - step: >
-          Step 5: Try adding your own colors that the camera could track. Remember that once you add a color, it’ll track colors that are within the same color range - for example, light green, medium green, and dark green might all be tracked if you set medium green to be the tracked color. Go for the classic rainbow colors - give Violet new costumes so that she can be pretty in all different colors!
-                  <img src = "https://imgur.com/WJp4aAM.png"/ class="wide-photo">
+# ghost2:
+#   name: Bouncing Ghost
+#   link: /projects/ghost2
+#   short_intro: >
+#     Make a ghost bounce everytime you blink.
+#   description: >
+#     Make a ghost bounce everytime you blink using a Muse headset and our Muse extension.
+#   cover_photo: /images/ext-images/ghost.png
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1eHvZJ1ITinJGjHq3QOX8KMhdCJF-KZgg
+#     guide:
+#       - step: >
+#           Step 1: Start by loading the project.
+#                   <img src = "https://imgur.com/2VPlDu7.png"/ class="wide-photo">
+#       - step: >
+#           Step 2: This project uses the <a href="/cognimates-website/extensions/muse">muse extension</a>.
+#                   <img src = "https://imgur.com/3v5RMp2.jpg"/ class="wide-photo">
+#       - step: >
+#           Step 3: Click on the green flag. Your browser will ask if it is ok to show you notifications. Click allow and you should see a notification. Click on the notification to connect to your headset using Bluetooth.
+#                   <img src = "https://imgur.com/YUIOvl0.png"/ class="wide-photo">
+#       - step: >
+#           Step 4: You should see a menu of Bluetooth devices appear. Select your Muse headset and click pair.
+#                   <img src = "https://imgur.com/N36MOGk.png"/ class="wide-photo">
+#       - step: >
+#           Step 5: Now your Muse headset is connected to Cognimates! Try blinking and see how the ghost reacts! Change the numbers for the ghost's movement depending on how you want it to move.
+#                   <img src = "https://imgur.com/xf3KSOP.png"/ class="wide-photo">
 
 
 # giga:
@@ -469,7 +439,7 @@ starHunter:
     Play with your microbit to see how Kiran reacts to you moving around. Now, try to use these actions to help her collect the stars. Find instructions for connecting to your Microbit at the Microbit extension page.
   cover_photo: /images/ext-images/starHunter.png
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=1LyEZGukLmIp25StsltipAJBbnwkiEGdB
+    download_link: https://drive.google.com/uc?export=download&id=1ndwzbPhyGjeUBBCY0Bk12z5kKIrb2nBP
     guide:
       - step: >
           Step 1: Start by loading the project.
@@ -483,33 +453,33 @@ starHunter:
       - step: >
           Step 4: Now, try to collect the stars as quickly as possible.
                   
-microscope:
-  name: Dr.Microscope
-  link: /projects/microscope
-  short_intro: >
-    Play with Dr. Microscope and see what he knows.
-  description: >
-    Look through Dr. Microscope and see if he guesses what you're looking at. If he's wrong, teach him so he knows more in the future!
-  cover_photo: /images/ext-images/microscope.png
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1Yj5ce7PNHiXZFfE-dFlYWj1mNXERlhzL
-    guide:
-    - step: >
-        Step 1: This project uses the <a href="/cognimates-website/extensions/vision">vision extension</a> and the <a href="/cognimates-website/extensions/video">video extension</a>. It can detect images based on trained models.
-            <img src = "https://imgur.com/NryZI8J.png"/ class="wide-photo">
-    - step: >
-        Step 2: Start by loading the project and clicking the green flag.
-            <img src = "https://imgur.com/wkMPEcz.png"/ class="wide-photo">
-    - step: >
-        Step 3: If you've made a webcam microscope, after you click on him you can press space to take a cool picture like the one on the right.
-            <img src = "https://imgur.com/VYmK6qy.png"/ class="wide-photo"><img src = "https://imgur.com/QJjIVU5.png"/ class="wide-photo">
-    - step: >
-        Step 4: If Dr.Microscope was wrong, don't worry! He'll send the picture you took with the rest of the pictures he has of that object that way he knows what it is next time. Here are a few images trained as Corn Stems in Dr. Microscope's brian.
-            <img src = "https://imgur.com/DGSZLdx.png"/ class="wide-photo">
-            <img src = "https://imgur.com/741wr1x.png"/ class="wide-photo"><img src = "https://imgur.com/KORi5Vw.png"/ class="wide-photo">
-    - step: >
-        Step 5: Now see what Dr. Microscope knows and what you can teach him! Here's an example using the live view of a wecbcam microscope.
-        <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
+# microscope:
+#   name: Dr.Microscope
+#   link: /projects/microscope
+#   short_intro: >
+#     Play with Dr. Microscope and see what he knows.
+#   description: >
+#     Look through Dr. Microscope and see if he guesses what you're looking at. If he's wrong, teach him so he knows more in the future!
+#   cover_photo: /images/ext-images/microscope.png
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=1Yj5ce7PNHiXZFfE-dFlYWj1mNXERlhzL
+#     guide:
+#     - step: >
+#         Step 1: This project uses the <a href="/cognimates-website/extensions/vision">vision extension</a> and the <a href="/cognimates-website/extensions/video">video extension</a>. It can detect images based on trained models.
+#             <img src = "https://imgur.com/NryZI8J.png"/ class="wide-photo">
+#     - step: >
+#         Step 2: Start by loading the project and clicking the green flag.
+#             <img src = "https://imgur.com/wkMPEcz.png"/ class="wide-photo">
+#     - step: >
+#         Step 3: If you've made a webcam microscope, after you click on him you can press space to take a cool picture like the one on the right.
+#             <img src = "https://imgur.com/VYmK6qy.png"/ class="wide-photo"><img src = "https://imgur.com/QJjIVU5.png"/ class="wide-photo">
+#     - step: >
+#         Step 4: If Dr.Microscope was wrong, don't worry! He'll send the picture you took with the rest of the pictures he has of that object that way he knows what it is next time. Here are a few images trained as Corn Stems in Dr. Microscope's brian.
+#             <img src = "https://imgur.com/DGSZLdx.png"/ class="wide-photo">
+#             <img src = "https://imgur.com/741wr1x.png"/ class="wide-photo"><img src = "https://imgur.com/KORi5Vw.png"/ class="wide-photo">
+#     - step: >
+#         Step 5: Now see what Dr. Microscope knows and what you can teach him! Here's an example using the live view of a wecbcam microscope.
+#         <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
 
 rpsCozmo:
   name: Rock, Paper, Scissors with Cozmo
@@ -522,7 +492,7 @@ rpsCozmo:
   video: >
     <iframe src="https://giphy.com/embed/fHcfIr6kyGSGZ20rfR" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fHcfIr6kyGSGZ20rfR">via GIPHY</a></p>
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=1crM3TTXFJDXTz2GbFXXIFtq6Y_pNVPq1
+    download_link: https://drive.google.com/uc?export=download&id=1ISbQhtruPjh4h44mC39RvvZg3M6JXU2d
     guide:
       - step: >
           Step 1: Load the simple version of Rock Paper Scissors with Cozmo. This project uses the <a href="/cognimates-website/extensions/vision">Vision extension</a>, which you can use to train a model and recognize images, and the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>, which lets you program Cozmo. It's an adapted version of our <a href="/cognimates-website/projects/rock">Rock, Paper, Scissors project</a>, this time with Cozmo!
@@ -544,34 +514,34 @@ rpsCozmo:
       - step: >
           Step 7: If you want to create and train your own rock, paper, scissors model, head over to our <a href="http://cognimate.me:2635">training page</a> and create a vision training model!
 
-waterkinesis:
-  name: Waterkinesis
-  link: /projects/waterkinesis
-  short_intro: >
-    Control objects in water with your mind!
-  description: >
-    Connect a Lego Wedo and Muse EEG headset to control objects in water with your mind.
-  cover_photo: /images/ext-images/waterkinesis.png
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=17m-0_2dez_SugAyw-D55C3IbzbU9NRqC
-    guide:
-      - step: >
-          Step 1: Load the simple version of Waterkinesis <a href="https://drive.google.com/uc?export=download&id=1f5dMX3AF0_CWKYXIhKZvMQMEx44xGck-">here</a>. This project uses the <a href="/cognimates-website/extensions/muse">Muse extension</a>, which you can use to record your brain EEG values, and the Lego Wedo extension, which lets you program with a Lego Wedo.
-                  <img src = "https://imgur.com/lqEt77A.png"/ class="wide-photo"> 
-      - step: >
-          Step 2: Connect the Lego Wedo using the Scratch Device Manager, and load the Lego Wedo extension on Cognimates.
-                  <img src = "https://imgur.com/13OyNAN.png"/ class="wide-photo">
-      - step: >
-          Step 3: Click the green flag to connect to your Muse headset. Follow the notifications and pair your device with the Muse headset.
-                  <img src= "https://imgur.com/hFEZ4eT.png"/ class="wide-photo">
-      - step: >
-          Step 4: Once your headset is connected, watch the Lego Wedo change light colors based on your EEG values! The current threshold values are set to 100, but the best thresholds for you might be different. Click the “Get value of” blocks to see your EEG values and figure out what your thresholds should be. 
-                  <img src= "https://imgur.com/GVjyqHW.png"/ class="wide-photo">
-      - step: >
-          Step 5: Try adding movement blocks! Make the Wedo move forward and change directions depending on the side of your body that moved. </br>
-                  <img src= "https://imgur.com/gKFIHpi.png"/ class="wide-photo">
-      - step: >
-          Step 6: You can choose to move the Wedo on land, or try a water-based activity with this code! We recommend you place the Lego Wedo smarthub and motor in a waterproof box, drill a hole to the side of the box, and use a lego stick piece to connect a plastic propeller to the wedo motor. Test out other mechanical designs that you think will also work!
+# waterkinesis:
+#   name: Waterkinesis
+#   link: /projects/waterkinesis
+#   short_intro: >
+#     Control objects in water with your mind!
+#   description: >
+#     Connect a Lego Wedo and Muse EEG headset to control objects in water with your mind.
+#   cover_photo: /images/ext-images/waterkinesis.png
+#   resources:
+#     download_link: https://drive.google.com/uc?export=download&id=17m-0_2dez_SugAyw-D55C3IbzbU9NRqC
+#     guide:
+#       - step: >
+#           Step 1: Load the simple version of Waterkinesis <a href="https://drive.google.com/uc?export=download&id=1f5dMX3AF0_CWKYXIhKZvMQMEx44xGck-">here</a>. This project uses the <a href="/cognimates-website/extensions/muse">Muse extension</a>, which you can use to record your brain EEG values, and the Lego Wedo extension, which lets you program with a Lego Wedo.
+#                   <img src = "https://imgur.com/lqEt77A.png"/ class="wide-photo"> 
+#       - step: >
+#           Step 2: Connect the Lego Wedo using the Scratch Device Manager, and load the Lego Wedo extension on Cognimates.
+#                   <img src = "https://imgur.com/13OyNAN.png"/ class="wide-photo">
+#       - step: >
+#           Step 3: Click the green flag to connect to your Muse headset. Follow the notifications and pair your device with the Muse headset.
+#                   <img src= "https://imgur.com/hFEZ4eT.png"/ class="wide-photo">
+#       - step: >
+#           Step 4: Once your headset is connected, watch the Lego Wedo change light colors based on your EEG values! The current threshold values are set to 100, but the best thresholds for you might be different. Click the “Get value of” blocks to see your EEG values and figure out what your thresholds should be. 
+#                   <img src= "https://imgur.com/GVjyqHW.png"/ class="wide-photo">
+#       - step: >
+#           Step 5: Try adding movement blocks! Make the Wedo move forward and change directions depending on the side of your body that moved. </br>
+#                   <img src= "https://imgur.com/gKFIHpi.png"/ class="wide-photo">
+#       - step: >
+#           Step 6: You can choose to move the Wedo on land, or try a water-based activity with this code! We recommend you place the Lego Wedo smarthub and motor in a waterproof box, drill a hole to the side of the box, and use a lego stick piece to connect a plastic propeller to the wedo motor. Test out other mechanical designs that you think will also work!
  
 
 
