@@ -246,7 +246,7 @@ emotionsVision:
   cover_photo: /images/ext-images/emotions.png
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1x1jYBnZemLtf9u87PwY0BJZFc04aMSda
-
+    
 shakespeareKerouac:
   name: Recognize a Writer!
   link: /projects/shakespeareKerouac
@@ -266,6 +266,8 @@ husky:
   description: >
     Can you create a project that can identify a husky and a malamute? They look very similar, so train your classifier well! Put your Train AI keys into the blocks in codelab to check them out.
   cover_photo: /images/ext-images/husky.png
+  video: >
+    <iframe src="https://giphy.com/embed/8YyZlnVOeUmMf5rGuF" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ai-vision-cognimates-8YyZlnVOeUmMf5rGuF"></a></p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1T5L4Xw7FIWmzeLgUHOh5qAQgJi89wFDb
 
