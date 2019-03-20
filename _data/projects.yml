@@ -245,8 +245,8 @@ emotionsVision:
     Play around with iBall who uses a trained classifier to guess whether you're happy or sad from the way you look!
   cover_photo: /images/ext-images/emotions.png
   resources:
-    download_link: https://drive.google.com/uc?export=download&id=1WvVJifDkpQR0QeEjVrye4izosjxZdX1j
-
+    download_link: https://drive.google.com/uc?export=download&id=1x1jYBnZemLtf9u87PwY0BJZFc04aMSda
+    
 shakespeareKerouac:
   name: Recognize a Writer!
   link: /projects/shakespeareKerouac
