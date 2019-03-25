@@ -1,5 +1,17 @@
+inclusive_ai:
+  name: Inclusive AI literacy for kids around the world
+  reference: Stefania Druga, Sarah T.Vu, Eesh Likhith, Tammy Qiu
+  image: /images/research-images/inclusive_ai.png
+  link: https://www.dropbox.com/s/pp180qh864vh4rp/Fablearn_2019___Inclusive_AI_ED_camera_ready.pdf
+
+ai4k12:
+  name: Envisioning AI for K-12 - What should every child know about AI?
+  reference: David Touretzky, Christina Gardner-McCune, Fred Martin, Deborah Seehorn
+  image: /images/research-images/ai4k12.png
+  link: https://www.dropbox.com/s/6oeyl9fjmpparc8/AAAI_Blue_Sky_2019.pdf
+
 thesis:
-  name: Growing up with AI. Cognimates from coding to teaching machines. 
+  name: Growing up with AI. Cognimates from coding to teaching machines.
   reference: Stefania Druga. MIT Master Thesis 2018
   image: /images/research-images/thesis.png
   link: https://dam-prod.media.mit.edu/x/2018/08/29/Growin_up_with_AI_Stefania_Druga_2018.pdf
