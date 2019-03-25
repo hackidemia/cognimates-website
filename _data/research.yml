@@ -1,7 +1,7 @@
 inclusive_ai:
   name: Inclusive AI literacy for kids around the world
   reference: Stefania Druga, Sarah T.Vu, Eesh Likhith, Tammy Qiu
-  image: /images/research-images/inclusive_ai.png
+  image: /images/research-images/inclusive.png
   link: https://www.dropbox.com/s/pp180qh864vh4rp/Fablearn_2019___Inclusive_AI_ED_camera_ready.pdf
 
 ai4k12:
@@ -17,7 +17,7 @@ thesis:
   link: https://dam-prod.media.mit.edu/x/2018/08/29/Growin_up_with_AI_Stefania_Druga_2018.pdf
 
 google_eat:
-  name: Hey Google is it Ok if I eat you?    
+  name: Hey Google is it Ok if I eat you?
   reference: > 
     Stefania Druga, Randi Williams, Cynthia Breazeal, and Mitchel Resnick. 2017. "Hey Google is it OK if I eat you?": Initial Explorations in Child-Agent Interaction. In Proceedings of the 2017 Conference on Interaction Design and Children (IDC '17). ACM, New York, NY, USA, 595-600.
   image: 
