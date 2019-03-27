@@ -271,16 +271,28 @@
 	margin-bottom: 2rem;
 
 	@include mq('lg') {
-		padding: 0 5rem;
+		padding: 0;
 		flex-wrap: nowrap;
+        justify-content: center;
 	}  
 }
 
 .about__tweet {
-	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 
 	@include mq('lg') {
+        display: block;
 		width: 25vw;
 		padding: 1rem;
 	} 
 }
+
+// twitter embed override
+.twitter-tweet {
+    max-width: auto;
+}
+
+
