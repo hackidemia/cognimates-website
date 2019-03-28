@@ -1,32 +1,44 @@
-<header class="header">
+{% assign current = page.url | downcase | split: '/' %}
 
-    {% include nav.html %}
+<nav class="header__nav">
+    <a class="header__logo-link" href={{ '/about' | relative_url }}>
+        <img 
+            src={{ '/images/cognimates-logo--codelab.svg' | relative_url }} 
+            class="header__logo-image"
+            alt="Cognimates logo" />
+    </a>
 
-    <nav class="header__sub-nav">
-        <a href={{ '/team' | relative_url }} 
-            class="header__sub-nav-item 
-            {% if current[1] == 'team' %} active {% endif %}">
-            Team
-        </a>
+    <a href={{ '/about' | relative_url }} 
+        class="header__nav-item 
+        {% if current[1] == 'about' %} active {% endif %}">
+        About
+    </a>
 
-        <a href={{ '/guides' | relative_url }} 
-            class="header__sub-nav-item">
-            Guides
-        </a>
+    <a href={{ '/projects' | relative_url }} 
+        class="header__nav-item 
+        {% if current[1] == 'projects' %} active {% endif %}">
+        Starter Projects
+    </a>
 
-        <a href='http://cognimates.slack.com'
-            class="header__sub-nav-item">
-            Developers
-        </a>
+    <a href={{ '/research' | relative_url }} 
+        class="header__nav-item 
+        {% if current[1] == 'research' %} active {% endif %}">
+        Research
+    </a>
 
-        <a class="button button--small button--secondary " 
-            href='https://cognimate.me:2635/home' 
-            target="_blank">Train
-        </a>
+   <a href={{ '/team' | relative_url }} 
+        class="header__nav-item 
+        {% if current[1] == 'team' %} active {% endif %}">
+        Team
+    </a>
 
-        <a class="button button--small button--secondary " 
-            href='https://hackidemia.github.io/cognimates-gui/' 
-            target="_blank">Code
-        </a>
-    <nav>
-</header>
+    <a href={{ '/guides' | relative_url }} 
+        class="header__nav-item">
+        Guides
+    </a>
+
+    <a href='http://cognimates.slack.com'
+        class="header__nav-item">
+        Developers
+    </a>
+</nav>
