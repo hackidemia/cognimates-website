@@ -43,10 +43,10 @@
   image: /images/logos/high-res-png/wired.png
   link: https://www.wired.co.uk/article/understanding-generation-alpha
 
-- name: Hyper Org
-  opacity: 0.3
-  image: 
-  link: http://www.hyperorg.com/blogger/2017/11/05/liveblog-stefania-druga-on-how-kids-can-help-teach-us-about-ai/
+# - name: Hyper Org
+#   opacity: 0.3
+#   image:
+#   link: http://www.hyperorg.com/blogger/2017/11/05/liveblog-stefania-druga-on-how-kids-can-help-teach-us-about-ai/
 
 - name: Shady Hill School
   opacity: 0.5
