@@ -1,5 +1,5 @@
 .breakpoint { 
-  // remove this line to display the media query helper
+  // comment this line to display the media query helper
   display: none; 
   
   position: fixed;
@@ -28,7 +28,6 @@
 // corresponds to breakpoints in mediaqueries.scss
 .breakpoint:after {
   font-size: 1rem;
-  font-family: 'Graphik-Medium', sans-serif;
 
   @include mq('xxs') { content: 'XXS'; }
   @include mq('xs') { content: 'XS'; }
