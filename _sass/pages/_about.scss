@@ -1,18 +1,97 @@
+.section__headline {
+	font-size: 1.3rem;
+    line-height: 1.3;
+    font-weight: 400;
+
+	@include mq('sm') {
+		font-size: 1.5rem;
+		line-height: 1.3;
+	} 
+
+	@include mq('lg') {
+		font-size: 2.25rem;
+		line-height: 1.3;
+	} 
+
+	@include mq('xl') {
+		font-size: 2.5rem;
+		line-height: 1.4;
+	}  
+}
+
+$section-headline-margin--xs: 2.5rem auto 1rem auto;
+$section-headline-margin--md: 4.5rem auto 2rem auto;
+
 .about__banner {
 	height: 80vh;
 	position: relative;
 }
 
-.section__banner-headline {
-	display: block;
+.section__banner-content {
 	position: absolute;
-	z-index: 1;
-	font-size: 2.5rem;
-	line-height: 1.3;
-	max-width: 75vw;
+    bottom: 0;
+    z-index: 1;
+
+    @include mq('md') {
+    	margin: 1rem;
+	}
+
+    @include mq('lg') {
+    	margin: 3rem;
+		max-width: 75vw;
+	}
+
+    @include mq('xxl') {
+    	margin: 5rem;
+    }
+}
+
+.section__banner-headline {
+    margin: 2rem 2rem 1rem 2rem;
 	color: white;
-	margin: 5rem;
-	bottom: 0;
+	
+	@include mq('sm') { margin: 1rem 2rem 1.5rem 2rem; } 
+  	@include mq('md') { } 
+	@include mq('lg') { }  
+}
+
+.about__banner-buttons {
+	margin: 0 2rem 2.5rem 2rem;
+		@include mq('lg') {
+	} 
+}
+
+.about__banner-button { 
+	display: inline-flex;
+	border: none;
+	background-color: $pink;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+
+    margin: 0 1.5rem 1rem 0;
+    padding: 0.6rem 1.3rem;
+    border-radius: 0.75rem;
+    font-size: 1.1rem;
+	font-weight: 400;
+	box-shadow: 3px 4px $light-main-color;
+
+	@include mq('md') {
+		margin: 0 1.5rem 0 0;
+		padding: 1rem 2rem;
+		font-size: 1.5rem;
+		box-shadow: 3px 7px $light-main-color;
+	}
+
+	@include mq('lg') {
+    	justify-content: flex-start;
+		width: auto;
+	}
+}
+
+.about__banner-button:hover { 
+	background-color: darken($pink, 10%);
 }
 
 .panel {
@@ -29,11 +108,6 @@
 }
 
 .panel--images {
-	background: #24a2ec;
-	position: relative;
-}
-
-.slideshow {
 	position: relative;
 	width: 100%;
 	background-color: #24a2ec;
@@ -54,8 +128,7 @@
 	background-position: 50% 50%;
 
 	background-blend-mode: multiply;
-	background-color: #ff7939a6;
-
+	background-color: rgba(#ff7939, 0.6);
 }
 
 .slideshow__img.a1 {
@@ -85,38 +158,60 @@
 .about__ui {
 	position: relative;
 	overflow: hidden;
-	display: flex;
-	flex-basis: 50%;
+    display: block;
 	background: $main-color;
-	height: 100vh;
+	padding-bottom: 4rem;
+		
+	@include mq('md') { padding-bottom: 6rem; }
+	@include mq('xl') { display: flex; padding: 5rem 0; }
+	@include mq('xxl') { 
+		padding: 8rem 0;
+	}  
 }
 
 .about__ui-headline {
+    box-sizing: border-box;
 	display: flex;
-	align-items: center;
 	flex-direction: column;
-	font-size: 2.5rem;
-	color: white;
-	white-space: nowrap;
-}
-
-.about__ui-headline-wrapper {
-	display: flex;
-	justify-content: center;
 	align-items: center;
-	padding: 5rem;
-	box-sizing: border-box;
+	color: white;
+	width: 100%;
+    margin: $section-headline-margin--xs;
+
+	@include mq('md') {  margin: $section-headline-margin--md; }
+
+	@include mq('xl') {	
+		flex-direction: row;
+		justify-content: center;
+		padding: 5rem; 
+		width: 340px; 
+		margin: 0; 
+	 }
+
+	@include mq('xxl') { width: 540px; }
 }
 
 .about__ui-image {
-	width: calc(100vw - 10rem);
-	/* height: 550px; */
-	background-image: url(../images/codelab-ui-in-browser-v2.png);
+    position: relative;
+    height: 300px;
+    left: 2rem;
+	background-image: url(../images/codelab-ui-in-browser-v3.png);
 	background-size: cover;
-	position: relative;
-	right: 0;
-	top: 1.5rem;
 	background-repeat: no-repeat;
+	margin: 0;
+	box-shadow: 7px 20px 40px 2px rgba(0, 0, 0, 0.2);
+
+	@include mq('sm') {  height: 440px; }
+	@include mq('md') {  height: 580px; }
+	@include mq('lg') {  height: 580px; }
+
+	@include mq('xl') { 
+		width: calc(100vw - 10rem);
+		height: auto;
+		right: 0;
+	}  
+
+	@include mq('xxl') { height: 700px; }
 }
 
 .about__quotes {
@@ -124,62 +219,59 @@
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-    padding: 3rem 0 4.5rem 0;
+    padding: 0 1rem ;
+
+	@include mq('sm') { padding: 0 2rem ; }  
+	@include mq('md') { padding: 0 2rem 2rem 2rem; } 
 }
 
 .about__quotes-headline {
-	font-size: 2.5rem;
-	line-height: 0;
     color: $accent-color;
-	margin: 5rem 0 4rem 0;
+	margin: $section-headline-margin--xs;
+    
+    @include mq('md') { 
+		margin: $section-headline-margin--md;
+	}
 }
 
 .about__quote-wrapper {
 	width: 75%;
 	text-align: center;
 	margin-bottom: 2rem;
-}
 
-.about__quote-person {
-	margin: 0.5rem;
-    font-style: italic;
-    color: #2489da;
-    font-size: 1.2rem;
+	@include mq('lg') { margin: 0 0 2rem 0; }  
 }
 
 .about__quote {
-	margin: 0;
 	position: relative;
-	font-size: 1.8rem;
+	margin: 0;
 	color: #bbb;
+    font-size: 1rem;
+    line-height: 1.2rem;
 
-  //   &:before,
-  //   &:after {
-  //     position: absolute;
-  //     line-height: 1;
-  //   }
+	@include mq('sm') { 
+		font-size: 1.2rem;
+		line-height: 1.3rem;
+	}  
 
-  //   &:before {
-  // font-style: italic;
-
-  //     content: "“";
-  //     color: rgba(#aaa, 0.5);
-  //     font-size: 5rem;
-  //     left: -2.25rem;
-  //   	top: -1rem;
-  //   }
-
-  //   &:after {
-  //     content: "”";
-  // font-style: italic;
-  //     line-height: 0;
-  //     color: rgba(#aaa, 0.5);
-  //     font-size: 5rem;
-  //     bottom: -0.5rem;
-  //   	right: -1.5rem;
-  //   }
+	@include mq('lg') { 
+    	margin: 0 0 0.5rem 0;
+		font-size: 1.8rem;
+		line-height: 2rem;
+	}  
 }
 
+.about__quote-person {
+    font-style: italic;
+    color: #2489da;
+    font-size: 0.8rem;
+    margin: 0.4rem 0 0 0;
+
+   @include mq('sm') { 
+	    font-size: 1.2rem;
+	    margin: 0.5rem;
+	}  
+}
 
 // overriding Plyr video js styles to make the play button nice and large
 .plyr--full-ui.plyr--video .plyr__control--overlaid {
@@ -197,38 +289,56 @@
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	padding: 3rem 0 1rem 0;
+
+	@include mq('lg') {
+		padding: 0 0 1rem 0;
+	}  
 }
 
 .about__featured-headline {
-	font-size: 2.5rem;
-	line-height: 0;
     color: $accent-color;
-	margin: 5rem 0 4rem 0;
+	margin: $section-headline-margin--xs;
+    
+    @include mq('md') { 
+		margin: $section-headline-margin--md;
+	}
 }
 
 .featured-logos {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding: 0 5rem 0 5rem;
-	margin-bottom: 4rem;
+    margin: 0;
+    padding: 0;
+
+    @include mq('md') {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding: 0 5rem 0 5rem;
+		margin-bottom: 3rem;
+	}  
 }
 
 .featured-logo {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-	margin: 1rem 2rem;
+	margin: 1rem 0;
 	list-style: none;
+	width: 100%;
+
+	@include mq('md') {
+		width: auto;
+		margin: 1rem 2rem;
+	}  
 }
 
 .featured-logo__image {
-	height: 50px;
+	height: 35px;
 	opacity: 0.3; //baseline, if not specified in the yml file
 	filter: grayscale(100%);
 	transition: opacity 400ms ease-out;
+
+	@include mq('sm') { height: 45px; }  
+	@include mq('md') { height: 50px; }  
 }
 
 .featured-logo__image:hover {
@@ -244,24 +354,35 @@
 }
 
 .about__footer-banner-headline {
-    font-size: 1.75rem;
-    line-height: 0;
     color: $accent-color;
-    margin: 4rem auto 2.5rem auto;
-
-	@include mq('lg') {
-		font-size: 2.5rem;
-		margin: 7rem auto 3.5rem auto;
-	}   
+    text-align: center;
+	margin: $section-headline-margin--xs;
+    
+	@include mq('md') {
+		margin: $section-headline-margin--md;
+	} 
 }
 
 .about__footer-banner-image {
-	height: auto;
-	max-height: 400px;
-}
+	display: none;
+	
+	@include mq('xs') { 
+		display: block; 
+		position: relative;
+		margin: 10rem 0 -2px 0; 
+		transform: scale(2); 
+		transform-origin: bottom center;
+	}
 
-.about__get-started-button {
-	margin: 2rem 0;
+	@include mq('sm') { margin: 10rem 0 -1px 0; transform: scale(1.7); }
+	@include mq('md') { margin: 6rem 0 -1px 0; transform: scale(1.35); } 
+
+	@include mq('lg') {
+    	transform: none;
+     	margin: 2rem 0 -1px 0; 
+		max-height: 400px;
+    	height: auto;
+	}
 }
 
 .about__tweets {
@@ -271,16 +392,26 @@
 	margin-bottom: 2rem;
 
 	@include mq('lg') {
-		padding: 0 5rem;
+		padding: 0;
 		flex-wrap: nowrap;
+        justify-content: center;
 	}  
 }
 
 .about__tweet {
-	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 
 	@include mq('lg') {
+        display: block;
 		width: 25vw;
 		padding: 1rem;
 	} 
+}
+
+// twitter embed override
+.twitter-tweet {
+    max-width: auto;
 }
