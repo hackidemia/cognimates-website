@@ -140,7 +140,7 @@ cozmo_simple:
   short_intro: >
     Check out some of Cozmo's moves!
   description: >
-    Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks! For more information on connecting to Cozmo through Cognimates, check out the Cozmo extension page for more information.
+    Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks.
   cover_photo: /images/ext-images/cozmo_ext.png
   video: >
     <iframe src="https://player.vimeo.com/video/269392318" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392318">Simple Cozmo Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -246,7 +246,7 @@ emotionsVision:
     Play around with iBall who uses a trained classifier to guess whether you're happy or sad from the way you look!
   cover_photo: /images/ext-images/emotions.png
   video:
-    <iframe src="https://giphy.com/embed/MVTiftyl2xlwCw1ndR" width="480" height="359" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <iframe src="https://player.vimeo.com/video/327207359" width="640" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1x1jYBnZemLtf9u87PwY0BJZFc04aMSda
     
@@ -254,7 +254,8 @@ shakespeareKerouac:
   name: Recognize a Writer!
   link: /projects/shakespeareKerouac
   short_intro: >
-    See if a sentence sounds more like Shakespeare or Kerouac!
+    See if a sentence sounds more like Shakespeare or Kerouac!<br>
+    Project Credits - William Mitchell
   description: >
     See if a sentence sounds more like Shakespeare or Kerouac!
   cover_photo: /images/ext-images/books.png
@@ -267,7 +268,8 @@ husky:
   name: Husky or Malamute?
   link: /projects/husky
   short_intro: >
-    Is that doggo a husky or a malamute?
+    Is that doggo a husky or a malamute?<br>
+    Project Credits - Eunyoung Lee
   description: >
     Can you create a project that can identify a husky and a malamute? They look very similar, so train your classifier well! Put your Train AI keys into the blocks in codelab to check them out.
   cover_photo: /images/ext-images/husky.png
