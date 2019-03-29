@@ -5,35 +5,39 @@
 {% else %}
   {% assign short_name = activity.name %}
 {% endif %}
-
-
-
 <div class="main">
-  <h1 class="section__headline about__quotes-headline">
-		{{activity.name}}
-	</h1>
-  <h3>{{ activity.description }}</h3>
-  <!-- <p> <a href ={{ activity.resources.download_link }}>Download the project</a> and <a href='https://hackidemia.github.io/cognimates-gui/' target="_blank">launch Cognimates!</a> -->
-  <a class="about__banner-button"
-    href={{ activity.resources.download_link }} 
-    target="_blank">Download Project
-  </a>
-  <a class="about__banner-button" 
-    href='https://hackidemia.github.io/cognimates-gui/' 
-    target="_blank"> Launch Codelab
-  </a>
-  <br><br><br><br>
   <div style="text-align: center;">
+      <!-- <section class="about__quotes"> -->
+          <h1 class="section__headline about__project-headline">
+              {{activity.name}}
+          </h1>
+          <h3 class="section__headline about__project-description">
+              {{ activity.description }}
+          </h3>
+      <!-- </section> -->
+      <a class="about__banner-button"
+      href={{ activity.resources.download_link }}
+      target="_blank">Download Project
+    </a>
+    <a class="about__banner-button"
+      href='https://hackidemia.github.io/cognimates-gui/'
+      target="_blank"> Launch Codelab
+    </a>
+    <br><br><br><br>
+
     {% if activity.video %}
     <div class="video-container">
       {{ activity.video }}
     </div>
-    <h3>{{ short_name }} at a Glance</h3>
+    <!-- <h3>{{ short_name }} at a Glance</h3> -->
     {% endif %}
+
   </div>
-  {% if activity.resources.guide %}
+</div>
+
+  <!-- {% if activity.resources.guide %}
     <h3>Here is a tutorial to get you started:</h3>
-    <ul>     
+    <ul>
       {% for s in activity.resources.guide %}
         <li>
           <p>{{ s.step }}</p>
@@ -44,9 +48,9 @@
       {% endfor %}
     </ul>
   {% endif %}
-</div>
+</div> -->
 
-{% if activity.photos %}
+<!-- {% if activity.photos %}
   <div class="community">
     <h3>{{ short_name }} in Action</h3>
     <div class="image-container">
@@ -55,4 +59,4 @@
       {% endfor %}
     </div>
   </div>
-{% endif %}
+{% endif %} -->

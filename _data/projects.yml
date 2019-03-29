@@ -238,26 +238,26 @@ myFavoriteThings:
     #               <br>Ask Alexa what your favorite band is and hear what else she has to say! What else could you teach Alexa?
 
 emotionsVision:
-  name: Recognize Emotions!
+  name: i-Ball's Emotions
   link: /projects/emotionsVision
   short_intro: >
-    See if iBall can recognize if you're happy or sad!
+    Teach i-Ball to recognize if you're happy or sad.
   description: >
-    Play around with iBall who uses a trained classifier to guess whether you're happy or sad from the way you look!
+    Play around with i-Ball who uses a trained classifier to guess whether you're happy or sad from the way you look.
   cover_photo: /images/ext-images/emotions.png
   video:
-    <iframe src="https://player.vimeo.com/video/327207359" width="640" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe src="https://giphy.com/embed/31UNMfnS5YFleNFn87" width="640" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1x1jYBnZemLtf9u87PwY0BJZFc04aMSda
-    
+
 shakespeareKerouac:
-  name: Recognize a Writer!
+  name: Recognize a Writer
   link: /projects/shakespeareKerouac
   short_intro: >
     See if a sentence sounds more like Shakespeare or Kerouac!<br>
     Project Credits - William Mitchell
   description: >
-    See if a sentence sounds more like Shakespeare or Kerouac!
+    See if a sentence sounds more like Shakespeare or Kerouac.
   cover_photo: /images/ext-images/books.png
   video:
     <iframe src="https://giphy.com/embed/31UNMfnS5YFleNFn87" width="480" height="303" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
