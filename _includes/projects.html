@@ -7,14 +7,12 @@
 {% endif %}
 <div class="main">
   <div style="text-align: center;">
-      <!-- <section class="about__quotes"> -->
           <h1 class="section__headline about__project-headline">
               {{activity.name}}
           </h1>
           <h3 class="section__headline about__project-description">
               {{ activity.description }}
           </h3>
-      <!-- </section> -->
       <a class="about__banner-button"
       href={{ activity.resources.download_link }}
       target="_blank">Download Project
@@ -29,7 +27,6 @@
     <div class="video-container">
       {{ activity.video }}
     </div>
-    <!-- <h3>{{ short_name }} at a Glance</h3> -->
     {% endif %}
 
   </div>
