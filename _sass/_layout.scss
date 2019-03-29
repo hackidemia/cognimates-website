@@ -4,47 +4,6 @@
 	text-align: center;
 }
 
-.button--primary {
-	display: inline-block;
-	border: none;
-	background-color: $pink;
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	cursor: pointer;
-}
-
-.button--secondary {
-	display: inline-block;
-	border: none;
-	background-color: $light-transparent-main-color;
-	color: $main-color;
-	text-align: center;
-	text-decoration: none;
-	cursor: pointer;
-}
-
-.button--large {
-	padding: 1rem 2rem;
-	border-radius: 0.75rem;
-	font-size: $extra-large-font;
-	font-weight: $medium-weight;
-	box-shadow: 3px 7px $light-main-color;
-}
-
-.button--small {
-	padding: 0.5rem 1rem;
-	margin: 0 0.25rem;
-	background-color: white;
-	border-radius: 0.25rem;
-	font-size: $medium-font;
-	font-weight: $light-weight;
-}
-
-.button:hover {
-	opacity: 0.9;
-}
-
 //////////////////////////////////////////
 ////////// Small/default layout //////////
 //////////////////////////////////////////

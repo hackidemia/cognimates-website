@@ -7,22 +7,15 @@ body {
 	// due to .panel being bigger than 100%
 	overflow-x: hidden;
 
- 	h1 {
-		margin: 30px 0;
-		font-size: 4rem;
-		line-height: 1;
-		letter-spacing: -1px;
-	}
-	
+	// h1 - see .section__headline
+
 	h2 {
 		font-size: $extra-large-font;
-		font-weight: $heavy-weight;
 		color: $main-color;
 	}
 
 	h3 {
 		font-size: $large-font;
-		font-weight: $heavy-weight;
 		color: $main-color;
 	}
 
@@ -34,14 +27,9 @@ body {
 	a {
 		color: $main-color;
 		text-decoration: none;
-		padding-bottom: 2px;
 	}
 
 	a:hover {
 		// color: $accent-color;
-	}
-
-	li {
-		padding-bottom: 10px;
 	}
 }

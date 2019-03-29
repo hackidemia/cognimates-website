@@ -1,4 +1,4 @@
-$font-family: Muli, sans-serif;
+$font-family: 'Roboto', sans-serif;
 $extra-large-font: 1.5rem; // 24px
 $large-font: 1rem; // 16px
 $small-font: 0.8em;
@@ -15,3 +15,6 @@ $light-transparent-main-color: rgba(172, 197, 222, 0.8);
 $accent-color: #3acefc;
 $gray: #979797;
 $pink: #ff718b;
+
+$section-headline-margin--xs: 2.5rem auto 1rem auto;
+$section-headline-margin--md: 4.5rem auto 2rem auto;
