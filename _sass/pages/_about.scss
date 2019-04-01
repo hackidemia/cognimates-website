@@ -58,7 +58,7 @@
 	} 
 }
 
-.about__banner-button { 
+.about__banner-button {
 	display: inline-flex;
 	border: none;
 	background-color: $pink;
@@ -225,8 +225,8 @@
 .about__quotes-headline {
     color: $accent-color;
 	margin: $section-headline-margin--xs;
-    
-    @include mq('md') { 
+
+    @include mq('md') {
 		margin: $section-headline-margin--md;
 	}
 }
@@ -264,12 +264,28 @@
     font-size: 0.8rem;
     margin: 0.4rem 0 0 0;
 
-   @include mq('sm') { 
+   @include mq('sm') {
 	    font-size: 1.2rem;
 	    margin: 0.5rem;
-	}  
+	}
+}
+.about__project-headline {
+    color: #2489da;
+	margin: $section-headline-margin--xs;
+
+    @include mq('md') {
+		margin: $section-headline-margin--md;
+	}
 }
 
+.about__project-description {
+    color: #2489da;
+	margin: $section-headline-margin--xs;
+	font-size: 1.2rem;
+    @include mq('md') {
+		margin: $section-headline-margin--md;
+	}
+}
 // overriding Plyr video js styles to make the play button nice and large
 .plyr--full-ui.plyr--video .plyr__control--overlaid {
 	@include mq('sm') {

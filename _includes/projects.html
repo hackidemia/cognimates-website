@@ -5,39 +5,36 @@
 {% else %}
   {% assign short_name = activity.name %}
 {% endif %}
-
-
-<!-- {% assign unhangout = site.data.unhangouts[page.data_name] %} -->
-
-<!-- {% if unhangout %}
-  <div class="callout no-heading">
-    <div class="tile">
-      <p class="no-space"><strong>Want to learn more about {{ short_name }}?</strong><br />
-      {% if unhangout.url %}
-        <a href="{{ unhangout.url }}">Join our upcoming unhangout!</a><br />
-        <em>{{ unhangout.date }}</em>
-      {% else %}
-        Join our unhangout: {{ unhangout.date }}!<br />
-        <em>Stay tuned for more info!</em>
-      {% endif %}
-      </p>
-    </div>
-  </div>
-{% endif %} -->
-
 <div class="main">
-  <h2>{{ activity.name }}</h2>
-  <p>{{ activity.description }}</p>
-  <p> <a href ={{ activity.resources.download_link }}>Download the project</a> and <a href='https://hackidemia.github.io/cognimates-gui/' target="_blank">launch Cognimates!</a>
-  <!--<p>Download the project, launch Cognimates using the link above, and load the project! Use the image below as a guide for loading projects after launching Cognimates. You should be able to find the project in your downloads folder.</p>
-  <a href="https://imgur.com/QQGBzKX"><img src="https://i.imgur.com/QQGBzKXm.png" title="source: imgur.com" /></a>
-    <br>-->
-  <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
+  <div style="text-align: center;">
+          <h2 class="section__headline about__project-headline">
+              {{activity.name}}
+          </h2>
+          <h3 class="section__headline about__project-description">
+              {{ activity.description }}
+          </h3>
+      <a class="about__banner-button"
+      href={{ activity.resources.download_link }}
+      target="_blank">Download Project
+    </a>
+    <a class="about__banner-button"
+      href='https://hackidemia.github.io/cognimates-gui/'
+      target="_blank"> Launch Codelab
+    </a>
+    <br><br><br><br>
 
+    {% if activity.video %}
+    <div class="video-container">
+      {{ activity.video }}
+    </div>
+    {% endif %}
+
+  </div>
+</div>
 
   {% if activity.resources.guide %}
     <h3>Here is a tutorial to get you started:</h3>
-    <ul>     
+    <ul>
       {% for s in activity.resources.guide %}
         <li>
           <p>{{ s.step }}</p>
@@ -50,27 +47,7 @@
   {% endif %}
 </div>
 
-<div class="details">
-  {% if activity.video %}
-    <div class="video-container">
-      {{ activity.video }}
-    </div>
-    <h3>{{ short_name }} at a Glance</h3>
-  {% endif %}
-  
-  <!-- <ul class="activity-details">
-    {% for item in activity.details %}
-      <li><span class="info-label">{{ item[0] | replace:'_',' ' | capitalize }}: </span> {{ item[1] }}</li>
-    {% endfor %}
-  </ul>
-  <ul class="resource-links">
-    {% for resource in activity.resources %}
-      <li><a href={{ resource.url }}>{{ resource.description }}</a></li>
-    {% endfor %}
-  </ul> -->
-</div>
-
-{% if activity.photos %}
+<!-- {% if activity.photos %}
   <div class="community">
     <h3>{{ short_name }} in Action</h3>
     <div class="image-container">
@@ -79,4 +56,4 @@
       {% endfor %}
     </div>
   </div>
-{% endif %}
+{% endif %} -->
