@@ -13,9 +13,9 @@ sentiment:
   name: Make Me Happy 
   link: /projects/sentiment
   short_intro: > 
-    Learn how to make Nary react to your messages! 
+    Learn how to make Nary react to your messages.
   description: >
-    Learn how to make Nary react to your messages! 
+    Learn how to make Nary react to your messages.
   cover_photo: /images/ext-images/make-me-happy.png
   video: >
     <iframe src="https://giphy.com/embed/bwPqG9tW2avzalpu4S" width="480" height="305" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -56,49 +56,27 @@ rock:
   name: Rock, Paper, Scissors
   link: /projects/rock
   short_intro: >
-    Learn how to play rock, paper, scissors with your computer!
+    Learn how to play rock, paper, scissors with your computer.
   description: >
-    Train your computer to recognize photos of your and play rock, paper, scissors!
+    Train your computer to recognize photos of your and play rock, paper, scissors. Don't forget to train a model using the tutorial and links at the bottom of the page.
   cover_photo: /images/ext-images/Hands.png
   video: >
     <iframe src="https://giphy.com/embed/3OpasCcdF2L0h3J1Sz" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=downloads&id=1WBKgxyGY7f58blMBXhZJpLqejfQ9gxk8
     guide:
-      # - step: >
-      #     Step 1: Download Rock Paper Scissors <a href=https://drive.google.com/uc?export=download&id=1WBKgxyGY7f58blMBXhZJpLqejfQ9gxk8>here</a>
-      #   photo: /images/projects/rock/rock-1.png
-      # - step: >
-      #     Step 2: This project uses the <a href="/cognimates-website/extensions/vision">Vision extension</a>, which is a model you can train to recognize images. 
-      #             <img src = "https://imgur.com/wxe3rOF.png"/ class="wide-photo">    
-      # - step: >
-      #     Step 3: Click the green flag and hold your hand up to the webcam to play rock, paper, scissors with your computer! Your computer will attempt to recognize what move you played and compare it to a move that the computer randomly chose.
-      #             <img src= "https://i.imgur.com/wlpxZKH.png"/ class="wide-photo">
-      # - step: >
-      #     Step 4: Sometimes our computer doesn't recognize what our move is. 
-      #             <img src= "https://i.imgur.com/8gvcIRA.png"/ class="wide-photo">
-      # - step: >
-      #     Step 5: We can fix this problem by adding the new example that we just took with our webcam and adding it to the classifier and retrain our model! Let's start by adding broadcast blocks at the end of our scoring blocks in the "you" sprite.
-      #             <img src= "https://i.imgur.com/F3BZayo.png"/ class="wide-photo">   
-      # - step: >
-      #     Step 6: Next we need a "When I receive training" block in the "computer" sprite so that we can begin training at the end of every round.       
-      #             <img src= "https://i.imgur.com/EkKpfDL.png"/ class="wide-photo">
-      # - step: >
-      #     Step 7: Let's use another events block that will trigger everytime we press the "t" key. Let's have the computer ask us what move we actually played.
-      #             <img src= "https://i.imgur.com/7dtGVYE.png"/ class="wide-photo">     
-      # - step: >
-      #     Step 8: Using another block from the Vision extension, we can add our webcam photo to the category we just entered in our model.
-      #             <img src= "https://i.imgur.com/DFhF55y.png"/ class="wide-photo">   
-      # - step: >
-      #     Step 9: Now we can send our own example back to the model to retrain and hopefully improve it!             
-      #             <img src= "https://i.imgur.com/OJygTNO.png"/ class="wide-photo"><p></p>
-      #             <img src= "https://i.imgur.com/miZGtpu.png"/ class="wide-photo">
+      - step: >
+          Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
+                  <a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                  Name the categories "rock", "paper", and "scissors". 
+      - step: > 
+          Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded.
 
 twitter:
  name: Check up on Twitter
  link: /projects/twitter
  short_intro: >
-   Learn how to find the mood of tweets!
+   Learn how to find the mood of tweets.
  description: >
    Learn how to find the mood of your favorite Twitter user with the Twitter, Feelings, and Music extensions.
  cover_photo: /images/ext-images/twitter-ext.png
@@ -138,7 +116,7 @@ cozmo_simple:
   name: Cozmo's Fresh Moves
   link: /projects/cozmo_simple
   short_intro: >
-    Check out some of Cozmo's moves!
+    Check out some of Cozmo's moves.
   description: >
     Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks.
   cover_photo: /images/ext-images/cozmo_ext.png
@@ -211,9 +189,9 @@ myFavoriteThings:
   name: My Favorite Things
   link: /projects/myFavoriteThings
   short_intro: >
-    Teach Alexa your favorite things!
+    Teach Alexa your favorite things.
   description: >
-    Learn how to teach Alexa about your favorite things, then ask her about them! 
+    Learn how to teach Alexa about your favorite things, then ask her about them.
   cover_photo: /images/ext-images/alexa_faves.png
   video: >
     <iframe src="https://player.vimeo.com/video/269392197" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392197">Simple Alexa Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
@@ -249,20 +227,36 @@ emotionsVision:
     <iframe src="https://giphy.com/embed/31UNMfnS5YFleNFn87" width="640" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1x1jYBnZemLtf9u87PwY0BJZFc04aMSda
+    guide:
+    - step: >
+        Step 1: Download the project. If you have not trained an image project that can recognize emotions, you can
+                <a href ="https://www.dropbox.com/sh/71t60kjk72w8clr/AACsEb4D0XnHDb2FI_e39M1Ra?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                Use the categories "happy" and "sad". Try to use your own pictures to train the model as well.
+    - step: > 
+        Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
+
 
 shakespeareKerouac:
   name: Recognize a Writer
   link: /projects/shakespeareKerouac
   short_intro: >
-    See if a sentence sounds more like Shakespeare or Kerouac!<br>
+    See if a sentence sounds more like Shakespeare, Tolkien, or Kerouac.<br>
     Project Credits - William Mitchell
   description: >
-    See if a sentence sounds more like Shakespeare or Kerouac.
+    See if a sentence sounds more like Shakespeare, Tolkien, or Kerouac. Don't forget to train a model using the tutorial and links at the bottom of the page.
   cover_photo: /images/ext-images/books.png
   video:
     <iframe src="https://giphy.com/embed/31UNMfnS5YFleNFn87" width="480" height="303" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1jQvBiTtu1UNMJdXE0X7KtOf4RQl7bVA7
+    guide:
+        - step: >
+            Step 1: Download the project. If you have not trained a text project that can recognize the different writers in this project, you can
+                    <a href = "https://drive.google.com/open?id=1Om7bMtrTBHFXRjOanh0AeAEuTeMUDjnwCfNTTg3YxRY" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                    Name the categories "Kerouac", "Shakespeare", and "Tolkien"
+        - step: > 
+            Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
+    
 
 husky:
   name: Husky or Malamute?
@@ -277,6 +271,13 @@ husky:
     <iframe src="https://giphy.com/embed/8YyZlnVOeUmMf5rGuF" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ai-vision-cognimates-8YyZlnVOeUmMf5rGuF"></a></p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1T5L4Xw7FIWmzeLgUHOh5qAQgJi89wFDb
+    guide:
+      - step: >
+          Step 1: Download the project. If you have not trained an image project that can huskies or malamutes, you can
+                  <a href ="https://www.dropbox.com/sh/vtu5ob530d0j7sk/AAAB1eGflUCQJ_lAqaBsk2gMa?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                  Use the categories "husky" and "malamute".
+      - step: > 
+          Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
 
 # clarifaiDino:
 #   name: The Clarifai Dinosaur
@@ -360,28 +361,12 @@ goodBoy:
     <iframe src="https://giphy.com/embed/3NshHY3VzstD4csrrD" width="480" height="326" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1yXY-ZFlqYsNufdCsGADG-waHfFGi_wIn
-    # guide: 
-    #   - step: >
-    #       Step 1: Start by loading our starter project for Good Boy. You can download it <a href="https://drive.google.com/uc?export=download&id=1yXY-ZFlqYsNufdCsGADG-waHfFGi_wIn"> here</a>.
-    #               <img src = "https://imgur.com/r6Np1Mg.png"/ class="wide-photo">
-    #   - step: >
-    #       Step 2: Click on the green flag and see what happens when you say, "Good boy!" Or, how about when you say, "Bad boy!" How does the puppy react?
-    #               <img src = "https://imgur.com/DoIKc5T.png"/ class="wide-photo">
-    #   - step: >
-    #       Step 3: What if we wanted to say other things besides "Good boy" or "Bad boy"? Using our Text extension, we can use a text classifier to recognize whether your message is good or bad. Start by loading the <a href="/cognimates-website/extensions/text">Text extension</a>.
-    #               <img src = "https://imgur.com/zZJappa.png"/ class="wide-photo">
-    #   - step: >
-    #       Step 4: Using one of the blocks from the Text extension we can recognize whether or not our speech is good or bad. Can you guess which one that might be?<br>
-    #               <img src = "https://imgur.com/tKk2zdU.png"/ class="wide-photo">
-    #   - step: >
-    #       Step 5: In order for our puppy to know when to start recognizing our speech, we need to first set the id of the classifier (recognizer) that we will use. Then, we can have our puppy tell us whether he recognizes your message as good or bad, by using a Say block from Looks.
-    #               <img src = "https://imgur.com/kygZA8U.png"/ class="wide-photo">
-    #   - step: >
-    #       Step 6: Instead of having the puppy reacting to what it hears, we can now have him react to what kind of message he recognizes. For that we can use the "When text is" block for when the message is good, or for when it is bad. 
-    #               <img src = "https://imgur.com/CuCdyQ7.png"/ class="wide-photo">
-    #   - step: >
-    #       Step 7: Let's try one more thing. How about having our puppy also react to backhanded compliments? Luckily, our model can differentiate between good, bad, and backhanded comments.<br>
-    #               <img src = "https://imgur.com/pnQ0mgR.png"/ class="wide-photo">          
+    guide:
+      - step: >
+          Step 1: Download the project. If you have not trained a text model that can detect good and bad phrases, <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                  Use the categories "good" and "bad". Put phrases like "You're a good boy" in the good category and "You're a bad boy" in the bad category.
+      - step: > 
+          Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
 
 # smartLights:
 #   name: Smart lights
@@ -529,33 +514,18 @@ rpsCozmo:
   short_intro: >
     Play Rock, Paper, Scissors with Cozmo!
   description: >
-    Train your computer to play Rock, Paper, Scissors with you, and have Cozmo cheer you on! Make Cozmo react to the moves you make. For more information on connecting to Cozmo through Cognimates, check out the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a> page for more information.
+    Train your computer to play Rock, Paper, Scissors with you, and have Cozmo cheer you on! Make Cozmo react to the moves you make. Don't forget to train a model using the tutorial and links at the bottom of the page.
   cover_photo: /images/ext-images/cozmorps.png
   video: >
     <iframe src="https://giphy.com/embed/fHcfIr6kyGSGZ20rfR" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fHcfIr6kyGSGZ20rfR">via GIPHY</a></p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1ISbQhtruPjh4h44mC39RvvZg3M6JXU2d
-    # guide:
-    #   - step: >
-    #       Step 1: Load the simple version of Rock Paper Scissors with Cozmo. This project uses the <a href="/cognimates-website/extensions/vision">Vision extension</a>, which you can use to train a model and recognize images, and the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>, which lets you program Cozmo. It's an adapted version of our <a href="/cognimates-website/projects/rock">Rock, Paper, Scissors project</a>, this time with Cozmo!
-    #               <img src = "https://imgur.com/l89gZCG.png"/ class="wide-photo">  
-    #   - step: >
-    #       Step 2: Click the green flag to connect to Cozmo and hold your hand up to the webcam to play rock, paper, scissors with your computer! Press the space bar and wait for the 'pop' sound.
-    #               <img src= "https://imgur.com/bUnHTVh.png"/ class="wide-photo">
-    #   - step: >
-    #       Step 3: Your computer will take a picture, attempt to recognize what move you played, and compare it to a move that the computer randomly chose.
-    #               <img src= "https://imgur.com/HPRPCd0.png"/ class="wide-photo">
-    #   - step: >
-    #       Step 4: Once your move has been made, your code will make the hand on the right change to rock, paper, or scissor depending on which one the computer think you played. Cozmo will also say the move. </br>
-    #               <img src= "https://imgur.com/b8oAyhV.png"/ class="wide-photo">
-    #   - step: >
-    #       Step 5: Cozmo's also going to react your result. If you won, it'll do a happy dance. If you lost, it'll look upset. Try adding an expression for Cozmo when the game is tied!
-    #               <img src= "https://imgur.com/ESxcEGQ.png"/ class="wide-photo">  
-    #   - step: >
-    #       Step 6: If the computer was wrong and didn't recognize the correct hand that you played, you can train the model to become better. Check out steps 5-9 in the <a href="/cognimates-website/projects/rock">original Rock, Paper, Scissors project</a> on how to send your answers to the model!
-    #   - step: >
-    #       Step 7: If you want to create and train your own rock, paper, scissors model, head over to our <a href="https://cognimate.me:2635">training page</a> and create a vision training model!
-
+    guide:
+      - step: >
+          Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
+                  <a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+      - step: > 
+          Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded!
 # waterkinesis:
 #   name: Waterkinesis
 #   link: /projects/waterkinesis
