@@ -5,8 +5,7 @@
 {% else %}
   {% assign short_name = activity.name %}
 {% endif %}
-<div class="main">
-  <div style="text-align: center;">
+<div class="main" style="text-align: center;">
           <h2 class="section__headline about__project-headline">
               {{activity.name}}
           </h2>
@@ -28,23 +27,24 @@
       {{ activity.video }}
     </div>
     {% endif %}
-
-  </div>
+    <div class="details" style="text-align: left;">
+      {% if activity.resources.guide %}
+        <h3>Here is a tutorial to get you started:</h3>
+        <ul>
+          {% for s in activity.resources.guide %}
+            <li>
+              <p>{{ s.step }}</p>
+              {% if s.photo %}
+                <img src= {{ s.photo | relative_url}} class='wide-photo'/>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>
 </div>
 
-  {% if activity.resources.guide %}
-    <h3>Here is a tutorial to get you started:</h3>
-    <ul>
-      {% for s in activity.resources.guide %}
-        <li>
-          <p>{{ s.step }}</p>
-          {% if s.photo %}
-            <img src= {{ s.photo | relative_url}} class='wide-photo'/>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+
 
 <!-- {% if activity.photos %}
   <div class="community">
