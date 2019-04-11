@@ -1,42 +1,31 @@
 {% assign exchange = site.data.team[page.data_name] %}
 
 <div class="main">
-  <h1>{{ exchange.name }}</h1>
+  <h1>Cognimates Team</h1>
 
-  {% for p in exchange.paragraphs %}
-    <p>{{ p }}</p>
-  {% endfor %}
-
-  <p>Cognimates is a project started at <a href="https://www.media.mit.edu/">MIT Media Lab</a>.
-    If you are interested in joing our {{ exchange.name }} or have questions about how to get involved 
-    <a href="mailto:cognimates@gmail.com">get in touch with us!</a></p>
-
-
-  {% if exchange.team_photo %}
-      <img src={{ exchange.team_photo | relative_url }} alt="The {{ exchange.name }} team members" class='header-photo'/>
-  {% endif %}
-  <p><i>Left to right: Tammy, Stefania, Eesh, Sarah</i></p>
-  
   {% if exchange.team_members %}
-    <h2>Team members</h2>
-      <ul>
+      <ul class="team__members">
         {% for t in exchange.team_members %}
-          <li><font color = #328EDE>{{ t.name }}</font> 
-            <em>{{ t.institution }}</em><br>
-            <p>{{ t.bio }}</p></li>
+          <li class="team__member">
+            <img class="team__avatar" src="{{ t.image | relative_url }}" alt="{{ t.name }}" />
+            <div class="team__member-content">
+              <h3 class="team__name">{{ t.name }} <span class="team__institution">{{ t.institution }}</span></h3>
+              <p class="team__bio">{{ t.bio }}</p>
+            </div>
+          </li>
         {% endfor %}
       </ul>
   {% endif %}
   
-  <!-- {% if exchange.former_team %}
-    <h3>Former team members:</h3>
-      <ul>
-        {% for t in exchange.former_team %}
-          <li><font color = #328EDE>{{ t.name }}</font> 
-            <em>{{ t.institution }}</em><br>
-            <p>{{ t.bio }}</p></li>
-        {% endfor %}
-      </ul>
-  {% endif %} --> 
+<!--   <p>
+    Cognimates is a project started at <a href="https://www.media.mit.edu/" target="_blank" >MIT Media Lab</a>.
+  </p> -->
 
+  <ul class="team__photos">
+    {% for t in exchange.team_photos %}
+      <li class="team__photo">
+        <img class="team__photo-image" src="{{ t.image | relative_url }}"/>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
