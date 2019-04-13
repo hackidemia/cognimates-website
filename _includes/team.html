@@ -17,15 +17,4 @@
       </ul>
   {% endif %}
   
-<!--   <p>
-    Cognimates is a project started at <a href="https://www.media.mit.edu/" target="_blank" >MIT Media Lab</a>.
-  </p> -->
-
-  <ul class="team__photos">
-    {% for t in exchange.team_photos %}
-      <li class="team__photo">
-        <img class="team__photo-image" src="{{ t.image | relative_url }}"/>
-      </li>
-    {% endfor %}
-  </ul>
 </div>

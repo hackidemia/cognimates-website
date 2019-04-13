@@ -1,24 +1,6 @@
 team:
   link: /team
 
-  team_photos:
-    - image: images/team/photos/at-the-lab.png
-    - image: images/team/photos/workshop-c.png
-    - image: images/team/photos/workshop-b.png
-    - image: images/team/photos/workshop-a.png
-    - image: images/team/photos/workshop-5.png
-    - image: images/team/photos/selfie.jpg
-    - image: images/team/photos/somerville.jpeg
-    - image: images/team/photos/second session_cozmo collab.jpg
-    - image: images/team/photos/Screenshot 2019-03-13 at 23.48.43.png
-    - image: images/team/photos/kid_pen.jpg
-    - image: images/team/photos/girls_empow.jpg
-    - image: images/team/photos/funky_faces.jpg
-    - image: images/team/photos/boys_jibo_denmark.jpg
-    - image: images/team/photos/berlin_group.jpg
-    - image: images/team/photos/at-the-lab.png
-    - image: images/team/photos/anjali_portfolio.jpg
-
   team_members:
     - name: Stefania Druga 
       institution: MIT Media Lab
@@ -60,8 +42,6 @@ team:
       bio: Interested in joining us, or have questions about how to get involved? <br><a class="button--primary team__contact-button" href="mailto:cognimates@gmail.com">Contact Us!</a>
       image: images/team/avatars/you--cognimates.jpg
   
-
-
   # former_team:
   #   - name: Lauren Oh
   #     institution: MIT  
