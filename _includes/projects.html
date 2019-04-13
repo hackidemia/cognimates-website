@@ -5,46 +5,48 @@
 {% else %}
   {% assign short_name = activity.name %}
 {% endif %}
-<div class="main" style="text-align: center;">
-          <h2 class="section__headline about__project-headline">
-              {{activity.name}}
-          </h2>
-          <h3 class="section__headline about__project-description">
-              {{ activity.description }}
-          </h3>
-      <a class="about__banner-button"
+<div class="main">
+    <h1 >
+        {{activity.name}}
+    </h1>
+    <p>
+        {{ activity.description }}
+    </p>
+    <p>
+      <a class="button--primary"
       href={{ activity.resources.download_link }}
       target="_blank">Download Project
     </a>
-    <a class="about__banner-button"
-      href='https://hackidemia.github.io/cognimates-gui/'
-      target="_blank"> Launch Codelab
+    <a class="button--primary"
+      href="https://hackidemia.github.io/cognimates-gui/"
+      target="_blank">Launch Codelab
     </a>
-    <br><br><br><br>
+  </p>
 
+  <p>
     {% if activity.video %}
     <div class="video-container">
       {{ activity.video }}
     </div>
     {% endif %}
-    <div class="details" style="text-align: left;">
-      {% if activity.resources.guide %}
-        <h2 class ="section__headline about__project-headline">Here is a tutorial to get you started:</h2>
-        <ul>
-          {% for s in activity.resources.guide %}
-            <li>
-              <h3 class="section__headline about__project-description">{{ s.step }}</h3>
-              {% if s.photo %}
-                <img src= {{ s.photo | relative_url}} class='wide-photo'/>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </div>
+  </p>
+
+  <div class="details" style="text-align: left;">
+    {% if activity.resources.guide %}
+      <h2>Get Started</h2>
+      <ul>
+        {% for s in activity.resources.guide %}
+          <li>
+            <p>{{ s.step }}</p>
+            {% if s.photo %}
+              <img src= {{ s.photo | relative_url}} class='wide-photo'/>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
 </div>
-
-
 
 <!-- {% if activity.photos %}
   <div class="community">
