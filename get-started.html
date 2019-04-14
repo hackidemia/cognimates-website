@@ -4,4 +4,116 @@ title: Get Started
 permalink: /get-started/
 ---
 
-<div class="get-started">yo!</div>
+<div class="get-started">
+    
+    <div class="classifier__banner-image-container
+                classifier__banner-image-container--vision ">
+        <img src="{{ '/images/get-started/nlc_banner.png' | relative_url }}" 
+            class="classifier__banner-image"
+            alt="Train a Text Classifier">
+    </div>
+
+    <ul class="stepper">
+        <li class="stepper__step">
+            <span class="step__number">1</span>
+            <div class="step__circle">
+                <i></i>
+            </div>
+            <div class="step__body">
+                <h2 class="step__title">What is your Clarifai key?
+                    <a href="#" class="step__help-open-button
+                                        js--open-help" role="button">
+                        <i class="fas fa-question-circle"></i>
+                    </a>
+                </h2>
+
+                <a href="https://docs.google.com/document/d/1q8Cj9QhwjUXM51Qqtj3V3jYMFA44SiAAIZzVck7Efdc/view#heading=h.4jovbu2htq86" class="step__link step__link--get-key" target="_blank" >
+                       How-to guide
+                </a>
+                <a href="https://clarifai.com/signup" class="step__link step__link--get-key" target="_blank" >
+                       Sign up &amp; get keys
+                </a>
+                <div class="step__help
+                            step__help--keys">
+                    <div class="plyr__video-embed" id="js-classifier__video--clarifai">
+                        <iframe src="https://www.youtube.com/embed/8Rz5KwpecbI"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <li class="stepper__step">
+            <span class="step__number">2</span>
+            <div class="step__circle">
+                <i></i>
+            </div>
+            <div class="step__body">
+            <h2 class="step__title">What categories should your model have?
+                <a href="#" class="step__help-open-button
+                                    js--open-help" role="button">
+                    <i class="fas fa-question-circle"></i>
+                </a>
+            </h2>
+            <div class="step__help">
+               <span>
+                   Categories are groups of things your model wil try to tell the difference between.
+                   Remember, it can only learn what you give it! 
+                </span>
+                <ul>
+                    <li><b>animals,</b>like <span> cats vs dogs</span></li>
+                    <li><b>objects</b>, like <span> cups vs jars</span></li>
+                    <li><b>expressions</b>, like <span> happy vs sad</span></li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="stepper__step">
+            <span class="step__number">3</span>
+            <div class="step__circle">
+                <i></i>
+            </div>
+            <div class="step__body">
+                <h2 class="step__title">Upload an image to test your model</h2>
+
+                <div class="classifier__train-or">
+                    &mdash; or  &mdash;
+                </div>
+            </div>
+        </li>
+
+        <li class="stepper__step">
+            <span class="step__number">4</span>
+            <div class="step__circle">
+                <i></i>
+            </div>
+            <div class="step__body">
+                <h2 class="step__title">
+                     Do Something Amazing
+                </h2>
+                <a class="button--primary" 
+                    href="#" 
+                    target="_blank">Download
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<script>
+    $(function() {
+
+        /// set up info icon toggles
+        $('.js--open-help').on('click', function(e){
+            const section = $(e.target).closest('.step__body');
+            $(section).find('.step__help').toggle();
+            event.preventDefault(); // to keep from scrolling
+        });
+
+        /// set up video embeds
+        const player = new Plyr('#js-classifier__video--clarifai');
+    });
+</script>
+
