@@ -1,15 +1,21 @@
 // document.ready
 document.addEventListener("DOMContentLoaded", function(event) { 
 
-	// load video
-	const player = new Plyr(document.querySelector('.js--about-banner-video'));
+    // @todo: only on getting started page 
+    $('.js--open-help').on('click', function(e){
+        const section = $(e.target).closest('.step__body');
+        $(section).find('.step__help').toggle();
+        event.preventDefault(); // to keep from scrolling
+    });
+
+	const players = Plyr.setup('.js--plyr-video');
 
 	// Expose player so it can be used from the console
-	window.player = player;
+	window.player = players;
 
 	////////////
 
-	// init Banner slideshow
+    // @todo: only on about page 
 	var intervalDelay = 5000;
 	var bannerImages = document.querySelectorAll('.slideshow__img');
 	var bannerIndexVisible = 0;

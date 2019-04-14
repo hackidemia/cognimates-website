@@ -1,6 +1,4 @@
 .get-started {
-    margin: 2rem 2rem 1rem 2rem;
-    
     @include mq('sm') { } 
     @include mq('md') { } 
     @include mq('lg') { }  
@@ -9,9 +7,6 @@
 .classifier__banner-image-container {
     display: flex;
     justify-content: center;
-}
-
-.classifier__banner-image-container--text {
     background-color: #fdaf41;
 }
 
@@ -20,6 +15,8 @@
     width: auto !important;
     border-bottom: none;
     margin: 1rem 0;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
 }
 
 .classifier__train-or {
@@ -192,18 +189,6 @@ li.stepper__step {
     margin: 1.5rem 0 1rem 0;
     transition: 0.1s all ease-in;
     color: #6d6d6d;
-}
-
-.classifier__banner-image-container {
-    display: flex;
-    justify-content: center;
-}
-
-.classifier__banner-image {
-    height: 260px;
-    width: auto !important;
-    border-bottom: none;
-    margin: 1rem 0;
-    border-bottom: 1px solid #e8e8e8;
     cursor: pointer;
+    user-select: none;
 }
