@@ -355,18 +355,18 @@ goodBoy:
   short_intro: >
     Say something nice to your dog, or something mean, or something backhanded.
   description: >
-    Say something to your dog and our text classification extension will recognize it as either good, bad, or even backhanded!
+    Say something to your dog and our text classification extension will recognize it as either good, bad, or even backhanded. This uses a pre-trained model, so just start playing.
   cover_photo: /images/ext-images/dog.png
   video: >
     <iframe src="https://giphy.com/embed/3NshHY3VzstD4csrrD" width="480" height="326" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1yXY-ZFlqYsNufdCsGADG-waHfFGi_wIn
-    guide:
-      - step: >
-          Step 1: Download the project. If you have not trained a text model that can detect good and bad phrases, <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
-                  Use the categories "good" and "bad". Put phrases like "You're a good boy" in the good category and "You're a bad boy" in the bad category.
-      - step: > 
-          Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
+    # guide:
+    #   - step: >
+    #       Step 1: Download the project. If you have not trained a text model that can detect good and bad phrases, <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+    #               Use the categories "good" and "bad". Put phrases like "You're a good boy" in the good category and "You're a bad boy" in the bad category.
+    #   - step: > 
+    #       Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
 
 # smartLights:
 #   name: Smart lights
