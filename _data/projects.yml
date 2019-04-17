@@ -243,19 +243,19 @@ shakespeareKerouac:
     See if a sentence sounds more like Shakespeare, Tolkien, or Kerouac.<br>
     Project Credits - William Mitchell
   description: >
-    See if a sentence sounds more like Shakespeare, Tolkien, or Kerouac. Don't forget to train a model using the tutorial and links at the bottom of the page.
+    See if a sentence sounds more like Shakespeare, Tolkien, or Kerouac. This starter project uses a pre-trained model, so you can just start playing.
   cover_photo: /images/ext-images/books.png
   video:
     <iframe src="https://giphy.com/embed/31UNMfnS5YFleNFn87" width="480" height="303" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1jQvBiTtu1UNMJdXE0X7KtOf4RQl7bVA7
-    guide:
-        - step: >
-            Step 1: Download the project. If you have not trained a text project that can recognize the different writers in this project, you can
-                    <a href = "https://drive.google.com/open?id=1Om7bMtrTBHFXRjOanh0AeAEuTeMUDjnwCfNTTg3YxRY" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
-                    Name the categories "Kerouac", "Shakespeare", and "Tolkien"
-        - step: > 
-            Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
+    # guide:
+    #     - step: >
+    #         Step 1: Download the project. If you have not trained a text project that can recognize the different writers in this project, you can
+    #                 <a href = "https://drive.google.com/open?id=1Om7bMtrTBHFXRjOanh0AeAEuTeMUDjnwCfNTTg3YxRY" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+    #                 Name the categories "Kerouac", "Shakespeare", and "Tolkien"
+    #     - step: > 
+    #         Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
     
 
 husky:
