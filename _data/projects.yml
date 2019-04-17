@@ -243,7 +243,7 @@ shakespeareKerouac:
     See if a sentence sounds more like Shakespeare, Tolkien, or Kerouac.<br>
     Project Credits - William Mitchell
   description: >
-    See if a sentence sounds more like Shakespeare, Tolkien, or Kerouac. Don't forget to train a model using the tutorial and links at the bottom of the page.
+    See if a sentence sounds more like Shakespeare, Tolkien, or Kerouac. This starter project uses a pre-trained model, so just start playing! 
   cover_photo: /images/ext-images/books.png
   video:
     <iframe src="https://giphy.com/embed/31UNMfnS5YFleNFn87" width="480" height="303" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
