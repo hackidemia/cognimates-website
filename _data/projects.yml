@@ -67,7 +67,7 @@ rock:
     guide:
       - step: >
           Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
-                  <a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                  <u><a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a></u> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
                   Name the categories "rock", "paper", and "scissors". 
       - step: > 
           Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded.
@@ -230,7 +230,7 @@ emotionsVision:
     guide:
     - step: >
         Step 1: Download the project. If you have not trained an image project that can recognize emotions, you can
-                <a href ="https://www.dropbox.com/sh/71t60kjk72w8clr/AACsEb4D0XnHDb2FI_e39M1Ra?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                <u><a href ="https://www.dropbox.com/sh/71t60kjk72w8clr/AACsEb4D0XnHDb2FI_e39M1Ra?dl=0" target="_blank">use this data</a></u> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
                 Use the categories "happy" and "sad". Try to use your own pictures to train the model as well.
     - step: > 
         Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
@@ -274,7 +274,7 @@ husky:
     guide:
       - step: >
           Step 1: Download the project. If you have not trained an image project that can huskies or malamutes, you can
-                  <a href ="https://www.dropbox.com/sh/vtu5ob530d0j7sk/AAAB1eGflUCQJ_lAqaBsk2gMa?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                  <u><a href ="https://www.dropbox.com/sh/vtu5ob530d0j7sk/AAAB1eGflUCQJ_lAqaBsk2gMa?dl=0" target="_blank">use this data</a></u> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
                   Use the categories "husky" and "malamute".
       - step: > 
           Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
@@ -355,18 +355,18 @@ goodBoy:
   short_intro: >
     Say something nice to your dog, or something mean, or something backhanded.
   description: >
-    Say something to your dog and our text classification extension will recognize it as either good, bad, or even backhanded!
+    Say something to your dog and our text classification extension will recognize it as either good, bad, or even backhanded. This uses a pre-trained model, so just start playing.
   cover_photo: /images/ext-images/dog.png
   video: >
     <iframe src="https://giphy.com/embed/3NshHY3VzstD4csrrD" width="480" height="326" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1yXY-ZFlqYsNufdCsGADG-waHfFGi_wIn
-    guide:
-      - step: >
-          Step 1: Download the project. If you have not trained a text model that can detect good and bad phrases, <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
-                  Use the categories "good" and "bad". Put phrases like "You're a good boy" in the good category and "You're a bad boy" in the bad category.
-      - step: > 
-          Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
+    # guide:
+    #   - step: >
+    #       Step 1: Download the project. If you have not trained a text model that can detect good and bad phrases, <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+    #               Use the categories "good" and "bad". Put phrases like "You're a good boy" in the good category and "You're a bad boy" in the bad category.
+    #   - step: > 
+    #       Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
 
 # smartLights:
 #   name: Smart lights
@@ -523,7 +523,7 @@ rpsCozmo:
     guide:
       - step: >
           Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
-                  <a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                  <u><a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a></u> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
       - step: > 
           Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded!
 # waterkinesis:
