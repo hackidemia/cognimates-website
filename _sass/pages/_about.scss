@@ -24,17 +24,18 @@
 
 .section__banner-headline {
     margin: 2rem 2rem 1rem 2rem;
-	color: white;
-	
-	@include mq('sm') { margin: 1rem 2rem 1.5rem 2rem; } 
-  	@include mq('md') { } 
-	@include mq('lg') { }  
+    color: white;
+	text-align: left;
+
+	@include mq('sm') { margin: 1rem 2rem 1.5rem 2rem; }
+  	@include mq('md') { }
+	@include mq('lg') { }
 }
 
 .about__banner-buttons {
 	margin: 0 2rem 2.5rem 2rem;
 		@include mq('lg') {
-	} 
+	}
 }
 
 .about__banner-button {
@@ -43,14 +44,9 @@
 	@include mq('md') {
 		margin: 0 1.5rem 0 0;
 	}
-
-	// @include mq('lg') {
- //    	justify-content: flex-start;
-	// 	width: auto;
-	// }
 }
 
-.about__banner-button:hover { 
+.about__banner-button:hover {
 	background-color: darken($pink, 10%);
 }
 
@@ -74,7 +70,7 @@
 }
 
 .slideshow__img--visible {
-	opacity: 0.75 !important; 
+	opacity: 0.75 !important;
 }
 
 .slideshow__img {
@@ -121,12 +117,12 @@
     display: block;
 	background: $main-color;
 	padding-bottom: 4rem;
-		
+
 	@include mq('md') { padding-bottom: 6rem; }
 	@include mq('xl') { display: flex; padding: 5rem 0; }
-	@include mq('xxl') { 
+	@include mq('xxl') {
 		padding: 8rem 0;
-	}  
+	}
 }
 
 .about__ui-headline {
@@ -139,12 +135,12 @@
 
 	@include mq('md') {  margin: $section-headline-margin--md; }
 
-	@include mq('xl') {	
+	@include mq('xl') {
 		flex-direction: row;
 		justify-content: center;
-		padding: 5rem; 
-		width: 340px; 
-		margin: 0; 
+		padding: 5rem;
+		width: 340px;
+		margin: 0;
 	 }
 
 	@include mq('xxl') { width: 540px; }
@@ -164,11 +160,11 @@
 	@include mq('md') {  height: 580px; }
 	@include mq('lg') {  height: 580px; }
 
-	@include mq('xl') { 
+	@include mq('xl') {
 		width: calc(100vw - 10rem);
 		height: auto;
 		right: 0;
-	}  
+	}
 
 	@include mq('xxl') { height: 700px; }
 }
@@ -180,12 +176,13 @@
 	align-items: center;
     padding: 0 1rem ;
 
-	@include mq('sm') { padding: 0 2rem ; }  
-	@include mq('md') { padding: 0 2rem 2rem 2rem; } 
+	@include mq('sm') { padding: 0 2rem ; }
+	@include mq('md') { padding: 0 2rem 2rem 2rem; }
 }
 
 .about__quotes-headline {
 	margin: $section-headline-margin--xs;
+    color: $accent-color;
 
     @include mq('md') {
 		margin: $section-headline-margin--md;
@@ -197,7 +194,7 @@
 	text-align: center;
 	margin-bottom: 2rem;
 
-	@include mq('lg') { margin: 0 0 2rem 0; }  
+	@include mq('lg') { margin: 0 0 2rem 0; }
 }
 
 .about__quote {
@@ -207,16 +204,16 @@
     font-size: 1rem;
     line-height: 1.2rem;
 
-	@include mq('sm') { 
+	@include mq('sm') {
 		font-size: 1.2rem;
 		line-height: 1.3rem;
-	}  
+	}
 
-	@include mq('lg') { 
+	@include mq('lg') {
     	margin: 0 0 0.5rem 0;
 		font-size: 1.8rem;
 		line-height: 2rem;
-	}  
+	}
 }
 
 .about__quote-person {
@@ -251,11 +248,11 @@
 .plyr--full-ui.plyr--video .plyr__control--overlaid {
 	@include mq('sm') {
     	transform: scale(1.5);
-	}  
+	}
 
 	@include mq('lg') {
     	transform: scale(2);
-	}  
+	}
 }
 
 .about__featured {
@@ -266,14 +263,14 @@
 
 	@include mq('lg') {
 		padding: 0 0 1rem 0;
-	}  
+	}
 }
 
 .about__featured-headline {
     color: $accent-color;
 	margin: $section-headline-margin--xs;
-    
-    @include mq('md') { 
+
+    @include mq('md') {
 		margin: $section-headline-margin--md;
 	}
 }
@@ -288,7 +285,7 @@
 		flex-wrap: wrap;
 		padding: 0 5rem 0 5rem;
 		margin-bottom: 3rem;
-	}  
+	}
 }
 
 .featured-logo {
@@ -302,7 +299,7 @@
 	@include mq('md') {
 		width: auto;
 		margin: 1rem 2rem;
-	}  
+	}
 }
 
 .featured-logo__image {
@@ -311,8 +308,8 @@
 	filter: grayscale(100%);
 	transition: opacity 400ms ease-out;
 
-	@include mq('sm') { height: 45px; }  
-	@include mq('md') { height: 50px; }  
+	@include mq('sm') { height: 45px; }
+	@include mq('md') { height: 50px; }
 }
 
 .featured-logo__image:hover {
@@ -331,10 +328,10 @@
     color: $accent-color;
     text-align: center;
     margin: $section-headline-margin--xs;
-    
+
     @include mq('md') {
         margin: $section-headline-margin--md;
-    } 
+    }
 }
 
 .about__tweets {
@@ -347,7 +344,7 @@
 		padding: 0;
 		flex-wrap: nowrap;
         justify-content: center;
-	}  
+	}
 }
 
 .about__tweet {
@@ -360,7 +357,7 @@
         display: block;
 		width: 25vw;
 		padding: 1rem;
-	} 
+	}
 }
 
 // twitter embed override

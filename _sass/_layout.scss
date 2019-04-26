@@ -1,28 +1,17 @@
-.container {
-	margin: 10px auto;
-	max-width: 600px;
-	text-align: center;
-}
-
-.tile-wrapper {
-	width: 75%;
-	max-width: 300px;
+.page-wrapper {
+	width: 90%;
 	margin: 4rem auto;
 
-	@include mq('lg') { max-width: 630px; } 
-	@include mq('xl') { width: 80%; } 
+	@include mq('lg') { max-width: 630px; }
+	@include mq('xl') { width: 80%; }
 	@include mq('xxl') { max-width: 908px; }
 }
 
 //////////////////////////////////////////
 ////////// Small/default layout //////////
 //////////////////////////////////////////
-.wide-photo {
-	max-width: 100%;
-	height: auto;
-}
 
-.guide-photo{
+.guide-photo {
 	max-width: 70%;
 	height: auto;
 }
@@ -76,7 +65,7 @@
 }
 
 .tiles {
-	margin-top: 30px;
+	margin-top: 3rem;
 	padding: 0;
 	display: grid;
 	grid-template-columns: repeat(1, minmax(200px, 450px));
@@ -113,32 +102,24 @@
 			color: black;
 			font-size: 12px;
 			font-weight: 400;
-			transition: all 0.5s ease;
+			transition: all 0.2s ease;
 		}
 
 		.tile-name {
-			display: inline;
-			position: absolute;
-			bottom: 1rem;
-			left: 10px;
-			padding: 5px;
-			text-align: left;
-			margin-right: 10px;
-
+		    position: absolute;
+		    bottom: 1.5rem;
+		    padding: 0.25rem 0.5rem;
 		    background: $main-color;
 		    color: white;
 		    font-size: 0.8rem;
+		    border-top-right-radius: 0.5rem;
+		    border-bottom-right-radius: 0.5rem;
 		}
 	}
 }
 
-.tiles .tile:hover img{opacity:.2;}
-.tiles .tile:hover .overlay{opacity:1;}
-
-.main {
-	font-size: $small-font;
-	margin-left: 5%;
-}
+.tiles .tile:hover img {opacity:.2; }
+.tiles .tile:hover .overlay {opacity:1; }
 
 /////////////////////////////////////////
 ////////// Small-medium layout //////////

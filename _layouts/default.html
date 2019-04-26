@@ -4,9 +4,9 @@
   <body>
     <div class="breakpoint"></div>
     {% include header.html style='grid' %}
-    <main aria-label="Content">
+    <main aria-label="Content" class="page-wrapper">
         {{ content }}
-      {% include footer.html %}
     </main>
+    {% include footer.html %}
   </body>
 </html>

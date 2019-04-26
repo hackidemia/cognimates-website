@@ -1,10 +1,10 @@
-.team__members { 
+.team__members {
     padding: 0;
     margin: 0 auto 10rem 0;
 
     // @include mq('lg') {
     //     max-width: 750px;
-    // }  
+    // }
 }
 
 .team__member {
@@ -17,7 +17,7 @@
 
     @include mq('lg') {
         flex-direction: row;
-    } 
+    }
 }
 
 .team__avatar {
@@ -30,27 +30,28 @@
 
     @include mq('lg') {
         margin: 0 4rem 0 0;
-    } 
+    }
 }
 
-.team__member:nth-child(even) .team__avatar { 
+.team__member:nth-child(even) .team__avatar {
     @include mq('lg') {
-        order: 2; 
-        margin: 0 0 0 4rem; 
-    } 
+        order: 2;
+        margin: 0 0 0 4rem;
+    }
 }
 
 .team__name {
-    color: $accent-color;
-    text-align: center; 
+    color: $main-color;
+    text-align: center;
 
     @include mq('lg') {
-        text-align: left; 
-    } 
+        text-align: left;
+    }
 }
 
 .team__bio {
     margin: 0;
+    text-align: left;
 }
 
 .team__institution {
@@ -66,8 +67,8 @@
 
     @include mq('lg') {
         text-align: left;
-        width: auto; 
-    } 
+        width: auto;
+    }
 }
 
 .team__contact-button {

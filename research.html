@@ -1,5 +1,5 @@
 ---
-layout: secondary
+layout: default
 title: Research
 data_name: research
 permalink: /research/
@@ -7,13 +7,16 @@ permalink: /research/
 
 <div class="main">
 	<h1>Research</h1>
-
 	<ul>
 		{% for ref in site.data.research %}
-			<li>
-				<a href={{ ref[1].link }} target="_blank">{{ ref[1].name }}</a>: {{ ref[1].reference }}
+			<li class="research__item">
+				<h3>{{ ref[1].name }}</h3>
+				<p>
+					{{ ref[1].reference }}
+					<a href={{ ref[1].link }} class="research__name hover-underline" target="_blank">Link</a>
+				</p>
 				{% if ref[1].image %}
-					<img src={{ ref[1].image | relative_url }} class='wide-photo space'/>
+					<img class="research__image" src={{ ref[1].image | relative_url }} class='wide-photo space'/>
 				{% endif %}
 			</li>
 		{% endfor %}

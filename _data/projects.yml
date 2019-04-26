@@ -5,14 +5,14 @@ uploadingGuide:
     Learn how to load your own project.
   description: >
     Load your own project by clicking on file in the upper left and clicking on upload from your computer like in the video below.
-    <iframe src="https://giphy.com/embed/MnENzrnuG25R8fmyM9" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://www.giphy.com/gifs/MnENzrnuG25R8fmyM9"></a></p>
+    <iframe src="https://giphy.com/embed/MnENzrnuG25R8fmyM9" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/MnENzrnuG25R8fmyM9"></a></p>
   cover_photo: /images/ext-images/upload.png
 
 
 sentiment:
-  name: Make Me Happy 
+  name: Make Me Happy
   link: /projects/sentiment
-  short_intro: > 
+  short_intro: >
     Learn how to make Nary react to your messages.
   description: >
     Learn how to make Nary react to your messages.
@@ -32,13 +32,13 @@ sentiment:
     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
     guide:
-  #     - step: > 
-  #         Step 1: Load the simple version of Make Me Happy <a href=https://drive.google.com/uc?export=download&id=16duocSstaQBd_7KW17-Rs6H49r797u-f>here</a>. If it is loud where you are, the speech extension may not work properly. Try loading <a href=https://drive.google.com/uc?export=download&id=1w6S-M8OuQ2unS6VlH33ZncbJDK2TFUXt>this</a> version instead. 
+  #     - step: >
+  #         Step 1: Load the simple version of Make Me Happy <a class="hover-underline" href=https://drive.google.com/uc?export=download&id=16duocSstaQBd_7KW17-Rs6H49r797u-f>here</a>. If it is loud where you are, the speech extension may not work properly. Try loading <a class="hover-underline" href=https://drive.google.com/uc?export=download&id=1w6S-M8OuQ2unS6VlH33ZncbJDK2TFUXt>this</a> version instead.
   #     - step: >
   #         Step 2: Run the program by clicking on the green flag. How does the Nary respond? What do you need to tell him for him to be happy?
   #       photo: /images/projects/make-me-happy/make-me-happy-2.png
   #     - step: >
-  #         Step 3: That's not really fun is it? Let's see if we can make him happy (or sad) depending on the feeling of the message we type him. Start by loading the <a href="/cognimates-website/extensions/feelings">Feelings extension</a>.
+  #         Step 3: That's not really fun is it? Let's see if we can make him happy (or sad) depending on the feeling of the message we type him. Start by loading the <a class="hover-underline" href="/cognimates-website/extensions/feelings">Feelings extension</a>.
   #       photo: images/projects/make-me-happy/make-me-happy-3.png
   #     - step: >
   #         Step 4: Using one of the blocks from the Feelings extension, we can checking the feeling or mood of our message. Can you guess which one block we should use?
@@ -67,9 +67,9 @@ rock:
     guide:
       - step: >
           Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
-                  <a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
-                  Name the categories "rock", "paper", and "scissors". 
-      - step: > 
+                  <a class="hover-underline" href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
+                  Name the categories "rock", "paper", and "scissors".
+      - step: >
           Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded.
 
 twitter:
@@ -80,16 +80,16 @@ twitter:
  description: >
    Learn how to find the mood of your favorite Twitter user with the Twitter, Feelings, and Music extensions.
  cover_photo: /images/ext-images/twitter-ext.png
- video: 
+ video:
   <iframe src="https://giphy.com/embed/2ytmpbmPuOoDHcHMwp" width="480" height="316" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
  resources:
-  download_link: https://drive.google.com/uc?export=download&id=1orWD6nTgykORvnYatj1lIONLmMB0_W_5 
+  download_link: https://drive.google.com/uc?export=download&id=1orWD6nTgykORvnYatj1lIONLmMB0_W_5
   # guide:
   #   - step: >
   #       Step 1: We will start with just a stationary thinking emoji.<br>
   #                 <img src = "https://i.imgur.com/HMQzR0M.png"/ class="wide-photo">
   #   - step: >
-  #       Step 2: To make this more interesting, we can use the <a href="/cognimates-website/extensions/twitter">Twitter</a> to get the last tweet from someone. Then use a block from the <a href="/cognimates-website/extensions/feelings">Feelings extension</a> to check on the mood of the Tweet. <br>
+  #       Step 2: To make this more interesting, we can use the <a class="hover-underline" href="/cognimates-website/extensions/twitter">Twitter</a> to get the last tweet from someone. Then use a block from the <a class="hover-underline" href="/cognimates-website/extensions/feelings">Feelings extension</a> to check on the mood of the Tweet. <br>
   #                 <img src="https://imgur.com/UbWZMPk.png"/ class="wide-photo">
   #   - step: >
   #       Step 3: We can combine both the Twitter and the Feelings extensions so that we get the mood of a tweet.
@@ -105,9 +105,9 @@ twitter:
 # name: Save Me from the Ghosts!
 #  link: /projects/ghosts_speech
 #  short_intro: >
-#    Save Dot from the scary ghosts with math! 
+#    Save Dot from the scary ghosts with math!
 #  description: >
-#    The scary ghosts are after Dot and want to scare him away. The only way to not have him leave is to do some math problems. Do some basic addition, multiplication, subtraction, and division to keep him happy!  
+#    The scary ghosts are after Dot and want to scare him away. The only way to not have him leave is to do some math problems. Do some basic addition, multiplication, subtraction, and division to keep him happy!
 #  cover_photo: /images/ext-images/ghosts_speech.png
 #  resources:
 #    download_link: https://drive.google.com/uc?export=download&id=1xYt9BmgAPjRsdhZ1l-JSjqSREElDfMe7
@@ -121,12 +121,12 @@ cozmo_simple:
     Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks.
   cover_photo: /images/ext-images/cozmo_ext.png
   video: >
-    <iframe src="https://player.vimeo.com/video/269392318" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392318">Simple Cozmo Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe src="https://player.vimeo.com/video/269392318" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a class="hover-underline" href="https://vimeo.com/269392318">Simple Cozmo Demo</a> from <a class="hover-underline" href="https://vimeo.com/user84996108">Cognimates</a> on <a class="hover-underline" href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1L-z9er93zIxJVXhsoYAagY8fxdy1fa23
     # guide:
     # - step: >
-    #     Step 1: This project uses the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>. It lets you connect to and program Cozmo!
+    #     Step 1: This project uses the <a class="hover-underline" href="/cognimates-website/extensions/cozmo">Cozmo extension</a>. It lets you connect to and program Cozmo!
     #             <img src="https://imgur.com/rKWMtxM.png"/ class="wide-photo">
     # - step: >
     #     Step 2: First we need to connect to Cozmo through bluetooth.
@@ -146,12 +146,12 @@ cozmo_simple:
 #     This uses the cozmo extension, the smart lights extension, and the sentiment extension. By combining these extensions, you can create something that will respond to your day! If you are having trouble connecting to your Hue Lights or Cozmo, check out the extensions pages for instructions on how to connect to these devices.
 #   cover_photo: /images/ext-images/hue-lights.png
 #   video: >
-#     <iframe src="https://player.vimeo.com/video/269392411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392411">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+#     <iframe src="https://player.vimeo.com/video/269392411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a class="hover-underline" href="https://vimeo.com/269392411">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 #   resources:
 #     download_link: https://drive.google.com/uc?export=download&id=1RJh-346OXv4tezbITpfid5OkyacR36SE
 #     guide:
 #      - step: >
-#          Step 1: This project uses the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>, which lets you connect to and program Cozmo, and the <a href="/cognimates-website/extensions/smartLights">smart lights extension</a>.
+#          Step 1: This project uses the <a href="/cognimates-website/extensions/cozmo">Cozmo extension</a>, which lets you connect to and program Cozmo, and the <a class="hover-underline" href="/cognimates-website/extensions/smartLights">smart lights extension</a>.
 #                  <img src="https://imgur.com/QWDGp5Z.png"/ class="wide-photo">
 #      - step: >
 #          Step 2: First we have to connect to Cozmo and set out lights to the color red.
@@ -170,10 +170,10 @@ cozmo_simple:
 #   short_intro: >
 #     Play a game and test this puppy recognizer!
 #   description: >
-#     Play a game against this puppy recognizer! When the recognizer correctly identifies a webcam photo of a drawing or your surroundings as a puppy or not a puppy, the computer gets a point. If it is wrong, you get a point. This game is smart, though, because you can train it with the pictures you take! 
+#     Play a game against this puppy recognizer! When the recognizer correctly identifies a webcam photo of a drawing or your surroundings as a puppy or not a puppy, the computer gets a point. If it is wrong, you get a point. This game is smart, though, because you can train it with the pictures you take!
 #   cover_photo: /images/ext-images/pup.png
 #   video: >
-#     <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
+#     <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
 #   resources:
 #     download_link: https://drive.google.com/uc?export=download&id=16PqHmLq2SKph5eTxzGmsb5PZ2Juscwu2
 #     age_range: 7 and older
@@ -194,25 +194,25 @@ myFavoriteThings:
     Learn how to teach Alexa about your favorite things, then ask her about them.
   cover_photo: /images/ext-images/alexa_faves.png
   video: >
-    <iframe src="https://player.vimeo.com/video/269392197" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392197">Simple Alexa Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe src="https://player.vimeo.com/video/269392197" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a class="hover-underline" href="https://vimeo.com/269392197">Simple Alexa Demo</a> from <a class="hover-underline" href="https://vimeo.com/user84996108">Cognimates</a> on <a class="hover-underline" href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1WvVJifDkpQR0QeEjVrye4izosjxZdX1j
     # guide:
     #   - step: >
-    #       Step 1: Start by loading the project. 
+    #       Step 1: Start by loading the project.
     #               <img src = "https://imgur.com/XylpLj1.png"/ class="wide-photo">
     #   - step: >
-    #       Step 2: This project uses our <a href="/cognimates-website/extensions/alexa">Alexa</a> extension. Tell Alexa to "Open personal chatbot"
-    #               <img src = "https://imgur.com/eLvb7KE.png"/ class="wide-photo">          
+    #       Step 2: This project uses our <a class="hover-underline" href="/cognimates-website/extensions/alexa">Alexa</a> extension. Tell Alexa to "Open personal chatbot"
+    #               <img src = "https://imgur.com/eLvb7KE.png"/ class="wide-photo">
     #   - step: >
     #       Step 3: Create an account by setting the username and password for yourself. Then access that account.
     #               <img src = "https://imgur.com/8E9JiW9.png"/ class="wide-photo">
     #   - step: >
     #       Step 4: Click the green flag and the Alexa on your screen will return to you an access code. Say "Connect" to your physical Alexa, followed by the access code. This will allow you to program your Alexa!
-    #               <img src = "https://imgur.com/NVIZzWv.png"/ class="wide-photo">   
+    #               <img src = "https://imgur.com/NVIZzWv.png"/ class="wide-photo">
     #   - step: >
-    #       Step 5: Let's try to teach her our favorite band!          
-    #               <img src = "https://imgur.com/5aRVKRr.png"/ class="wide-photo">   
+    #       Step 5: Let's try to teach her our favorite band!
+    #               <img src = "https://imgur.com/5aRVKRr.png"/ class="wide-photo">
     #               <br>Ask Alexa what your favorite band is and hear what else she has to say! What else could you teach Alexa?
 
 emotionsVision:
@@ -230,9 +230,9 @@ emotionsVision:
     guide:
     - step: >
         Step 1: Download the project. If you have not trained an image project that can recognize emotions, you can
-                <a href ="https://www.dropbox.com/sh/71t60kjk72w8clr/AACsEb4D0XnHDb2FI_e39M1Ra?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                <a class="hover-underline" href ="https://www.dropbox.com/sh/71t60kjk72w8clr/AACsEb4D0XnHDb2FI_e39M1Ra?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
                 Use the categories "happy" and "sad". Try to use your own pictures to train the model as well.
-    - step: > 
+    - step: >
         Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
 
 
@@ -252,11 +252,11 @@ shakespeareKerouac:
     guide:
         - step: >
             Step 1: Download the project. If you have not trained a text project that can recognize the different writers in this project, you can
-                    <a href = "https://drive.google.com/open?id=1Om7bMtrTBHFXRjOanh0AeAEuTeMUDjnwCfNTTg3YxRY" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                    <a class="hover-underline" href = "https://drive.google.com/open?id=1Om7bMtrTBHFXRjOanh0AeAEuTeMUDjnwCfNTTg3YxRY" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
                     Name the categories "Kerouac", "Shakespeare", and "Tolkien"
-        - step: > 
+        - step: >
             Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
-    
+
 
 husky:
   name: Husky or Malamute?
@@ -268,15 +268,15 @@ husky:
     Can you create a project that can identify a husky and a malamute? They look very similar, so train your classifier well! Put your Train AI keys into the blocks in codelab to check them out.
   cover_photo: /images/ext-images/husky.png
   video: >
-    <iframe src="https://giphy.com/embed/8YyZlnVOeUmMf5rGuF" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ai-vision-cognimates-8YyZlnVOeUmMf5rGuF"></a></p>
+    <iframe src="https://giphy.com/embed/8YyZlnVOeUmMf5rGuF" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="https://giphy.com/gifs/ai-vision-cognimates-8YyZlnVOeUmMf5rGuF"></a></p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1T5L4Xw7FIWmzeLgUHOh5qAQgJi89wFDb
     guide:
       - step: >
           Step 1: Download the project. If you have not trained an image project that can huskies or malamutes, you can
-                  <a href ="https://www.dropbox.com/sh/vtu5ob530d0j7sk/AAAB1eGflUCQJ_lAqaBsk2gMa?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+                  <a class="hover-underline" href ="https://www.dropbox.com/sh/vtu5ob530d0j7sk/AAAB1eGflUCQJ_lAqaBsk2gMa?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
                   Use the categories "husky" and "malamute".
-      - step: > 
+      - step: >
           Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
 
 # clarifaiDino:
@@ -296,36 +296,36 @@ husky:
 #           Step 1: Start by loading the project.
 #                   <img src = "https://imgur.com/yubOzt6.png"/ class="wide-photo">
 #       - step: >
-#           Step 2: This project uses the <a href= "/cognimates-website/extensions/clarifai">Clarifai extension</a>, which can recognize objects from a photo that your webcam takes.
+#           Step 2: This project uses the <a class="hover-underline" href= "/cognimates-website/extensions/clarifai">Clarifai extension</a>, which can recognize objects from a photo that your webcam takes.
 #                   <img src = "https://imgur.com/ucnhnlG.png"/ class="wide-photo">
 #       - step: >
-#           Step 3: Click the green flag to play with the dinosaur! He will take a photo with the webcam on your laptop and try to recognize the objects that he sees. Then, he will tell you his predictions one by one and he gets a point if he is right. 
-#                   <img src = "https://imgur.com/l9ME8HV.png"/ class="wide-photo">       
-#                   <br>How did you do against the dinosaur?  
+#           Step 3: Click the green flag to play with the dinosaur! He will take a photo with the webcam on your laptop and try to recognize the objects that he sees. Then, he will tell you his predictions one by one and he gets a point if he is right.
+#                   <img src = "https://imgur.com/l9ME8HV.png"/ class="wide-photo">
+#                   <br>How did you do against the dinosaur?
 
 twitter_wemo:
   name: Make a Wemo Plug react to Tweets!
   link: /projects/twitter_wemo
   short_intro: >
-    Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions. 
+    Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions.
   description: >
-    Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions. 
+    Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions.
   cover_photo: /images/ext-images/wemo_twitter.png
   video: >
-    <iframe src="https://player.vimeo.com/video/269392274" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/269392274">Simple Cognimates Wemo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <iframe src="https://player.vimeo.com/video/269392274" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a class="hover-underline" href="https://vimeo.com/269392274">Simple Cognimates Wemo</a> from <a class="hover-underline" href="https://vimeo.com/user84996108">Cognimates</a> on <a class="hover-underline" href="https://vimeo.com">Vimeo</a>.</p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1W-VffmjMc2I5qT2p-UobHD050oILcPcQ
     guide:
       # - step: >
       #     Step 1: Start by loading the project.
-      #             <img src = "https://imgur.com/St4CgZA.png"/ class="wide-photo"> 
+      #             <img src = "https://imgur.com/St4CgZA.png"/ class="wide-photo">
       # - step: >
-      #     Step 2: This project uses the <a href="/cognimates-website/extensions/wemo">wemo</a>, <a href="/cognimates-website/extensions/twitter">twitter</a>, and <a href="/cognimates-website/extensions/feelings">feelings</a> extension to light a Wemo based on the feelings of a tweet.
-      #             <img src = "https://imgur.com/7LY5fPM.png"/ class="wide-photo"> 
+      #     Step 2: This project uses the <a class="hover-underline" href="/cognimates-website/extensions/wemo">wemo</a>, <a class="hover-underline" href="/cognimates-website/extensions/twitter">twitter</a>, and <a class="hover-underline" href="/cognimates-website/extensions/feelings">feelings</a> extension to light a Wemo based on the feelings of a tweet.
+      #             <img src = "https://imgur.com/7LY5fPM.png"/ class="wide-photo">
       # - step: >
       #     Step 3: Control the Wemo's lights based on the feeling of a tweet! Make the Wemo turn on when it's happy and off when it's sad.
-      #             <img src = "https://imgur.com/MAQ5fMN.png"/ class="wide-photo">  
-      #             <br>How does the program know the feelings of a tweet? What do you think happens when the tweet isn't happy or sad, but neutral?     
+      #             <img src = "https://imgur.com/MAQ5fMN.png"/ class="wide-photo">
+      #             <br>How does the program know the feelings of a tweet? What do you think happens when the tweet isn't happy or sad, but neutral?
 
 
 # jellyfishSwim:
@@ -363,9 +363,9 @@ goodBoy:
     download_link: https://drive.google.com/uc?export=download&id=1yXY-ZFlqYsNufdCsGADG-waHfFGi_wIn
     guide:
       - step: >
-          Step 1: Download the project. If you have not trained a text model that can detect good and bad phrases, <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+          Step 1: Download the project. If you have not trained a text model that can detect good and bad phrases, <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
                   Use the categories "good" and "bad". Put phrases like "You're a good boy" in the good category and "You're a bad boy" in the bad category.
-      - step: > 
+      - step: >
           Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
 
 # smartLights:
@@ -380,23 +380,23 @@ goodBoy:
 #     download_link: https://drive.google.com/uc?export=download&id=1rWPU_6Xi6rqsiON6nIMSjLuIiS2fSMh0
 #     guide:
 #       - step: >
-#           Step 1: Start by loading our starter project for Smart lights. You can download it <a href="https://drive.google.com/uc?export=download&id=1WfdCzakpQPz4jnaPt8jY47w6kNkEVVJx"> here</a>.
-#                   <img src = "https://imgur.com/krXWpwv.png"/ class="wide-photo">    
+#           Step 1: Start by loading our starter project for Smart lights. You can download it <a class="hover-underline" href="https://drive.google.com/uc?export=download&id=1WfdCzakpQPz4jnaPt8jY47w6kNkEVVJx"> here</a>.
+#                   <img src = "https://imgur.com/krXWpwv.png"/ class="wide-photo">
 #       - step: >
-#           Step 2: Right now, the lights are only reacting to specific phrases. How can we make it react to the mood of our response? Let's load the <a href="/cognimates-website/extensions/feelings">Feelings extension</a>. 
-#         photo: images/projects/make-me-happy/make-me-happy-3.png 
+#           Step 2: Right now, the lights are only reacting to specific phrases. How can we make it react to the mood of our response? Let's load the <a class="hover-underline" href="/cognimates-website/extensions/feelings">Feelings extension</a>.
+#         photo: images/projects/make-me-happy/make-me-happy-3.png
 #       - step: >
-#           Step 3: With the Feelings extension we can get the mood or feeling our speech. 
-#                   <img src = "https://imgur.com/zCwbCN7.png"/ class="wide-photo"> 
+#           Step 3: With the Feelings extension we can get the mood or feeling our speech.
+#                   <img src = "https://imgur.com/zCwbCN7.png"/ class="wide-photo">
 #       - step: >
-#           Step 4: In order for our lights to know when to start analyzing our speech, we need to broadcast that we are done listening. So let's use a broadcast block and have the message be received by another block. 
+#           Step 4: In order for our lights to know when to start analyzing our speech, we need to broadcast that we are done listening. So let's use a broadcast block and have the message be received by another block.
 #                   <img src = "https://imgur.com/WyCtYos.png"/ class="wide-photo">
 #       - step: >
 #           Step 5: Now instead of having the light colors change according to exactly what we're saying, we can have them change depending on if we're feeling positive (good), negative (bad), or neutral (somewhere in between).
-#                   <img src = "https://imgur.com/4FFx4GP.png"/ class="wide-photo">  
+#                   <img src = "https://imgur.com/4FFx4GP.png"/ class="wide-photo">
 #                   <br>
 #                   Check out all the cool things you could do with smart lights!
-#                   <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">    
+#                   <img src = "https://imgur.com/h2Nnny5.png"/ class="wide-photo">
 
 # ghost2:
 #   name: Bouncing Ghost
@@ -413,7 +413,7 @@ goodBoy:
 #           Step 1: Start by loading the project.
 #                   <img src = "https://imgur.com/2VPlDu7.png"/ class="wide-photo">
 #       - step: >
-#           Step 2: This project uses the <a href="/cognimates-website/extensions/muse">muse extension</a>.
+#           Step 2: This project uses the <a class="hover-underline" href="/cognimates-website/extensions/muse">muse extension</a>.
 #                   <img src = "https://imgur.com/3v5RMp2.jpg"/ class="wide-photo">
 #       - step: >
 #           Step 3: Click on the green flag. Your browser will ask if it is ok to show you notifications. Click allow and you should see a notification. Click on the notification to connect to your headset using Bluetooth.
@@ -450,13 +450,13 @@ goodBoy:
 #  short_intro: >
 #    Make your own music and your own light show!
 #  description: >
-#    Using the music and smart lights extension you can choreograph and compose your own music and lightshow. 
+#    Using the music and smart lights extension you can choreograph and compose your own music and lightshow.
 #  cover_photo: /images/ext-images/color-beats-cover.png
 #   video: >
 #     <iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 #  resources:
 #    download_link: https://drive.google.com/uc?export=download&id=1ynsNdaqtkNSp4eFFFqB9xYthso_p5Hli
-          
+
 # starHunter:
 #   name: Star Hunter
 #   link: /projects/starHunter
@@ -479,7 +479,7 @@ goodBoy:
 #                   <img src = "https://i.imgur.com/Pk7abPn.png"/ class="wide-photo">
 #       - step: >
 #           Step 4: Now, try to collect the stars as quickly as possible.
-                  
+
 # microscope:
 #   name: Dr.Microscope
 #   link: /projects/microscope
@@ -492,7 +492,7 @@ goodBoy:
 #     download_link: https://drive.google.com/uc?export=download&id=1Yj5ce7PNHiXZFfE-dFlYWj1mNXERlhzL
 #     guide:
 #     - step: >
-#         Step 1: This project uses the <a href="/cognimates-website/extensions/vision">vision extension</a> and the <a href="/cognimates-website/extensions/video">video extension</a>. It can detect images based on trained models.
+#         Step 1: This project uses the <a class="hover-underline" href="/cognimates-website/extensions/vision">vision extension</a> and the <a class="hover-underline" href="/cognimates-website/extensions/video">video extension</a>. It can detect images based on trained models.
 #             <img src = "https://imgur.com/NryZI8J.png"/ class="wide-photo">
 #     - step: >
 #         Step 2: Start by loading the project and clicking the green flag.
@@ -506,7 +506,7 @@ goodBoy:
 #             <img src = "https://imgur.com/741wr1x.png"/ class="wide-photo"><img src = "https://imgur.com/KORi5Vw.png"/ class="wide-photo">
 #     - step: >
 #         Step 5: Now see what Dr. Microscope knows and what you can teach him! Here's an example using the live view of a wecbcam microscope.
-#         <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
+#         <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
 
 rpsCozmo:
   name: Rock, Paper, Scissors with Cozmo
@@ -517,14 +517,14 @@ rpsCozmo:
     Train your computer to play Rock, Paper, Scissors with you, and have Cozmo cheer you on! Make Cozmo react to the moves you make. Don't forget to train a model using the tutorial and links at the bottom of the page.
   cover_photo: /images/ext-images/cozmorps.png
   video: >
-    <iframe src="https://giphy.com/embed/fHcfIr6kyGSGZ20rfR" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fHcfIr6kyGSGZ20rfR">via GIPHY</a></p>
+    <iframe src="https://giphy.com/embed/fHcfIr6kyGSGZ20rfR" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="https://giphy.com/gifs/fHcfIr6kyGSGZ20rfR">via GIPHY</a></p>
   resources:
     download_link: https://drive.google.com/uc?export=download&id=1ISbQhtruPjh4h44mC39RvvZg3M6JXU2d
     guide:
       - step: >
           Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
-                  <a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
-      - step: > 
+                  <a class="hover-underline" href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
+      - step: >
           Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded!
 # waterkinesis:
 #   name: Waterkinesis
@@ -538,8 +538,8 @@ rpsCozmo:
 #     download_link: https://drive.google.com/uc?export=download&id=17m-0_2dez_SugAyw-D55C3IbzbU9NRqC
 #     guide:
 #       - step: >
-#           Step 1: Load the simple version of Waterkinesis <a href="https://drive.google.com/uc?export=download&id=1f5dMX3AF0_CWKYXIhKZvMQMEx44xGck-">here</a>. This project uses the <a href="/cognimates-website/extensions/muse">Muse extension</a>, which you can use to record your brain EEG values, and the Lego Wedo extension, which lets you program with a Lego Wedo.
-#                   <img src = "https://imgur.com/lqEt77A.png"/ class="wide-photo"> 
+#           Step 1: Load the simple version of Waterkinesis <a class="hover-underline" href="https://drive.google.com/uc?export=download&id=1f5dMX3AF0_CWKYXIhKZvMQMEx44xGck-">here</a>. This project uses the <a class="hover-underline" href="/cognimates-website/extensions/muse">Muse extension</a>, which you can use to record your brain EEG values, and the Lego Wedo extension, which lets you program with a Lego Wedo.
+#                   <img src = "https://imgur.com/lqEt77A.png"/ class="wide-photo">
 #       - step: >
 #           Step 2: Connect the Lego Wedo using the Scratch Device Manager, and load the Lego Wedo extension on Cognimates.
 #                   <img src = "https://imgur.com/13OyNAN.png"/ class="wide-photo">
@@ -547,14 +547,14 @@ rpsCozmo:
 #           Step 3: Click the green flag to connect to your Muse headset. Follow the notifications and pair your device with the Muse headset.
 #                   <img src= "https://imgur.com/hFEZ4eT.png"/ class="wide-photo">
 #       - step: >
-#           Step 4: Once your headset is connected, watch the Lego Wedo change light colors based on your EEG values! The current threshold values are set to 100, but the best thresholds for you might be different. Click the “Get value of” blocks to see your EEG values and figure out what your thresholds should be. 
+#           Step 4: Once your headset is connected, watch the Lego Wedo change light colors based on your EEG values! The current threshold values are set to 100, but the best thresholds for you might be different. Click the “Get value of” blocks to see your EEG values and figure out what your thresholds should be.
 #                   <img src= "https://imgur.com/GVjyqHW.png"/ class="wide-photo">
 #       - step: >
 #           Step 5: Try adding movement blocks! Make the Wedo move forward and change directions depending on the side of your body that moved. </br>
 #                   <img src= "https://imgur.com/gKFIHpi.png"/ class="wide-photo">
 #       - step: >
 #           Step 6: You can choose to move the Wedo on land, or try a water-based activity with this code! We recommend you place the Lego Wedo smarthub and motor in a waterproof box, drill a hole to the side of the box, and use a lego stick piece to connect a plastic propeller to the wedo motor. Test out other mechanical designs that you think will also work!
- 
+
 
 
 

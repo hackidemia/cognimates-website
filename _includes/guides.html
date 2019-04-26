@@ -8,12 +8,17 @@
 
 <div class="main">
   <h1>{{ activity.name }}</h1>
+ <hr></hr>
+
   <p>{{ activity.description }}</p>
 
   {% if activity.video %}
+    <br>
     <div class="activity__video-container">
       {{ activity.video }}
     </div>
+    <hr></hr>
+
     <!-- <h3>{{ short_name }} at a Glance</h3> -->
   {% endif %}
 
@@ -21,20 +26,26 @@
     <img src= {{ activity.photo | relative_url}} class='guide-photo'/>
   {% endif %} -->
   {% if activity.resources.guide_link %}
-
-  <p>
-    <h3>
-      <a class="button--primary" href="{{ activity.resources.guide_link }}">
-        Download Guide
-      </a></h3>
+    <p>
+        <a class="button--primary" href="{{ activity.resources.guide_link }}">
+          Download Guide
+        </a>
+    <p>
   {% endif %}
-  <p>
 
     <!-- <p>Check out the <a href= {{ activity.project_link | relative_url}}>project page </a> for a tutorial</p> -->
-  <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? 
-    <a class="button--primary" href="mailto:cognimates@gmail.com">Get in touch!</a>
+  <hr></hr>
+
+  <p>
+    Have you implemented a {{ short_name }} activity?
+    Have feedback to share? Questions about how to get started?
+  </p>
+  <p>
+    <a class="button--primary" href="mailto:cognimates@gmail.com">Contact Us!</a>
   </p>
 </div>
+
+ <hr></hr>
 
 <div class="details">
   <ul class="activity-details">

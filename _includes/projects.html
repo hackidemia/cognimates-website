@@ -5,13 +5,16 @@
 {% else %}
   {% assign short_name = activity.name %}
 {% endif %}
+
 <div class="main">
     <h1 >
         {{activity.name}}
     </h1>
+    <hr></hr>
     <p>
         {{ activity.description }}
     </p>
+
     <p>
       <a class="button--primary"
       href={{ activity.resources.download_link }}
@@ -22,8 +25,10 @@
       target="_blank">Launch Codelab
     </a>
   </p>
+    <hr></hr>
 
   <p>
+
     {% if activity.video %}
     <div class="video-container">
       {{ activity.video }}
@@ -33,7 +38,8 @@
 
   <div class="details" style="text-align: left;">
     {% if activity.resources.guide %}
-      <h2>Project Guide</h2>
+    <hr></hr>
+      <h3>Project Guide</h3>
       <ul>
         {% for s in activity.resources.guide %}
           <li>
@@ -49,6 +55,8 @@
 </div>
 
 <!-- {% if activity.photos %}
+    <hr></hr>
+
   <div class="community">
     <h3>{{ short_name }} in Action</h3>
     <div class="image-container">
