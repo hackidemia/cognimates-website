@@ -1,20 +1,17 @@
 {% assign exchange = site.data.team[page.data_name] %}
 
-<div class="main">
-  <h1>Team</h1>
+<h1>Team</h1>
 
-  {% if exchange.team_members %}
-      <ul class="team__members">
-        {% for t in exchange.team_members %}
-          <li class="team__member">
-            <img class="team__avatar" src="{{ t.image | relative_url }}" alt="{{ t.name }}" />
-            <div class="team__member-content">
-              <h3 class="team__name">{{ t.name }} <span class="team__institution">{{ t.institution }}</span></h3>
-              <p class="team__bio">{{ t.bio }}</p>
-            </div>
-          </li>
-        {% endfor %}
-      </ul>
-  {% endif %}
-  
-</div>
+{% if exchange.team_members %}
+    <ul class="team__members">
+      {% for t in exchange.team_members %}
+        <li class="team__member">
+          <img class="team__avatar" src="{{ t.image | relative_url }}" alt="{{ t.name }}" />
+          <div class="team__member-content">
+            <h3 class="team__name">{{ t.name }} <span class="team__institution">{{ t.institution }}</span></h3>
+            <p class="team__bio">{{ t.bio }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+{% endif %}
