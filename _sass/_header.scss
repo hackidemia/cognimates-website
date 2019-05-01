@@ -76,11 +76,10 @@ $header--height: 4.25rem;
 		align-items: center;
 		align-self: stretch;
 		margin: 0;
-		padding: 0 0.5rem;
+		padding: 0 0.75rem;
 	}
 
 	@include mq('xl') {
-		padding: 0 0.75rem;
     	font-size: 1rem;
 	}
 }
