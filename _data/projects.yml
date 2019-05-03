@@ -58,19 +58,19 @@ rock:
   short_intro: >
     Learn how to play rock, paper, scissors with your computer.
   description: >
-    Train your computer to recognize photos of your and play rock, paper, scissors. Don't forget to train a model using the tutorial and links at the bottom of the page.
+    Train your computer to recognize photos of your and play rock, paper, scissors. This uses a pre-trained model, so you can just start playing!
   cover_photo: /images/ext-images/Hands.png
   video: >
     <iframe src="https://giphy.com/embed/3OpasCcdF2L0h3J1Sz" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
     download_link: https://drive.google.com/uc?export=downloads&id=1WBKgxyGY7f58blMBXhZJpLqejfQ9gxk8
-    guide:
-      - step: >
-          Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
-                  <u><a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a></u> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
-                  Name the categories "rock", "paper", and "scissors". 
-      - step: > 
-          Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded.
+    # guide:
+    #   - step: >
+    #       Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
+    #               <u><a href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a></u> and <a href="https://cognimate.me:2635/home" target="_blank">train a new model</a>. 
+    #               Name the categories "rock", "paper", and "scissors". 
+    #   - step: > 
+    #       Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded.
 
 twitter:
  name: Check up on Twitter
