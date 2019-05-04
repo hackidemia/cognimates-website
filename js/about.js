@@ -1,6 +1,11 @@
 // document.ready
 document.addEventListener("DOMContentLoaded", function(event) {
+    const players = Plyr.setup('.js--plyr-video');
 
+    // Expose player so it can be used from the console
+    window.player = players;
+
+    // banner slideshow
     var intervalDelay = 5000;
     var bannerImages = document.querySelectorAll('.slideshow__img');
     var bannerIndexVisible = 0;
