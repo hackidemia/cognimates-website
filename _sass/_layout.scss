@@ -8,11 +8,6 @@
 	@include mq('xxl') { max-width: 908px; }
 }
 
-
-//////////////////////////////////////////
-////////// Small/default layout //////////
-//////////////////////////////////////////
-
 .guide-photo {
 	max-width: 70%;
 	height: auto;
@@ -42,7 +37,6 @@
 }
 
 .details {
-
 	img {
 		width: 100%;
 		height: auto;
@@ -69,20 +63,27 @@
 .tiles {
 	margin-top: 3rem;
 	padding: 0;
-	display: grid;
-	grid-template-columns: repeat(1, minmax(200px, 450px));
-	grid-gap: 30px;
     list-style: none;
+
+	@include mq('xl') {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(200px, 450px));
+		grid-gap: 30px;
+	}
+
+	@include mq('xxl') {
+		grid-template-columns: repeat(2, minmax(200px, 450px));
+	}
 
 	li {
 		text-align: left;
 		padding: 0;
+		margin-bottom: 1.5rem;
+		@include mq('xl') { margin-bottom: 0; }
 	}
 
 	.tile {
 		position: relative;
-		width: 300px;
-		max-width: 100%;
 		margin: auto;
     	border-radius: 1rem;
 
@@ -92,6 +93,10 @@
 		    height: auto;
     		border-radius: 1rem;
 			transition: .5s ease;
+			max-height: 300px;
+    		object-fit: cover;
+
+			@include mq('xl') { max-height: none; }
 		}
 
 		.overlay {
@@ -120,18 +125,13 @@
 	}
 }
 
-.tiles .tile:hover img {opacity:.2; }
-.tiles .tile:hover .overlay {opacity:1; }
+.tiles .tile:hover img { opacity:.2; }
+.tiles .tile:hover .overlay { opacity:1; }
 
 /////////////////////////////////////////
 ////////// Small-medium layout //////////
 /////////////////////////////////////////
 @media (min-width: 980px) {
-	// Content component updates for small-med screens
-	.tiles {
-		grid-template-columns: repeat(2, minmax(200px, 450px));
-	}
-
 	.community {
 		div.image-container {
 			display: grid;
@@ -140,9 +140,7 @@
 			justify-items: center;
 			align-items: center;
 
-			img {
-				padding: 0;
-			}
+			img { padding: 0; }
 		}
 	}
 }
@@ -151,7 +149,6 @@
 ////////// Large-medium layout //////////
 /////////////////////////////////////////
 @media (min-width: 1400px) {
-
 	.callout {
 		padding-left: 15px;
 	}
@@ -176,17 +173,5 @@
 
 	.callout, .details {
 		padding-left: 10px;
-	}
-}
-
-//////////////////////////////////
-////////// Large layout //////////
-//////////////////////////////////
-@media (min-width: 1600px) {
-	.tiles {
-		//max-width: 950px;
-		margin-right: auto;
-		margin-left: auto;
-		grid-template-columns: repeat(3,minmax(150px, 450px));
 	}
 }
