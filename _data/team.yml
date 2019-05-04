@@ -5,12 +5,12 @@ team:
     - name: Stefania Druga
       institution: MIT Media Lab
       bio: Stefania is the founder of Cognimates and a Ph.D candidate at University of Washington School of Information. Her research focuses on how children interact with and make sense of the growing collection of “smart” inter-connected playthings in the world around them together with their parents and grand-parents. She is exploring how families, as they play with these new devices, develop new ways of thinking about intelligence, emotion, and social interaction. Based on these studies, Stefania hopes to design new tools and activities to introduce families to machine learning and artificial intelligence in a playful way. She is especially interested in how embodied intelligent agents could play an active role in supporting children and their families to learn more about artificial intelligence through playful activities. Previously she co-founded Hackidemia organization (mobile lab for maker Education present in 40 countries), Afrimakers (community of Maker projects in 10 Africa countries) and MakerCamp (global camps for learning how to build and run makerspaces).
-      image: images/team/avatars/stefania-druga--cognimates.png
+      image: images/team/avatars/stefania-druga--cognimates.jpg
 
     - name: Tammy Qiu
       institution: BU
       bio: Tammy is our design and website magician but she also contributes to our extensions. She is currently an undergraduate student at Boston University studying Computer Science and Graphic Design. She is interested in the possibilities of generative and computational design as well as ways in which we can make artistic creation more accessible and public-friendly.
-      image: images/team/avatars/tammy-qiu--cognimates.png
+      image: images/team/avatars/tammy-qiu--cognimates.jpg
 
     - name: Sarah T. Vu
       institution: MIT
@@ -20,17 +20,17 @@ team:
     - name: Eesh Likhith
       institution: MIT
       bio: Eesh Chilukalapalli is our back-end guru. He is an undergraduate at SRM University, India. He has been to MIT for a semester under the Special Student program. He has done a UROP at LLK, MIT Media Labs where he started working on the Cognimates project under Stefania Druga. Eesh is very passionate about technology since it continues to make a huge impact on people’s lives. He is a programmer at heart and likes to see his ideas materialize through his hobby projects. In his free time, he loves to ride his motorcycle, play the piano and experiment with photography. Eesh is currently continuing to work on the Cognimates project.
-      image: images/team/avatars/eesh-likhith--cognimates.png
+      image: images/team/avatars/eesh-likhith--cognimates.jpg
 
-    - name: Major Tom
-      institution:
-      bio:
-      image: images/team/avatars/major-tom--cognimates.png
+    # - name: Major Tom
+    #   institution:
+    #   bio:
+    #   image: images/team/avatars/major-tom--cognimates.png
 
-    - name: Minor Tom
-      institution:
-      bio:
-      image: images/team/avatars/minor-tom--cognimates.png
+    # - name: Minor Tom
+    #   institution:
+    #   bio:
+    #   image: images/team/avatars/minor-tom--cognimates.png
 
     - name: Steven Dale
       institution: Freelance
