@@ -1,13 +1,12 @@
-uploadingGuide:
-  name: Load a Project
-  link: /projects/uploading
-  short_intro: >
-    Learn how to load your own project.
-  description: >
-    Load your own project by clicking on file in the upper left and clicking on upload from your computer like in the video below.
-    <iframe src="https://giphy.com/embed/MnENzrnuG25R8fmyM9" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/MnENzrnuG25R8fmyM9"></a></p>
-  cover_photo: /images/ext-images/upload.png
-
+# uploadingGuide:
+#   name: Load a Project
+#   link: /projects/uploading
+#   short_intro: >
+#     Learn how to load your own project.
+#   description: >
+#     Load your own project by clicking on file in the upper left and clicking on upload from your computer like in the video below.
+#     <iframe src="https://giphy.com/embed/MnENzrnuG25R8fmyM9" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/MnENzrnuG25R8fmyM9"></a></p>
+#   cover_photo: /images/ext-images/upload.png
 
 sentiment:
   name: Make Me Happy
