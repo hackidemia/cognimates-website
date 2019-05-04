@@ -38,18 +38,6 @@
 	}
 }
 
-.about__banner-button {
-    margin: 0 1.5rem 1rem 0;
-
-	@include mq('md') {
-		margin: 0 1.5rem 0 0;
-	}
-}
-
-.about__banner-button:hover {
-	background-color: darken($pink, 10%);
-}
-
 .panel {
 	display: flex;
 	flex-flow: row wrap;
