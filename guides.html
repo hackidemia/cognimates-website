@@ -12,7 +12,7 @@ permalink: /guides/
 	{% for activity in site.data.guides %}
 		<li>
 			<div class="tile">
-				<a href={{ activity[1].link | relative_url }}>
+				<a href="{{ activity[1].resources.guide_link }}">
 					<img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
 					<div class="overlay">
 						{{ activity[1].short_intro }}
