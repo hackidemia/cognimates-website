@@ -6,7 +6,7 @@ cognimate:
   description: >
     This extension will guide users through different tutorials (missions) to teach them
     specific programming concepts, learn how to use the different extensions, and build various projects.
-  cover_photo: /images/ext-images/cognimate.png
+  cover_photo: /images/extensions-images/cognimate.png
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
@@ -25,7 +25,7 @@ jibo:
     Program Jibo the robot!
   description: >
     This extension allows you to program how Jibo robot moves, speakes and discover what are all the things it can see or sense.
-  cover_photo: /images/ext-images/jibo.png
+  cover_photo: /images/extensions-images/jibo.png
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
@@ -44,7 +44,7 @@ ergo:
     Program the Ergo Jr. robot!
   description: >
     This extension allows you to program how Ergo Jr. robot moves, speakes and discover what are all the things it can see or sense.
-  cover_photo: /images/ext-images/ergo.png
+  cover_photo: /images/extensions-images/ergo.png
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
@@ -64,7 +64,7 @@ cozmo:
     Program a Cozmo robot!
   description: >
     This extension allows you to program how Cozmo robot moves, speakes and discover what are all the things it can see or sense.
-  cover_photo: /images/ext-images/cozmo.png
+  cover_photo: /images/extensions-images/cozmo.png
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
@@ -85,7 +85,7 @@ clarifai:
     Take photos and have a computer predict what the image is!
   description: >
     This extension lets you send images to Clarifai's AI engine and get predictions for your image.
-  cover_photo: /images/ext-images/clarifai.png
+  cover_photo: /images/extensions-images/clarifai.png
   resources:
     guide:
       - step: >
@@ -100,7 +100,7 @@ feelings:
     Have a computer guess if a phrase is positive or negative!
   description: >
     The Feelings extension is analysing if a text is positive or negative. This extension is using the <a class="hover-underline" href= https://github.com/thisandagain/sentiment> Sentiment Analysis</a> public pre-trained library.
-  cover_photo: /images/ext-images/feelings.png
+  cover_photo: /images/extensions-images/feelings.png
   resources:
     guide:
       - step: >
@@ -114,7 +114,7 @@ color:
     Detect colors with your webcam.
   description: >
     The color extension is using this <a class="hover-underline" href=https://trackingjs.com/>public pre-trained library</a> to detect when specific colors are seen.
-  cover_photo: /images/ext-images/Color_extension.png
+  cover_photo: /images/extensions-images/Color_extension.png
   resources:
     guide:
       - step: >
@@ -149,7 +149,7 @@ alexa:
       <a class="hover-underline" href="https://imgur.com/kJRXZSb"><img src="https://i.imgur.com/kJRXZSb.png" title="source is imgur.com" height="180"/></a><br><br>
       The first extension block creates a user account with Personal Chatbot. The next one logs you into that account on your computer! The last block gives you an access code to connect to Alexa properly.<br><br>
       Tell Alexa "Open Personal Chatbot". Alexa will ask you to say "connect followed by your access code". Tell Alexa "Connect [your access code]", and begin programming with Alexa!
-  cover_photo: /images/ext-images/alexa.png
+  cover_photo: /images/extensions-images/alexa.png
   resources:
     guide:
       - step: >
@@ -162,7 +162,7 @@ smartLights:
     Play around with smart lights!
   description: >
     This extension allows you to program Hue Lights using this <a class="hover-underline" href=https://github.com/ArndBrugman/huepi>public pre-trained library</a>.
-  cover_photo: /images/ext-images/smartLights.png
+  cover_photo: /images/extensions-images/smartLights.png
   resources:
     guide:
       - step: >
@@ -186,7 +186,7 @@ vision:
     Use and train models that recognize images!
   description: >
     This extension allows you to train models to recognize and classify different images using IBM Watson.
-  cover_photo: /images/ext-images/vision.png
+  cover_photo: /images/extensions-images/vision.png
   resources:
     guide:
       - step: >
@@ -201,7 +201,7 @@ text:
     Use models to find the categories of different phrases!
   description: >
     This extension allows you to train models to recognize and classify different phrases using IBM Watson.
-  cover_photo: /images/ext-images/text.png
+  cover_photo: /images/extensions-images/text.png
   resources:
     guide:
       - step: >
@@ -216,7 +216,7 @@ speech:
     Talk to your computer and have it talk back to you!
   description: >
     This extension allows you to transform what you say to text. This extension was inspired by the Scratch team's<a class="hover-underline" href=https://preview.scratch.mit.edu/> speech extension</a> but the code was modified and adapted especially for Cognimates project's needs.
-  cover_photo: /images/ext-images/speech-ext-new.jpg
+  cover_photo: /images/extensions-images/speech-ext-new.jpg
   resources:
     guide:
       - step: >
@@ -229,7 +229,7 @@ wemo:
     The Wemo Smart Plug Extension
   description: >
     This extension allows you to turn a smart plug on and off and control anything else that is connected to it, things like a disco ball or a bubbles machine. This extension was inspired by Kreg Hanning's Wemo 2.0 Scratch Extension but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs.
-  cover_photo: /images/ext-images/wemo_ext.png
+  cover_photo: /images/extensions-images/wemo_ext.png
   resources:
     guide:
       - step: >
@@ -252,7 +252,7 @@ twitter:
     The Twitter 3.0 Extension
   description: >
     This extension allows you to get tweets from specific accounts of hashtags and use them in your projects. This extension was inspired by Connor Hudson and Kreg Hanning's <a class="hover-underline" href=https://technoboy10.github.io/twitter/> Twitter 2.0 Scratch Extension </a> but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs.
-  cover_photo: /images/ext-images/twitter_ext.jpg
+  cover_photo: /images/extensions-images/twitter_ext.jpg
   resources:
     guide:
       - step: >
@@ -265,7 +265,7 @@ microbit:
     The Microbit Extension
   description: >
     This extension allows you to extension allows you to program the microbit board. This extension was inspired by Kreg Hanning's <a class="hover-underline" href=https://llk.github.io/microbit-extension/> Microbit 2.0 Scratch Extension </a> but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs.
-  cover_photo: /images/ext-images/Microbit_extension.png
+  cover_photo: /images/extensions-images/Microbit_extension.png
   resources:
     guide:
       - step: >
@@ -277,7 +277,7 @@ muse:
   short_intro: The Muse Extension
   description: >
     This extension allows you to connect to Muse, a brain sensing headband that measures your EEG values.
-  cover_photo: /images/ext-images/Muse.png
+  cover_photo: /images/extensions-images/Muse.png
   resources:
     guide:
       - step: >
@@ -289,7 +289,7 @@ video:
   short_intro: Video Control Extension
   description: >
     This extension allows you to control the transparency, source, and movement in the video feed.
-  cover_photo: /images/ext-images/video.png
+  cover_photo: /images/extensions-images/video.png
   resources:
     guide:
       - step: >
@@ -303,7 +303,7 @@ video:
 #    The Lego Wedo 2.0 Extension
 #  description: >
 #    This is a native Scratch extension that allows you to connect to Lego Wedo Bricks!
-#  cover_photo: /images/ext-images/wedo.png
+#  cover_photo: /images/extensions-images/wedo.png
 #  resources:
 #    guide:
 #      - step: >
@@ -317,7 +317,7 @@ video:
 #    Draw with your sprites!
 #  description: >
 #    This is a native Scratch extension that allows you to turn sprites into 'pens'.
-#  cover_photo: /images/ext-images/pen.png
+#  cover_photo: /images/extensions-images/pen.png
 #  resources:
 #    guide:
 #      - step: >
@@ -332,7 +332,7 @@ video:
 #    Play music with Scratch!
 #  description: >
 #    Use blocks to create music! You can control the tempo and use different instruments.
-#  cover_photo: /images/ext-images/music.png
+#  cover_photo: /images/extensions-images/music.png
 #  resources:
 #    guide:
 #      - step: >

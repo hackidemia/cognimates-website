@@ -6,7 +6,7 @@
 #   description: >
 #     Load your own project by clicking on file in the upper left and clicking on upload from your computer like in the video below.
 #     <iframe src="https://giphy.com/embed/MnENzrnuG25R8fmyM9" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/MnENzrnuG25R8fmyM9"></a></p>
-#   cover_photo: /images/ext-images/upload.png
+#   cover_photo: /images/extensions-images/upload.png
 
 sentiment:
   name: Make Me Happy
@@ -15,7 +15,7 @@ sentiment:
     Learn how to make Nary react to your messages.
   description: >
     Learn how to make Nary react to your messages.
-  cover_photo: /images/ext-images/make-me-happy.png
+  cover_photo: /images/extensions-images/make-me-happy.png
   video: >
     <iframe src="https://giphy.com/embed/bwPqG9tW2avzalpu4S" width="480" height="305" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
@@ -58,7 +58,7 @@ rock:
     Learn how to play rock, paper, scissors with your computer.
   description: >
     Train your computer to recognize photos of your and play rock, paper, scissors. Don't forget to train a model using the tutorial and links at the bottom of the page.
-  cover_photo: /images/ext-images/Hands.png
+  cover_photo: /images/extensions-images/Hands.png
   video: >
     <iframe src="https://giphy.com/embed/3OpasCcdF2L0h3J1Sz" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
@@ -78,7 +78,7 @@ twitter:
    Learn how to find the mood of tweets.
  description: >
    Learn how to find the mood of your favorite Twitter user with the Twitter, Feelings, and Music extensions.
- cover_photo: /images/ext-images/twitter-ext.png
+ cover_photo: /images/extensions-images/twitter-ext.png
  video:
   <iframe src="https://giphy.com/embed/2ytmpbmPuOoDHcHMwp" width="480" height="316" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
  resources:
@@ -107,7 +107,7 @@ twitter:
 #    Save Dot from the scary ghosts with math!
 #  description: >
 #    The scary ghosts are after Dot and want to scare him away. The only way to not have him leave is to do some math problems. Do some basic addition, multiplication, subtraction, and division to keep him happy!
-#  cover_photo: /images/ext-images/ghosts_speech.png
+#  cover_photo: /images/extensions-images/ghosts_speech.png
 #  resources:
 #    download_link: https://drive.google.com/uc?export=download&id=1xYt9BmgAPjRsdhZ1l-JSjqSREElDfMe7
 
@@ -118,7 +118,7 @@ cozmo_simple:
     Check out some of Cozmo's moves.
   description: >
     Check out some of the moves that Cozmo can do! Use this starter project to learn a bit about Cozmo and watch him pick up blocks.
-  cover_photo: /images/ext-images/cozmo_ext.png
+  cover_photo: /images/extensions-images/cozmo_ext.png
   video: >
     <iframe src="https://player.vimeo.com/video/269392318" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a class="hover-underline" href="https://vimeo.com/269392318">Simple Cozmo Demo</a> from <a class="hover-underline" href="https://vimeo.com/user84996108">Cognimates</a> on <a class="hover-underline" href="https://vimeo.com">Vimeo</a>.</p>
   resources:
@@ -143,7 +143,7 @@ cozmo_simple:
 #     Tell Cozmo about your day and watch him and smart lights react to your response!
 #   description: >
 #     This uses the cozmo extension, the smart lights extension, and the sentiment extension. By combining these extensions, you can create something that will respond to your day! If you are having trouble connecting to your Hue Lights or Cozmo, check out the extensions pages for instructions on how to connect to these devices.
-#   cover_photo: /images/ext-images/hue-lights.png
+#   cover_photo: /images/extensions-images/hue-lights.png
 #   video: >
 #     <iframe src="https://player.vimeo.com/video/269392411" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a class="hover-underline" href="https://vimeo.com/269392411">Simple Cozmo Smart Lights Demo</a> from <a href="https://vimeo.com/user84996108">Cognimates</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 #   resources:
@@ -170,7 +170,7 @@ cozmo_simple:
 #     Play a game and test this puppy recognizer!
 #   description: >
 #     Play a game against this puppy recognizer! When the recognizer correctly identifies a webcam photo of a drawing or your surroundings as a puppy or not a puppy, the computer gets a point. If it is wrong, you get a point. This game is smart, though, because you can train it with the pictures you take!
-#   cover_photo: /images/ext-images/pup.png
+#   cover_photo: /images/extensions-images/pup.png
 #   video: >
 #     <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
 #   resources:
@@ -191,7 +191,7 @@ myFavoriteThings:
     Teach Alexa your favorite things.
   description: >
     Learn how to teach Alexa about your favorite things, then ask her about them.
-  cover_photo: /images/ext-images/alexa_faves.png
+  cover_photo: /images/extensions-images/alexa_faves.png
   video: >
     <iframe src="https://player.vimeo.com/video/269392197" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a class="hover-underline" href="https://vimeo.com/269392197">Simple Alexa Demo</a> from <a class="hover-underline" href="https://vimeo.com/user84996108">Cognimates</a> on <a class="hover-underline" href="https://vimeo.com">Vimeo</a>.</p>
   resources:
@@ -221,7 +221,7 @@ emotionsVision:
     Teach i-Ball to recognize if you're happy or sad.
   description: >
     Play around with i-Ball who uses a trained classifier to guess whether you're happy or sad from the way you look.
-  cover_photo: /images/ext-images/emotions.png
+  cover_photo: /images/extensions-images/emotions.png
   video:
     <iframe src="https://giphy.com/embed/31UNMfnS5YFleNFn87" width="640" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
@@ -243,7 +243,7 @@ shakespeareKerouac:
     Project Credits - William Mitchell
   description: >
     See if a sentence sounds more like Shakespeare, Tolkien, or Kerouac. Don't forget to train a model using the tutorial and links at the bottom of the page.
-  cover_photo: /images/ext-images/books.png
+  cover_photo: /images/extensions-images/books.png
   video:
     <iframe src="https://giphy.com/embed/31UNMfnS5YFleNFn87" width="480" height="303" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
@@ -265,7 +265,7 @@ husky:
     Project Credits - Eunyoung Lee
   description: >
     Can you create a project that can identify a husky and a malamute? They look very similar, so train your classifier well! Put your Train AI keys into the blocks in codelab to check them out.
-  cover_photo: /images/ext-images/husky.png
+  cover_photo: /images/extensions-images/husky.png
   video: >
     <iframe src="https://giphy.com/embed/8YyZlnVOeUmMf5rGuF" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="https://giphy.com/gifs/ai-vision-cognimates-8YyZlnVOeUmMf5rGuF"></a></p>
   resources:
@@ -285,7 +285,7 @@ husky:
 #     Play with this dino and see if he can recognize images!
 #   description: >
 #     Can this dinosaur recognize images you take with your webcam? How do you think he recognizes your images? Why does he come up with so many possibilites?
-#   cover_photo: /images/ext-images/clarifaiDino.png
+#   cover_photo: /images/extensions-images/clarifaiDino.png
 #   video: >
 #     <iframe src="https://giphy.com/embed/vrKUtJNMtB3Y4" width="480" height="349" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 #   resources:
@@ -309,7 +309,7 @@ twitter_wemo:
     Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions.
   description: >
     Make a Wemo Plug react to Tweets! Use the sentiment, wemo, and twitter extensions.
-  cover_photo: /images/ext-images/wemo_twitter.png
+  cover_photo: /images/extensions-images/wemo_twitter.png
   video: >
     <iframe src="https://player.vimeo.com/video/269392274" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a class="hover-underline" href="https://vimeo.com/269392274">Simple Cognimates Wemo</a> from <a class="hover-underline" href="https://vimeo.com/user84996108">Cognimates</a> on <a class="hover-underline" href="https://vimeo.com">Vimeo</a>.</p>
   resources:
@@ -334,7 +334,7 @@ twitter_wemo:
 #     Keep the jellyfish in the frame through your words!
 #   description: >
 #     Try to control the motion of the jellyfish by saying good and bad things to it. Good things cause it to float up and bad things cause it to sink down. Try to keep him inside his frame!
-#   cover_photo: /images/ext-images/jellyfish.png
+#   cover_photo: /images/extensions-images/jellyfish.png
 #   video: >
 #     <iframe src="https://giphy.com/embed/2aQ0dVUk1Geisr5XUT" width="480" height="221" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 #   resources:
@@ -355,7 +355,7 @@ goodBoy:
     Say something nice to your dog, or something mean, or something backhanded.
   description: >
     Say something to your dog and our text classification extension will recognize it as either good, bad, or even backhanded!
-  cover_photo: /images/ext-images/dog.png
+  cover_photo: /images/extensions-images/dog.png
   video: >
     <iframe src="https://giphy.com/embed/3NshHY3VzstD4csrrD" width="480" height="326" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
   resources:
@@ -374,7 +374,7 @@ goodBoy:
 #     Program your smart lights to react to how you're feeling.
 #   description: >
 #     Program your smart lights to react to how you're feeling. Find instructions for connecting to Smart Lights at the Smart Lights extension page!
-#   cover_photo: /images/ext-images/hue.JPG
+#   cover_photo: /images/extensions-images/hue.JPG
 #   resources:
 #     download_link: https://drive.google.com/uc?export=download&id=1rWPU_6Xi6rqsiON6nIMSjLuIiS2fSMh0
 #     guide:
@@ -404,7 +404,7 @@ goodBoy:
 #     Make a ghost bounce everytime you blink.
 #   description: >
 #     Make a ghost bounce everytime you blink using a Muse headset and our Muse extension.
-#   cover_photo: /images/ext-images/ghost.png
+#   cover_photo: /images/extensions-images/ghost.png
 #   resources:
 #     download_link: https://drive.google.com/uc?export=download&id=1eHvZJ1ITinJGjHq3QOX8KMhdCJF-KZgg
 #     guide:
@@ -432,7 +432,7 @@ goodBoy:
 #     Make Giga play a happy or sad song.
 #   description: >
 #     Make Giga play a happy or sad song by saying either a nice or mean thing to him.
-#   cover_photo: /images/ext-images/giga.png
+#   cover_photo: /images/extensions-images/giga.png
 #   resources:
 #     download_link: https://drive.google.com/uc?export=download&id=1YwqdWc5MsQwkHbksRCfFjrVNyjBL9pP0
 #     guide:
@@ -450,7 +450,7 @@ goodBoy:
 #    Make your own music and your own light show!
 #  description: >
 #    Using the music and smart lights extension you can choreograph and compose your own music and lightshow.
-#  cover_photo: /images/ext-images/color-beats-cover.png
+#  cover_photo: /images/extensions-images/color-beats-cover.png
 #   video: >
 #     <iframe src="https://giphy.com/embed/27IMHYUHRUHk51H43G" width="480" height="169" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 #  resources:
@@ -463,7 +463,7 @@ goodBoy:
 #     Play with your Microbit to help Kiran collect the stars.
 #   description: >
 #     Play with your microbit to see how Kiran reacts to you moving around. Now, try to use these actions to help her collect the stars. Find instructions for connecting to your Microbit at the Microbit extension page.
-#   cover_photo: /images/ext-images/starHunter.png
+#   cover_photo: /images/extensions-images/starHunter.png
 #   resources:
 #     download_link: https://drive.google.com/uc?export=download&id=1ndwzbPhyGjeUBBCY0Bk12z5kKIrb2nBP
 #     guide:
@@ -486,7 +486,7 @@ goodBoy:
 #     Play with Dr. Microscope and see what he knows.
 #   description: >
 #     Look through Dr. Microscope and see if he guesses what you're looking at. If he's wrong, teach him so he knows more in the future!
-#   cover_photo: /images/ext-images/microscope.png
+#   cover_photo: /images/extensions-images/microscope.png
 #   resources:
 #     download_link: https://drive.google.com/uc?export=download&id=1Yj5ce7PNHiXZFfE-dFlYWj1mNXERlhzL
 #     guide:
@@ -514,7 +514,7 @@ rpsCozmo:
     Play Rock, Paper, Scissors with Cozmo!
   description: >
     Train your computer to play Rock, Paper, Scissors with you, and have Cozmo cheer you on! Make Cozmo react to the moves you make. Don't forget to train a model using the tutorial and links at the bottom of the page.
-  cover_photo: /images/ext-images/cozmorps.png
+  cover_photo: /images/extensions-images/cozmorps.png
   video: >
     <iframe src="https://giphy.com/embed/fHcfIr6kyGSGZ20rfR" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="https://giphy.com/gifs/fHcfIr6kyGSGZ20rfR">via GIPHY</a></p>
   resources:
@@ -532,7 +532,7 @@ rpsCozmo:
 #     Control objects in water with your mind!
 #   description: >
 #     Connect a Lego Wedo and Muse EEG headset to control objects in water with your mind.
-#   cover_photo: /images/ext-images/waterkinesis.png
+#   cover_photo: /images/extensions-images/waterkinesis.png
 #   resources:
 #     download_link: https://drive.google.com/uc?export=download&id=17m-0_2dez_SugAyw-D55C3IbzbU9NRqC
 #     guide:

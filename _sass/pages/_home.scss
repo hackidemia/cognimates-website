@@ -116,7 +116,7 @@
     position: relative;
     height: 300px;
     left: 2rem;
-	background-image: url(../images/codelab-ui-in-browser-v3.png);
+	background-image: url(../images/home/codelab-ui-in-browser-v3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin: 0;
@@ -124,7 +124,6 @@
 
 	@include mq('sm') {  height: 440px; }
 	@include mq('md') {  height: 580px; }
-	@include mq('lg') {  height: 580px; }
 
 	@include mq('xl') {
 		width: calc(100vw - 10rem);

@@ -1,27 +1,27 @@
 banner_images:
   workshop-5:
     name: workshop-5
-    photo: /images/workshop-images/workshop-5.png
+    photo: /images/home/workshop-images/workshop-5.png
 
   berlin_group:
     name: berlin_group
-    photo: /images/workshop-images/berlin_group.jpg
+    photo: /images/home/workshop-images/berlin_group.jpg
 
   boys_jibo_denmark:
     name: boys_jibo_denmark
-    photo: /images/workshop-images/boys_jibo_denmark.jpg
+    photo: /images/home/workshop-images/boys_jibo_denmark.jpg
 
   girls_empow:
     name: girls_empow
-    photo: /images/workshop-images/girls_empow.jpg
+    photo: /images/home/workshop-images/girls_empow.jpg
 
   anjali_portfolio:
     name: anjali_portfolio
-    photo: /images/workshop-images/anjali_portfolio.jpg
+    photo: /images/home/workshop-images/anjali_portfolio.jpg
 
   kid_pen:
     name: kid_pen
-    photo: /images/workshop-images/kid_pen.jpg
+    photo: /images/home/workshop-images/kid_pen.jpg
 
 quotes:
   # these quote labels (q1, q2, etc) are arbitrary, name them anything
