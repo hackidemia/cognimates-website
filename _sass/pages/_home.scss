@@ -1,4 +1,4 @@
-.about__banner {
+.home__banner {
 	height: 80vh;
 	position: relative;
 }
@@ -32,7 +32,7 @@
 	@include mq('lg') { }
 }
 
-.about__banner-buttons {
+.home__banner-buttons {
 	margin: 0 2rem 2.5rem 2rem;
 		@include mq('lg') {
 	}
@@ -77,7 +77,7 @@
 	background-color: rgba(#ff7939, 0.6);
 }
 
-.about__ui {
+.home__ui {
 	position: relative;
 	overflow: hidden;
     display: block;
@@ -91,7 +91,7 @@
 	}
 }
 
-.about__ui-headline {
+.home__ui-headline {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -112,7 +112,7 @@
 	@include mq('xxl') { width: 540px; }
 }
 
-.about__ui-image {
+.home__ui-image {
     position: relative;
     height: 300px;
     left: 2rem;
@@ -135,7 +135,7 @@
 	@include mq('xxl') { height: 700px; }
 }
 
-.about__quotes-headline {
+.home__quotes-headline {
     margin: $section-headline-margin--xs;
     color: $accent-color;
 
@@ -144,7 +144,7 @@
     }
 }
 
-.about__quotes {
+.home__quotes {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -152,7 +152,7 @@
     height: 20rem;
     padding: 0 1rem;
 
-	@include mq('sm') { padding: 0 2rem ; }
+	@include mq('sm') { padding: 0 2rem; }
 	@include mq('md') { padding: 0 2rem 2rem 2rem; }
 }
 
@@ -165,7 +165,7 @@
     height: 100%;
 }
 
-.about__quote-wrapper {
+.home__quote-wrapper {
     position: absolute;
 	width: 75%;
 	text-align: center;
@@ -176,7 +176,7 @@
 	@include mq('lg') { margin: 0 0 2rem 0; }
 }
 
-.about__quote {
+.home__quote {
 	position: relative;
 	margin: 0;
 	color: #bbb;
@@ -195,7 +195,7 @@
 	}
 }
 
-.about__quote-person {
+.home__quote-person {
     font-style: italic;
     color: #2489da;
     font-size: 0.8rem;
@@ -207,7 +207,7 @@
 	}
 }
 
-.about__project-headline {
+.home__project-headline {
     color: #2489da;
 	margin: $section-headline-margin--xs;
 
@@ -216,7 +216,7 @@
 	}
 }
 
-.about__project-description {
+.home__project-description {
     color: #2489da;
 	margin: $section-headline-margin--xs;
 	font-size: 1.2rem;
@@ -235,7 +235,7 @@
 	}
 }
 
-.about__featured {
+.home__featured {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -246,7 +246,7 @@
 	}
 }
 
-.about__featured-headline {
+.home__featured-headline {
     color: $accent-color;
 	margin: $section-headline-margin--xs;
 
@@ -296,7 +296,7 @@
 	opacity: 0.7 !important;
 }
 
-.about__highlights {
+.home__highlights {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -304,7 +304,7 @@
     background: #f7f7f7;
 }
 
-.about__highlights-headline {
+.home__highlights-headline {
     color: $accent-color;
     text-align: center;
     margin: $section-headline-margin--xs;
@@ -314,7 +314,7 @@
     }
 }
 
-.about__tweets {
+.home__tweets {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 1.5rem;
@@ -327,7 +327,7 @@
 	}
 }
 
-.about__tweet {
+.home__tweet {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // shared slideshow
     var intervalDelay = 5000;
 
-
     // banner images
     var bannerImages = document.querySelectorAll('.slideshow__img');
     var bannerIndexVisible = 0;
@@ -27,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     ///////
 
      // quotes slideshow
-    var quotes = document.querySelectorAll('.about__quote-wrapper');
+    var quotes = document.querySelectorAll('.home__quote-wrapper');
     var quoteIndexVisible = 0;
 
     window.setInterval(quoteCrossfade, intervalDelay);

@@ -1,0 +1,38 @@
+banner_images:
+  workshop-5:
+    name: workshop-5
+    photo: /images/workshop-images/workshop-5.png
+
+  berlin_group:
+    name: berlin_group
+    photo: /images/workshop-images/berlin_group.jpg
+
+  boys_jibo_denmark:
+    name: boys_jibo_denmark
+    photo: /images/workshop-images/boys_jibo_denmark.jpg
+
+  girls_empow:
+    name: girls_empow
+    photo: /images/workshop-images/girls_empow.jpg
+
+  anjali_portfolio:
+    name: anjali_portfolio
+    photo: /images/workshop-images/anjali_portfolio.jpg
+
+  kid_pen:
+    name: kid_pen
+    photo: /images/workshop-images/kid_pen.jpg
+
+quotes:
+  # these quote labels (q1, q2, etc) are arbitrary, name them anything
+  q1:
+    quote: I taught a computer? Sometimes a computer teaches me!
+    person: Sophia, 7 years old, US
+
+  q2:
+    quote: Cozmo is a great spy cam. People think he’s so innocent, but he’s actually evil
+    person: Bella, 8 years old, Denmark
+
+  q3:
+    quote: All of this is human intelligence programmed into the machine.
+    person: Sonia, 10 years old, US
