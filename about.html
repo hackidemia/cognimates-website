@@ -20,19 +20,15 @@ redirect_from: /
 				href="https://hackidemia.github.io/cognimates-gui/"
 				target="_blank">Code &amp; Play
 			</a>
-			<!-- <a class="button--primary"
-				href="{{ '/get-started' | relative_url }}">Get Started
-			</a> -->
 		</div>
 	</div>
 
     <div class="panel panel--images ">
-        <img class="slideshow__img a1">
-        <img class="slideshow__img a2">
-        <img class="slideshow__img a3">
-        <img class="slideshow__img a4">
-        <img class="slideshow__img a5">
-        <img class="slideshow__img a6">
+		{% for slide in site.data.slideshow %}
+			<img class="slideshow__img"
+				src={{ slide[1].photo | relative_url }}
+				alt="{{ slide[1].name }}" />
+		{% endfor %}
 	</div>
 </section>
 
