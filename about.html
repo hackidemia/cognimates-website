@@ -24,10 +24,10 @@ redirect_from: /
 	</div>
 
     <div class="panel panel--images ">
-		{% for slide in site.data.slideshow %}
+		{% for banner_image in site.data.about.banner_images %}
 			<img class="slideshow__img"
-				src={{ slide[1].photo | relative_url }}
-				alt="{{ slide[1].name }}" />
+				src={{ banner_image[1].photo | relative_url }}
+				alt="{{ banner_image[1].name }}" />
 		{% endfor %}
 	</div>
 </section>
@@ -43,40 +43,18 @@ redirect_from: /
 	<h1 class="about__quotes-headline">
 		From The Workshops
 	</h1>
-	<div class="about__quote-wrapper">
-		<blockquote class="about__quote">
-			"I taught a computer? Sometimes a computer teaches me!"</blockquote>
-			<div class="about__quote-person"> - Sophia, 7 years old, US</div>
+    <div class="panel--quotes">
+		{% for quote in site.data.about.quotes %}
+			<div class="about__quote-wrapper">
+				<blockquote class="about__quote">
+					"{{ quote[1].quote }}"
+				</blockquote>
+				<div class="about__quote-person">
+				 	- {{ quote[1].person }}
+				</div>
+			</div>
+		{% endfor %}
 	</div>
-	<div class="about__quote-wrapper">
-		<blockquote class="about__quote">"Cozmo is a great spy cam. People think he’s so innocent, but he’s actually evil"</blockquote><div class="about__quote-person"> - Bella, 8 years old, Denmark</div>
-	</div>
-	<div class="about__quote-wrapper">
-		<blockquote class="about__quote">
-		"All of this is human intelligence programmed into the machine."</blockquote>
-		<div class="about__quote-person"> - Sonia, 10 years old, US</div>
-	</div>
-	<!-- <div class="about__quote-wrapper">
-	<blockquote class="about__quote">I was surprised you teach people my age this. When my dad was young he bought a car and fix it, today we learn about these AI technologies</blockquote><div class="about__quote-person"> - Nick, 7 years old, US</div>
-	</div>
-	<div class="about__quote-wrapper">
-	<blockquote class="about__quote">Because you have to teach computers. Like, computers are like us, when we’re babies, we don’t know anything, but then as we get older, someone has to teach us everything</blockquote><div class="about__quote-person"> - Sonia, 7 years old, US</div>
-	</div>
-	<div class="about__quote-wrapper">
-	<blockquote class="about__quote">Do you think that all robots will always tell the truth?" "Yes,except for the lie detecting.</blockquote><div class="about__quote-person"> - Jason, 8 years old, US</div>
-	</div>
-	<div class="about__quote-wrapper">
-	<blockquote class="about__quote">Robots are not too smart because they are programmed but they can be programmed to be smarter than me</blockquote><div class="about__quote-person"> - Sarah, 7 years old, US</div>
-	</div>
-	<div class="about__quote-wrapper">
-	<blockquote class="about__quote">I would like a social robot, it will help me with some other stuff without getting so like complicated</blockquote><div class="about__quote-person"> - Selma, 8 years old, Germany</div>
-	</div>
-
-	<div class="about__quote-wrapper">
-	<blockquote class="about__quote">You should never program a robot to make you happy</blockquote><div class="about__quote-person"> - Mario, 7 years old, Sweden</div>
-	</div
-	 -->
-
 </section>
 
 <section class="about__section--workshop-video">
