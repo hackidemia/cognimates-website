@@ -1,26 +1,21 @@
 ---
-layout: tiles
+layout: default
 title: Guides
 permalink: /guides/
 ---
 
-<div class="activities-headline">
-	<h2>Cognimates Learning Guides.</h2>
-	<p>
-		Try out some of our learning guides below and
-		<a href="mailto:cognimates@gmail.com">let us know</a> what you think!
-	</p>
-</div>
+<h1>Tutorials</h1>
+
+<hr></hr>
 
 <ul class="tiles">
 	{% for activity in site.data.guides %}
 		<li>
 			<div class="tile">
-				<a href={{ activity[1].link | relative_url }}>
+				<a href="{{ activity[1].resources.guide_link }}">
 					<img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
 					<div class="overlay">
 						{{ activity[1].short_intro }}
-						<br /><br />
 					</div>
 					<span class="tile-name">{{ activity[1].name }}</span>
 				</a>
@@ -28,3 +23,12 @@ permalink: /guides/
 		</li>
 	{% endfor %}
 </ul>
+
+<hr></hr>
+
+<p class="section__feedback">
+	Have feedback to share? Questions about a guide?
+</p>
+<p>
+	<a class="button--secondary" href="mailto:cognimates@gmail.com">Get in touch!</a>
+</p>

@@ -4,11 +4,12 @@
   <body>
     <div class="breakpoint"></div>
     {% include header.html style='grid' %}
-    <main class="page-content" aria-label="Content">
-      <div class="grid-wrapper">
+    <main aria-label="Content" class="page-wrapper">
         {{ content }}
-      </div>
-      {% include footer.html %}
     </main>
+    {% include footer.html %}
+
+    <script type="application/javascript" src="{{ '/js/default.js' | relative_url }}" ></script>
+
   </body>
 </html>
