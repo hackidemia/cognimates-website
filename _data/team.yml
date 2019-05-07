@@ -3,22 +3,22 @@ team:
 
   team_members:
     - name: Stefania Druga
-      institution: MIT Media Lab
-      bio: Stefania is the founder of Cognimates and a Ph.D candidate at University of Washington School of Information. Her research focuses on how children interact with and make sense of the growing collection of “smart” inter-connected playthings in the world around them together with their parents and grand-parents. She is exploring how families, as they play with these new devices, develop new ways of thinking about intelligence, emotion, and social interaction. Based on these studies, Stefania hopes to design new tools and activities to introduce families to machine learning and artificial intelligence in a playful way. She is especially interested in how embodied intelligent agents could play an active role in supporting children and their families to learn more about artificial intelligence through playful activities. Previously she co-founded Hackidemia organization (mobile lab for maker Education present in 40 countries), Afrimakers (community of Maker projects in 10 Africa countries) and MakerCamp (global camps for learning how to build and run makerspaces).
+      institution: 
+      bio: Stefania Druga is the creator of Cognimates which started as her Master Thesis at MIT Media Lab. Currently is a Ph.D. candidate at the University of Washington. She is also a Weizenbaum research fellow in the Critical AI Lab and an assistant professor at NYU ITP and RISD, teaching graduate students how to hack smart toys for AI education.
       image: images/team/avatars/stefania-druga--cognimates.jpg
 
     - name: Tammy Qiu
-      institution: BU
+      institution: 
       bio: Tammy is our design and website magician but she also contributes to our extensions. She is currently an undergraduate student at Boston University studying Computer Science and Graphic Design. She is interested in the possibilities of generative and computational design as well as ways in which we can make artistic creation more accessible and public-friendly.
       image: images/team/avatars/tammy-qiu--cognimates.jpg
 
     - name: Sarah T. Vu
-      institution: MIT
+      institution: 
       bio: Sarah is in charge of extensions integration on Cognimates. She is an undergraduate student at MIT. She is interested in Computer Science and Education, and more specifically, how the intersection of the two fields can help democratize knowledge. When she isn't at the lab or sitting around campus with her laptop, she is coaching swimming and mentoring local Boston area high schoolers in a student-led orginization called Amphibious Achievement.
       image: images/team/avatars/sarah-t-vu--cognimates.png
 
     - name: Eesh Likhith
-      institution: MIT
+      institution: 
       bio: Eesh Chilukalapalli is our back-end guru. He is an undergraduate at SRM University, India. He has been to MIT for a semester under the Special Student program. He has done a UROP at LLK, MIT Media Labs where he started working on the Cognimates project under Stefania Druga. Eesh is very passionate about technology since it continues to make a huge impact on people’s lives. He is a programmer at heart and likes to see his ideas materialize through his hobby projects. In his free time, he loves to ride his motorcycle, play the piano and experiment with photography. Eesh is currently continuing to work on the Cognimates project.
       image: images/team/avatars/eesh-likhith--cognimates.jpg
 
@@ -33,7 +33,7 @@ team:
     #   image: images/team/avatars/minor-tom--cognimates.png
 
     - name: Steven Dale
-      institution: Freelance
+      institution: 
       bio: Steven is a freelance designer + developer. He's interested in all things art + design, and the tools people use to create.
       image: images/team/avatars/steven-dale--cognimates.jpg
 

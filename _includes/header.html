@@ -8,6 +8,12 @@
             alt="Cognimates logo" />
     </a>
 
+    <a href={{ '/get-started' | relative_url }}
+        class="header__nav-item
+        {% if current[1] == 'get-started' %} active {% endif %}">
+        Get Started
+    </a>
+
     <a href={{ '/projects' | relative_url }}
         class="header__nav-item
         {% if current[1] == 'projects' %} active {% endif %}">
@@ -20,22 +26,23 @@
         Tutorials
     </a>
 
-    <a href={{ '/events' | relative_url }}
+    <!-- <a href={{ '/events' | relative_url }}
         class="header__nav-item
         {% if current[1] == 'events' %} active {% endif %}">
         Events
-    </a>
+    </a> -->
 
-    <a href="https://medium.com/mit-media-lab/kids-teach-ai-a-little-humanity-with-cognimates-e812aa91e221"
-        class="header__nav-item"
-        target="_blank">
-        Blog
-    </a>
 
     <a href={{ '/research' | relative_url }}
         class="header__nav-item
         {% if current[1] == 'research' %} active {% endif %}">
         Research
+    </a>
+    
+    <a href="https://medium.com/@cognimates"
+        class="header__nav-item"
+        target="_blank">
+        Blog
     </a>
 
    <a href={{ '/team' | relative_url }}
@@ -44,9 +51,5 @@
         Team
     </a>
 
-   <a href={{ '/get-started' | relative_url }}
-        class="header__nav-item
-        {% if current[1] == 'get-started' %} active {% endif %}">
-        Get Started
-    </a>
+   
 </nav>
