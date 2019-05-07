@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    <div class="breakpoint"></div>
+    {% include header.html %}
+    <main aria-label="Content">
+        {{ content }}
+    </main>
+    {% include footer.html %}
+
+    <script type="application/javascript" src="{{ '/js/home.js' | relative_url }}" ></script>
+
+  </body>
+</html>

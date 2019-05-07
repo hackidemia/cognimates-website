@@ -1,0 +1,346 @@
+.home__banner {
+	height: 80vh;
+	position: relative;
+}
+
+.section__banner-content {
+	position: absolute;
+    bottom: 0;
+    z-index: 1;
+
+    @include mq('md') {
+    	margin: 1rem;
+	}
+
+    @include mq('lg') {
+    	margin: 3rem;
+		max-width: 75vw;
+	}
+
+    @include mq('xxl') {
+    	margin: 5rem;
+    }
+}
+
+.section__banner-headline {
+    margin: 2rem 2rem 1rem 2rem;
+    color: white;
+	text-align: left;
+
+	@include mq('sm') { margin: 1rem 2rem 1.5rem 2rem; }
+  	@include mq('md') { }
+	@include mq('lg') { }
+}
+
+.home__banner-buttons {
+	margin: 0 2rem 2.5rem 2rem;
+		@include mq('lg') {
+	}
+}
+
+.panel {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	background-position: 50% 50%;
+	color: white;
+
+	// hacky fix for extra pixel on sides
+	height: 102%;
+    top: -1px;
+    width: 102%;
+    left: -1px;
+}
+
+.panel--images {
+	position: relative;
+	width: 100%;
+	background-color: #24a2ec;
+}
+
+.slideshow__img--visible,
+.quote--visible {
+	opacity: 0.75 !important;
+}
+
+.slideshow__img {
+	position: absolute;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 3000ms ease-in;
+	background-size: cover;
+	background-position: 50% 50%;
+
+	background-blend-mode: multiply;
+	background-color: rgba(#ff7939, 0.6);
+}
+
+.home__ui {
+	position: relative;
+	overflow: hidden;
+    display: block;
+	background: $main-color;
+	padding-bottom: 4rem;
+
+	@include mq('md') { padding-bottom: 6rem; }
+	@include mq('xl') { display: flex; padding: 5rem 0; }
+	@include mq('xxl') {
+		padding: 8rem 0;
+	}
+}
+
+.home__ui-headline {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	width: 100%;
+    margin: $section-headline-margin--xs;
+
+	@include mq('md') {  margin: $section-headline-margin--md; }
+
+	@include mq('xl') {
+		flex-direction: row;
+		justify-content: center;
+		padding: 5rem;
+		width: 340px;
+		margin: 0;
+	 }
+
+	@include mq('xxl') { width: 540px; }
+}
+
+.home__ui-image {
+    position: relative;
+    height: 300px;
+    left: 2rem;
+	background-image: url(../images/home/codelab-ui-in-browser-v3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	box-shadow: 7px 20px 40px 2px rgba(0, 0, 0, 0.2);
+
+	@include mq('sm') {  height: 440px; }
+	@include mq('md') {  height: 580px; }
+
+	@include mq('xl') {
+		width: calc(100vw - 10rem);
+		height: auto;
+		right: 0;
+	}
+
+	@include mq('xxl') { height: 700px; }
+}
+
+.home__quotes-headline {
+    margin: $section-headline-margin--xs;
+    color: $accent-color;
+
+    @include mq('md') {
+        margin: $section-headline-margin--md;
+    }
+}
+
+.home__quotes {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+    height: 20rem;
+    padding: 0 1rem;
+
+	@include mq('sm') { padding: 0 2rem; }
+	@include mq('md') { padding: 0 2rem 2rem 2rem; }
+}
+
+.panel--quotes {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home__quote-wrapper {
+    position: absolute;
+	width: 75%;
+	text-align: center;
+	margin-bottom: 2rem;
+    opacity: 0;
+    transition: opacity 3000ms ease-in;
+
+	@include mq('lg') { margin: 0 0 2rem 0; }
+}
+
+.home__quote {
+	position: relative;
+	margin: 0;
+	color: #bbb;
+    font-size: 1rem;
+    line-height: 1.2rem;
+
+	@include mq('sm') {
+		font-size: 1.2rem;
+		line-height: 1.3rem;
+	}
+
+	@include mq('lg') {
+    	margin: 0 0 0.5rem 0;
+		font-size: 1.8rem;
+		line-height: 2rem;
+	}
+}
+
+.home__quote-person {
+    font-style: italic;
+    color: #2489da;
+    font-size: 0.8rem;
+    margin: 0.4rem 0 0 0;
+
+   @include mq('sm') {
+	    font-size: 1.2rem;
+	    margin: 0.5rem;
+	}
+}
+
+.home__project-headline {
+    color: #2489da;
+	margin: $section-headline-margin--xs;
+
+    @include mq('md') {
+		margin: $section-headline-margin--md;
+	}
+}
+
+.home__project-description {
+    color: #2489da;
+	margin: $section-headline-margin--xs;
+	font-size: 1.2rem;
+    @include mq('md') {
+		margin: $section-headline-margin--md;
+	}
+}
+// overriding Plyr video js styles to make the play button nice and large
+.plyr--full-ui.plyr--video .plyr__control--overlaid {
+	@include mq('sm') {
+    	transform: scale(1.5);
+	}
+
+	@include mq('lg') {
+    	transform: scale(2);
+	}
+}
+
+.home__featured {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	@include mq('lg') {
+		padding: 0 0 1rem 0;
+	}
+}
+
+.home__featured-headline {
+    color: $accent-color;
+	margin: $section-headline-margin--xs;
+
+    @include mq('md') {
+		margin: $section-headline-margin--md;
+	}
+}
+
+.featured-logos {
+    margin: 0;
+    padding: 0;
+
+    @include mq('md') {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding: 0 5rem 0 5rem;
+		margin-bottom: 3rem;
+	}
+}
+
+.featured-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0;
+	list-style: none;
+	width: 100%;
+
+	@include mq('md') {
+		width: auto;
+		margin: 1rem 2rem;
+	}
+}
+
+.featured-logo__image {
+	height: 35px;
+	opacity: 0.3; //baseline, if not specified in the yml file
+	filter: grayscale(100%);
+	transition: opacity 400ms ease-out;
+
+	@include mq('sm') { height: 45px; }
+	@include mq('md') { height: 50px; }
+}
+
+.featured-logo__image:hover {
+	opacity: 0.7 !important;
+}
+
+.home__highlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background: #f7f7f7;
+}
+
+.home__highlights-headline {
+    color: $accent-color;
+    text-align: center;
+    margin: $section-headline-margin--xs;
+
+    @include mq('md') {
+        margin: $section-headline-margin--md;
+    }
+}
+
+.home__tweets {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 1.5rem;
+	margin-bottom: 2rem;
+
+	@include mq('lg') {
+		padding: 0;
+		flex-wrap: nowrap;
+        justify-content: center;
+	}
+}
+
+.home__tweet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+	@include mq('lg') {
+        display: block;
+		width: 25vw;
+		padding: 1rem;
+	}
+}
+
+// twitter embed override
+.twitter-tweet {
+    max-width: auto;
+}
+

@@ -1,48 +1,16 @@
-.container {
-	margin: 10px auto;
-	max-width: 600px;
+.page-wrapper {
+	width: 90%;
+	margin: 4rem auto;
 	text-align: center;
+
+	@include mq('lg') { max-width: 630px; }
+	@include mq('xl') { width: 80%; }
+	@include mq('xxl') { max-width: 908px; }
 }
 
-//////////////////////////////////////////
-////////// Small/default layout //////////
-//////////////////////////////////////////
-
-.wide-photo {
-	max-width: 100%;
-	height: auto;
-}
-
-.guide-photo{
+.guide-photo {
 	max-width: 70%;
 	height: auto;
-}
-
-.header-photo {
-	max-width: 60%;
-	height: auto;
-	// margin: 0 auto;
-	display: flex;
-	// align-items: center; 
-}
- 
-// .center-image{
-//   margin: 0 auto;
-//   display: block;
-// }
-// Page wrapper layout
-
-.grid-wrapper {
-	width: 85%;
-	margin: 2rem auto;
-	display: grid;
-	grid-gap: 0;
-}
-
-.tile-wrapper {
-	width: 75%;
-	max-width: 300px;
-	margin: 2rem auto;
 }
 
 // Content component layouts
@@ -52,42 +20,30 @@
 	}
 }
 
-.activities-headline {
-	padding: 10px 20px;
+.activity__video-container {
+	position: relative;
+	margin-top: 20px;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
 
-	h2 {
-		font-size: $extra-large-font;
-		color: $main-color;
-	}
-
-	p {
-		font-size: $large-font;
+	iframe {
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 }
 
 .details {
-	.video-container {
-		position: relative;
-		margin-top: 20px;
-		padding-bottom: 56.25%;
-		height: 0;
-		overflow: hidden;
-
-		iframe {
-			position: absolute;
-			top:0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-	}
-
 	img {
 		width: 100%;
 		height: auto;
 	}
 
-	p.resource-links {
+	.resource-links {
+		list-style: none;
 		line-height: 1.5;
 	}
 }
@@ -105,28 +61,42 @@
 }
 
 .tiles {
-	margin-top: 30px;
+	margin-top: 3rem;
 	padding: 0;
-	display: grid;
-	grid-template-columns: repeat(1, minmax(200px, 450px));
-	grid-gap: 30px;
     list-style: none;
+
+	@include mq('xl') {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(200px, 450px));
+		grid-gap: 30px;
+	}
+
+	@include mq('xxl') {
+		grid-template-columns: repeat(2, minmax(200px, 450px));
+	}
 
 	li {
 		text-align: left;
 		padding: 0;
+		margin-bottom: 1.5rem;
+		@include mq('xl') { margin-bottom: 0; }
 	}
 
 	.tile {
 		position: relative;
-		width: 300px;
-		max-width: 100%;
 		margin: auto;
+    	border-radius: 1rem;
 
 		img {
 			width: 100%;
-			height: auto;
-			    transition: .5s ease;
+			border: 1px solid #e9e9e9;
+		    height: auto;
+    		border-radius: 1rem;
+			transition: .5s ease;
+			max-height: 300px;
+    		object-fit: cover;
+
+			@include mq('xl') { max-height: none; }
 		}
 
 		.overlay {
@@ -139,61 +109,29 @@
 			color: black;
 			font-size: 12px;
 			font-weight: 400;
-			transition: all 0.5s ease;
+			transition: all 0.2s ease;
 		}
 
 		.tile-name {
-			display: inline;
-			position: absolute;
-			bottom: 1rem;
-			left: 10px;
-			padding: 5px;
-			text-align: left;
-			margin-right: 10px;
-
+		    position: absolute;
+		    bottom: 1.5rem;
+		    padding: 0.25rem 0.5rem;
 		    background: $main-color;
 		    color: white;
 		    font-size: 0.8rem;
+		    border-top-right-radius: 0.5rem;
+		    border-bottom-right-radius: 0.5rem;
 		}
 	}
 }
 
-.tiles .tile:hover img{opacity:.2;}
-.tiles .tile:hover .overlay{opacity:1;}
-
-.main {
-	font-size: $small-font;
-	margin-left: 5%;
-}
-
+.tiles .tile:hover img { opacity:.2; }
+.tiles .tile:hover .overlay { opacity:1; }
 
 /////////////////////////////////////////
 ////////// Small-medium layout //////////
 /////////////////////////////////////////
-
 @media (min-width: 980px) {
-
-	.main {
-		p {
-			font-size: $medium-font;
-		} 
-	}
-
-	// Page wrapper updates for small-med screens
-	.grid-wrapper {
-		margin-top: 2rem;
-	}
-
-	.tile-wrapper {
-		// margin-top: 155px;
-		max-width: 630px;
-	}
-
-	// Content component updates for small-med screens
-	.tiles {
-		grid-template-columns: repeat(2, minmax(200px, 450px));
-	}
-
 	.community {
 		div.image-container {
 			display: grid;
@@ -202,47 +140,15 @@
 			justify-items: center;
 			align-items: center;
 
-			img {
-				padding: 0;
-			}
+			img { padding: 0; }
 		}
 	}
 }
 
-
-
 /////////////////////////////////////////
 ////////// Large-medium layout //////////
 /////////////////////////////////////////
-
 @media (min-width: 1400px) {
-
-
-
-
-	// Page wrapper updates for med-large screens
-	.grid-wrapper {
-		max-width: 1300px;
-		margin-top: 2rem;
-
-		//grid-template-columns: 3fr 2fr;
-		grid-template-rows: auto auto 1fr auto;
-		grid-auto-rows: max-content;
-		grid-auto-flow: row;
-	}
-
-	.tile-wrapper {
-		width: 80%;
-		// margin-top: 30px;
-	}
-
-	// Content component updates for med-large screens
-	.main {
-		grid-column: 1;
-		grid-row: 1 / 3;
-		padding-right: 15px;
-	}
-
 	.callout {
 		padding-left: 15px;
 	}
@@ -260,49 +166,12 @@
 		padding-left: 15px;
 	}
 
-	.main, .community {
+	.community {
 		padding-right: 10px;
 		padding-left: 0;
 	}
 
 	.callout, .details {
 		padding-left: 10px;
-	}
-
-	.activities-headline {
-		padding: 20px 30px;
-
-		h2 {
-			font-size: $large-font;
-		}
-
-		p {
-			font-size: $medium-font;
-		}
-	}
-}
-
-
-
-//////////////////////////////////
-////////// Large layout //////////
-//////////////////////////////////
-
-@media (min-width: 1600px) {
-	.tile-wrapper {
-		max-width: 908px;
-	}
-
-	.tiles {
-		//max-width: 950px;
-		margin-right: auto;
-		margin-left: auto;
-		grid-template-columns: repeat(3,minmax(150px, 450px));
-	}
-
-	.activities-headline {
-		h2 {
-			font-size: $extra-large-font;
-		}
 	}
 }

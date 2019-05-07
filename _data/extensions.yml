@@ -1,31 +1,31 @@
 cognimate:
   name: Cognimate
   link: /extensions/cognimate
-  short_intro: > 
+  short_intro: >
     Go on coding missions and learn how to make projects!
   description: >
     This extension will guide users through different tutorials (missions) to teach them
     specific programming concepts, learn how to use the different extensions, and build various projects.
-  cover_photo: /images/ext-images/cognimate.png
+  cover_photo: /images/extensions-images/cognimate.png
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
       - step: >
-          Main role of this extension is to guide the users through different tutorials (missions) that would allow them to learn specific programming concepts, discover different extensions and build various projects. To see more details refer to mission section at the end. Currently users can choose among 20 voices (all English speaking) but with different accents, age groups and genders. 
-                  Using <a href= https://w3c.github.io/speech-api/speechapi.html#tts-section>WebSpeechAPI</a> (MIT Licence). 
+          Main role of this extension is to guide the users through different tutorials (missions) that would allow them to learn specific programming concepts, discover different extensions and build various projects. To see more details refer to mission section at the end. Currently users can choose among 20 voices (all English speaking) but with different accents, age groups and genders.
+                  Using <a class="hover-underline" href= https://w3c.github.io/speech-api/speechapi.html#tts-section>WebSpeechAPI</a> (MIT Licence).
                   <img src = "https://i.imgur.com/ZQCY8p6.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/kJLdr4Z.png"/ class="wide-photo">         
+                  <img src = "https://i.imgur.com/kJLdr4Z.png"/ class="wide-photo">
       # - step: >
-      #     Example projects: This project makes use of the cognimate extension. It will guide you through steps to make a program that will teach the cognimate your name. 
+      #     Example projects: This project makes use of the cognimate extension. It will guide you through steps to make a program that will teach the cognimate your name.
 
 jibo:
   name: Jibo
   link: /extensions/jibo
-  short_intro: > 
+  short_intro: >
     Program Jibo the robot!
   description: >
     This extension allows you to program how Jibo robot moves, speakes and discover what are all the things it can see or sense.
-  cover_photo: /images/ext-images/jibo.png
+  cover_photo: /images/extensions-images/jibo.png
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
@@ -35,134 +35,134 @@ jibo:
                   <img src = "https://i.imgur.com/mvijtNn.png"/ class="wide-photo">
 
       # - step: >
-      #     Example projects: This project makes use of the cognimate extension. It will guide you through steps to make a program that will teach the cognimate your name. 
+      #     Example projects: This project makes use of the cognimate extension. It will guide you through steps to make a program that will teach the cognimate your name.
 
 ergo:
   name: Ergo
   link: /extensions/ergo
-  short_intro: > 
+  short_intro: >
     Program the Ergo Jr. robot!
   description: >
     This extension allows you to program how Ergo Jr. robot moves, speakes and discover what are all the things it can see or sense.
-  cover_photo: /images/ext-images/ergo.png
+  cover_photo: /images/extensions-images/ergo.png
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
       - step: >
           This extension allows users to program the Ergo Jr robot (Open source). It also exists as a <a href= https://eesh.github.io/scratch-test/> Scratch 2.0 published extension</a>.
                   <img src = "https://i.imgur.com/TKHofYa.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/Pn5B1zE.png"/ class="wide-photo">   
-      
+                  <img src = "https://i.imgur.com/Pn5B1zE.png"/ class="wide-photo">
+
       # - step: >
-      #     Example projects: This project makes use of the cognimate extension. It will guide you through steps to make a program that will teach the cognimate your name.                 
+      #     Example projects: This project makes use of the cognimate extension. It will guide you through steps to make a program that will teach the cognimate your name.
 
 
 cozmo:
   name: Cozmo
   link: /extensions/cozmo
-  short_intro: > 
+  short_intro: >
     Program a Cozmo robot!
   description: >
     This extension allows you to program how Cozmo robot moves, speakes and discover what are all the things it can see or sense.
-  cover_photo: /images/ext-images/cozmo.png
+  cover_photo: /images/extensions-images/cozmo.png
   resources:
     # download_link: https://drive.google.com/uc?export=download&id=1ltyNMVGk9k4UGv8nsoZJLGqlHMyjupXB
     guide:
-      - step: This is extension is using <a href= http://cozmosdk.anki.com/docs/> the Anki SDK</a> and a Python back-end connection to robot via a phone that has the Cozmo app installed.
+      - step: This is extension is using <a class="hover-underline" href= http://cozmosdk.anki.com/docs/> the Anki SDK</a> and a Python back-end connection to robot via a phone that has the Cozmo app installed.
                     <br><img src = "https://i.imgur.com/2M6IsMh.png"/ class="wide-photo">
                     <br><img src = "https://i.imgur.com/9OxjJri.png"/ class="wide-photo">
-      - step: After setting up the Anki SDK, you will need to save this file on your computer&#58; <a href = "https://gist.github.com/satvu/ea30a361d433f393d29c423b06993f62">cozmo-ext.py</a>. <b>Make sure that you do not save this file with the name cozmo.py. Please save it as cozmo-ext.py</b>.      
+      - step: After setting up the Anki SDK, you will need to save this file on your computer&#58; <a class="hover-underline" href="https://gist.github.com/satvu/ea30a361d433f393d29c423b06993f62">cozmo-ext.py</a>. <b>Make sure that you do not save this file with the name cozmo.py. Please save it as cozmo-ext.py</b>.
       - step: Before using the Cozmo extension, connect Cozmo to your computer with your phone in SDK mode. Refer to the Anki setup for more information. Then, run the file above in a shell/terminal using the command "python3 cozmo-ext.py" (or "python3 [filename]").
       - step: If your shell/terminal looks something like the image below, then congrats! You have connected to Cozmo successfully. <br> <br> <img src="https://i.imgur.com/IJQWyXOm.png" title="source -  imgur.com" /> <br>
-          
-      
+
+
 
 
 clarifai:
   name: Clarifai
   link: /extensions/clarifai
-  short_intro: > 
+  short_intro: >
     Take photos and have a computer predict what the image is!
   description: >
     This extension lets you send images to Clarifai's AI engine and get predictions for your image.
-  cover_photo: /images/ext-images/clarifai.png
+  cover_photo: /images/extensions-images/clarifai.png
   resources:
     guide:
       - step: >
-          This extension allows users to explore Clarifai's camera vision predictions. It also exists as a <a href= https://eesh.github.io/clarifai-scratch/> Scratch 2.0 published extension</a>
+          This extension allows users to explore Clarifai's camera vision predictions. It also exists as a <a class="hover-underline" href= https://eesh.github.io/clarifai-scratch/> Scratch 2.0 published extension</a>
                   <img src = "https://i.imgur.com/tDDufNi.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/D5PL4P8.png"/ class="wide-photo">         
+                  <img src = "https://i.imgur.com/D5PL4P8.png"/ class="wide-photo">
 
 feelings:
   name: Feelings
   link: /extensions/feelings
-  short_intro: > 
+  short_intro: >
     Have a computer guess if a phrase is positive or negative!
   description: >
-    The Feelings extension is analysing if a text is positive or negative. This extension is using the <a href= https://github.com/thisandagain/sentiment> Sentiment Analysis</a> public pre-trained library.  
-  cover_photo: /images/ext-images/feelings.png
+    The Feelings extension is analysing if a text is positive or negative. This extension is using the <a class="hover-underline" href= https://github.com/thisandagain/sentiment> Sentiment Analysis</a> public pre-trained library.
+  cover_photo: /images/extensions-images/feelings.png
   resources:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/rHdmaXW.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/gXPGWU5.png"/ class="wide-photo">         
-                  
+                  <img src = "https://i.imgur.com/gXPGWU5.png"/ class="wide-photo">
+
 color:
   name: Color
   link: /extensions/color
-  short_intro: > 
+  short_intro: >
     Detect colors with your webcam.
   description: >
-    The color extension is using this <a href=https://trackingjs.com/>public pre-trained library</a> to detect when specific colors are seen.  
-  cover_photo: /images/ext-images/Color_extension.png
+    The color extension is using this <a class="hover-underline" href=https://trackingjs.com/>public pre-trained library</a> to detect when specific colors are seen.
+  cover_photo: /images/extensions-images/Color_extension.png
   resources:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/73TVY67.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/EK3Rrxf.jpg"/ class="wide-photo">                
+                  <img src = "https://i.imgur.com/EK3Rrxf.jpg"/ class="wide-photo">
 
-   
+
 alexa:
   name: Alexa
   link: /extensions/alexa
-  short_intro: > 
+  short_intro: >
     Try programming Alexa!
   description: >
-    Currently the Alexa Scratch skill is integrated with the Alexa Scratch extension we built for Scratch 3.0 which can be run from any mobile device or computer. Currently the Alexa Extension allows users to&#58;  
-    <ul> 
+    Currently the Alexa Scratch skill is integrated with the Alexa Scratch extension we built for Scratch 3.0 which can be run from any mobile device or computer. Currently the Alexa Extension allows users to&#58;
+    <ul>
       <li>teach it answers to questions</li>
       <li>share with it their preferences (favorite color, movie etc)</li>
       <li>leave messages</li>
       <li>execute specific blocks on scratch</li>
       <li>communicate with other extensions like Jibo, Wemo plug, Spotify, etc</li>
     </ul>
-    You can learn more about this extension and how it came to be <a href="https://devpost.com/software/alexa-scratch-skill-jbt6h7" target='_blank'>here</a>.
+    You can learn more about this extension and how it came to be <a class="hover-underline" href="https://devpost.com/software/alexa-scratch-skill-jbt6h7" target='_blank'>here</a>.
     <h3>Getting Started</h3>
     Enable the Personal Chatbot skill on Alexa! One option is to tell Alexa "Enable Personal Chatbox skill". Otherwise, you can open open your Alexa app or go to the Amazon website.<br>
         To enable Alexa skills&#58;<br>
         <ol>
-        <li>If you are using the app, go to the menu and select Skills. If you want to use the Amazon Store, find Personal Chatbax <a href=https://tinyurl.com/ydc5zsxn target='_blank'>here</a>.</li>
+        <li>If you are using the app, go to the menu and select Skills. If you want to use the Amazon Store, find Personal Chatbax <a class="hover-underline" href=https://tinyurl.com/ydc5zsxn target='_blank'>here</a>.</li>
         <li>If you are using the app, open the skill detail page and select the Enable Skill option, or ask Alexa to open the skill. If you are on the Amazon Store, click the enable button on the right hand side of the page.</li>
         </ol>
       <h3>Connecting to Personal Chatbot from Scratch 3.0</h3>
       To use this extension, you will need the following blocks inside your script somewhere, in this order.<br><br>
-      <a href="https://imgur.com/kJRXZSb"><img src="https://i.imgur.com/kJRXZSb.png" title="source is imgur.com" height="180"/></a><br><br>
+      <a class="hover-underline" href="https://imgur.com/kJRXZSb"><img src="https://i.imgur.com/kJRXZSb.png" title="source is imgur.com" height="180"/></a><br><br>
       The first extension block creates a user account with Personal Chatbot. The next one logs you into that account on your computer! The last block gives you an access code to connect to Alexa properly.<br><br>
-      Tell Alexa "Open Personal Chatbot". Alexa will ask you to say "connect followed by your access code". Tell Alexa "Connect [your access code]", and begin programming with Alexa! 
-  cover_photo: /images/ext-images/alexa.png
+      Tell Alexa "Open Personal Chatbot". Alexa will ask you to say "connect followed by your access code". Tell Alexa "Connect [your access code]", and begin programming with Alexa!
+  cover_photo: /images/extensions-images/alexa.png
   resources:
     guide:
       - step: >
-                  <img src = "https://i.imgur.com/PGlJKcu.png"/ class="wide-photo"> 
+                  <img src = "https://i.imgur.com/PGlJKcu.png"/ class="wide-photo">
 
 smartLights:
   name: Smart Lights
   link: /extensions/smartLights
-  short_intro: > 
+  short_intro: >
     Play around with smart lights!
   description: >
-    This extension allows you to program Hue Lights using this <a href=https://github.com/ArndBrugman/huepi>public pre-trained library</a>.
-  cover_photo: /images/ext-images/smartLights.png
+    This extension allows you to program Hue Lights using this <a class="hover-underline" href=https://github.com/ArndBrugman/huepi>public pre-trained library</a>.
+  cover_photo: /images/extensions-images/smartLights.png
   resources:
     guide:
       - step: >
@@ -171,113 +171,113 @@ smartLights:
                   This extension will only work on Chrome's "incognito mode". Phillips Hue Lights can only be connected through an http URL, and most browsers only use https for security reasions. Follow these instructions to use your Phillips Hue Lights&#58;
                   <ol>
                     <li> First, open a new icognito window. <br><br>
-                      <a href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
+                      <a class="hover-underline" href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
                     <li> Second, copy and paste this into the browser&#58; https://hackidemia.github.io/cognimates-gui/ <br><br>
-                    <a href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
+                    <a class="hover-underline" href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
                     If your browser looks like the image above, then you have opened codelab in http successfully! Note that you cannot use your camera or microphone on the http version of the codelab. This is a rule set by Google Chrome for security reasons.</li>
                     <br><br><li>If you are using this extension for the first time with your Phillips Hue Lights, you need to connect to your bridge. Make sure you are on the same wifi network as the Phillips Bridge. Then, open the Extensions Library. Before loading the Smart Lights extension, click the center of your Phillips bridge.<br><br>
                     <img src="https://i.imgur.com/zrtno6ym.jpg" title="source - imgur.com" /><br><br> After clicking the Hue Bridge, click on the Smart Lights Extension. This is the only time you have to run this step. The extension will connect and load automatically from now on.</li>
-                  </ol>             
+                  </ol>
 
 vision:
   name: Vision
   link: /extensions/vision
-  short_intro: > 
+  short_intro: >
     Use and train models that recognize images!
   description: >
-    This extension allows you to train models to recognize and classify different images using IBM Watson. 
-  cover_photo: /images/ext-images/vision.png
+    This extension allows you to train models to recognize and classify different images using IBM Watson.
+  cover_photo: /images/extensions-images/vision.png
   resources:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/FlfuMFg.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/UYDksI6.jpg"/ class="wide-photo">                
-     
+                  <img src = "https://i.imgur.com/UYDksI6.jpg"/ class="wide-photo">
+
 
 text:
   name: Text
   link: /extensions/text
-  short_intro: > 
+  short_intro: >
     Use models to find the categories of different phrases!
   description: >
-    This extension allows you to train models to recognize and classify different phrases using IBM Watson. 
-  cover_photo: /images/ext-images/text.png
+    This extension allows you to train models to recognize and classify different phrases using IBM Watson.
+  cover_photo: /images/extensions-images/text.png
   resources:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/wwRv6hR.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/u32Nct5.jpg"/ class="wide-photo">                
+                  <img src = "https://i.imgur.com/u32Nct5.jpg"/ class="wide-photo">
 
 
 speech:
   name: Speech
   link: /extensions/speech
-  short_intro: > 
-    Talk to your computer and have it talk back to you! 
+  short_intro: >
+    Talk to your computer and have it talk back to you!
   description: >
-    This extension allows you to transform what you say to text. This extension was inspired by the Scratch team's<a href=https://preview.scratch.mit.edu/> speech extension</a> but the code was modified and adapted especially for Cognimates project's needs. 
-  cover_photo: /images/ext-images/speech-ext-new.jpg
+    This extension allows you to transform what you say to text. This extension was inspired by the Scratch team's<a class="hover-underline" href=https://preview.scratch.mit.edu/> speech extension</a> but the code was modified and adapted especially for Cognimates project's needs.
+  cover_photo: /images/extensions-images/speech-ext-new.jpg
   resources:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/djYti1p.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/Br772gQ.jpg"/ class="wide-photo">                
+                  <img src = "https://i.imgur.com/Br772gQ.jpg"/ class="wide-photo">
 wemo:
   name: Wemo
   link: /extensions/wemo
-  short_intro: > 
+  short_intro: >
     The Wemo Smart Plug Extension
   description: >
-    This extension allows you to turn a smart plug on and off and control anything else that is connected to it, things like a disco ball or a bubbles machine. This extension was inspired by Kreg Hanning's Wemo 2.0 Scratch Extension but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs. 
-  cover_photo: /images/ext-images/wemo_ext.png
+    This extension allows you to turn a smart plug on and off and control anything else that is connected to it, things like a disco ball or a bubbles machine. This extension was inspired by Kreg Hanning's Wemo 2.0 Scratch Extension but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs.
+  cover_photo: /images/extensions-images/wemo_ext.png
   resources:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/QYWVrHq.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/q0clfct.png"/ class="wide-photo">   
+                  <img src = "https://i.imgur.com/q0clfct.png"/ class="wide-photo">
       - step: Just like Smart Lights, to control a wemo switch, you will need to open codelab with Chrome's "incognito mode". Follow these steps to do so&#58;
                   <ol>
                     <li> First, open a new icognito window. <br><br>
-                      <a href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
+                      <a class="hover-underline" href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
                     <li> Second, copy and paste this into the browser&#58; https://hackidemia.github.io/cognimates-gui/ <br><br>
-                    <a href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
+                    <a class="hover-underline" href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
                     If your browser looks like the image above, then you have opened codelab in http successfully! Note that you cannot use your camera or microphone on the http version of the codelab. This is a rule set by Google Chrome for security reasons.</li>
                   </ol>
-      - step: You will also have to download and run this server file to connect to your Wemo Switch&#58; <a href = "https://gist.github.com/satvu/97c143a62ef4df71be7dbadb032b68cb">wemoSwitch.js</a> You can run this file using the command "node wemoSwitch.js". For instructions for installing Node into your computer, click this link <a href="https://nodejs.org/en/">here</a>.
+      - step: You will also have to download and run this server file to connect to your Wemo Switch&#58; <a class="hover-underline" href="https://gist.github.com/satvu/97c143a62ef4df71be7dbadb032b68cb">wemoSwitch.js</a> You can run this file using the command "node wemoSwitch.js". For instructions for installing Node into your computer, click this link <a class="hover-underline" href="https://nodejs.org/en/">here</a>.
       - step: After running the above command, if you see the following text&#58; <i>Server running on localhost&#58;3000</i> followed by <i>Wemo Device Found</i>, then congrats! You have set up wemo correctly and can now use it with Cognnimates.
 twitter:
   name: Twitter
   link: /extensions/twitter
-  short_intro: > 
+  short_intro: >
     The Twitter 3.0 Extension
   description: >
-    This extension allows you to get tweets from specific accounts of hashtags and use them in your projects. This extension was inspired by Connor Hudson and Kreg Hanning's <a href=https://technoboy10.github.io/twitter/> Twitter 2.0 Scratch Extension </a> but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs. 
-  cover_photo: /images/ext-images/twitter_ext.jpg
+    This extension allows you to get tweets from specific accounts of hashtags and use them in your projects. This extension was inspired by Connor Hudson and Kreg Hanning's <a class="hover-underline" href=https://technoboy10.github.io/twitter/> Twitter 2.0 Scratch Extension </a> but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs.
+  cover_photo: /images/extensions-images/twitter_ext.jpg
   resources:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/7OsRWut.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/TsdLjbA.png"/ class="wide-photo">  
+                  <img src = "https://i.imgur.com/TsdLjbA.png"/ class="wide-photo">
 microbit:
   name: Microbit
   link: /extensions/microbit
-  short_intro: > 
+  short_intro: >
     The Microbit Extension
   description: >
-    This extension allows you to extension allows you to program the microbit board. This extension was inspired by Kreg Hanning's <a href=https://llk.github.io/microbit-extension/> Microbit 2.0 Scratch Extension </a> but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs. 
-  cover_photo: /images/ext-images/Microbit_extension.png
+    This extension allows you to extension allows you to program the microbit board. This extension was inspired by Kreg Hanning's <a class="hover-underline" href=https://llk.github.io/microbit-extension/> Microbit 2.0 Scratch Extension </a> but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs.
+  cover_photo: /images/extensions-images/Microbit_extension.png
   resources:
     guide:
       - step: >
                   <img src = "https://i.imgur.com/vyFs2gc.png"/ class="wide-photo">
-                  <img src = "https://i.imgur.com/74ScHIT.jpg"/ class="wide-photo">  
+                  <img src = "https://i.imgur.com/74ScHIT.jpg"/ class="wide-photo">
 muse:
   name: Muse
   link: /extensions/muse
   short_intro: The Muse Extension
   description: >
-    This extension allows you to connect to Muse, a brain sensing headband that measures your EEG values. 
-  cover_photo: /images/ext-images/Muse.png
+    This extension allows you to connect to Muse, a brain sensing headband that measures your EEG values.
+  cover_photo: /images/extensions-images/Muse.png
   resources:
     guide:
       - step: >
@@ -289,7 +289,7 @@ video:
   short_intro: Video Control Extension
   description: >
     This extension allows you to control the transparency, source, and movement in the video feed.
-  cover_photo: /images/ext-images/video.png
+  cover_photo: /images/extensions-images/video.png
   resources:
     guide:
       - step: >
@@ -299,45 +299,45 @@ video:
 #wedo:
 #  name: Wedo
 #  link: /extensions/wedo
-#  short_intro: > 
+#  short_intro: >
 #    The Lego Wedo 2.0 Extension
 #  description: >
 #    This is a native Scratch extension that allows you to connect to Lego Wedo Bricks!
-#  cover_photo: /images/ext-images/wedo.png
+#  cover_photo: /images/extensions-images/wedo.png
 #  resources:
 #    guide:
 #      - step: >
 #                  <img src = "https://i.imgur.com/2TEmYty.png"/ class="wide-photo">
-#                  <img src = "https://i.imgur.com/A0ksaXP.jpg"/ class="wide-photo">                
+#                  <img src = "https://i.imgur.com/A0ksaXP.jpg"/ class="wide-photo">
 
 #pen:
 #  name: Pen
 #  link: /extensions/pen
-#  short_intro: > 
+#  short_intro: >
 #    Draw with your sprites!
 #  description: >
 #    This is a native Scratch extension that allows you to turn sprites into 'pens'.
-#  cover_photo: /images/ext-images/pen.png 
+#  cover_photo: /images/extensions-images/pen.png
 #  resources:
 #    guide:
 #      - step: >
 #                  <img src = "https://i.imgur.com/GRAm0pf.png"/ class="wide-photo">
-#                  <img src = "https://i.imgur.com/RC119lq.jpg"/ class="wide-photo">                
+#                  <img src = "https://i.imgur.com/RC119lq.jpg"/ class="wide-photo">
 
 
 #music:
 #  name: Music
 #  link: /extensions/music
-#  short_intro: > 
+#  short_intro: >
 #    Play music with Scratch!
 #  description: >
 #    Use blocks to create music! You can control the tempo and use different instruments.
-#  cover_photo: /images/ext-images/music.png
+#  cover_photo: /images/extensions-images/music.png
 #  resources:
 #    guide:
 #      - step: >
 #                  <img src = "https://i.imgur.com/7gGQmTs.png"/ class="wide-photo">
-#                  <img src = "https://i.imgur.com/Le5OUO2.jpg"/ class="wide-photo">                
+#                  <img src = "https://i.imgur.com/Le5OUO2.jpg"/ class="wide-photo">
 
 
 

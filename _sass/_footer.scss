@@ -1,7 +1,3 @@
-.footer {
-
-}
-
 .footer__illustration-wrapper {
     display: flex;
     flex-direction: column;
@@ -19,7 +15,7 @@
 .footer__illustration-image {
     display: block; 
     position: relative;
-    margin: 10rem 0 -2px 0;
+    margin: 10rem 0 -2px 0; // use negative margins to hide the gap
     transform: scale(2.75);
     transform-origin: center 80%;
 
@@ -35,7 +31,6 @@
     }
 }
 
-
 .footer__content {
     display: flex;
     flex-direction: column;
@@ -43,7 +38,6 @@
     align-items: center;
 
     width: 100%;
-    // height: 10rem;
     padding: 2rem 0;
     background: #0c656e;
 

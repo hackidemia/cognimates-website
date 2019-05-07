@@ -6,31 +6,36 @@
   {% assign short_name = activity.name %}
 {% endif %}
 
-<div class="main">
-  <h2>{{ activity.name }}</h2>
+  <h1>{{ activity.name }}</h1>
+ <hr></hr>
+
   <p>{{ activity.description }}</p>
 
-  {% if activity.photo %}
-    <img src= {{ activity.photo | relative_url}} class='guide-photo'/>
-  {% endif %}
-  {% if activity.resources.guide_link %}
-    <h3><a href={{ activity.resources.guide_link }}> Download the learning guide for this project</a></h3>
-  {% endif %}
-    <p>Check out the <a href= {{ activity.project_link | relative_url}}>project page </a> for a tutorial</p>
-  <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a href="mailto:cognimates@gmail.com">Get in touch!</a></p>
-  
-  
-</div>
-
-<div class="details">
   {% if activity.video %}
-    <div class="video-container">
+    <br>
+    <div class="activity__video-container">
       {{ activity.video }}
     </div>
-    <h3>{{ short_name }} at a Glance</h3>
+    <hr></hr>
+
+    <!-- <h3>{{ short_name }} at a Glance</h3> -->
   {% endif %}
 
-  
+<!--   {% if activity.photo %}
+    <img src= {{ activity.photo | relative_url}} class='guide-photo'/>
+  {% endif %} -->
+  {% if activity.resources.guide_link %}
+    <p>
+        <a class="button--secondary" href="{{ activity.resources.guide_link }}">
+          Download Guide
+        </a>
+    <p>
+  {% endif %}
+
+    <!-- <p>Check out the <a href= {{ activity.project_link | relative_url}}>project page </a> for a tutorial</p> -->
+  <hr></hr>
+
+<div class="details">
   <ul class="activity-details">
     {% for item in activity.details %}
       <li><span class="info-label">{{ item[0] | replace:'_',' ' | capitalize }}: </span> {{ item[1] }}</li>
@@ -41,8 +46,4 @@
       <li><a href={{ resource.url }}>{{ resource.description }}</a></li>
     {% endfor %}
   </ul>
-
-
 </div>
-
-

@@ -1,0 +1,76 @@
+.team__members {
+    padding: 0;
+    margin: 0 auto 10rem 0;
+
+    // @include mq('lg') {
+    //     max-width: 750px;
+    // }
+}
+
+.team__member {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 2rem 0;
+    border-top: 1px solid #e9e9e9;
+
+    @include mq('lg') {
+        flex-direction: row;
+    }
+}
+
+.team__avatar {
+    object-fit: cover;
+    object-position: center;
+    width: 150px;
+    min-width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+    @include mq('lg') {
+        margin: 0 4rem 0 0;
+    }
+}
+
+.team__member:nth-child(even) .team__avatar {
+    @include mq('lg') {
+        order: 2;
+        margin: 0 0 0 4rem;
+    }
+}
+
+.team__name {
+    color: $main-color;
+    text-align: center;
+
+    @include mq('lg') {
+        text-align: left;
+    }
+}
+
+.team__bio {
+    margin: 0;
+    text-align: left;
+}
+
+.team__institution {
+    margin-left: 0.5rem;
+    font-weight: normal;
+    color: gray;
+}
+
+.team__member-content {
+    width: 100%;
+    text-align: center;
+    flex-grow: 1;
+
+    @include mq('lg') {
+        text-align: left;
+        width: auto;
+    }
+}
+
+.team__contact-button {
+    margin-top: 1rem !important; // override the shared button
+}

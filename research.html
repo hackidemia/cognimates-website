@@ -5,17 +5,18 @@ data_name: research
 permalink: /research/
 ---
 
-<div class="main">
-	<h2>Research</h2>
-
-	<ul>
-		{% for ref in site.data.research %}
-			<li>
-				<a href={{ ref[1].link }} target="_blank">{{ ref[1].name }}</a>: {{ ref[1].reference }}
-				{% if ref[1].image %}
-					<img src={{ ref[1].image | relative_url }} class='wide-photo space'/>
-				{% endif %}
-			</li>
-		{% endfor %}
-	</ul>
-</div>
+<h1>Research</h1>
+<ul>
+	{% for ref in site.data.research %}
+		<li class="research__item">
+			<h3>{{ ref[1].name }}</h3>
+			<p>
+				{{ ref[1].reference }}
+				<a href={{ ref[1].link }} class="research__name hover-underline" target="_blank">Link</a>
+			</p>
+			{% if ref[1].image %}
+				<img class="research__image" src={{ ref[1].image | relative_url }} class='wide-photo space'/>
+			{% endif %}
+		</li>
+	{% endfor %}
+</ul>
