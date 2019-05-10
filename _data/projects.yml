@@ -100,17 +100,6 @@ twitter:
   #       Step 5: Finally, you can add in some blocks from the music extension to play some happy, sad, or neutral notes depending on the mood we received from the tweet. <br>
   #                 <img src="https://i.imgur.com/iFSMJFF.png"/ class="wide-photo">
 
-#ghosts_speech:
-# name: Save Me from the Ghosts!
-#  link: /projects/ghosts_speech
-#  short_intro: >
-#    Save Dot from the scary ghosts with math!
-#  description: >
-#    The scary ghosts are after Dot and want to scare him away. The only way to not have him leave is to do some math problems. Do some basic addition, multiplication, subtraction, and division to keep him happy!
-#  cover_photo: /images/extensions-images/ghosts_speech.png
-#  resources:
-#    download_link: https://drive.google.com/uc?export=download&id=1xYt9BmgAPjRsdhZ1l-JSjqSREElDfMe7
-
 cozmo_simple:
   name: Cozmo's Fresh Moves
   link: /projects/cozmo_simple
@@ -161,28 +150,6 @@ cozmo_simple:
 #      - step: >
 #          Step 4: We can add blocks from the cozmo and smart light extension to make them react to the feeling of the answer.
 #                  <img src="https://i.imgur.com/FTyPSBM.png"/ class="wide-photo">
-
-
-# recognizePuppy:
-#   name: Is it a puppy?
-#   link: /projects/recognizePuppy
-#   short_intro: >
-#     Play a game and test this puppy recognizer!
-#   description: >
-#     Play a game against this puppy recognizer! When the recognizer correctly identifies a webcam photo of a drawing or your surroundings as a puppy or not a puppy, the computer gets a point. If it is wrong, you get a point. This game is smart, though, because you can train it with the pictures you take!
-#   cover_photo: /images/extensions-images/pup.png
-#   video: >
-#     <iframe src="https://giphy.com/embed/NmGbJwLl7Y4lG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="https://giphy.com/gifs/NmGbJwLl7Y4lG"></a></p>
-#   resources:
-#     download_link: https://drive.google.com/uc?export=download&id=16PqHmLq2SKph5eTxzGmsb5PZ2Juscwu2
-#     age_range: 7 and older
-#     group_size: Variable, limited only by amount of supplies and number of facilitators
-#     facilitators: 0 or more
-#     facilitator_skills: Basic familiarity with AI concepts
-#     activity_type: Activities range from single-user guided activities to workshops/classroom lesson plans designed for groups of children
-#     session_length: Varies, from short (~30 minute) single activities to 90 minutes workshops
-#     cost: Varies, Circuit Sticker packs and kits range from $30 for a starter kit to $110 (for a classroom pack that includes materials for 30 kids); Books and templates are free to download!
-#     supplies: Arts and craft supplies, Circuit Stickers, coin batteries; some activities require additional supplies
 
 myFavoriteThings:
   name: My Favorite Things
@@ -525,34 +492,56 @@ rpsCozmo:
                   <a class="hover-underline" href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
       - step: >
           Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded!
-# waterkinesis:
-#   name: Waterkinesis
-#   link: /projects/waterkinesis
-#   short_intro: >
-#     Control objects in water with your mind!
-#   description: >
-#     Connect a Lego Wedo and Muse EEG headset to control objects in water with your mind.
-#   cover_photo: /images/extensions-images/waterkinesis.png
-#   resources:
-#     download_link: https://drive.google.com/uc?export=download&id=17m-0_2dez_SugAyw-D55C3IbzbU9NRqC
-#     guide:
-#       - step: >
-#           Step 1: Load the simple version of Waterkinesis <a class="hover-underline" href="https://drive.google.com/uc?export=download&id=1f5dMX3AF0_CWKYXIhKZvMQMEx44xGck-">here</a>. This project uses the <a class="hover-underline" href="/cognimates-website/extensions/muse">Muse extension</a>, which you can use to record your brain EEG values, and the Lego Wedo extension, which lets you program with a Lego Wedo.
-#                   <img src = "https://imgur.com/lqEt77A.png"/ class="wide-photo">
-#       - step: >
-#           Step 2: Connect the Lego Wedo using the Scratch Device Manager, and load the Lego Wedo extension on Cognimates.
-#                   <img src = "https://imgur.com/13OyNAN.png"/ class="wide-photo">
-#       - step: >
-#           Step 3: Click the green flag to connect to your Muse headset. Follow the notifications and pair your device with the Muse headset.
-#                   <img src= "https://imgur.com/hFEZ4eT.png"/ class="wide-photo">
-#       - step: >
-#           Step 4: Once your headset is connected, watch the Lego Wedo change light colors based on your EEG values! The current threshold values are set to 100, but the best thresholds for you might be different. Click the “Get value of” blocks to see your EEG values and figure out what your thresholds should be.
-#                   <img src= "https://imgur.com/GVjyqHW.png"/ class="wide-photo">
-#       - step: >
-#           Step 5: Try adding movement blocks! Make the Wedo move forward and change directions depending on the side of your body that moved. </br>
-#                   <img src= "https://imgur.com/gKFIHpi.png"/ class="wide-photo">
-#       - step: >
-#           Step 6: You can choose to move the Wedo on land, or try a water-based activity with this code! We recommend you place the Lego Wedo smarthub and motor in a waterproof box, drill a hole to the side of the box, and use a lego stick piece to connect a plastic propeller to the wedo motor. Test out other mechanical designs that you think will also work!
+
+AIToy:
+  name: AI Toy
+  link: /projects/aiToy
+  short_intro: >
+    Make your own AI stuffed animal with this cool project by Ryan Jenkins of Wonderful Idea Co. 
+  description: >
+    Dissect a toy and learn how to remix it with machine learning. 
+  cover_photo: /images/extensions-images/aiToy.png
+  video: >
+    <iframe src="https://player.vimeo.com/video/325754722" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1n9Luwbqb7z3Hjs5z96pmX4hztGCsP5_d
+    guide:
+      - step: >
+          Step 1: Download the project. The rest of the project is documented <a href="https://wonderfulidea.co/blog/2019/3/21/ai-toy-dissection-remix-with-cognimates">here</a> on Wonderful Idea Co's website. 
+
+waterkinesis:
+  name: Waterkinesis
+  link: /projects/waterkinesis
+  short_intro: >
+    Control objects in water with your mind!
+  description: >
+    Connect a Lego Wedo and Muse EEG headset to control objects in water with your mind. <br><br> This project was part of the curriculum at the <a href="http://news.mit.edu/2018/mit-hong-kong-steam-camp-blending-mind-and-hand-1003">2018 CIS STEAM Camp in Hong Kong</a>.
+    The team helped develop a module using Cognimates and provided <a href="https://docs.google.com/document/d/1bHOL6Jhf9RwSZqOOVRFK5qg72nVj3NUEzaI3D6-1wAQ/edit?usp=sharing">master teacher guide</a> in addition to training for camp leaders. The two day module included <a href="https://docs.google.com/presentation/d/1S7cMnVH-vhRZ4iyIg_9-foSmFPoN527cjyBXCfQcCNc/edit?usp=sharing">day one slides</a> and <a href="https://docs.google.com/presentation/d/1KjHqq3dtVqoPDoQUql3dxv9OOwvEOg0lVH0J55Zau7M/edit?usp=sharing">day two slides</a>. <br>
+    <a href="https://drive.google.com/open?id=1-bDoTu33Q5Z5qRUD6cPk54TI3jRI9msg">Here</a> is the analysis and feedback from the educators involved in the camp. 
+  cover_photo: /images/extensions-images/waterkinesis.png
+  video: >
+    <iframe src="https://player.vimeo.com/video/335432579" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=17YkcEeNgj0V6n39SnvcznvEtxt_068eH
+    guide:
+      - step: >
+          Step 1: Load the simple version of Waterkinesis <a class="hover-underline" href="https://drive.google.com/uc?export=download&id=10dW5_AwEZbP8f0d7BTz9eoI_ZFJ8SopG">here</a>. This is missing a few blocks that you will add yourself following this guide. If you want the full project, use the large, pink download button at the top of this page. 
+          This project uses the Muse extension, which you can use with the <a href="https://choosemuse.com/">Muse headband</a> to record your brain EEG values, and the Lego Wedo extension, which lets you program with a <a href="https://education.lego.com/en-us/elementary/intro/wedo2">Lego Wedo</a>.
+                  <img src = "https://i.imgur.com/I3f95wJ.png"/ class="wide-photo">
+      - step: >
+          Step 2: Please read the instructions <a href="https://docs.google.com/document/d/1fdgfuKUJvPfwSfwBVwO8hrNdHXOlou3Sq4eXLvi7uNQ/edit?usp=sharing">here</a> before you start this step, and read through the debugging tips as well. Now, connect the Lego Wedo using the Scratch Device Manager, and load the Lego Wedo extension on Cognimates. 
+                  <img src = "https://imgur.com/13OyNAN.png"/ class="wide-photo">
+      - step: >
+          Step 3: Load the muse extension to connect to your Muse headset. Follow the notifications and pair your device with the Muse headset.
+                  <img src= "https://imgur.com/hFEZ4eT.png"/ class="wide-photo">
+      - step: >
+          Step 4: Once your headset is connected, watch the Lego Wedo change light colors based on your EEG values! The current threshold values are set to 100, but the best thresholds for you might be different. Click the “Get value of” blocks to see your EEG values and figure out what your thresholds should be.
+                  <img src= "https://imgur.com/GVjyqHW.png"/ class="wide-photo">
+      - step: >
+          Step 5: Try adding movement blocks! Make the Wedo move forward and change directions depending on the side of your body that moved. </br>
+                  <img src= "https://imgur.com/gKFIHpi.png"/ class="wide-photo">
+      - step: >
+          Step 6: You can choose to move the Wedo on land, or try a water-based activity with this code! We recommend you place the Lego Wedo smarthub and motor in a waterproof box, drill a hole to the side of the box, and use a lego stick piece to connect a plastic propeller to the wedo motor. Test out other mechanical designs that you think will also work!
 
 
 
