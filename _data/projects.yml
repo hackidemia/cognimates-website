@@ -7,6 +7,59 @@
 #     Load your own project by clicking on file in the upper left and clicking on upload from your computer like in the video below.
 #     <iframe src="https://giphy.com/embed/MnENzrnuG25R8fmyM9" width="480" height="312" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/MnENzrnuG25R8fmyM9"></a></p>
 #   cover_photo: /images/extensions-images/upload.png
+AIToy:
+  name: AI Toy
+  link: /projects/aiToy
+  short_intro: >
+    Make your own AI stuffed animal with this cool project by Ryan Jenkins of Wonderful Idea Co. 
+  description: >
+    Dissect a toy and learn how to remix it with machine learning. 
+  cover_photo: /images/extensions-images/aiToy.png
+  video: >
+    <iframe src="https://player.vimeo.com/video/325754722" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1n9Luwbqb7z3Hjs5z96pmX4hztGCsP5_d
+    guide:
+      - step: >
+          Step 1: Download the project. The rest of the project is documented <a href="https://wonderfulidea.co/blog/2019/3/21/ai-toy-dissection-remix-with-cognimates">here</a> on Wonderful Idea Co's website. 
+
+microscope:
+  name: Microscopes
+  link: /projects/microscope
+  short_intro: >
+    Look through microscopes with the character Oracle and see what we can find!
+  description: >
+    Look through the microscope and process the images with Oracle to see if they can guess what you're looking at. If Oracle is wrong, teach them so they know more in the future! <br><br>
+    You can build your own microscope by using <a href="http://www.bbc.co.uk/science/0/22600308">these instructions</a> from Mark Miodownik from Dara O Briain's Science Club on BBC Two. Don't forget to train a model on some microscopic images of thing like corn stem, different fabrics, or blood. Use our <a href="https://cognimate.me:2635/home">training platform</a> and add images of whatever you'd like.
+  cover_photo: /images/extensions-images/microscope.png
+  video: <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=15wGHqlJbSakayN4VumitxRT43d6nlade
+    guide:
+    - step: >
+        Step 1: This project uses the vision extension and the video extension. The vision extension can detect images based on trained models using our <a href="https://cognimate.me:2635/home">training platform</a>.
+            <img src = "https://i.imgur.com/8EBNVhL.png"/ class="wide-photo">
+    - step: >
+        Step 2: First, download the project. If you've made a webcam microscope and plugged it into a USB port to your laptop, you need to change your video source to the microscope. You can test it out by changing the number on this block until you see your microscope output. This block can be found in the "video-sensing" extension pictured above. 
+            <img src = "https://i.imgur.com/Bq3p2zN.png"/ class="wide-photo">
+    - step: > 
+        Step 3: Here is the first set of blocks that you can build to experiment with your model. Don't forget to put in your api key and the corresponding model for your microscope to use to predict images. 
+            <img src = "https://i.imgur.com/lwCVINg.png"/ class="wide-photo">
+    - step: >
+        Step 4: Here is the second set of blocks needed to predict the images in the microscope. 
+            <img src = "https://i.imgur.com/vMGGEnO.png"/ class="wide-photo">
+    - step: >
+        Step 5: After prediction, we need to do something about the results. Add this onto the second set of blocks in step 4. As you can see, you can click the red circle or the green circle on the stage depending on if the prediction was right or wrong.
+        <img src = "https://i.imgur.com/PH5zFL6.png"/ class="wide-photo">
+        <img src = "https://i.imgur.com/gVdc4rJ.png"/ class="wide-photo">
+    - step: >
+        Step 6: If the model was wrong, and you click on the red circle, you are led to this set of blocks belonging to the red circle sprite. By answering the question with the correct category of your picture, you make your model better. 
+        <img src = "https://i.imgur.com/ivn50sM.png"/ class="wide-photo">
+
+    - step: >
+        Step 7: Here's an example using the live view of a wecbcam microscope.<br>
+          <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
+          <i>Disclaimer - the gif above uses a previous version of the Cognimates stack that no longer has the same characters, but the functionality of blocks has remained the same.</i>
 
 sentiment:
   name: Make Me Happy
@@ -353,21 +406,6 @@ rpsCozmo:
       - step: >
           Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded!
 
-AIToy:
-  name: AI Toy
-  link: /projects/aiToy
-  short_intro: >
-    Make your own AI stuffed animal with this cool project by Ryan Jenkins of Wonderful Idea Co. 
-  description: >
-    Dissect a toy and learn how to remix it with machine learning. 
-  cover_photo: /images/extensions-images/aiToy.png
-  video: >
-    <iframe src="https://player.vimeo.com/video/325754722" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=1n9Luwbqb7z3Hjs5z96pmX4hztGCsP5_d
-    guide:
-      - step: >
-          Step 1: Download the project. The rest of the project is documented <a href="https://wonderfulidea.co/blog/2019/3/21/ai-toy-dissection-remix-with-cognimates">here</a> on Wonderful Idea Co's website. 
 
 waterkinesis:
   name: Waterkinesis
@@ -402,44 +440,6 @@ waterkinesis:
                   <img src= "https://imgur.com/gKFIHpi.png"/ class="wide-photo">
       - step: >
           Step 6: You can choose to move the Wedo on land, or try a water-based activity with this code! We recommend you place the Lego Wedo smarthub and motor in a waterproof box, drill a hole to the side of the box, and use a lego stick piece to connect a plastic propeller to the wedo motor. Test out other mechanical designs that you think will also work!
-
-microscope:
-  name: Microscopes
-  link: /projects/microscope
-  short_intro: >
-    Look through microscopes with the character Oracle and see what we can find!
-  description: >
-    Look through the microscope and process the images with Oracle to see if they can guess what you're looking at. If Oracle is wrong, teach them so they know more in the future! <br><br>
-    You can build your own microscope by using <a href="http://www.bbc.co.uk/science/0/22600308">these instructions</a> from Mark Miodownik from Dara O Briain's Science Club on BBC Two. Don't forget to train a model on some microscopic images of thing like corn stem, different fabrics, or blood. Use our <a href="https://cognimate.me:2635/home">training platform</a> and add images of whatever you'd like.
-  cover_photo: /images/extensions-images/microscope.png
-  video: <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
-  resources:
-    download_link: https://drive.google.com/uc?export=download&id=15wGHqlJbSakayN4VumitxRT43d6nlade
-    guide:
-    - step: >
-        Step 1: This project uses the vision extension and the video extension. The vision extension can detect images based on trained models using our <a href="https://cognimate.me:2635/home">training platform</a>.
-            <img src = "https://i.imgur.com/8EBNVhL.png"/ class="wide-photo">
-    - step: >
-        Step 2: First, download the project. If you've made a webcam microscope and plugged it into a USB port to your laptop, you need to change your video source to the microscope. You can test it out by changing the number on this block until you see your microscope output. This block can be found in the "video-sensing" extension pictured above. 
-            <img src = "https://i.imgur.com/Bq3p2zN.png"/ class="wide-photo">
-    - step: > 
-        Step 3: Here is the first set of blocks that you can build to experiment with your model. Don't forget to put in your api key and the corresponding model for your microscope to use to predict images. 
-            <img src = "https://i.imgur.com/lwCVINg.png"/ class="wide-photo">
-    - step: >
-        Step 4: Here is the second set of blocks needed to predict the images in the microscope. 
-            <img src = "https://i.imgur.com/vMGGEnO.png"/ class="wide-photo">
-    - step: >
-        Step 5: After prediction, we need to do something about the results. Add this onto the second set of blocks in step 4. As you can see, you can click the red circle or the green circle on the stage depending on if the prediction was right or wrong.
-        <img src = "https://i.imgur.com/PH5zFL6.png"/ class="wide-photo">
-        <img src = "https://i.imgur.com/gVdc4rJ.png"/ class="wide-photo">
-    - step: >
-        Step 6: If the model was wrong, and you click on the red circle, you are led to this set of blocks belonging to the red circle sprite. By answering the question with the correct category of your picture, you make your model better. 
-        <img src = "https://i.imgur.com/ivn50sM.png"/ class="wide-photo">
-
-    - step: >
-        Step 7: Here's an example using the live view of a wecbcam microscope.<br>
-          <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
-          <i>Disclaimer - the gif above uses a previous version of the Cognimates stack that no longer has the same characters, but the functionality of blocks has remained the same.</i>
 
 # smartLights:
 #   name: Smart lights
