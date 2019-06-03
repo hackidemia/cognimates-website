@@ -441,6 +441,34 @@ waterkinesis:
       - step: >
           Step 6: You can choose to move the Wedo on land, or try a water-based activity with this code! We recommend you place the Lego Wedo smarthub and motor in a waterproof box, drill a hole to the side of the box, and use a lego stick piece to connect a plastic propeller to the wedo motor. Test out other mechanical designs that you think will also work!
 
+arduinoSimple:
+  name: Intro to Arduino with an LED
+  link: /projects/arduinoSimple
+  short_intro: >
+    Start playing with Arduino. 
+  description: >
+    Here is a short, simple Arduino project to help you start using our Arduino extension! Follow the video for the set up, and try out a simple LED circuit to get started. 
+    <br><br>
+    <a href="https://github.com/hackidemia/cognimates-arduino">Cognimates Arduino Set-Up Instructions and Files</a>
+
+  cover_photo: /images/extensions-images/arduino-simple.png
+  video: >
+  resources:
+    download_link: https://drive.google.com/uc?export=download&id=1IhRRSnHOFpYuTKOxbDX6_mQfaBEPxB6y
+    guide:
+      - step: >
+          Step 1: Follow the video above and make sure you have set up the Arduino SDK correctly to be compatible with Cognimates. 
+      - step: >
+          Step 2: Make sure you have all of the parts. For this project, you will need an <a href="https://store.arduino.cc/usa/leonardo">Arduino Leonardo</a>, a breadboard, a 220 ohm resistor, jumper wires, and an LED light.
+      - step: >
+          Step 3: Put the parts together according to the schematic below. Note that the left wire connects from input 9 to the board, and the right wire connects from the board to GND on the Arduino Leonardo.
+        photo: images/arduino-simple-schematic.png
+      - step: >
+          Step 4: Upload the sketch from part 1 into the Arduino if you have not already. Download the "Simple-LED" project by clicking the large pink "Download Project" button at the top of this page. Launch codelab and upload the project you just downloaded to Cognimates. 
+                  Click the green flag to start playing! 
+
+
+
 # smartLights:
 #   name: Smart lights
 #   link: /projects/smartLights
