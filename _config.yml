@@ -2,9 +2,9 @@
 title: Cognimates
 email: cognimates@gmail.com
 description: >-
- cognimates 
+ cognimates
 baseurl: "/"
-url: "http://cognimates.me"
+url: "https://hackidemia.github.io/cognimates-website"
 
 # Build settings
 markdown: kramdown
