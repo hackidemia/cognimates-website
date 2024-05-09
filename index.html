@@ -2,14 +2,30 @@
 layout: home
 title: Home - Cognimates
 ---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test Page</title>
+    <title>{{ page.title }}</title>
+    {% include head.html %}
 </head>
 <body>
-    <h1>Simple Content</h1>
-    <p>This is a simple test to see if this content renders.</p>
+    {% include header.html %}
+    <main aria-label="Content">
+        <!-- Begin main page content -->
+        <h1>Welcome to Cognimates</h1>
+        <p>This is the main content of the Cognimates website.</p>
+        <!-- List of posts -->
+        {% for post in site.posts %}
+        <article class="post">
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt }}</p>
+        </article>
+        {% endfor %}
+        <!-- End main page content -->
+    </main>
+    {% include footer.html %}
+    <script type="application/javascript" src="{{ '/js/home.js' | relative_url }}"></script>
 </body>
 </html>
