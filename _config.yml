@@ -2,7 +2,7 @@
 title: Cognimates
 email: cognimates@gmail.com
 description: >-
- cognimates
+  cognimates
 baseurl: "/"
 url: "https://hackidemia.github.io/cognimates-website"
 
@@ -12,7 +12,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-autoprefixer
-include: ['_pages']
+include: []
 
 autoprefixer:
   browsers:
@@ -21,5 +21,3 @@ autoprefixer:
 # Assets
 sass:
   style: :compressed
-
-redirects: yes
