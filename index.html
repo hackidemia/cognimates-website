@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <meta charset="utf-8">
-  <!-- Removed the canonical link and meta refresh tag to prevent redirection to localhost -->
-  <meta name="robots" content="noindex">
+  <head>
+    <meta charset="utf-8">
+    <title>Cognimates</title>
+    <!-- Removed the canonical link and meta refresh tag to prevent redirection to localhost -->
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script type="application/javascript" src="{{ '/js/default.js' | relative_url }}"></script>
+  </head>
+  <body>
+    <div class="breakpoint"></div>
+    {% include header.html style='grid' %}
+    <main aria-label="Content" class="page-wrapper">
+        <!-- Content will be injected here by Jekyll -->
+        {% include home.html %}
+    </main>
+    {% include footer.html %}
+  </body>
 </html>
