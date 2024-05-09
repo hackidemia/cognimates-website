@@ -12,7 +12,19 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-autoprefixer
-include: []
+include:
+  - assets
+  - css
+  - js
+  - images
+  - home.html
+  - team.html
+  - exchanges.html
+  - guides.html
+  - research.html
+  - workshops.html
+  - get-started.html
+  - projects.html
 
 autoprefixer:
   browsers:
