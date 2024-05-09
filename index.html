@@ -1,20 +1,20 @@
 ---
-layout: default
+layout: home
 title: Home - Cognimates
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
     {% include head.html %}
 </head>
 <body>
     {% include header.html %}
-    <h1>Welcome to Cognimates!</h1>
-    <p>This is a simple test paragraph to check Jekyll rendering.</p>
+    <main aria-label="Content">
+        <h1>Welcome to Cognimates!</h1>
+        <p>This is a simple test paragraph to check Jekyll rendering.</p>
+    </main>
     {% include footer.html %}
+    <script type="application/javascript" src="{{ '/js/home.js' | relative_url }}"></script>
 </body>
 </html>
