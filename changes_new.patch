@@ -1,0 +1,209 @@
+diff --git a/_data/projects.yml b/_data/projects.yml
+index 3750302..bedce90 100644
+--- a/_data/projects.yml
++++ b/_data/projects.yml
+@@ -11,9 +11,9 @@ AIToy:
+   name: AI Toy
+   link: /projects/aiToy
+   short_intro: >
+-    Make your own AI stuffed animal with this cool project by Ryan Jenkins of Wonderful Idea Co. 
++    Make your own AI stuffed animal with this cool project by Ryan Jenkins of Wonderful Idea Co.
+   description: >
+-    Dissect a toy and learn how to remix it with machine learning. 
++    Dissect a toy and learn how to remix it with machine learning.
+   cover_photo: /images/extensions-images/aiToy.png
+   video: >
+     <iframe src="https://player.vimeo.com/video/325754722" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+@@ -21,7 +21,7 @@ AIToy:
+     download_link: https://drive.google.com/uc?export=download&id=1n9Luwbqb7z3Hjs5z96pmX4hztGCsP5_d
+     guide:
+       - step: >
+-          Step 1: Download the project. The rest of the project is documented <a href="https://wonderfulidea.co/blog/2019/3/21/ai-toy-dissection-remix-with-cognimates">here</a> on Wonderful Idea Co's website. 
++          Step 1: Download the project. The rest of the project is documented <a href="https://wonderfulidea.co/blog/2019/3/21/ai-toy-dissection-remix-with-cognimates">here</a> on Wonderful Idea Co's website.
+ 
+ microscope:
+   name: Microscopes
+@@ -30,30 +30,30 @@ microscope:
+     Look through microscopes with the character Oracle and see what we can find!
+   description: >
+     Look through the microscope and process the images with Oracle to see if they can guess what you're looking at. If Oracle is wrong, teach them so they know more in the future! <br><br>
+-    You can build your own microscope by using <a href="http://www.bbc.co.uk/science/0/22600308">these instructions</a> from Mark Miodownik from Dara O Briain's Science Club on BBC Two. Don't forget to train a model on some microscopic images of thing like corn stem, different fabrics, or blood. Use our <a href="https://cognimate.me:2635/home">training platform</a> and add images of whatever you'd like.
++    You can build your own microscope by using <a href="http://www.bbc.co.uk/science/0/22600308">these instructions</a> from Mark Miodownik from Dara O Briain's Science Club on BBC Two. Don't forget to train a model on some microscopic images of thing like corn stem, different fabrics, or blood. Use our <a href="https://cognimate.me/home">training platform</a> and add images of whatever you'd like.
+   cover_photo: /images/extensions-images/microscope.png
+   video: <iframe src="https://giphy.com/embed/p3GtLTdUiRAISbYB36" width="492" height="406" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a class="hover-underline" href="http://www.giphy.com/gifs/p3GtLTdUiRAISbYB36"></a></p>
+   resources:
+     download_link: https://drive.google.com/uc?export=download&id=15wGHqlJbSakayN4VumitxRT43d6nlade
+     guide:
+     - step: >
+-        Step 1: This project uses the vision extension and the video extension. The vision extension can detect images based on trained models using our <a href="https://cognimate.me:2635/home">training platform</a>.
++        Step 1: This project uses the vision extension and the video extension. The vision extension can detect images based on trained models using our <a href="https://cognimate.me/home">training platform</a>.
+             <img src = "https://i.imgur.com/8EBNVhL.png"/ class="wide-photo">
+     - step: >
+-        Step 2: First, download the project. If you've made a webcam microscope and plugged it into a USB port to your laptop, you need to change your video source to the microscope. You can test it out by changing the number on this block until you see your microscope output. This block can be found in the "video-sensing" extension pictured above. 
++        Step 2: First, download the project. If you've made a webcam microscope and plugged it into a USB port to your laptop, you need to change your video source to the microscope. You can test it out by changing the number on this block until you see your microscope output. This block can be found in the "video-sensing" extension pictured above.
+             <img src = "https://i.imgur.com/Bq3p2zN.png"/ class="wide-photo">
+-    - step: > 
+-        Step 3: Here is the first set of blocks that you can build to experiment with your model. Don't forget to put in your api key and the corresponding model for your microscope to use to predict images. 
++    - step: >
++        Step 3: Here is the first set of blocks that you can build to experiment with your model. Don't forget to put in your api key and the corresponding model for your microscope to use to predict images.
+             <img src = "https://i.imgur.com/lwCVINg.png"/ class="wide-photo">
+     - step: >
+-        Step 4: Here is the second set of blocks needed to predict the images in the microscope. 
++        Step 4: Here is the second set of blocks needed to predict the images in the microscope.
+             <img src = "https://i.imgur.com/vMGGEnO.png"/ class="wide-photo">
+     - step: >
+         Step 5: After prediction, we need to do something about the results. Add this onto the second set of blocks in step 4. As you can see, you can click the red circle or the green circle on the stage depending on if the prediction was right or wrong.
+         <img src = "https://i.imgur.com/PH5zFL6.png"/ class="wide-photo">
+         <img src = "https://i.imgur.com/gVdc4rJ.png"/ class="wide-photo">
+     - step: >
+-        Step 6: If the model was wrong, and you click on the red circle, you are led to this set of blocks belonging to the red circle sprite. By answering the question with the correct category of your picture, you make your model better. 
++        Step 6: If the model was wrong, and you click on the red circle, you are led to this set of blocks belonging to the red circle sprite. By answering the question with the correct category of your picture, you make your model better.
+         <img src = "https://i.imgur.com/ivn50sM.png"/ class="wide-photo">
+ 
+     - step: >
+@@ -119,7 +119,7 @@ rock:
+     guide:
+       - step: >
+           Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
+-                  <a class="hover-underline" href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
++                  <a class="hover-underline" href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me/home" target="_blank">train a new model</a>.
+                   Name the categories "rock", "paper", and "scissors".
+       - step: >
+           Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded.
+@@ -249,7 +249,7 @@ emotionsVision:
+     guide:
+     - step: >
+         Step 1: Download the project. If you have not trained an image project that can recognize emotions, you can
+-                <a class="hover-underline" href ="https://www.dropbox.com/sh/71t60kjk72w8clr/AACsEb4D0XnHDb2FI_e39M1Ra?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
++                <a class="hover-underline" href ="https://www.dropbox.com/sh/71t60kjk72w8clr/AACsEb4D0XnHDb2FI_e39M1Ra?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me/home" target="_blank">train a new model</a>.
+                 Use the categories "happy" and "sad". Try to use your own pictures to train the model as well.
+     - step: >
+         Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
+@@ -271,7 +271,7 @@ shakespeareKerouac:
+     guide:
+         - step: >
+             Step 1: Download the project. If you have not trained a text project that can recognize the different writers in this project, you can
+-                    <a class="hover-underline" href = "https://drive.google.com/open?id=1Om7bMtrTBHFXRjOanh0AeAEuTeMUDjnwCfNTTg3YxRY" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
++                    <a class="hover-underline" href = "https://drive.google.com/open?id=1Om7bMtrTBHFXRjOanh0AeAEuTeMUDjnwCfNTTg3YxRY" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me/home" target="_blank">train a new model</a>.
+                     Name the categories "Kerouac", "Shakespeare", and "Tolkien"
+         - step: >
+             Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
+@@ -293,7 +293,7 @@ husky:
+     guide:
+       - step: >
+           Step 1: Download the project. If you have not trained an image project that can huskies or malamutes, you can
+-                  <a class="hover-underline" href ="https://www.dropbox.com/sh/vtu5ob530d0j7sk/AAAB1eGflUCQJ_lAqaBsk2gMa?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
++                  <a class="hover-underline" href ="https://www.dropbox.com/sh/vtu5ob530d0j7sk/AAAB1eGflUCQJ_lAqaBsk2gMa?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me/home" target="_blank">train a new model</a>.
+                   Use the categories "husky" and "malamute".
+       - step: >
+           Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
+@@ -382,7 +382,7 @@ goodBoy:
+     download_link: https://drive.google.com/uc?export=download&id=1yXY-ZFlqYsNufdCsGADG-waHfFGi_wIn
+     guide:
+       - step: >
+-          Step 1: Download the project. If you have not trained a text model that can detect good and bad phrases, <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
++          Step 1: Download the project. If you have not trained a text model that can detect good and bad phrases, <a class="hover-underline" href="https://cognimate.me/home" target="_blank">train a new model</a>.
+                   Use the categories "good" and "bad". Put phrases like "You're a good boy" in the good category and "You're a bad boy" in the bad category.
+       - step: >
+           Step 2: After training your model, write down your API key and the model name to use in the starter project you downloaded.
+@@ -402,9 +402,9 @@ rpsCozmo:
+     guide:
+       - step: >
+           Step 1: Download Rock Paper Scissors. If you have not trained an image project that can recognize Rock, Paper, and Scissors, you can
+-                  <a class="hover-underline" href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me:2635/home" target="_blank">train a new model</a>.
++                  <a class="hover-underline" href ="https://www.dropbox.com/sh/c3mxqwy975r2qye/AAAhHUKJPdWlNR637phx39I1a?dl=0" target="_blank">use this data</a> and <a class="hover-underline" href="https://cognimate.me/home" target="_blank">train a new model</a>.
+       - step: >
+-          Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded!
++          Step 2: After training your rock paper scissors model, write down your API key and the model name to use in the starter project you downloaded.
+ 
+ 
+ waterkinesis:
+@@ -415,7 +415,7 @@ waterkinesis:
+   description: >
+     Connect a Lego Wedo and Muse EEG headset to control objects in water with your mind. <br><br> This project was part of the curriculum at the <a href="http://news.mit.edu/2018/mit-hong-kong-steam-camp-blending-mind-and-hand-1003">2018 CIS STEAM Camp in Hong Kong</a>.
+     The team helped develop a module using Cognimates and provided <a href="https://docs.google.com/document/d/1bHOL6Jhf9RwSZqOOVRFK5qg72nVj3NUEzaI3D6-1wAQ/edit?usp=sharing">master teacher guide</a> in addition to training for camp leaders. The two day module included <a href="https://docs.google.com/presentation/d/1S7cMnVH-vhRZ4iyIg_9-foSmFPoN527cjyBXCfQcCNc/edit?usp=sharing">day one slides</a> and <a href="https://docs.google.com/presentation/d/1KjHqq3dtVqoPDoQUql3dxv9OOwvEOg0lVH0J55Zau7M/edit?usp=sharing">day two slides</a>. <br>
+-    <a href="https://drive.google.com/open?id=1-bDoTu33Q5Z5qRUD6cPk54TI3jRI9msg">Here</a> is the analysis and feedback from the educators involved in the camp. 
++    <a href="https://drive.google.com/open?id=1-bDoTu33Q5Z5qRUD6cPk54TI3jRI9msg">Here</a> is the analysis and feedback from the educators involved in the camp.
+   cover_photo: /images/extensions-images/waterkinesis.png
+   video: >
+     <iframe src="https://player.vimeo.com/video/335432579" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+@@ -423,11 +423,11 @@ waterkinesis:
+     download_link: https://drive.google.com/uc?export=download&id=17YkcEeNgj0V6n39SnvcznvEtxt_068eH
+     guide:
+       - step: >
+-          Step 1: Load the simple version of Waterkinesis <a class="hover-underline" href="https://drive.google.com/uc?export=download&id=10dW5_AwEZbP8f0d7BTz9eoI_ZFJ8SopG">here</a>. This is missing a few blocks that you will add yourself following this guide. If you want the full project, use the large, pink download button at the top of this page. 
++          Step 1: Load the simple version of Waterkinesis <a class="hover-underline" href="https://drive.google.com/uc?export=download&id=10dW5_AwEZbP8f0d7BTz9eoI_ZFJ8SopG">here</a>. This is missing a few blocks that you will add yourself following this guide. If you want the full project, use the large, pink download button at the top of this page.
+           This project uses the Muse extension, which you can use with the <a href="https://choosemuse.com/">Muse headband</a> to record your brain EEG values, and the Lego Wedo extension, which lets you program with a <a href="https://education.lego.com/en-us/elementary/intro/wedo2">Lego Wedo</a>.
+                   <img src = "https://i.imgur.com/I3f95wJ.png"/ class="wide-photo">
+       - step: >
+-          Step 2: Please read the instructions <a href="https://docs.google.com/document/d/1fdgfuKUJvPfwSfwBVwO8hrNdHXOlou3Sq4eXLvi7uNQ/edit?usp=sharing">here</a> before you start this step, and read through the debugging tips as well. Now, connect the Lego Wedo using the Scratch Device Manager, and load the Lego Wedo extension on Cognimates. 
++          Step 2: Please read the instructions <a href="https://docs.google.com/document/d/1fdgfuKUJvPfwSfwBVwO8hrNdHXOlou3Sq4eXLvi7uNQ/edit?usp=sharing">here</a> before you start this step, and read through the debugging tips as well. Now, connect the Lego Wedo using the Scratch Device Manager, and load the Lego Wedo extension on Cognimates.
+                   <img src = "https://imgur.com/13OyNAN.png"/ class="wide-photo">
+       - step: >
+           Step 3: Load the muse extension to connect to your Muse headset. Follow the notifications and pair your device with the Muse headset.
+diff --git a/_includes/header.html b/_includes/header.html
+index ba65d55..fa27f85 100644
+--- a/_includes/header.html
++++ b/_includes/header.html
+@@ -1,7 +1,7 @@
+ {% assign current = page.url | downcase | split: '/' %}
+ 
+ <nav class="header__nav">
+-    <a class="header__logo-link" href={{ '/home' | relative_url }}>
++    <a class="header__logo-link" href={{ '/' | relative_url }}>
+         <img
+             src={{ '/images/cognimates-logo--codelab.svg' | relative_url }}
+             class="header__logo-image"
+@@ -32,24 +32,21 @@
+         Events
+     </a>
+ 
+-
+     <a href={{ '/research' | relative_url }}
+         class="header__nav-item
+         {% if current[1] == 'research' %} active {% endif %}">
+         Research
+     </a>
+-    
++
+     <a href="https://medium.com/@cognimates"
+         class="header__nav-item"
+         target="_blank">
+         Blog
+     </a>
+ 
+-   <a href={{ '/team' | relative_url }}
++    <a href={{ '/team' | relative_url }}
+         class="header__nav-item
+         {% if current[1] == 'team' %} active {% endif %}">
+         Team
+     </a>
+-
+-   
+ </nav>
+diff --git a/home.html b/home.html
+index 07fb61f..e3f94c8 100644
+--- a/home.html
++++ b/home.html
+@@ -13,7 +13,7 @@ redirect_from: /
+ 		</h1>
+ 		<div class="home__banner-buttons">
+ 			<a class="button--primary"
+-				href="https://cognimate.me:2635/home"
++				href="https://cognimate.me/home"
+ 				target="_blank">Train Models
+ 			</a>
+ 			<a class="button--primary"
+diff --git a/teach_ai.html b/teach_ai.html
+index 88c3b8e..fca4de8 100644
+--- a/teach_ai.html
++++ b/teach_ai.html
+@@ -26,7 +26,7 @@ permalink: /teach_ai/
+ 		and click on the button below to launch Teach AI!
+ 	</p>
+ 	<a class="button--secondary"
+-		href="https://cognimate.me:2635/home"
++		href="https://cognimate.me/home"
+ 		target="_blank">Train Models
+ 	</a>
+ </div>
