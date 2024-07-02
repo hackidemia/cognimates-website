@@ -4,7 +4,7 @@ email: cognimates@gmail.com
 description: >-
   cognimates
 baseurl: "/"
-url: "https://hackidemia.github.io/cognimates-website"
+url: ""
 
 # Build settings
 markdown: kramdown
