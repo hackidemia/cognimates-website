@@ -1,7 +1,7 @@
 {% assign current = page.url | downcase | split: '/' %}
 
 <nav class="header__nav">
-    <a class="header__logo-link" href={{ '/home' | relative_url }}>
+    <a class="header__logo-link" href={{ '/' | relative_url }}>
         <img
             src={{ '/images/cognimates-logo--codelab.svg' | relative_url }}
             class="header__logo-image"
@@ -32,24 +32,21 @@
         Events
     </a>
 
-
     <a href={{ '/research' | relative_url }}
         class="header__nav-item
         {% if current[1] == 'research' %} active {% endif %}">
         Research
     </a>
-    
+
     <a href="https://medium.com/@cognimates"
         class="header__nav-item"
         target="_blank">
         Blog
     </a>
 
-   <a href={{ '/team' | relative_url }}
+    <a href={{ '/team' | relative_url }}
         class="header__nav-item
         {% if current[1] == 'team' %} active {% endif %}">
         Team
     </a>
-
-   
 </nav>
