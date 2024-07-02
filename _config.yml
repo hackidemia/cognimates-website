@@ -11,18 +11,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-<<<<<<< HEAD
-  - jekyll-autoprefixer
-include:
-  - assets
-  - css
-  - js
-  - images
-  - _includes
-=======
   # - jekyll-autoprefixer
 include: ['_pages']
->>>>>>> main
 
 # Assets
 sass:
