@@ -2,7 +2,7 @@
 title: Cognimates
 email: cognimates@gmail.com
 description: >-
- cognimates 
+  cognimates
 baseurl: "/"
 url: "http://cognimates.me"
 
@@ -11,12 +11,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-autoprefixer
+  # - jekyll-autoprefixer
 include: ['_pages']
-
-autoprefixer:
-  browsers:
-  - last 2 versions
 
 # Assets
 sass:
