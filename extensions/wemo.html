@@ -1,8 +1,181 @@
----
-layout: default
-title: Wemo
-data_name: wemo
-permalink: /extensions/wemo
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include extensions.html %}
+	<title>Wemo - Cognimates</title>
+
+	<link rel="shortcut icon" type="image/png" href="/images/cognimates_logo.png" >
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.plyr.io/3.5.2/plyr.css" />
+	<script src="https://cdn.plyr.io/3.5.2/plyr.js"></script>
+
+	<link rel="stylesheet" href="/css/main.css" type="text/css">
+	<link rel="canonical" href="http://localhost:4000/extensions/wemo">
+</head>
+
+  <body>
+    <div class="breakpoint"></div>
+    
+
+<nav class="header__nav">
+    <a class="header__logo-link" href=/home>
+        <img
+            src=/images/cognimates-logo--codelab.svg
+            class="header__logo-image"
+            alt="Cognimates logo" />
+    </a>
+
+    <a href=/get-started
+        class="header__nav-item
+        ">
+        Get Started
+    </a>
+
+    <a href=/projects
+        class="header__nav-item
+        ">
+        Projects
+    </a>
+
+    <a href=/guides
+        class="header__nav-item
+        ">
+        Tutorials
+    </a>
+
+    <a href=/events
+        class="header__nav-item
+        ">
+        Events
+    </a>
+
+
+    <a href=/research
+        class="header__nav-item
+        ">
+        Research
+    </a>
+    
+    <a href="https://medium.com/@cognimates"
+        class="header__nav-item"
+        target="_blank">
+        Blog
+    </a>
+
+   <a href=/team
+        class="header__nav-item
+        ">
+        Team
+    </a>
+
+   
+</nav>
+
+    <main aria-label="Content" class="page-wrapper">
+        
+
+<h1>Wemo</h1>
+<p>This extension allows you to turn a smart plug on and off and control anything else that is connected to it, things like a disco ball or a bubbles machine. This extension was inspired by Kreg Hanning's Wemo 2.0 Scratch Extension but the code was modified for Scratch 3.0 and adapted especially for Cognimates project's needs.
+</p>
+
+
+  <h3>More about the Wemo extension</h3>
+  <ul>
+    
+      <li>
+        <p><img src = "https://i.imgur.com/QYWVrHq.png"/ class="wide-photo"> <img src = "https://i.imgur.com/q0clfct.png"/ class="wide-photo">
+</p>
+        
+      </li>
+    
+      <li>
+        <p>Just like Smart Lights, to control a wemo switch, you will need to open codelab with Chrome's "incognito mode". Follow these steps to do so&#58; <ol> <li> First, open a new icognito window. <br><br> <a class="hover-underline" href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li> <li> Second, copy and paste this into the browser&#58; https://hackidemia.github.io/cognimates-gui/ <br><br> <a class="hover-underline" href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br> If your browser looks like the image above, then you have opened codelab in http successfully! Note that you cannot use your camera or microphone on the http version of the codelab. This is a rule set by Google Chrome for security reasons.</li> </ol></p>
+        
+      </li>
+    
+      <li>
+        <p>You will also have to download and run this server file to connect to your Wemo Switch&#58; <a class="hover-underline" href="https://gist.github.com/satvu/97c143a62ef4df71be7dbadb032b68cb">wemoSwitch.js</a> You can run this file using the command "node wemoSwitch.js". For instructions for installing Node into your computer, click this link <a class="hover-underline" href="https://nodejs.org/en/">here</a>.</p>
+        
+      </li>
+    
+      <li>
+        <p>After running the above command, if you see the following text&#58; <i>Server running on localhost&#58;3000</i> followed by <i>Wemo Device Found</i>, then congrats! You have set up wemo correctly and can now use it with Cognnimates.</p>
+        
+      </li>
+    
+  </ul>
+
+</div>
+
+<div class="details">
+
+
+<ul class="activity-details">
+  
+</ul>
+<ul class="resource-links">
+  
+    <li><a href=></a></li>
+  
+</ul>
+
+
+
+
+
+    </main>
+    <footer class="footer">
+	<div class="footer__illustration-wrapper">
+        <!--
+            Rasterized and extracted the photos from SVG
+            as linked images, to decrease the file size.
+
+            <img> element blocks the display of SVG linked images.
+            We can use <embed> element instead.
+            https://stackoverflow.com/questions/41195669/images-in-svg-image-tags-not-showing-up-in-chrome-but-displays-locally -->
+        <embed class="footer__illustration-image" src="../images/home/website-banner-svg/website-banner.svg">
+    </div>
+    <div class="footer__content">
+		<div class="footer__project-info">
+			<span class="footer__text">Cognimates is a project started at </span>
+			<a class="footer__logo-image-link"
+				href="https://www.media.mit.edu/"
+				target="_blank">
+				<img class="footer__logo-image"
+					alt="MIT Media Lab logo"
+					src=/images/social-logos/mit-media-lab--white.svg />
+			</a>
+		</div>
+		<div class="footer__social-icons">
+			<a href="https://twitter.com/cognimates" target="_blank">
+				<img src=/images/social-logos/twitter--white.svg  class="footer__social-icon">
+			</a>
+			<a href="https://www.instagram.com/cognimates/" target="_blank">
+				<img src=/images/social-logos/instagram--white.svg class="footer__social-icon">
+			</a>
+			<a href="https://vimeo.com/user84996108" target="_blank">
+				<img src=/images/social-logos/vimeo--white.svg class="footer__social-icon">
+			</a>
+			<a href="https://www.facebook.com/cognimates/" target="_blank">
+				<img src=/images/social-logos/facebook--white.svg class="footer__social-icon">
+			</a>
+            <a href="https://github.com/hackidemia/cognimates-gui/" target="_blank">
+                <img src=/images/social-logos/gh.svg class="footer__social-icon">
+            </a>
+		</div>
+	</div>
+</footer>
+
+
+    <script type="application/javascript" src="/js/default.js" ></script>
+
+  </body>
+</html>

@@ -4,18 +4,21 @@ email: cognimates@gmail.com
 description: >-
   cognimates
 baseurl: "/"
-url: "http://cognimates.me"
+url: "https://hackidemia.github.io/cognimates-website"
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-  # - jekyll-autoprefixer
-include: ['_pages']
+  - jekyll-autoprefixer
+include:
+  - assets
+  - css
+  - js
+  - images
+  - _includes
 
 # Assets
 sass:
   style: :compressed
-
-redirects: yes

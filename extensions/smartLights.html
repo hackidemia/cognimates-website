@@ -1,8 +1,174 @@
----
-layout: default
-title: Smart Lights
-data_name: smartLights
-permalink: /extensions/smartLights
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include extensions.html %}
+	<title>Smart Lights - Cognimates</title>
+
+	<link rel="shortcut icon" type="image/png" href="/images/cognimates_logo.png" >
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.plyr.io/3.5.2/plyr.css" />
+	<script src="https://cdn.plyr.io/3.5.2/plyr.js"></script>
+
+	<link rel="stylesheet" href="/css/main.css" type="text/css">
+	<link rel="canonical" href="http://localhost:4000/extensions/smartLights">
+</head>
+
+  <body>
+    <div class="breakpoint"></div>
+    
+
+<nav class="header__nav">
+    <a class="header__logo-link" href=/home>
+        <img
+            src=/images/cognimates-logo--codelab.svg
+            class="header__logo-image"
+            alt="Cognimates logo" />
+    </a>
+
+    <a href=/get-started
+        class="header__nav-item
+        ">
+        Get Started
+    </a>
+
+    <a href=/projects
+        class="header__nav-item
+        ">
+        Projects
+    </a>
+
+    <a href=/guides
+        class="header__nav-item
+        ">
+        Tutorials
+    </a>
+
+    <a href=/events
+        class="header__nav-item
+        ">
+        Events
+    </a>
+
+
+    <a href=/research
+        class="header__nav-item
+        ">
+        Research
+    </a>
+    
+    <a href="https://medium.com/@cognimates"
+        class="header__nav-item"
+        target="_blank">
+        Blog
+    </a>
+
+   <a href=/team
+        class="header__nav-item
+        ">
+        Team
+    </a>
+
+   
+</nav>
+
+    <main aria-label="Content" class="page-wrapper">
+        
+
+<h1>Smart Lights</h1>
+<p>This extension allows you to program Hue Lights using this <a class="hover-underline" href=https://github.com/ArndBrugman/huepi>public pre-trained library</a>.
+</p>
+
+
+  <h3>More about the Smart Lights extension</h3>
+  <ul>
+    
+      <li>
+        <p><img src = "https://i.imgur.com/Tyqglmc.png"/ class="wide-photo"> <img src = "https://i.imgur.com/kfk1yxR.png"/ class="wide-photo"> <br> <br> This extension will only work on Chrome's "incognito mode". Phillips Hue Lights can only be connected through an http URL, and most browsers only use https for security reasions. Follow these instructions to use your Phillips Hue Lights&#58; <ol>
+  <li> First, open a new icognito window. <br><br>
+    <a class="hover-underline" href="https://imgur.com/rayCzRv"><img src="https://i.imgur.com/rayCzRvm.png" title="source - imgur.com" /></a></li>
+  <li> Second, copy and paste this into the browser&#58; https://hackidemia.github.io/cognimates-gui/ <br><br>
+  <a class="hover-underline" href="https://imgur.com/70Z6snU"><img src="https://i.imgur.com/70Z6snUm.png" title="source - imgur.com" /></a></li><br><br>
+  If your browser looks like the image above, then you have opened codelab in http successfully! Note that you cannot use your camera or microphone on the http version of the codelab. This is a rule set by Google Chrome for security reasons.</li>
+  <br><br><li>If you are using this extension for the first time with your Phillips Hue Lights, you need to connect to your bridge. Make sure you are on the same wifi network as the Phillips Bridge. Then, open the Extensions Library. Before loading the Smart Lights extension, click the center of your Phillips bridge.<br><br>
+  <img src="https://i.imgur.com/zrtno6ym.jpg" title="source - imgur.com" /><br><br> After clicking the Hue Bridge, click on the Smart Lights Extension. This is the only time you have to run this step. The extension will connect and load automatically from now on.</li>
+</ol>
+</p>
+        
+      </li>
+    
+  </ul>
+
+</div>
+
+<div class="details">
+
+
+<ul class="activity-details">
+  
+</ul>
+<ul class="resource-links">
+  
+    <li><a href=></a></li>
+  
+</ul>
+
+
+
+
+
+    </main>
+    <footer class="footer">
+	<div class="footer__illustration-wrapper">
+        <!--
+            Rasterized and extracted the photos from SVG
+            as linked images, to decrease the file size.
+
+            <img> element blocks the display of SVG linked images.
+            We can use <embed> element instead.
+            https://stackoverflow.com/questions/41195669/images-in-svg-image-tags-not-showing-up-in-chrome-but-displays-locally -->
+        <embed class="footer__illustration-image" src="../images/home/website-banner-svg/website-banner.svg">
+    </div>
+    <div class="footer__content">
+		<div class="footer__project-info">
+			<span class="footer__text">Cognimates is a project started at </span>
+			<a class="footer__logo-image-link"
+				href="https://www.media.mit.edu/"
+				target="_blank">
+				<img class="footer__logo-image"
+					alt="MIT Media Lab logo"
+					src=/images/social-logos/mit-media-lab--white.svg />
+			</a>
+		</div>
+		<div class="footer__social-icons">
+			<a href="https://twitter.com/cognimates" target="_blank">
+				<img src=/images/social-logos/twitter--white.svg  class="footer__social-icon">
+			</a>
+			<a href="https://www.instagram.com/cognimates/" target="_blank">
+				<img src=/images/social-logos/instagram--white.svg class="footer__social-icon">
+			</a>
+			<a href="https://vimeo.com/user84996108" target="_blank">
+				<img src=/images/social-logos/vimeo--white.svg class="footer__social-icon">
+			</a>
+			<a href="https://www.facebook.com/cognimates/" target="_blank">
+				<img src=/images/social-logos/facebook--white.svg class="footer__social-icon">
+			</a>
+            <a href="https://github.com/hackidemia/cognimates-gui/" target="_blank">
+                <img src=/images/social-logos/gh.svg class="footer__social-icon">
+            </a>
+		</div>
+	</div>
+</footer>
+
+
+    <script type="application/javascript" src="/js/default.js" ></script>
+
+  </body>
+</html>

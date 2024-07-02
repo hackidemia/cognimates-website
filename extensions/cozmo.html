@@ -1,8 +1,180 @@
----
-layout: default
-title: Cozmo
-data_name: cozmo
-permalink: /extensions/cozmo
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include extensions.html %}
+	<title>Cozmo - Cognimates</title>
+
+	<link rel="shortcut icon" type="image/png" href="/images/cognimates_logo.png" >
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.plyr.io/3.5.2/plyr.css" />
+	<script src="https://cdn.plyr.io/3.5.2/plyr.js"></script>
+
+	<link rel="stylesheet" href="/css/main.css" type="text/css">
+	<link rel="canonical" href="http://localhost:4000/extensions/cozmo">
+</head>
+
+  <body>
+    <div class="breakpoint"></div>
+    
+
+<nav class="header__nav">
+    <a class="header__logo-link" href=/home>
+        <img
+            src=/images/cognimates-logo--codelab.svg
+            class="header__logo-image"
+            alt="Cognimates logo" />
+    </a>
+
+    <a href=/get-started
+        class="header__nav-item
+        ">
+        Get Started
+    </a>
+
+    <a href=/projects
+        class="header__nav-item
+        ">
+        Projects
+    </a>
+
+    <a href=/guides
+        class="header__nav-item
+        ">
+        Tutorials
+    </a>
+
+    <a href=/events
+        class="header__nav-item
+        ">
+        Events
+    </a>
+
+
+    <a href=/research
+        class="header__nav-item
+        ">
+        Research
+    </a>
+    
+    <a href="https://medium.com/@cognimates"
+        class="header__nav-item"
+        target="_blank">
+        Blog
+    </a>
+
+   <a href=/team
+        class="header__nav-item
+        ">
+        Team
+    </a>
+
+   
+</nav>
+
+    <main aria-label="Content" class="page-wrapper">
+        
+
+<h1>Cozmo</h1>
+<p>This extension allows you to program how Cozmo robot moves, speakes and discover what are all the things it can see or sense.
+</p>
+
+
+  <h3>More about the Cozmo extension</h3>
+  <ul>
+    
+      <li>
+        <p>This is extension is using <a class="hover-underline" href= http://cozmosdk.anki.com/docs/> the Anki SDK</a> and a Python back-end connection to robot via a phone that has the Cozmo app installed. <br><img src = "https://i.imgur.com/2M6IsMh.png"/ class="wide-photo"> <br><img src = "https://i.imgur.com/9OxjJri.png"/ class="wide-photo"></p>
+        
+      </li>
+    
+      <li>
+        <p>After setting up the Anki SDK, you will need to save this file on your computer&#58; <a class="hover-underline" href="https://gist.github.com/satvu/ea30a361d433f393d29c423b06993f62">cozmo-ext.py</a>. <b>Make sure that you do not save this file with the name cozmo.py. Please save it as cozmo-ext.py</b>.</p>
+        
+      </li>
+    
+      <li>
+        <p>Before using the Cozmo extension, connect Cozmo to your computer with your phone in SDK mode. Refer to the Anki setup for more information. Then, run the file above in a shell/terminal using the command "python3 cozmo-ext.py" (or "python3 [filename]").</p>
+        
+      </li>
+    
+      <li>
+        <p>If your shell/terminal looks something like the image below, then congrats! You have connected to Cozmo successfully. <br> <br> <img src="https://i.imgur.com/IJQWyXOm.png" title="source -  imgur.com" /> <br></p>
+        
+      </li>
+    
+  </ul>
+
+</div>
+
+<div class="details">
+
+
+<ul class="activity-details">
+  
+</ul>
+<ul class="resource-links">
+  
+    <li><a href=></a></li>
+  
+</ul>
+
+
+
+
+
+    </main>
+    <footer class="footer">
+	<div class="footer__illustration-wrapper">
+        <!--
+            Rasterized and extracted the photos from SVG
+            as linked images, to decrease the file size.
+
+            <img> element blocks the display of SVG linked images.
+            We can use <embed> element instead.
+            https://stackoverflow.com/questions/41195669/images-in-svg-image-tags-not-showing-up-in-chrome-but-displays-locally -->
+        <embed class="footer__illustration-image" src="../images/home/website-banner-svg/website-banner.svg">
+    </div>
+    <div class="footer__content">
+		<div class="footer__project-info">
+			<span class="footer__text">Cognimates is a project started at </span>
+			<a class="footer__logo-image-link"
+				href="https://www.media.mit.edu/"
+				target="_blank">
+				<img class="footer__logo-image"
+					alt="MIT Media Lab logo"
+					src=/images/social-logos/mit-media-lab--white.svg />
+			</a>
+		</div>
+		<div class="footer__social-icons">
+			<a href="https://twitter.com/cognimates" target="_blank">
+				<img src=/images/social-logos/twitter--white.svg  class="footer__social-icon">
+			</a>
+			<a href="https://www.instagram.com/cognimates/" target="_blank">
+				<img src=/images/social-logos/instagram--white.svg class="footer__social-icon">
+			</a>
+			<a href="https://vimeo.com/user84996108" target="_blank">
+				<img src=/images/social-logos/vimeo--white.svg class="footer__social-icon">
+			</a>
+			<a href="https://www.facebook.com/cognimates/" target="_blank">
+				<img src=/images/social-logos/facebook--white.svg class="footer__social-icon">
+			</a>
+            <a href="https://github.com/hackidemia/cognimates-gui/" target="_blank">
+                <img src=/images/social-logos/gh.svg class="footer__social-icon">
+            </a>
+		</div>
+	</div>
+</footer>
+
+
+    <script type="application/javascript" src="/js/default.js" ></script>
+
+  </body>
+</html>
