@@ -12,8 +12,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var bannerImages = document.querySelectorAll('.slideshow__img');
     var bannerIndexVisible = 0;
 
-    window.setInterval(bannerCrossfade, intervalDelay);
-    bannerImages[0].classList.add('slideshow__img--visible');
+    if (bannerImages.length > 0) {
+        window.setInterval(bannerCrossfade, intervalDelay);
+        bannerImages[0].classList.add('slideshow__img--visible');
+    }
 
     function bannerCrossfade() {
         var imageVisible = bannerImages[bannerIndexVisible];
@@ -25,12 +27,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     ///////
 
-     // quotes slideshow
+    // quotes slideshow
     var quotes = document.querySelectorAll('.home__quote-wrapper');
     var quoteIndexVisible = 0;
 
-    window.setInterval(quoteCrossfade, intervalDelay);
-    quotes[0].classList.add('quote--visible');
+    if (quotes.length > 0) {
+        window.setInterval(quoteCrossfade, intervalDelay);
+        quotes[0].classList.add('quote--visible');
+    }
 
     function quoteCrossfade() {
         var imageVisible = quotes[quoteIndexVisible];
