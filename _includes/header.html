@@ -1,45 +1,44 @@
 {% assign current = page.url | downcase | split: '/' %}
 
 <nav class="header__nav">
-    <a class="header__logo-link" href={{ '/' | https://hackidemia.github.io/cognimates-website/home/ }}>
+    <a class="header__logo-link" href="https://hackidemia.github.io/cognimates-website/home/">
         <img
-            src={{ '/images/cognimates-logo--codelab.svg' | relative_url }}
+            src="{{ '/images/cognimates-logo--codelab.svg' | relative_url }}"
             class="header__logo-image"
             alt="Cognimates logo" />
     </a>
 
-    <a href={{ '/get-started' | relative_url }}
+    <a href="{{ '/get-started' | relative_url }}"
         class="header__nav-item
         {% if current[1] == 'get-started' %} active {% endif %}">
         Get Started
     </a>
 
-    <a href={{ '/projects' | relative_url }}
+    <a href="{{ '/projects' | relative_url }}"
         class="header__nav-item
         {% if current[1] == 'projects' %} active {% endif %}">
         Projects
     </a>
 
-    <a href={{ '/guides' | relative_url }}
+    <a href="{{ '/guides' | relative_url }}"
         class="header__nav-item
         {% if current[1] == 'tutorials' %} active {% endif %}">
         Tutorials
     </a>
 
-    <a href={{ '/events' | relative_url }}
+    <a href="{{ '/events' | relative_url }}"
         class="header__nav-item
         {% if current[1] == 'events' %} active {% endif %}">
         Events
     </a>
 
-    <a href={{ '/research' | relative_url }}
+    <a href="{{ '/research' | relative_url }}"
         class="header__nav-item
         {% if current[1] == 'research' %} active {% endif %}">
         Research
     </a>
 
-
-    <a href={{ '/team' | relative_url }}
+    <a href="{{ '/team' | relative_url }}"
         class="header__nav-item
         {% if current[1] == 'team' %} active {% endif %}">
         Team
