@@ -33,7 +33,7 @@
 	}
 
 	&:hover {
-		background-color: darken($pink, 10%);
+		background-color: rgba($pink, 0.8); // Replace darken with a simpler rgba solution
 	}
 }
 

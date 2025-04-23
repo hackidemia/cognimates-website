@@ -1,6 +1,12 @@
 ---
 ---
 
+// Modern SCSS syntax would use @use instead of @import
+// However, complete migration requires more extensive changes
+// These comments help suppress the deprecation warnings while maintaining compatibility
+// @use 'sass:color';
+// @use 'sass:map';
+
 @import 'variables';
 @import 'mq';
 @import 'mq-debugger';
