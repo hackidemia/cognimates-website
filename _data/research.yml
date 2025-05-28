@@ -1,14 +1,14 @@
+ai4k12:
+  name:Empowering kids for a Future They will Help Build: A Parents Handbook
+  reference: Stefania Druga, 2025
+  image: /images/research-images/ai4k12.png
+  link: https://medium.com/@Stefania_druga/empowering-kids-for-a-future-theyll-help-build-a-parents-handbook-f1f01ae38718
+
 inclusive_ai:
   name: Inclusive AI literacy for kids around the world
   reference: Stefania Druga, Sarah T.Vu, Eesh Likhith, Tammy Qiu
   image: /images/research-images/inclusive.png
-  link: https://www.dropbox.com/s/pp180qh864vh4rp/Fablearn_2019___Inclusive_AI_ED_camera_ready.pdf
-
-ai4k12:
-  name: Envisioning AI for K-12 - What should every child know about AI?
-  reference: David Touretzky, Christina Gardner-McCune, Fred Martin, Deborah Seehorn
-  image: /images/research-images/ai4k12.png
-  link: https://www.dropbox.com/s/6oeyl9fjmpparc8/AAAI_Blue_Sky_2019.pdf
+  link:https://stefania11.github.io/pdf/FABLEARN_Inclusive_AI_2019.pdf
 
 thesis:
   name: Growing up with AI. Cognimates from coding to teaching machines.
@@ -28,13 +28,12 @@ smart_toys:
   reference: >
     Stefania Druga, Randi Williams, Cynthia Breazeal. ““How smart are the smart toys ?"- Children’s and parents’ attributions of intelligence to computational objects.” IDC. 2018 
   image: /images/research-images/how smart .png
-  link: https://www.dropbox.com/s/g8ynjzzrbbb1yco/smart-smart-toys.pdf?dl=0
-
+  link: https://stefania11.github.io/pdf/IDC_How_smart_toys_2018.pdf
 doll:
   name: >
     My Doll Says It's OK: Voice-Enabled Toy Influences Children's Moral Decisions
   reference: >
     Randi Williams, Christian Vazquez, Stefania Druga, Pattie Maes, Cynthia Breazeal. “My Doll Says It's OK: Voice-Enabled Toy Influences Children's Moral Decisions.” IDC. 2018
   image: /images/research-images/moral.png
-  link: https://www.dropbox.com/s/tqbukotj4uvyfzp/p625-williams.pdf?dl=0
+  link: https://stefania11.github.io/pdf/IDC_WIP_Doll_2018.pdf
 
