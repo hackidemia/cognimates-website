@@ -1,5 +1,5 @@
 ai4k12:
-  name:Empowering kids for a Future They will Help Build: A Parents Handbook
+  name: Empowering kids for a Future They will Help Build: A Parents Handbook
   reference: Stefania Druga, 2025
   image: /images/research-images/ai4k12.png
   link: https://medium.com/@Stefania_druga/empowering-kids-for-a-future-theyll-help-build-a-parents-handbook-f1f01ae38718
@@ -8,7 +8,7 @@ inclusive_ai:
   name: Inclusive AI literacy for kids around the world
   reference: Stefania Druga, Sarah T.Vu, Eesh Likhith, Tammy Qiu
   image: /images/research-images/inclusive.png
-  link:https://stefania11.github.io/pdf/FABLEARN_Inclusive_AI_2019.pdf
+  link: https://stefania11.github.io/pdf/FABLEARN_Inclusive_AI_2019.pdf
 
 thesis:
   name: Growing up with AI. Cognimates from coding to teaching machines.
